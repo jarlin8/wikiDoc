@@ -41,15 +41,6 @@ return {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  plugins: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-        language: ["zh", "en"],
-      },
-    ],
-  ],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jarlin8', // Usually your GitHub org/user name.
@@ -94,7 +85,10 @@ return {
     crossorigin: 'anonymous',
   },
 ],  
-  themes: ['mdx-v2'],
+
+  themes: [
+    ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],
+    '@easyops-cn/docusaurus-search-local',],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
