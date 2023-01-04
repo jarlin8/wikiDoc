@@ -29,10 +29,9 @@ const wikilink = [
 
 /** @type {import('@docusaurus/types').Config} */
 
-async function createConfig() {
+const config = {
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
-return {
   title: 'JoeLeon wikiDoc Site',
   tagline: 'Howdy Friend!',
   url: 'https://fendou.la',
@@ -122,6 +121,5 @@ return {
       },
       }),
     };
-}
 
-module.exports = createConfig;
+module.exports = config;
