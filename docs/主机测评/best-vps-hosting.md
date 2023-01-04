@@ -134,7 +134,6 @@ Liquid Web的托管VPS服务也可以作为Windows服务器使用，因为该团
 - 获得WordPress团队的认可
 - 可选的SiteLock安全性和CodeGuard备份
 - 从Bluehost共享计划进行无缝迁移
-- 注册时可享受**37％的折扣**（原价$ 29.99，现价$ 18.99）
 
 * * *
 
