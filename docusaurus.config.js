@@ -30,8 +30,8 @@ const wikilink = [
 /** @type {import('@docusaurus/types').Config} */
 
 async function createConfig() {
-const math = (await import('remark-math')).default;
-const katex = (await import('rehype-katex')).default;
+// const math = (await import('remark-math')).default;
+// const katex = (await import('rehype-katex')).default;
 return {
   title: 'JoeLeon wikiDoc Site',
   tagline: 'Howdy Friend!',
@@ -60,8 +60,8 @@ return {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-			remarkPlugins: [wikiLinkPlugin, math],
-			rehypePlugins: [katex],
+			remarkPlugins: [wikiLinkPlugin], //[math]
+			// rehypePlugins: [katex],
 			routeBasePath: '/', // Serve the docs at the site's root
 			sidebarPath: require.resolve('./sidebars.js'),
       // Please change this to your repo.
