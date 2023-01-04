@@ -117,17 +117,17 @@ return {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
-    plugins: [
-      [
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        {
-          hashed: true,
-          language: ["zh", "en"],
-        },
+      }),
+      plugins: [
+        [
+          require.resolve("@easyops-cn/docusaurus-search-local"),
+          {
+            hashed: true,
+            language: ["zh", "en"],
+          },
+        ],
       ],
-    ],
-};
+    };
 }
 
 module.exports = createConfig;
