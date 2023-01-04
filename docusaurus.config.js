@@ -8,24 +8,7 @@ const wikiLinkPlugin = require('remark-wiki-link-plus');
 const walkSync = require('walk-sync');
 const { basename } = require('path');
 
-const wikilink = [
-  wikiLinkPlugin,
-  {
-    pageResolver: (/** @type {string} */ wikilink) => {
-      const paths = walkSync('docs', {
-        globs: ["**/" + wikilink + ".md"],
-        directories: false,
-      }).map((path) => basename(path, '.md'));
-      if (paths.length) {
-        return paths;
-      } else {
-        return ['404'];
-      }
-    },
-    hrefTemplate: (/** @type {string} */ permalink) => `/${permalink}`,
-    aliasDivider: '|'
-  },
-];
+
 
 /** @type {import('@docusaurus/types').Config} */
 
