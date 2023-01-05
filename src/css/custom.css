@@ -28,3 +28,44 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.blog-wrapper h1 {
+  font-size: 2rem;
+}
+.blog-wrapper h2 {
+  font-size: 1.8rem;
+}
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+}
+.markdown>h2 {
+  --ifm-h2-font-size: 1.8rem;
+}
+.table-of-contents__link {
+  font-size: 0.9rem;
+}
+.theme-doc-sidebar-container {width: 250px;}
+.tabs__item:hover {
+  background-color: #18816aab;
+  color: white;
+}
+.tabs__item--active {color: #ffffff;
+  background: #18816a;
+}
+pre code {
+  background-color: #18816a4f;}
+  button {
+    font-size: 16px;
+    color: white;
+    background: #1877f2;
+    border-radius: 8px;
+    border: 1px;
+    padding: 4px;
+}
+.footnote-ref {
+  color: white;
+  background: #1877f2;
+  border-radius: 2px;
+  padding: 2px;
+  font-size: 1px;
+}
