@@ -1,2 +1,15 @@
-Welcome to my notes. I keep them here so that I can refer to them while I am away from my computer.  
-[[历史/李悝|李悝]]
+中文技术文档的写作规范。
+
+## 目录
+
+1. [标题](技术文档写作规范/title.md)
+1. [文本](技术文档写作规范/text.md)
+1. [段落](技术文档写作规范/paragraph.md)
+1. [数值](技术文档写作规范/number.md)
+1. [标点符号](技术文档写作规范/marks.md)
+1. [文档体系](技术文档写作规范/structure.md)
+1. [参考链接](技术文档写作规范/reference.md)
+
+## License
+
+公共领域（public domain）
