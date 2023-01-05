@@ -89,9 +89,15 @@ code {
   font-size: 1px;
 }
 
+.token-line {color: #ffffff;}
+
 .font-extrabold {
   font-weight: 800;
+  font-size: 1.75rem;
+  margin-bottom: -0.1rem;
 }
-.text-4xl {
-  line-height: 1.8rem;
+
+.navbar__logo {
+  height: 3rem;
+  margin-right: -1.8rem;
 }

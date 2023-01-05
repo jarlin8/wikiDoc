@@ -99,7 +99,7 @@ const config = {
           {
             type: 'html',
             position: 'left',
-            value: `<h1 class="font-extrabold text-4xl">
+            value: `<h1 class="font-extrabold">
               <a href="/">WikiDoc</a>
             </h1>`
           },
