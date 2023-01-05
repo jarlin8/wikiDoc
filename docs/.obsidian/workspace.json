@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "历史/老子.md",
+                "file": "tips/Index-of-tips.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e9c8326e47053f50",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "历史/老子.md",
+                "file": "tips/Index-of-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "历史/老子.md",
+                "file": "tips/Index-of-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "历史/老子.md"
+                "file": "tips/Index-of-tips.md"
               }
             }
           }
@@ -150,15 +149,15 @@
   },
   "active": "1fbb1690d4dc89de",
   "lastOpenFiles": [
-    "技术文档写作规范/余光中：怎样改进英式中文？.md",
+    "Index-of-docs.md",
+    "历史/Index-of-历史.md",
+    "tips/Index-of-tips.md",
+    "tips/advanced/Index-of-advanced.md",
     "index.md",
+    "历史/老子.md",
+    "技术文档写作规范/余光中：怎样改进英式中文？.md",
     "index 1.md",
     "历史.md",
-    "历史/商鞅.md",
-    "主机测评/best-vps-hosting.md",
-    "Attachment/Attachment.md",
-    "技术文档写作规范/marks.md",
-    "历史/孔子.md",
-    "主机测评/主机测评.md"
+    "历史/商鞅.md"
   ]
 }

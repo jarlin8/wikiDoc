@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "码字模式": {
+    "码字布局": {
       "main": {
         "id": "6be5c4b48f6ba3a6",
         "type": "split",
@@ -15,7 +15,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "历史/老子.md",
+                    "file": "index.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -89,7 +89,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "历史/老子.md",
+                    "file": "index.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "历史/老子.md",
+                    "file": "index.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -129,7 +129,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "历史/老子.md"
+                    "file": "index.md"
                   }
                 }
               }

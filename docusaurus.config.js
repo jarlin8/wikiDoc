@@ -102,6 +102,88 @@ const config = {
             value: `<h1 class="font-extrabold"><a>WikiDoc</a></h1>`
           },
           {
+            type: 'dropdown',
+            label: '做菜之前',
+            position: 'left',
+            items: [
+            {
+              type: 'doc',
+              docId: 'tips/tips',
+              label: '吃什么?',
+            },
+            {
+              type: 'doc',
+              docId: 'tips/learn/learn',
+              label: '学习操作',
+            },
+            {
+              type: 'doc',
+              docId: 'tips/advanced/advanced',
+              label: '大厨必备',
+            },
+            ],
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/aquatic/aquatic',
+            position: 'left',
+            label: '水产',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/breakfast/breakfast',
+            position: 'left',
+            label: '早餐',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/condiment/condiment',
+            position: 'left',
+            label: '调味',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/dessert/dessert',
+            position: 'left',
+            label: '甜品',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/drink/drink',
+            position: 'left',
+            label: '饮料',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/meat_dish/meat_dish',
+            position: 'left',
+            label: '肉类',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/semi-finished/semi-finished',
+            position: 'left',
+            label: '半成品',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/soup/soup',
+            position: 'left',
+            label: '汤类',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/staple/staple',
+            position: 'left',
+            label: '主食',
+          },
+          {
+            type: 'doc',
+            docId: 'dishes/vegetable_dish/vegetable_dish',
+            position: 'left',
+            label: '蔬菜',
+          },
+          {
             href: 'https://fendou.la/',
             label: '个人网站',
             position: 'right',
