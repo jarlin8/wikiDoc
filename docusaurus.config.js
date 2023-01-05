@@ -61,7 +61,7 @@ const config = {
         docs: {
 			remarkPlugins: [wikiLinkPlugin], //[math]
 			// rehypePlugins: [katex],
-			docsRouteBasePath: '/', // Serve the docs at the site's root
+			routeBasePath: '/', // Serve the docs at the site's root
 			sidebarPath: require.resolve('./sidebars.js'),
       // Please change this to your repo.
       editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
@@ -125,6 +125,9 @@ const config = {
           {
             hashed: true,
             language: ["zh", "en"],
+            indexDocs: true,
+            indexBlog: false,
+            docsRouteBasePath: '/',
           },
         ],
       ],
