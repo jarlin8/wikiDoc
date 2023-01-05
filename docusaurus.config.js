@@ -58,7 +58,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
+      docs: {
+      sidebar: {
+        hideable: true,
+      },
 			remarkPlugins: [wikiLinkPlugin], //[math]
 			// rehypePlugins: [katex],
 			routeBasePath: '/', // Serve the docs at the site's root
@@ -109,6 +112,8 @@ const config = {
             position: 'right',
           },
         ],
+        hideOnScroll: true,
+        respectPrefersColorScheme: true,
       },
       footer: {
         style: 'dark',
