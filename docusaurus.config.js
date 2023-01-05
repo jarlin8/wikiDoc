@@ -91,12 +91,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'wikiDoc',
         logo: {
           alt: 'wikiDoc Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {
+            type: 'html',
+            position: 'left',
+            value: `<h1 class="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+              <a href="/">WikiDoc</a>
+            </h1>`
+          },
           {
             type: 'doc',
             docId: 'index',
