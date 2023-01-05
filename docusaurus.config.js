@@ -49,8 +49,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['zh-CN'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -86,8 +86,7 @@ const config = {
 ],  
 
   themes: [
-    ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],
-    '@easyops-cn/docusaurus-search-local',],
+    ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -120,6 +119,15 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       }),
+      plugins: [
+        [
+          require.resolve("@easyops-cn/docusaurus-search-local"),
+          {
+            hashed: true,
+            language: ["zh", "en"],
+          },
+        ],
+      ],
     };
 
 module.exports = config;

@@ -3739,14 +3739,6 @@
     "url-loader" "^4.1.1"
     "webpack" "^5.69.1"
 
-"docusaurus-theme-mdx-v2@0.1.2":
-  "integrity" "sha512-n5L4nx0LV5coTkZYS+owXmM0ACXWCbd4ou7aDrWIMm3YH7XPusSNelJpYsUKJxHFER/+czitbmieboFe4I7lMQ=="
-  "resolved" "https://registry.npmjs.org/docusaurus-theme-mdx-v2/-/docusaurus-theme-mdx-v2-0.1.2.tgz"
-  "version" "0.1.2"
-  dependencies:
-    "@mdx-js/react" "^2.1.0"
-    "docusaurus-mdx-loader-v2" "0.1.2"
-
 "dom-converter@^0.2.0":
   "integrity" "sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA=="
   "resolved" "https://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz"
