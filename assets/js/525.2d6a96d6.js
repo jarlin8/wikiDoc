@@ -1,1 +1,0 @@
-(self.webpackChunklukas_notes=self.webpackChunklukas_notes||[]).push([[525],{5525:()=>{}}]);
