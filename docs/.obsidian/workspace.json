@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LARC-444/transit.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LARC-444/transit.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LARC-444/transit.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LARC-444/transit.md"
+                "file": "index.md"
               }
             }
           }
@@ -138,20 +138,27 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false
+    }
   },
   "active": "1fbb1690d4dc89de",
   "lastOpenFiles": [
-    "LARC-444/Olmsted-Brothers-Seattle.md",
-    "LARC-444/Frederick-Todd.md",
-    "LARC-444/LARC-444.md",
-    "LARC-444/Vancouver.md",
-    "LARC-444/Queen-Elizabeth-Park.md",
-    "LARC 444/Queen Elizabeth Park.md",
-    "FRST-305/harvestCycle.png",
-    "FRST-305/History-purpose-and-use-of-Silviculture.md",
-    "FRST-305/silvicultureInBC.png",
-    "FRST-305/FRST-305.md"
+    "index 1.md",
+    "index.md",
+    "历史.md",
+    "历史/商鞅.md",
+    "主机测评/best-vps-hosting.md",
+    "Attachment/Attachment.md",
+    "技术文档写作规范/marks.md",
+    "技术文档写作规范/余光中：怎样改进英式中文？.md",
+    "历史/孔子.md",
+    "主机测评/主机测评.md"
   ]
 }
