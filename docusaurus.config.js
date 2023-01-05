@@ -59,9 +59,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
       docs: {
-      sidebar: {
-        hideable: true,
-      },
 			remarkPlugins: [wikiLinkPlugin], //[math]
 			// rehypePlugins: [katex],
 			routeBasePath: '/', // Serve the docs at the site's root
@@ -122,6 +119,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
       }),
       plugins: [
