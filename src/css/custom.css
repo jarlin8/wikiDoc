@@ -89,32 +89,9 @@ code {
   font-size: 1px;
 }
 
-.docs-doc-page h1 {
-  font-size: 2em!important;
-}
-.text-transparent {
-  color: #0000;
-}
 .font-extrabold {
   font-weight: 800;
 }
 .text-4xl {
-  line-height: 2.5rem;
-}
-.bg-clip-text {
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-.to-pink-600 {
-  --tw-gradient-to: #db2777;
-}
-.from-purple-400 {
-  --tw-gradient-from: #c084fc;
-  --tw-gradient-to: #c084fc00;
-}
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right,var(--tw-gradient-stops));
-}
-.from-purple-400 {
-  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+  line-height: 1.8rem;
 }
