@@ -1,0 +1,16 @@
+{
+  "wrapperTags": [
+    {
+      "id": "w1672925845243",
+      "name": "标记高亮",
+      "startTag": "<mark>",
+      "endTag": "</mark>"
+    },
+    {
+      "id": "underline",
+      "name": "下划线",
+      "startTag": "<u>",
+      "endTag": "</u>"
+    }
+  ]
+}
