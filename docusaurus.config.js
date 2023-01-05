@@ -102,12 +102,6 @@ const config = {
             value: `<h1 class="font-extrabold"><a>WikiDoc</a></h1>`
           },
           {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: '爱好',
-          },
-          {
             href: 'https://fendou.la/',
             label: '个人网站',
             position: 'right',
