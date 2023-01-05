@@ -110,6 +110,10 @@ const config = {
           },
         ],
         hideOnScroll: true,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
         respectPrefersColorScheme: true,
       },
       footer: {
