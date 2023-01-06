@@ -1,8 +1,7 @@
 ---
-title: 程序员做饭指南
+title: 做饭指南
 ---
 
-## 做菜之前
 <details>
 <summary>下厨前的准备</summary>
 
