@@ -32,7 +32,7 @@ const wikilink = [
 const config = {
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
-  title: 'JoeLeon wikiDoc Site',
+  title: 'JoeLeon wikiDoc',
   tagline: 'Howdy Friend!',
   url: 'https://fendou.la',
   baseUrl: '/',
