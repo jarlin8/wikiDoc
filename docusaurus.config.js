@@ -183,11 +183,6 @@ const config = {
             position: 'left',
             label: '蔬菜',
           },
-          {
-            href: 'https://fendou.la/',
-            label: '个人网站',
-            position: 'right',
-          },
         ],
         hideOnScroll: true,
       },
@@ -207,6 +202,7 @@ const config = {
       docs: {
         sidebar: {
           hideable: true,
+          autoCollapseCategories: true,
         },
       },
       }),

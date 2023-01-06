@@ -98,3 +98,15 @@ code {
   height: 3rem;
   margin-right: -1.8rem;
 }
+
+details {
+ /* border: 1px solid #4cb3d4; */
+  border-radius: 6px;
+  background: #4cb3d442;
+  padding: 5px;
+}
+
+summary {
+  padding: 5px;
+  font-size: 1.1rem;
+}
