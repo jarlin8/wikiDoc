@@ -4,7 +4,7 @@ title: 程序员做饭指南
 
 ## 做菜之前
 <details>
-<summary>下厨前准备</summary>
+<summary>下厨前的准备</summary>
 
 - [厨房准备](./tips/厨房准备.md)
 - [如何选择现在吃什么](./tips/如何选择现在吃什么.md)
@@ -21,25 +21,25 @@ title: 程序员做饭指南
 
 </details>
 
-## 菜谱
+## 食谱
 
-- 🗂️ [[dishes/aquatic|水产]]
-- 🗂️ [[dishes/breakfast|早餐]]
-- 🗂️ [[dishes/condiment|调味]]
-- 🗂️ [[dishes/dessert|甜品]]
-- 🗂️ [[dishes/drink|饮料]]
-- 🗂️ [[dishes/meat_dish|肉食]]
-- 🗂️ [[dishes/semi-finished|半成品]]
-- 🗂️ [[dishes/soup|汤粥]]
-- 🗂️ [[dishes/staple|主食]]
-- 🗂️ [[dishes/vegetable_dish|蔬菜]]
+ 🍤 [[dishes/aquatic|水产]]
+|🍜 [[dishes/breakfast|早餐]]
+|🍛 [[dishes/condiment|调味]]
+|🧀 [[dishes/dessert|甜品]]
+|🥤 [[dishes/drink|饮料]]
+|🥩 [[dishes/meat_dish|肉食]]
+|🍖 [[dishes/semi-finished|半成品]]
+|🥘 [[dishes/soup|汤粥]]
+|🍚 [[dishes/staple|主食]]
+|🥦 [[dishes/vegetable_dish|蔬菜]]
 
 ### 家常菜
 
 ### 素菜
 
 <details>
-<summary>素菜</summary>
+<summary>素菜食谱</summary>
 
 - [拔丝土豆](./dishes/vegetable_dish/拔丝土豆/拔丝土豆.md)
 - [白灼菜心](./dishes/vegetable_dish/白灼菜心/白灼菜心.md)
@@ -94,7 +94,7 @@ title: 程序员做饭指南
 ### 荤菜
 
 <details>
-<summary>荤菜</summary>
+<summary>荤菜食谱</summary>
 
 - [白菜猪肉炖粉条](./dishes/meat_dish/白菜猪肉炖粉条.md)
 - [冬瓜酿肉](./dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md)
@@ -168,7 +168,7 @@ title: 程序员做饭指南
 ### 水产
 
 <details>
-<summary>水产</summary>
+<summary>水产食谱</summary>
 
 - [白灼虾](./dishes/aquatic/白灼虾/白灼虾.md)
 - [鳊鱼炖豆腐](./dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md)
@@ -198,7 +198,7 @@ title: 程序员做饭指南
 ### 早餐
 
 <details>
-<summary>早餐</summary>
+<summary>早餐食谱</summary>
 
 - [茶叶蛋](./dishes/breakfast/茶叶蛋.md)
 - [蛋煎糍粑](./dishes/breakfast/蛋煎糍粑.md)
@@ -224,7 +224,7 @@ title: 程序员做饭指南
 ### 主食
 
 <details>
-<summary>主食</summary>
+<summary>主食类做法</summary>
 
 - [炒方便面](./dishes/staple/炒方便面.md)
 - [炒河粉](./dishes/staple/炒河粉.md)
@@ -288,7 +288,7 @@ title: 程序员做饭指南
 ### 汤与粥
 
 <details>
-<summary>汤粥</summary>
+<summary>汤粥类食谱</summary>
 
 - [昂刺鱼豆腐汤](./dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md)
 - [勾芡香菇汤](./dishes/soup/勾芡香菇汤/勾芡香菇汤.md)
@@ -310,7 +310,7 @@ title: 程序员做饭指南
 ### 饮料
 
 <details>
-<summary>饮料</summary>
+<summary>饮料食谱</summary>
 
 - [耙耙柑茶](./dishes/drink/耙耙柑茶/耙耙柑茶.md)
 - [百香果橙子特调](./dishes/drink/百香果橙子特调/百香果橙子特调.md)
@@ -333,7 +333,7 @@ title: 程序员做饭指南
 ### 酱料和其它材料
 
 <details>
-<summary>酱类</summary>
+<summary>酱类食谱</summary>
 
 - [草莓酱](./dishes/condiment/草莓酱/草莓酱.md)
 - [蒜香酱油](./dishes/condiment/蒜香酱油.md)
@@ -350,7 +350,7 @@ title: 程序员做饭指南
 ### 甜品
 
 <details>
-<summary>甜品</summary>
+<summary>甜品食谱</summary>
 
 - [奥利奥冰淇淋](./dishes/dessert/奥利奥冰淇淋/奥利奥冰淇淋.md)
 - [草莓冰淇淋](./dishes/dessert/草莓冰淇淋/草莓冰淇淋.md)
