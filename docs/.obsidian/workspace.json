@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4fe237f52a1c180a",
+        "id": "034eeec8130d7342",
         "type": "tabs",
         "children": [
           {
-            "id": "1fbb1690d4dc89de",
+            "id": "fc9bde05d440d9c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,6 +80,7 @@
       {
         "id": "fe32e5d93cc93397",
         "type": "tabs",
+        "dimension": 63.00578034682081,
         "children": [
           {
             "id": "8f3397f4438d7770",
@@ -94,7 +95,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -111,17 +112,6 @@
             }
           },
           {
-            "id": "091e3a43b7480bf3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "5b00717555344476",
             "type": "leaf",
             "state": {
@@ -131,8 +121,25 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "d0b9ff2d10b229d7",
+        "type": "tabs",
+        "dimension": 36.994219653179194,
+        "children": [
+          {
+            "id": "091e3a43b7480bf3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,17 +155,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1fbb1690d4dc89de",
+  "active": "b4dd5477cdbf61ae",
   "lastOpenFiles": [
-    "Index-of-docs.md",
-    "历史/Index-of-历史.md",
-    "tips/Index-of-tips.md",
-    "tips/advanced/Index-of-advanced.md",
+    "dishes/condiment/condiment.md",
     "index.md",
-    "历史/老子.md",
-    "技术文档写作规范/余光中：怎样改进英式中文？.md",
-    "index 1.md",
-    "历史.md",
+    "dishes/breakfast/桂圆红枣粥.md",
+    "tips/advanced.md",
+    "tips/tips.md",
+    "tips/learn.md",
+    "tips/厨房准备.md",
+    "tips/learn/高压力锅.md",
+    "历史/李悝.md",
     "历史/商鞅.md"
   ]
 }
