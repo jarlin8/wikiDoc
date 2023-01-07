@@ -79,10 +79,10 @@ const config = {
 
   stylesheets: [
     // 字符串格式。
-    'https://fastly.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
+    'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
     // 对象格式。
     {
-      href: 'https://fastly.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
+      href: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
     },
   ], 
 
