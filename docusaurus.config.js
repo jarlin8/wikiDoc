@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const wikiLinkPlugin = require('remark-wiki-link-plus');
 const walkSync = require('walk-sync');
 const { basename } = require('path');
+const { Script } = require('vm');
 
 const wikilink = [
   wikiLinkPlugin,
@@ -84,7 +85,7 @@ const config = {
 //    crossorigin: 'anonymous',
 //  },
 //],  
-
+  scripts: [ {src:"https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js"},],
   themes: [
     ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],],
   themeConfig:
