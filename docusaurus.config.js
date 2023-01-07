@@ -79,19 +79,19 @@ const config = {
 
   stylesheets: [
     // 字符串格式。
-    'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
+    'https://fastly.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
     // 对象格式。
     {
-      href: 'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
+      href: 'https://fastly.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
     },
   ], 
 
   scripts: [
     // 字符串格式。
-    'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js',
+    'https://fastly.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js',
     // 对象格式。
     {
-      src: 'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js',
+      src: 'https://fastly.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js',
       async: true,
     },
   ], 
