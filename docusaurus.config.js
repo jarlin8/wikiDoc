@@ -4,11 +4,14 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const wiki = require('wikijs').default;
-wiki({ apiUrl: 'https://zh.wikipedia.org/w/api.php' })
-	.page('Batman')
-	.then(page => page.info('alterEgo'))
-	.then(console.log); // Bruce Wayne
+const wikipediaPreview = require('wikipedia-preview');
+wikipediaPreview.init({
+	root: document.querySelector('.content'),
+	selector: '.wiki',
+	popupContainer: '.popup-container',
+  detectLinks: true,
+	lang: 'zh'
+});
 
 const wikiLinkPlugin = require('remark-wiki-link-plus');
 const walkSync = require('walk-sync');

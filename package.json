@@ -28,7 +28,7 @@
     "remark-math": "^5.1.1",
     "remark-wiki-link-plus": "^1.1.1",
     "walk-sync": "^3.0.0",
-    "wikijs": "^6.4.0"
+    "wikipedia-preview": "^1.5.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.1.0"
