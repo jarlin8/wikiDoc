@@ -76,13 +76,26 @@ const config = {
       }),
     ],
   ],
+
   stylesheets: [
- {
-  href: 'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
-  type: 'text/css',
-  },
-],  
-  scripts: [ {src:"https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js"},],
+    // 字符串格式。
+    'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
+    // 对象格式。
+    {
+      href: 'https://cdn.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.css',
+    },
+  ], 
+
+  scripts: [
+    // 字符串格式。
+    'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
+    // 对象格式。
+    {
+      src: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
+      async: true,
+    },
+  ], 
+
   themes: [
     ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],],
   themeConfig:
