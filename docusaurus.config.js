@@ -77,21 +77,21 @@ const config = {
     ],
   ],
 
-  stylesheets: [
-    // 字符串格式。
-    'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
-    // 对象格式。
-    {
-      href: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
-    },
-  ], 
+//  stylesheets: [
+//    // 字符串格式。
+//   'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
+//  // 对象格式。
+//   {
+//      href: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
+//    },
+//  ], 
 
   scripts: [
     // 字符串格式。
-    'https://niu.fendou.la/wikiPreviewBox.min.js',
+    'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
     // 对象格式。
     {
-      src: 'https://niu.fendou.la/wikiPreviewBox.min.js',
+      src: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
       async: true,
     },
   ], 

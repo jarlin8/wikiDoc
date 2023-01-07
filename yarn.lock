@@ -1907,13 +1907,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
-"@ntegral/ngx-universal-window@^1.0.2":
-  "integrity" "sha512-M86S8gVvux2XMe9iQqMjt//YWunamm8tugc0911QiByi+h+oAk7zFXi1YvAQz4bGnU3nSOWRtVWPjD14D4GBjQ=="
-  "resolved" "https://registry.npmjs.org/@ntegral/ngx-universal-window/-/ngx-universal-window-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "domino" "^2.1.6"
-
 "@polka/url@^1.0.0-next.20":
   "integrity" "sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g=="
   "resolved" "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
@@ -3797,16 +3790,6 @@
   "version" "5.0.3"
   dependencies:
     "domelementtype" "^2.3.0"
-
-"domino@^2.1.6":
-  "integrity" "sha512-3VdM/SXBZX2omc9JF9nOPCtDaYQ67BGp5CoLpIQlO2KCAPETs8TcDHacF26jXadGbvUteZzRTeos2fhID5+ucQ=="
-  "resolved" "https://registry.npmjs.org/domino/-/domino-2.1.6.tgz"
-  "version" "2.1.6"
-
-"dompurify@^2.1.0":
-  "integrity" "sha512-q6QaLcakcRjebxjg8/+NP+h0rPfatOgOzc46Fst9VAA3jF2ApfKBNKMzdP4DYTqtUMXSCd5pRS/8Po/OmoCHZQ=="
-  "resolved" "https://registry.npmjs.org/dompurify/-/dompurify-2.4.3.tgz"
-  "version" "2.4.3"
 
 "domutils@^2.5.2", "domutils@^2.8.0":
   "integrity" "sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A=="
@@ -9077,13 +9060,6 @@
   "version" "4.0.1"
   dependencies:
     "string-width" "^5.0.1"
-
-"wikipedia-preview@^1.5.0":
-  "integrity" "sha512-bHLd0N79lARsHTQ9w3cQUjc1+a4uK2qARLnvnZVwCiVV1/mPBQ2EMAKTVvfNrn1V2o61rN6I0alBU6b4T/95yg=="
-  "resolved" "https://registry.npmjs.org/wikipedia-preview/-/wikipedia-preview-1.5.0.tgz"
-  "version" "1.5.0"
-  dependencies:
-    "dompurify" "^2.1.0"
 
 "wildcard@^2.0.0":
   "integrity" "sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw=="
