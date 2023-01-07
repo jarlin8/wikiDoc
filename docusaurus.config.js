@@ -4,15 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const wikipediaPreview = require('wikipedia-preview');
-wikipediaPreview.init({
-	root: document.querySelector('.content'),
-	selector: '.wiki',
-	popupContainer: '.popup-container',
-  detectLinks: true,
-	lang: 'zh'
-});
-
 const wikiLinkPlugin = require('remark-wiki-link-plus');
 const walkSync = require('walk-sync');
 const { basename } = require('path');

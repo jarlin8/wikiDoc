@@ -1907,6 +1907,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@ntegral/ngx-universal-window@^1.0.2":
+  "integrity" "sha512-M86S8gVvux2XMe9iQqMjt//YWunamm8tugc0911QiByi+h+oAk7zFXi1YvAQz4bGnU3nSOWRtVWPjD14D4GBjQ=="
+  "resolved" "https://registry.npmjs.org/@ntegral/ngx-universal-window/-/ngx-universal-window-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "domino" "^2.1.6"
+
 "@polka/url@^1.0.0-next.20":
   "integrity" "sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g=="
   "resolved" "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
@@ -3790,6 +3797,11 @@
   "version" "5.0.3"
   dependencies:
     "domelementtype" "^2.3.0"
+
+"domino@^2.1.6":
+  "integrity" "sha512-3VdM/SXBZX2omc9JF9nOPCtDaYQ67BGp5CoLpIQlO2KCAPETs8TcDHacF26jXadGbvUteZzRTeos2fhID5+ucQ=="
+  "resolved" "https://registry.npmjs.org/domino/-/domino-2.1.6.tgz"
+  "version" "2.1.6"
 
 "dompurify@^2.1.0":
   "integrity" "sha512-q6QaLcakcRjebxjg8/+NP+h0rPfatOgOzc46Fst9VAA3jF2ApfKBNKMzdP4DYTqtUMXSCd5pRS/8Po/OmoCHZQ=="
