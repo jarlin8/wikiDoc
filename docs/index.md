@@ -1,8 +1,8 @@
 ---
 title: 做饭指南
 ---
-<a href="https://zh.wikipedia.org/wiki/%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96" rel="noopener" class="wikiLink">全球变暖</a>
-<a href="https://en.wikipedia.org/wiki/Lanyu" class="wikiLink">Orchid Island</a>
+
+[Orchid Island](https://en.wikipedia.org/wiki/Lanyu)
 <details>
 <summary>下厨前的准备</summary>
 
