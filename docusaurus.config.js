@@ -88,10 +88,10 @@ const config = {
 
   scripts: [
     // 字符串格式。
-    './wikiPrevBox/wikiPreviewBox.min.js',
+    'https://test1.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js',
     // 对象格式。
     {
-      src: './wikiPrevBox/wikiPreviewBox.min.js',
+      src: 'https://test1.jsdelivr.net/gh/jarlin8/wikiDoc@main/wikiPrevBox/wikiPreviewBox.min.js',
       async: true,
     },
   ], 
