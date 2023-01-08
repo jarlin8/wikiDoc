@@ -32,7 +32,7 @@ const wikilink = [
 
 const config = {
   scripts: [
-    {src: 'https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js','data-domain': 'niu.fendou.la'}
+    {src: 'https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js', defer: true, 'data-domain': 'niu.fendou.la'}
   ], 
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
