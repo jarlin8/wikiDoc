@@ -32,12 +32,8 @@ const wikilink = [
 
 const config = {
   scripts: [
-    // 字符串格式。
-    {
-      src: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
-      type: 'text/javascript',
-    },
- ], 
+    {src: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js', defer: true, 'data-domain': 'su-pa.net'}
+  ], 
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
   title: 'JoeLeon wikiDoc',
