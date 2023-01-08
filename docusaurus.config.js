@@ -31,9 +31,6 @@ const wikilink = [
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
-  stylesheets: [
-    'wikiPrevBox/wikiPrevBox.min.css',
-  ],
   scripts: [
     // 字符串格式。
     {
