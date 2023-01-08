@@ -27,8 +27,7 @@
     "rehype-katex": "^6.0.2",
     "remark-math": "^5.1.1",
     "remark-wiki-link-plus": "^1.1.1",
-    "walk-sync": "^3.0.0",
-    "@docusaurus/plugin-inject-scripts": ""
+    "walk-sync": "^3.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.1.0"
