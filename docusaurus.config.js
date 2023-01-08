@@ -7,7 +7,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const wikiLinkPlugin = require('remark-wiki-link-plus');
 const walkSync = require('walk-sync');
 const { basename } = require('path');
-const { Script } = require('vm');
 
 const wikilink = [
   wikiLinkPlugin,
@@ -28,9 +27,20 @@ const wikilink = [
   },
 ];
 
+
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
+  stylesheets: [
+    'wikiPrevBox/wikiPrevBox.min.css',
+  ],
+  scripts: [
+    // 字符串格式。
+    {
+      src: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
+      type: 'text/javascript',
+    },
+ ], 
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
   title: 'JoeLeon wikiDoc',
@@ -86,15 +96,10 @@ const config = {
 //    },
 //  ], 
 
-  scripts: [
+//  scripts: [
     // 字符串格式。
-    'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
-    // 对象格式。
-    {
-      src: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js',
-      async: true,
-    },
-  ], 
+//    "https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js",
+ // ], 
 
   themes: [
     ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],],
@@ -199,7 +204,7 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      footer: {
+      footer: {  
         style: 'dark',
         copyright: `CC-BY-SA 4.0 © 2022 - ${new Date().getFullYear()} 版权所有 `,
       },
