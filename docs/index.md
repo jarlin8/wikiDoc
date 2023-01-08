@@ -3,11 +3,10 @@ title: 做饭指南
 scripts:
   - https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js
 ---
-<a href="https://zh.wikipedia.org/wiki/%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96" rel="noopener" class="wikiLink">全球变暖</a>
+<a href="https://zh.wikipedia.org/wiki/全球变暖" rel="noopener" class="wikiLink">全球变暖</a>
+<a href="https://zh.wikipedia.org/wiki/燃气灶">燃气灶</a>，
 
 
-<a href="https://en.wikipedia.org/wiki/Lanyu" class="wikiLink">Orchid Island</a>
-<details>
 <summary>下厨前的准备</summary>
 
 - [厨房准备](./tips/厨房准备.md)

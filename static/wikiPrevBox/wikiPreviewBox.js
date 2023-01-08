@@ -8,7 +8,7 @@
 {//simple(st) "let namespace" => use let or const inside this brakets    
     
     //path to the CSS file
-    document.getElementsByTagName('head')[0].insertAdjacentHTML('beforeend', '<link rel="stylesheet" type="text/css" href="/wikiPrevBox/wikiPreviewBox.min.css">');
+    document.getElementsByTagName('head')[0].insertAdjacentHTML('beforeend', '<link rel="stylesheet" type="text/css" href="https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.css">');
     //document.getElementsByTagName('head')[0].insertAdjacentHTML('beforeend','<link rel="stylesheet" type="text/css" href="https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css">');
     
     //#region previewbox
