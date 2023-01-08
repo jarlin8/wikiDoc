@@ -4,10 +4,7 @@ scripts:
   - https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js
 ---
 
-<a href="https://spacelift.io/blog/yaml" target="_blank" rel="noopener">YAML是什么？</a>
-
-<a href="https://zh.wikipedia.org/wiki/全球变暖" rel="noopener" class="wikiLink">全球变暖</a>
-<a href="https://zh.wikipedia.org/wiki/燃气灶">燃气灶</a>，
+<a href="https://zh.wikipedia.org/wiki/全球变暖">全球变暖</a>
 
 <details>
 <summary>下厨前的准备</summary>
