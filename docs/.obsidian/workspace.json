@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "034eeec8130d7342",
+        "id": "4fe237f52a1c180a",
         "type": "tabs",
         "children": [
           {
-            "id": "fc9bde05d440d9c1",
+            "id": "1fbb1690d4dc89de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dishes/aquatic/油焖大虾/油焖大虾.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -80,7 +80,6 @@
       {
         "id": "fe32e5d93cc93397",
         "type": "tabs",
-        "dimension": 63.00578034682081,
         "children": [
           {
             "id": "8f3397f4438d7770",
@@ -88,14 +87,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dishes/aquatic/油焖大虾/油焖大虾.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -105,29 +104,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dishes/aquatic/油焖大虾/油焖大虾.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
-          {
-            "id": "5b00717555344476",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "dishes/aquatic/油焖大虾/油焖大虾.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d0b9ff2d10b229d7",
-        "type": "tabs",
-        "dimension": 36.994219653179194,
-        "children": [
           {
             "id": "091e3a43b7480bf3",
             "type": "leaf",
@@ -138,8 +120,19 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "5b00717555344476",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,8 +148,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fc9bde05d440d9c1",
+  "active": "1fbb1690d4dc89de",
   "lastOpenFiles": [
+    "dishes/aquatic/油焖大虾/油焖大虾.md",
     "dishes/aquatic/红烧鱼头.md",
     "dishes/aquatic/红烧鱼.md",
     "dishes/aquatic/葱油桂鱼/葱油桂鱼.md",
@@ -165,7 +159,6 @@
     "dishes/aquatic/微波葱姜黑鳕鱼.md",
     "dishes/aquatic/蛏抱蛋/蛏抱蛋.md",
     "dishes/aquatic/白灼虾/白灼虾.md",
-    "index.md",
-    "dishes/condiment/condiment.md"
+    "index.md"
   ]
 }

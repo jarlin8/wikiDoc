@@ -140,7 +140,7 @@
         wikiPreviewBox.innerHTML = wikiBoxContent;
 
         let wikiBoxfooter = "<span class='wikiBoxfooter_" + textDirection + "'><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener'>" + arrArticleSum[3] + "</a> (wikipedia.org)</span>" +
-            "<a href='https://su-pa.net/wikiPrevBox/' target='_blank' rel='noopener' title='about Wikipedia preview box - click for info' alt='about Wikipedia preview box - click for info'>" +
+            "<a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener' title='维基百科链接' alt='去维基百科查看完整内容'>" +
                 "<span class='wikiBoxLogo-w_" + textDirection + "'>W</span></a>";
         
         wikiPreviewBox.insertAdjacentHTML('beforeend', wikiBoxfooter);     
