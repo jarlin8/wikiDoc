@@ -33,7 +33,10 @@ const wikilink = [
 const config = {
   scripts: [
     {src: 'https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js', defer: true, 'data-domain': 'niu.fendou.la'},
-    {src:'https://niu.fendou.la/wikiPrevBox/preview-ajax.js', defer:true,'data-domain': 'niu.fendou.la'}
+    {src:'https://niu.fendou.la/wikiPrevBox/preview-ajax.js', 'data-domain': 'niu.fendou.la'},
+    {src:'https://www.matching-box.com/Scripts/quickBox.js', 'data-domain': 'matching-box.com'},
+    {src:'https://matching-box.com/js/jquery-3.3.1.min.js', 'data-domain': 'matching-box.com'},
+    {src:'https://matching-box.com/js/functions.js', 'data-domain': 'matching-box.com'}
   ], 
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
