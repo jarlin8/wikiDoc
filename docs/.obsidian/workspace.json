@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dishes/aquatic/白灼虾/白灼虾.md",
+                "file": "dishes/aquatic/油焖大虾/油焖大虾.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dishes/aquatic/白灼虾/白灼虾.md",
+                "file": "dishes/aquatic/油焖大虾/油焖大虾.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dishes/aquatic/白灼虾/白灼虾.md",
+                "file": "dishes/aquatic/油焖大虾/油焖大虾.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dishes/aquatic/白灼虾/白灼虾.md"
+                "file": "dishes/aquatic/油焖大虾/油焖大虾.md"
               }
             }
           }
@@ -157,15 +157,15 @@
   },
   "active": "fc9bde05d440d9c1",
   "lastOpenFiles": [
+    "dishes/aquatic/红烧鱼头.md",
+    "dishes/aquatic/红烧鱼.md",
+    "dishes/aquatic/葱油桂鱼/葱油桂鱼.md",
+    "dishes/aquatic/咖喱炒蟹.md",
+    "dishes/aquatic/水煮鱼.md",
+    "dishes/aquatic/微波葱姜黑鳕鱼.md",
+    "dishes/aquatic/蛏抱蛋/蛏抱蛋.md",
+    "dishes/aquatic/白灼虾/白灼虾.md",
     "index.md",
-    "dishes/condiment/condiment.md",
-    "dishes/breakfast/桂圆红枣粥.md",
-    "tips/advanced.md",
-    "tips/tips.md",
-    "tips/learn.md",
-    "tips/厨房准备.md",
-    "tips/learn/高压力锅.md",
-    "历史/李悝.md",
-    "历史/商鞅.md"
+    "dishes/condiment/condiment.md"
   ]
 }

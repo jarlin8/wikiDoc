@@ -1,12 +1,6 @@
 {
   "wrapperTags": [
     {
-      "id": "w1672925845243",
-      "name": "标记高亮",
-      "startTag": "<mark>",
-      "endTag": "</mark>"
-    },
-    {
       "id": "w1673003226803",
       "name": "可折叠内容",
       "startTag": "<details> <summary>总结</summary>",
@@ -15,14 +9,8 @@
     {
       "id": "w1673277598734",
       "name": "维基百科",
-      "startTag": "[文本](https://zh.wikipedia.org/wiki/",
+      "startTag": "](https://zh.wikipedia.org/wiki/",
       "endTag": ")"
-    },
-    {
-      "id": "underline",
-      "name": "下划线",
-      "startTag": "<u>",
-      "endTag": "</u>"
     }
   ]
 }

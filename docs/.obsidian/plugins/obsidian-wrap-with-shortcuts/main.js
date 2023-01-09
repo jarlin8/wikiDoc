@@ -235,7 +235,7 @@ var WrapWithShortcut = class extends import_obsidian3.Plugin {
       editor.setSelection(toPos(fos), toPos(tos - (startTag.length + endTag.length)));
     } else {
       if (selectedText) {
-        editor.replaceSelection(`${startTag}${selectedText}${endTag}`);
+        editor.replaceSelection(`[${selectedText}${startTag}${selectedText}${endTag}`);
         editor.setSelection(toPos(fos + startTag.length), toPos(tos + startTag.length));
       } else {
         editor.replaceSelection(`${startTag}${endTag}`);
