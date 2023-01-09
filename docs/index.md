@@ -2,7 +2,7 @@
 title: 做饭指南
 ---
 
-<a href="https://zh.wikipedia.org/wiki/全球变暖" class="wikiLink">全球变暖</a>
+[全球变暖](https://zh.wikipedia.org/wiki/全球变暖)
 
 <details>
 <summary>下厨前的准备</summary>

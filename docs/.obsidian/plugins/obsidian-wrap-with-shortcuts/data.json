@@ -13,6 +13,12 @@
       "endTag": "</details>"
     },
     {
+      "id": "w1673277598734",
+      "name": "维基百科",
+      "startTag": "[文本](https://zh.wikipedia.org/wiki/",
+      "endTag": ")"
+    },
+    {
       "id": "underline",
       "name": "下划线",
       "startTag": "<u>",

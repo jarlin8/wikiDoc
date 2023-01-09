@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "dishes/aquatic/白灼虾/白灼虾.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "dishes/aquatic/白灼虾/白灼虾.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "dishes/aquatic/白灼虾/白灼虾.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "dishes/aquatic/白灼虾/白灼虾.md"
               }
             }
           }
@@ -155,10 +155,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b4dd5477cdbf61ae",
+  "active": "fc9bde05d440d9c1",
   "lastOpenFiles": [
-    "dishes/condiment/condiment.md",
     "index.md",
+    "dishes/condiment/condiment.md",
     "dishes/breakfast/桂圆红枣粥.md",
     "tips/advanced.md",
     "tips/tips.md",

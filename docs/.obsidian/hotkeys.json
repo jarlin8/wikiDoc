@@ -30,5 +30,29 @@
       ],
       "key": "3"
     }
+  ],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "find-and-replace-in-selection:find-and-replace-in-selection": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-wrap-with-shortcuts:wrap-with-shortcut-w1673277598734": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ";"
+    }
   ]
 }
