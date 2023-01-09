@@ -6,6 +6,11 @@ scripts:
 
 <a href="https://zh.wikipedia.org/wiki/全球变暖" class="wikiLink">全球变暖</a>
 
+
+<a href="https://wikidoc.pages.dev/dishes/condiment" class="">调味</a>
+
+<a href="https://wikidoc.pages.dev/dishes/condiment" class="tooltip">调味 +class</a>
+
 <details>
 <summary>下厨前的准备</summary>
 
