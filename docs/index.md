@@ -1,7 +1,5 @@
 ---
 title: 做饭指南
-scripts:
-  - https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js
 ---
 
 <a href="https://zh.wikipedia.org/wiki/全球变暖" class="wikiLink">全球变暖</a>
