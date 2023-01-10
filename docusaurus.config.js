@@ -38,7 +38,7 @@ const config = {
 // const katex = (await import('rehype-katex')).default;
   title: 'JoeLeon wikiDoc',
   tagline: 'Howdy Friend!',
-  url: 'https://fendou.la',
+  url: 'https://wikidoc.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
