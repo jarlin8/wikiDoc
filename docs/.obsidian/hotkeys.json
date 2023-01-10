@@ -54,5 +54,13 @@
       ],
       "key": ";"
     }
+  ],
+  "obsidian-wikipedia:wikipedia-get-search-term": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "'"
+    }
   ]
 }

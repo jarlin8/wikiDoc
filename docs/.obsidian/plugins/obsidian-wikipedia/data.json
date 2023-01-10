@@ -1,0 +1,7 @@
+{
+  "template": " {{text}}\n--- 来自维基百科",
+  "shouldUseParagraphTemplate": false,
+  "shouldBoldSearchTerm": true,
+  "paragraphTemplate": "",
+  "language": "zh"
+}
