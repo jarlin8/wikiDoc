@@ -1,5 +1,5 @@
 document.getElementById("docusaurus_skipToContent_fallback").innerHTML += '<div id="tooltip" class="tooltip hidden"><div id="wrap"><div id="cont"></div></div><iframe id="iframe" class="previews" scrolling="no" src=""></iframe><span class="triangle top" id="arrow"></span></div>';
-document.body.insertAdjacentHTML('afterbegin', '<article id="wikiPreviewBox" class="wikiPreviewBox"></article>');
+
 var iframe = document.getElementById("tooltip");
 var inner_iframe = document.getElementById("iframe");
 var arrow = document.getElementById("arrow");
@@ -10,7 +10,7 @@ function isMobile() {
     catch (e) { return false; }
 }
 
-var tiptext = document.querySelectorAll('.internal');
+var tiptext = document.querySelectorAll('.internal.new');
 
 if (isMobile()) {
     addEventListener("mouseover", function (event) {
@@ -38,12 +38,11 @@ tiptext.forEach(el => el.addEventListener('mouseover', event => {
             }, true);
             inner_iframe.contentWindow.document.head.innerHTML += '<base target="_parent" />';
             inner_iframe.contentWindow.document.getElementsByClassName("navbar")[0].style.display = "none";
-            inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-breadcrumbs")[0].style.display = "none";
             inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.fontSize = "15px";
             inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.marginTop = "10px";
             inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.fontSize = "14px";
             inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.lineHeight = "100%";
-            var iframe_body = inner_iframe.contentWindow.document.getElementsByTagName("article")[0].innerHTML;
+            var iframe_body = inner_iframe.contentWindow.document.getElementsByClassName("markdown")[0].innerHTML;
             document.getElementById("cont").innerHTML = iframe_body;
         }
     }
