@@ -1,15 +1,16 @@
-document.getElementById("__docusaurus").innerHTML += '<div id="tooltip" class="tooltip hidden"><div id="wrap"><div id="cont"></div></div><iframe id="iframe" class="previews" scrolling="no" src=""></iframe><span class="triangle top" id="arrow"></span></div>';
+document.getElementById("docusaurus_skipToContent_fallback").innerHTML += '<div id="tooltip" class="tooltip hidden"><div id="wrap"><div id="cont"></div></div><iframe id="iframe" class="previews" scrolling="no" src=""></iframe><span class="triangle top" id="arrow"></span></div>';
+document.body.insertAdjacentHTML('afterbegin', '<article id="wikiPreviewBox" class="wikiPreviewBox"></article>');
 var iframe = document.getElementById("tooltip");
 var inner_iframe = document.getElementById("iframe");
 var arrow = document.getElementById("arrow");
 var hoveractive = false;
 
 function isMobile() {
-  try{ document.createEvent("TouchEvent"); return true; }
-  catch(e){ return false; }
+    try { document.createEvent("TouchEvent"); return true; }
+    catch (e) { return false; }
 }
 
-var tiptext = document.querySelectorAll('.internal.new');
+var tiptext = document.querySelectorAll('.internal');
 
 if (isMobile()) {
     addEventListener("mouseover", function (event) {
@@ -18,30 +19,31 @@ if (isMobile()) {
 }
 
 tiptext.forEach(el => el.addEventListener('mouseover', event => {
-    document.getElementById("cont").innerHTML = "";
+
     var elem = event.target;
     var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
     var top = window.pageYOffset || document.documentElement.scrollTop
     hoveractive = true;
     iframe.classList.remove("hidden");
     if (!iframe.classList.contains("active")) {
-      window.setTimeout(function(){
-        iframe.classList.add("active");
-      }, 100)
+        window.setTimeout(function () {
+            iframe.classList.add("active");
+        }, 100)
     }
     inner_iframe.setAttribute("src", elem.getAttribute("href"));
-    inner_iframe.onload = function() {
+    inner_iframe.onload = function () {
         if (inner_iframe.getAttribute("src") != "") {
             inner_iframe.contentWindow.addEventListener("mouseover", function (event) {
                 event.stopPropagation();
             }, true);
             inner_iframe.contentWindow.document.head.innerHTML += '<base target="_parent" />';
             inner_iframe.contentWindow.document.getElementsByClassName("navbar")[0].style.display = "none";
-            inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.fontSize = "22px";
+            inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-breadcrumbs")[0].style.display = "none";
+            inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.fontSize = "15px";
             inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.marginTop = "10px";
             inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.fontSize = "14px";
-            inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.lineHeight = "150%";
-            var iframe_body = inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].innerHTML;
+            inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.lineHeight = "100%";
+            var iframe_body = inner_iframe.contentWindow.document.getElementsByTagName("article")[0].innerHTML;
             document.getElementById("cont").innerHTML = iframe_body;
         }
     }
@@ -69,33 +71,33 @@ tiptext.forEach(el => el.addEventListener('mouseover', event => {
 }));
 tiptext.forEach(el => el.addEventListener('mouseout', event => {
     hoveractive = false;
-    window.setTimeout(function() {
+    window.setTimeout(function () {
         if (!hoveractive) {
-            window.setTimeout(function(){
-          if (!hoveractive) {
-            iframe.classList.add("hidden");
-            document.getElementById("cont").innerHTML = "";
-}
-      }, 100);
-      inner_iframe.setAttribute("src", "");
-      iframe.classList.remove("active");
+            window.setTimeout(function () {
+                if (!hoveractive) {
+                    iframe.classList.add("hidden");
+
+                }
+            }, 100);
+            inner_iframe.setAttribute("src", "");
+            iframe.classList.remove("active");
         }
     }, 250);
 }));
-iframe.addEventListener('mouseover', function() {
+iframe.addEventListener('mouseover', function () {
     hoveractive = true;
 });
-iframe.addEventListener('mouseout', function() {
+iframe.addEventListener('mouseout', function () {
     hoveractive = false;
-    window.setTimeout(function() {
+    window.setTimeout(function () {
         if (!hoveractive) {
-            window.setTimeout(function(){
-          if (!hoveractive) {
-            iframe.classList.add("hidden");
-          }
-      }, 100);
-      inner_iframe.setAttribute("src", "");
-      iframe.classList.remove("active");
+            window.setTimeout(function () {
+                if (!hoveractive) {
+                    iframe.classList.add("hidden");
+                }
+            }, 100);
+            inner_iframe.setAttribute("src", "");
+            iframe.classList.remove("active");
         }
     }, 250);
 });;
