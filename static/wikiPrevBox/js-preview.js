@@ -11,10 +11,6 @@ function isMobile() {
 
 var tiptext = document.querySelectorAll('.internal.new');
 
-if (!document.getElementsByClassName("col--3")[0].querySelectorAll("ul")[0].hasChildNodes()) {
-    document.getElementsByClassName("thin-scrollbar")[0].remove();
-}
-
 if (isMobile()) {
     addEventListener("mouseover", function (event) {
         event.stopPropagation();
@@ -40,12 +36,12 @@ tiptext.forEach(el => el.addEventListener('mouseover', event => {
                 event.stopPropagation();
             }, true);
             inner_iframe.contentWindow.document.head.innerHTML += '<base target="_parent" />';
-            inner_iframe.contentWindow.document.getElementsByClassName("container-fluid")[0].style.display = "none";
-            inner_iframe.contentWindow.document.getElementsByClassName("blog-post-title")[0].style.fontSize = "22px";
-            inner_iframe.contentWindow.document.getElementsByClassName("blog-post-title")[0].style.marginTop = "10px";
-            inner_iframe.contentWindow.document.getElementsByClassName("blog-post")[0].style.fontSize = "14px";
-            inner_iframe.contentWindow.document.getElementsByClassName("blog-post")[0].style.lineHeight = "150%";
-            var iframe_body = inner_iframe.contentWindow.document.getElementsByClassName("blog-main")[0].innerHTML;
+            inner_iframe.contentWindow.document.getElementsByClassName("navbar")[0].style.display = "none";
+            inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.fontSize = "22px";
+            inner_iframe.contentWindow.document.getElementsByTagName("h1")[0].style.marginTop = "10px";
+            inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.fontSize = "14px";
+            inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].style.lineHeight = "150%";
+            var iframe_body = inner_iframe.contentWindow.document.getElementsByClassName("theme-doc-markdown")[0].innerHTML;
             document.getElementById("cont").innerHTML = iframe_body;
         }
     }
