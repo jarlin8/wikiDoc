@@ -80,20 +80,6 @@ const config = {
     ],
   ],
 
-//  stylesheets: [
-//    // 字符串格式。
-//   'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
-//  // 对象格式。
-//   {
-//      href: 'https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.css?v100',
-//    },
-//  ], 
-
-//  scripts: [
-    // 字符串格式。
-//    "https://su-pa.net/wikiPrevBox/wikiPreviewBox.min.js",
- // ], 
-
   themes: [
     ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],],
   themeConfig:
@@ -113,7 +99,7 @@ const config = {
           {
             type: 'dropdown',
             label: '做菜之前',
-            position: 'left',
+            position: 'right',
             items: [
             {
               type: 'doc',
@@ -135,7 +121,7 @@ const config = {
           {
             type: 'dropdown',
             label: '食谱',
-            position: 'left',
+            position: 'right',
             items: [
           {
             type: 'doc',
