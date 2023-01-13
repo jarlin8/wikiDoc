@@ -99,7 +99,7 @@ const config = {
           {
             type: 'dropdown',
             label: '做菜之前',
-            position: 'right',
+            position: 'left',
             items: [
             {
               type: 'doc',
@@ -121,7 +121,7 @@ const config = {
           {
             type: 'dropdown',
             label: '食谱',
-            position: 'right',
+            position: 'left',
             items: [
           {
             type: 'doc',
