@@ -1,0 +1,92 @@
+
+即使合作伙伴从未在合作伙伴个人专区上通过比特币入金，也可以将合作伙伴佣金转入其Exness比特币电子钱包。 本文将为您展示如何将佣金转入Exness比特币电子钱包，以及如果您决定使用Exness比特币电子钱包提取您的合作伙伴佣金，需要注意的重要事项。
+
+新手入门
+----------
+
+虽然要将合作伙伴佣金转入Exness比特币电子钱包不代表您需要首先向该钱包入金，但您首先需要创建一个Exness比特币电子钱包。 要创建Exness比特币电子钱包，合作伙伴的**[Exness账户需要完全通过验证](https://get.exness.help/hc/zh-cn/articles/360004039991-How-to-fully-verify-your-Exness-account)**。
+
+> Exness比特币电子钱包不可直接用于交易，仅限用于入金、出金、和同一个个人专区内的交易账户的内部转账。
+
+出金（针对从未使用比特币入金的合作伙伴）
+----------
+
+即使合作伙伴从未创建Exness比特币电子钱包，或从未在合作伙伴个人专区上通过比特币入金，也可以将合作伙伴佣金从其Exness比特币电子钱包出金。 但是合作伙伴必须先在个人专区获得授权才能使用该选项。
+
+![CSVP-3677-ZH.gif](https://get.exnessaffiliates.help/hc/article_attachments/6570503054610/CSVP-3677-ZH.gif)
+
+1. 登录您的**[个人专区](https://my.exnessaffiliates.com/login)**。
+2. 打开**[出金](https://my.exnessaffiliates.com/payments/withdrawal)**选项页面，选择“Bitcoin”。 如果未显示“Bitcoin”，则代表该个人专区未获授权使用比特币。
+3. “Bitcoin”选项出现后，选择**创建和充值比特币钱包**。
+4. 按照屏幕上的指示创建Exness比特币电子钱包。
+5. 完成后，点击**创建和充值比特币钱包**确认创建钱包。
+6. 此时会出现转账页面，您可以选择您的合作伙伴佣金账户作为发款账户，并选择Exness比特币电子钱包作为目标收款账户，然后确认操作。
+7. 现在只要按照**[如何使用Exness比特币电子钱包出金](https://get.exnessaffiliates.help/hc/zh-cn/articles/5926177697298-%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E4%BD%A3%E9%87%91%E4%B8%8EExness%E6%AF%94%E7%89%B9%E5%B8%81%E7%94%B5%E5%AD%90%E9%92%B1%E5%8C%85#h_01G4VPNEPFRDMCREQT6YGQDN5C)**的步骤，即可提取您的合作伙伴佣金了。
+
+如何创建Exness比特币电子钱包
+----------
+
+创建Exness比特币电子钱包后，就可以将合作伙伴佣金转入该钱包，请参阅以下步骤：
+
+1. 打开您的Exness个人专区的**[入金](https://my.extrading.expert/accounts/sign-in?lng=zh)**版块。
+2. 选择**Bitcoin**。
+3. 点击**创建钱包**。
+
+现在您的Exness个人专区就会显示Exness比特币电子钱包了。
+
+如何入金至Exness比特币电子钱包
+----------
+
+如要将比特币转入您的Exness比特币钱包，您首先需要一个个人比特币电子钱包，关于**[如何选择比特币电子钱包](https://get.exness.help/hc/zh-cn/articles/360013893851#h_01FYRFAN9PRMVASNR5WHKKR47X)**，请打开链接中的文章阅读相关内容。
+
+> 请注意，虽然入金不限任何比特币地址，但出金仅限于初代地址（Legacy P2PKH）, 以1开头。
+
+### 使用比特币入金： ###
+
+![CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif](https://get.exnessaffiliates.help/hc/article_attachments/6570505392274/CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif)
+
+1. 打开您的Exness个人专区的**[入金](https://my.extrading.expert/accounts/sign-in?lng=zh)**版块。
+2. 选择**Bitcoin**，复制您的专属比特币电子钱包地址，或扫描二维码。
+3. 在您的个人比特币电子钱包的收款地址栏粘贴所复制的专属比特币电子钱包地址，并输入入金金额、矿工费，确认信息后选择发送。
+4. 您的Exness比特币电子钱包就会收到该笔入金。
+
+如何使用Exness比特币电子钱包出金
+----------
+
+![CSVP-3683_PA_BTC_WIT_ZH_01.gif](https://get.exnessaffiliates.help/hc/article_attachments/6570536010514/CSVP-3683_PA_BTC_WIT_ZH_01.gif)
+
+1. 打开您的Exness个人专区中的**[出金](https://my.extrading.expert/accounts/sign-in?lng=zh)**版块。
+2. 选择**Bitcoin**，然后系统会请求您提供外部比特币电子钱包地址，即您的个人比特币电子钱包。
+3. 在您的个人比特币电子钱包中找到您的外部钱包地址并进行复制。
+4. 输入外部钱包地址，出金金额，然后点击**继续**。
+5. 确认页面将显示出金的所有详情，包括出金费用，确认后点击**确认**。
+6. 您的Exness账户的**[安全类型](https://get.exness.help/hc/zh-cn/articles/4404675652754-Security-types)**将收到验证信息，输入验证码，点击**确认**。
+7. 此时将出现最后一条确认信息，告诉您出金已经完成，系统已在受理。
+
+出金条件
+----------
+
+在使用Exness比特币电子钱包时，需要注意以下几个重要事项：
+
+* 有关退款的通用规则以及支付的优先次序同样适用于比特币，我们强烈建议您阅读以下链接中的文章，进一步了解**[与支付相关的细节](https://get.exness.help/hc/zh-cn/articles/360006922552-Everything-to-know-about-payments)**。
+* 出金金额必须大于矿工费用，否则系统将不予受理。
+* 出金后Exness比特币电子钱包中的余额需等于零或大于矿工费用。 如果剩余余额小于矿工费用，会出现错误提示，出金也将被阻止。
+
+更多相关详情，请前往Exness帮助中心了解**[比特币的相关注意事项](https://get.exness.help/hc/zh-cn/articles/360013893851#h_01EMQXGD9PHNX3X1WV1F1FBMFB)**。
+
+常见问答
+----------
+
+* **我可以使用一个比特币地址入金，然后再使用另一个比特币地址出金吗？**
+
+可以。入金和出金时可以使用不同的比特币地址，这方面我们没有限制。
+
+* **如果我给我的交易账户存入了比特币，我可以通过内部转将比特币转入其他Exness个人专区吗？**
+
+不可以。这是因为比特币比只可在同一个Exness个人专区中的交易账户之间转账。
+
+仅限比特币（BTC），比特币现金和其他类型均不可存入Exness的比特币钱包。
+
+* **为什么输入我的外部比特币地址后出现了无效错误信息？**
+
+比特币有三种地址形式，分别以1、3或bc1开头，代表了比特币支付的可能的目标收款钱包。 对于出金，我们支持以1开头的地址，即初代地址（Legacy P2PKH）。

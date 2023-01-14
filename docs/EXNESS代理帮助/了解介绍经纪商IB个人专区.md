@@ -1,0 +1,108 @@
+
+欢迎来到您的个人专区，该专区为介绍经纪商（IB）和交易合作伙伴精心定制，集中了多种特色和功能，可让您获得相关最新动态，让作为 Exness 合作伙伴的您进行更有效的管理。
+
+让我们一起了解个人专区提供的所有工具吧：
+
+[![CSVP_2716_Exploring_the_IB_personal_area_ZH.jpg](https://get.exness.help/hc/article_attachments/4417728285970)](https://v.youku.com/v_show/id_XNTgzOTExMjQ1Ng==.html)
+
+**仪表盘**
+----------
+
+个人专区是[**您登录账户时**](https://my.exness.partners/login)默认登录的区域，包含了大部分用于追踪账户信息的主要工具。
+
+该页面顶部显示您当前的验证状态：
+
+![ZH1.png](https://get.exnessaffiliates.help/hc/article_attachments/360023986259)
+
+**余额**
+
+显示您的佣金总额（美元）。
+
+**您的合作伙伴链接**
+
+显示您的合作伙伴链接以及便捷复制功能。
+
+**状态**
+
+显示您当前的合作伙伴级别，点差收入比例（公司向您支付的佣金百分比）以及固定佣金/手（公司向您支付的佣金，取决于您的转介客户交易的品种）。
+
+**转介客户**
+
+在该区域，您会看到一系列链接，可有效帮助您增加您的转介客户交易量。
+
+**快速报告**
+
+该区域显示您的佣金总额和转介客户注册量，可以设置显示特定时段的数据。
+
+**报告**
+----------
+
+报告中的数据至关重要，可让您掌握转介客户、交易量和总体业绩的相关信息。 每个数据均提供有效的搜索设置。 如想深入了解个人专区中非常重要的报告功能，建议阅读更多[**关于个人专区报告功能**](https://get.exnessaffiliates.help/hc/zh-cn/articles/6733299710620-About-the-Personal-Area-reporting-features)的文章。 在下文中，我们简要介绍了每一种报告功能。
+
+**[客户列表](https://my.exness.partners/login/?origin=%2Freports%2Fclients%2F)**
+
+![ZH2.png](https://get.exnessaffiliates.help/hc/article_attachments/360023970420)
+
+该工具功能齐全，您可以查询与您账户关联的全部转介客户的信息，如注册日期、交易量 (单位可选择手数或美元) 以及总收益。
+
+**[佣金记录](https://my.exness.partners/login/?origin=%2Freports%2Frewards%2F)**
+
+![ZH3.jpg](https://get.exnessaffiliates.help/hc/article_attachments/360023986279)
+
+您可以在个人专区中查看完整的佣金款项历史记录，包括收益（美元）、交易量（手数）以及交易量（美元）等。
+
+**[转介客户](https://my.exness.partners/login/?origin=%2Freports%2Forders%2Finitial_start_day%2F2020-06-05%2Finitial_end_day%2F2020-06-04%2F%3Fdate_from%3D2020-06-04%26date_to%3D2020-06-04%26sorting%255Bclose_date%255D%3DDESC%26page%3D0%26limit%3D10)**
+
+![ZH4.png](https://get.exnessaffiliates.help/hc/article_attachments/360023970500)
+
+此外，您还可以查看转介客户交易活动的详细信息，如交易品种、点差等。
+
+**[交易待付款](https://my.exness.partners/login/?origin=%2Freports%2Fpending%2F)**
+
+![ZH5.png](https://get.exnessaffiliates.help/hc/article_attachments/360023986319)
+
+该区域列出您的转介客户当前所有待审批交易。 交易佣金将在24小时内同步到您的余额。
+
+**[业绩数据](https://my.exness.partners/login/?origin=%2Freports%2Fperformance%2FgroupBy%2Flink)**
+
+![ZH6.png](https://get.exnessaffiliates.help/hc/article_attachments/360023970520)
+
+此处对您的合作伙伴链接业绩进行评估，评估标准包括点击量、转换率、入金量等。 数据每2小时更新，您可以根据链接、来源、时间、地点进行相应设置。
+
+**支付**
+----------
+
+该区域提供两个选项卡，即“出金”和“交易历史”。
+
+![CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif](https://get.exnessaffiliates.help/hc/article_attachments/6889609103900)
+
+**出金**
+
+点击“出金”选项卡后，您可以看到多种支付方式。 您可以通过这些支付方式将合作伙伴佣金转至有效交易账户，提取合作伙伴佣金。
+
+**交易历史**
+
+在“交易历史”选项卡下，您可以查看和筛选Exness账户上任何交易的结果。 筛选选项包括可以定义的时间周期、交易类型和状态。 点击任何条目即可展开交易的详细信息。
+
+**[宣传](https://my.exness.partners/login/?origin=%2Fpromo%2Fbanners%3Fsize%3D120x600%26language%3Den%26theme%3DAll)**
+----------
+
+个人专区中的“宣传”区域设有两个选项卡，分别是“推广素材”和“注册工具”。
+
+**推广素材**
+
+在此选项下，您可以找到网幅广告、视频、着陆页面模板、GIF图片、标志等可用于广告活动的推广素材，吸引新客户。
+
+全部推广素材均提供一个HTML代码，您可以在各种支持HTML的平台上分享，比如网上论坛、个人网站等。 您的合作伙伴链接已编进该代码，如有潜在转介客户点击这些推广素材并成为Exness客户，系统会自动追踪该客户，并将该客户与您的账户关联。 此外，您还可以自主设计推广素材的尺寸、语言、推广主题等。
+
+**注册工具**
+
+在此选项卡下，您可以找到合作伙伴代码和主要[**合作伙伴链接**](https://get.exnessaffiliates.help/hc/zh-cn/articles/360016804679-All-About-Partner-Links)，但您也可以使用此处提供的多种功能，创建特色合作伙伴链接，优化数字广告活动。 例如，您可以将网页链接自定义为Exness网站的一个特定页面，这可能会提高您的转化率；如有人点击此链接并注册为Exness客户，系统将自动将该客户与您的账户关联。 通过**活动**选项卡，您可以围绕一年中重大节日和推广活动的主题，及时为活动创建自定义链接；**业绩数据报告**会记录这些链接的数据。
+
+### **[客服团队](https://my.exness.partners/login/?origin=%2Fsupport)** ###
+
+此处列出了全部客服团队的信息，包括客服当前是否在线、不同时区客服的工作时间。 邮件或电话联系方式也可在此处获取。
+
+### **[账户](https://my.exness.partners/login/?origin=%2Fsettings%2F)** ###
+
+点击个人专区右上角的个人资料图标，即可打开您的账户选项。 在该区域中，您可以查看账户的个人数据，管理账户的任何[**营销整合**](https://get.exnessaffiliates.help/hc/zh-cn/articles/360013719979-Global-postbacks-integration)，设置通知偏好以及查询客户代理分配。

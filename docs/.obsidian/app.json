@@ -7,7 +7,7 @@
     "downscalePercent": 100
   },
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "attachmentFolderPath": "/",
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
