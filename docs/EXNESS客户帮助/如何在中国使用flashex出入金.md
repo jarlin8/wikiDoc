@@ -7,7 +7,16 @@ FlashEx 为您带来更简易便捷的 Exness 账户入金体验，您可以使�
 
 以下为您在中国使用 FlashEx 时需要了解的一些相关信息：
 
-<table style="width: 515px; height: 312px;"><tbody><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;">&nbsp;</td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><strong>中国</strong></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;"><strong>最低入金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><span style="font-weight: 400;">350 美元</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;"><strong>最高入金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><span style="font-weight: 400;">7,000 美元</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;"><strong>最低出金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><span style="font-weight: 400;">500 美元</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;"><strong>最高出金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><span style="font-weight: 400;">7,000 美元</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;"><strong>出入金手续费</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;">免费</td></tr><tr><td class="wysiwyg-text-align-left" style="width: 246.766px;"><strong>入金到账时间</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><strong>平均</strong>：即时*<br><strong>最多</strong>：1天</td></tr><tr><td style="width: 246.766px;"><strong>出金到账时间</strong></td><td class="wysiwyg-text-align-left" style="width: 245.234px;"><strong>平均</strong>：1小时以内<br><strong>最多</strong>：1天</td></tr></tbody></table>
+| &nbsp; | 中国            |
+|:------:|:-------------:|
+| 最低入金金额 | 350 美元        |
+| 最高入金金额 | 7,000 美元      |
+| 最低出金金额 | 500 美元        |
+| 最高出金金额 | 7,000 美元      |
+| 出入金手续费 | 免费            |
+| 入金到账时间 | 平均：即时*最多：1天   |
+| 出金到账时间 | 平均：1小时以内最多：1天 |
+
 
 > **注意**：除另行声明，上述限额为单笔交易的限额。 请参照您的个人专区所显示的最新信息。
 

@@ -9,7 +9,12 @@ Exness网站显示的点差为基点，而MT4/MT5平台显示的点差则为迷�
 
 以下是Exness平台点差显示方式的简要介绍：
 
-<table style="width: 596px;"><tbody><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong><span class="wysiwyg-underline">Exness网站</span></strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">前一个交易日的平均点差（以基点为单位）</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong>MT4/MT5平台</strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">当前点差（以迷你点为单位）</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong>Exness网页交易终端</strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">当前点差（以基点为单位）</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong>Exness交易应用</strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">当前点差（以基点为单位）</span></td></tr></tbody></table>
+| Exness网站     | 前一个交易日的平均点差（以基点为单位） |
+|:------------:|:-------------------:|
+| MT4/MT5平台    | 当前点差（以迷你点为单位）       |
+| Exness网页交易终端 | 当前点差（以基点为单位）        |
+| Exness交易应用   | 当前点差（以基点为单位）        |
+
 
 例如，USDCAD卖价为1.26586，买价为1.26600
 

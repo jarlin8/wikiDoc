@@ -7,7 +7,14 @@ Neteller 是一种安全的即时到账电子支付系统，在全球广受欢�
 
 以下是 Neteller 使用须知：
 
-<table style="height: 197px;" width="444"><tbody><tr><td style="width: 221.516px;"><strong>最低入金金额</strong></td><td style="width: 199.484px;">10 美元</td></tr><tr><td style="width: 221.516px;"><strong>最高入金额</strong></td><td style="width: 199.484px;">50,000 美元</td></tr><tr><td style="width: 221.516px;"><strong>最低出金额</strong></td><td style="width: 199.484px;">4 美元</td></tr><tr><td style="width: 221.516px;"><strong>最高出金金额</strong></td><td style="width: 199.484px;">10,000 美元</td></tr><tr><td style="width: 221.516px;"><strong>入金和出金手续费</strong></td><td style="width: 199.484px;">免费</td></tr><tr><td style="width: 221.516px;"><strong>入金和出金处理时间</strong></td><td style="width: 199.484px;">即时</td></tr></tbody></table>
+| 最低入金金额    | 10 美元     |
+|:---------:|:---------:|
+| 最高入金额     | 50,000 美元 |
+| 最低出金额     | 4 美元      |
+| 最高出金金额    | 10,000 美元 |
+| 入金和出金手续费  | 免费        |
+| 入金和出金处理时间 | 即时        |
+
 
 > 注意：除另行声明，上述限额为**每一笔交易**的限额。
 

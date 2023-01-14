@@ -7,7 +7,15 @@ date: "2023-01-10"
 
 以下为您提供Sticpay的相关使用详情：
 
-<table style="width: 660px;"><tbody><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最低入金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">10美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最高入金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">10,000美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最低出金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">1美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最高出金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">10,000美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>入金和出金手续费</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">免费，但Sticpay可能会收取服务费用。</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>入金到账时间</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;"><p><strong>平均：</strong>即时*</p><p><strong>最长：</strong>最多2天</p></td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>出金到账时间</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;"><p><strong>平均：</strong>即时*</p><p><strong>最长：</strong>最多5小时</p></td></tr></tbody></table>
+| 最低入金金额   | 10美元                  |
+|:--------:|:---------------------:|
+| 最高入金金额   | 10,000美元              |
+| 最低出金金额   | 1美元                   |
+| 最高出金金额   | 10,000美元              |
+| 入金和出金手续费 | 免费，但Sticpay可能会收取服务费用。 |
+| 入金到账时间   | 平均：即时*最长：最多2天         |
+| 出金到账时间   | 平均：即时*最长：最多5小时        |
+
 
 > **注意：**除另行声明，上述限额为每单笔交易的限额。 请参照您的个人专区所显示的最新信息。
 

@@ -175,6 +175,23 @@ const config = {
           },
             ],
           },
+          {
+            type: 'dropdown',
+            label: 'EXNESS',
+            position: 'left',
+            items: [
+            {
+              type: 'doc',
+              docId: 'EXNESS客户帮助/EXNESS客户帮助',
+              label: '💯 EXNESS客户帮助',
+            },
+            {
+              type: 'doc',
+              docId: 'EXNESS代理帮助/EXNESS代理帮助',
+              label: '🎯 XNESS代理帮助',
+            },
+            ],
+          }
         ],
         hideOnScroll: true,
       },

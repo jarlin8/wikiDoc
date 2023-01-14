@@ -36,6 +36,13 @@ date: "2023-01-10"
 
 MetaTrader 4 和 MetaTrader 5 **有以下共同点**：
 
-<table style="width: 476px; height: 377px;"><tbody><tr style="height: 134px;"><td style="width: 185.406px; height: 134px;">交易品种</td><td style="width: 267.594px; height: 134px;"><ul><li><span class="wysiwyg-underline"><strong>外汇交易货币对</strong></span></li><li><span class="wysiwyg-underline"><strong>金属</strong></span></li><li><span class="wysiwyg-underline"><strong>加密数字货币</strong></span>&nbsp;</li><li><span class="wysiwyg-underline"><strong>指数</strong></span></li><li><span class="wysiwyg-underline"><strong>能源</strong></span></li><li><span class="wysiwyg-underline"><strong>股票</strong></span></li></ul></td></tr><tr style="height: 44px;"><td style="width: 185.406px; height: 44px;">最大杠杆</td><td style="height: 44px; width: 267.594px;">1:<span class="wysiwyg-underline"><strong>无限</strong></span>（取决于具体条件）</td></tr><tr style="height: 22px;"><td style="width: 185.406px; height: 22px;">对冲</td><td style="width: 267.594px; height: 22px;">支持</td></tr><tr style="height: 22px;"><td style="width: 185.406px; height: 22px;">模拟账户&nbsp;</td><td style="width: 267.594px; height: 22px;">支持（不包括美分账户）</td></tr><tr style="height: 44px;"><td style="width: 185.406px; height: 44px;">订单执行</td><td style="height: 44px; width: 267.594px;">即时和市价（取决于账户类型）&nbsp;</td></tr><tr style="height: 44px;"><td style="width: 185.406px; height: 44px;">智能交易、脚本和指标*</td><td style="height: 44px; width: 267.594px;">可用（MetaQuotes提供）</td></tr></tbody></table>
+| 交易品种        | 外汇交易货币对金属加密数字货币&nbsp;指数能源股票 |
+|-------------|-----------------------------|
+| 最大杠杆        | 1:无限（取决于具体条件）               |
+| 对冲          | 支持                          |
+| 模拟账户&nbsp;  | 支持（不包括美分账户）                 |
+| 订单执行        | 即时和市价（取决于账户类型）&nbsp;        |
+| 智能交易、脚本和指标* | 可用（MetaQuotes提供）            |
+
 
 *由于编程语言不同（MetaTrader 4 使用 MQL4，MetaTrader 5 使用 MQL5），所以 MetaTrader 4 上的智能交易、脚本、技术指标不能在 MetaTrader 5 上使用，反之亦然。

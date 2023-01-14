@@ -7,7 +7,14 @@ Skrill 是一种广受欢迎的电子支付方式，可在全球近 200 个国�
 
 以下是 Skrill 使用须知：
 
-<table style="height: 234px;" width="666"><tbody><tr style="height: 22px;"><td style="height: 22px; width: 280px; vertical-align: middle;"><strong>最低入金金额要求</strong></td><td style="height: 22px; width: 363px;">10 美元</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 280px; vertical-align: middle;"><strong>最高入金金额</strong></td><td style="height: 22px; width: 363px;">100,000 美元</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 280px; vertical-align: middle;"><strong>最低出金金额</strong></td><td style="height: 22px; width: 363px;">10 美元</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 280px; vertical-align: middle;"><strong>最高出金金额</strong></td><td style="height: 22px; width: 363px;">12,000 美元</td></tr><tr style="height: 51px;"><td style="height: 22px; width: 280px; vertical-align: middle;"><strong>出入金手续费</strong></td><td style="height: 51px; width: 363px;"><p>出金金额低于 20 美元 - 1 美元</p><p>出金金额在 20 美元及以上 - 免费</p></td></tr><tr style="height: 22px;"><td style="height: 22px; width: 280px; vertical-align: middle;"><strong>入金和出金处理时间</strong></td><td style="height: 22px; width: 363px;"><strong>即时*</strong></td></tr></tbody></table>
+| 最低入金金额要求  | 10 美元                                  |
+|:---------:|:--------------------------------------:|
+| 最高入金金额    | 100,000 美元                             |
+| 最低出金金额    | 10 美元                                  |
+| 最高出金金额    | 12,000 美元                              |
+| 出入金手续费    | 出金金额低于 20 美元 - 1 美元出金金额在 20 美元及以上 - 免费 |
+| 入金和出金处理时间 | 即时*                                    |
+
 
 > *“即时”的含义：交易将在几秒钟之内执行，无需财务部工作人员的人工操作。
 

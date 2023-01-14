@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXNESS代理帮助/EXNESS代理帮助.md",
+                "file": "EXNESS客户帮助/EXNESS客户帮助.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5386d913f8d1b1b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXNESS客户帮助/EXNESS客户帮助.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9cb35932ab80e67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXNESS客户帮助/EXNESS客户帮助.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d11058c6ef7d4f84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXNESS客户帮助/指数交易.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -70,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9c8326e47053f50",
@@ -86,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXNESS代理帮助/EXNESS代理帮助.md",
+                "file": "EXNESS客户帮助/指数交易.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXNESS代理帮助/EXNESS代理帮助.md",
+                "file": "EXNESS客户帮助/指数交易.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXNESS代理帮助/EXNESS代理帮助.md"
+                "file": "EXNESS客户帮助/指数交易.md"
               }
             }
           }
@@ -146,17 +187,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1fbb1690d4dc89de",
+  "active": "d11058c6ef7d4f84",
   "lastOpenFiles": [
-    "index.md",
     "EXNESS客户帮助/EXNESS客户帮助.md",
-    "docs.md",
-    "EXNESS客户帮助/post/post.md",
-    "EXNESS代理帮助/EXNESS代理帮助.md",
-    "EXNESS代理帮助/标准账户.md",
-    "EXNESS代理帮助/本金使用比率.md",
-    "EXNESS代理帮助/自定义合作伙伴链接.md",
-    "技术文档写作规范/marks.md",
-    "技术文档写作规范/余光中：怎样改进英式中文？.md"
+    "EXNESS客户帮助/小币种交易.md",
+    "EXNESS客户帮助/为什么有时候股票的保证金会比平时高.md",
+    "EXNESS客户帮助/零点账户.md",
+    "EXNESS客户帮助/交易加密数字货币.md",
+    "EXNESS客户帮助/能源交易.md",
+    "EXNESS客户帮助/金属交易.md",
+    "EXNESS客户帮助/节假日交易时间.md",
+    "EXNESS客户帮助/冬季交易时间.md",
+    "EXNESS代理帮助/EXNESS代理帮助.md"
   ]
 }

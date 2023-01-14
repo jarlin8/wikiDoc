@@ -11,7 +11,16 @@ date: "2023-01-10"
 
 以下是关于使用USDT ERC20的详情：
 
-<table style="width: 657px; height: 206px;"><tbody><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最低入金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">10美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最高入金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">10,000,000美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最低出金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">100美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最高出金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">10,000,000美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>入金到账时间</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;"><strong>平均</strong><span style="font-weight: 400;">：即时*</span><br><strong>最多</strong><span style="font-weight: 400;">：3天</span></td></tr><tr><td style="width: 337.516px; vertical-align: middle;"><strong>出金到账时间</strong></td><td style="width: 296.484px; vertical-align: middle;"><strong>平均</strong><span style="font-weight: 400;">：即时*</span><br><strong>最多</strong><span style="font-weight: 400;">：3天</span></td></tr><tr style="height: 56px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 56px;"><strong>入金手续费</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 56px;">Exness：0%<br>适用区块链费用</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>出金手续费</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">0%（Exness 支付区块链费用）</td></tr></tbody></table>
+| 最低入金金额 | 10美元&nbsp;         |
+|:------:|:------------------:|
+| 最高入金额  | 10,000,000美元&nbsp; |
+| 最低出金额  | 100美元&nbsp;        |
+| 最高出金金额 | 10,000,000美元&nbsp; |
+| 入金到账时间 | 平均：即时*最多：3天        |
+| 出金到账时间 | 平均：即时*最多：3天        |
+| 入金手续费  | Exness：0%适用区块链费用   |
+| 出金手续费  | 0%（Exness 支付区块链费用） |
+
 
 > **注意：**除另行声明，上述限额为每笔交易的限额。 请参照个人专区所显示的最新信息。
 

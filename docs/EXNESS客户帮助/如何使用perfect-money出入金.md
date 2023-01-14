@@ -9,7 +9,15 @@ Perfect Money 是一种在全球范围内广受欢迎的电子支付方式。 �
 
 以下是 Perfect Money 使用须知：
 
-<table style="height: 230px;" width="302"><tbody><tr><td style="width: 142px;"><strong>最低入金金额</strong></td><td style="width: 137px;">50 美元</td></tr><tr><td style="width: 142px;"><strong>最高入金金额</strong></td><td style="width: 137px;">100,000 美元</td></tr><tr><td style="width: 142px;"><strong>最低出金金额</strong></td><td style="width: 137px;">2 美元</td></tr><tr><td style="width: 142px;"><strong>最高出金金额</strong></td><td style="width: 137px;">100,000 美元</td></tr><tr><td style="width: 142px;"><strong>入金手续费</strong></td><td style="width: 137px;">1.99%</td></tr><tr><td style="width: 142px;"><strong>出金手续费</strong></td><td style="width: 137px;">0.5%/交易</td></tr><tr><td><strong>提供商处理时间</strong></td><td style="width: 137px;">最多 3 天</td></tr></tbody></table>
+| 最低入金金额  | 50 美元      |
+|:-------:|:----------:|
+| 最高入金金额  | 100,000 美元 |
+| 最低出金金额  | 2 美元       |
+| 最高出金金额  | 100,000 美元 |
+| 入金手续费   | 1.99%      |
+| 出金手续费   | 0.5%/交易    |
+| 提供商处理时间 | 最多 3 天     |
+
 
 > *“即时”代表在无需财务人员操作的情况下，出入金交易在数秒内执行。 但这并不保证交易会即刻到账，而是指交易流程会即刻开始。
 

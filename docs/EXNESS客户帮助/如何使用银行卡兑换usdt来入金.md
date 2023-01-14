@@ -7,7 +7,11 @@ date: "2023-01-10"
 
 以下是有关通过银行卡兑换USDT并进行交易的须知。
 
-<table style="width: 657px; height: 87px;"><tbody><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最低入金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;"><span style="font-weight: 400;">30</span> 美元</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最高入金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">5,000 美元</td></tr><tr style="height: 56px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 12px;"><strong>入金手续费</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 12px;">免费</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>入金到账时间</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;"><strong>平均</strong><span style="font-weight: 400;">：即时*</span><br><strong>最多</strong><span style="font-weight: 400;">：1小时</span></td></tr></tbody></table>
+| 最低入金金额 | 30 美元        |
+|:------:|:------------:|
+| 最高入金额  | 5,000 美元     |
+| 入金手续费  | 免费           |
+| 入金到账时间 | 平均：即时*最多：1小时 |
 
 > *“即时”代表在无需财务人员操作的情况下，出入金交易在数秒内执行。
 

@@ -7,7 +7,14 @@ WebMoney 是一种电子支付方式，目前在全球有 4000 多万人使用�
 
 以下是 WebMoney 使用须知：
 
-<table style="height: 201px;" width="435"><tbody><tr><td style="width: 207.75px;"><strong>最低入金金额</strong></td><td style="width: 204.25px;">10 美元</td></tr><tr><td style="width: 207.75px;"><strong>最高入金额</strong></td><td style="width: 204.25px;">1,000,000 美元</td></tr><tr><td style="width: 207.75px;"><strong>最低取款额</strong></td><td style="width: 204.25px;">1 美元</td></tr><tr><td style="width: 207.75px;"><strong>最高出金金额</strong></td><td style="width: 204.25px;">1,000,000 美元</td></tr><tr><td style="width: 207.75px;"><strong>入金和出金手续费</strong></td><td style="width: 204.25px;">免费</td></tr><tr><td style="width: 207.75px;"><strong>入金和出金处理时间</strong></td><td style="width: 204.25px;">即时</td></tr></tbody></table>
+| 最低入金金额    | 10 美元        |
+|:---------:|:------------:|
+| 最高入金额     | 1,000,000 美元 |
+| 最低取款额     | 1 美元         |
+| 最高出金金额    | 1,000,000 美元 |
+| 入金和出金手续费  | 免费           |
+| 入金和出金处理时间 | 即时           |
+
 
 > 注意：除另行声明，上述限额为**每一笔交易**的限额。
 
