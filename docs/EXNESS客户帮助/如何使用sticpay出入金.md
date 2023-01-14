@@ -1,0 +1,44 @@
+---
+title: "如何使用Sticpay出入金"
+date: "2023-01-10"
+---
+
+您可以使用Sticpay来为您的交易账户便捷地出入金。Sticpay是一项全球电子钱包服务，通过该服务，无论您身在何处，您都可以即时办理入金和出金。 要使用Sticpay，您需要拥有一个Sticpay账户或在Sticpay网站上创建一个账户。
+
+以下为您提供Sticpay的相关使用详情：
+
+<table style="width: 660px;"><tbody><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最低入金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">10美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最高入金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">10,000美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最低出金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">1美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>最高出金金额</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">10,000美元</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>入金和出金手续费</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;">免费，但Sticpay可能会收取服务费用。</td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>入金到账时间</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;"><p><strong>平均：</strong>即时*</p><p><strong>最长：</strong>最多2天</p></td></tr><tr><td class="wysiwyg-text-align-center" style="width: 268.422px;"><strong>出金到账时间</strong></td><td class="wysiwyg-text-align-center" style="width: 368.578px;"><p><strong>平均：</strong>即时*</p><p><strong>最长：</strong>最多5小时</p></td></tr></tbody></table>
+
+> **注意：**除另行声明，上述限额为每单笔交易的限额。 请参照您的个人专区所显示的最新信息。
+
+> “即时”代表在无财务部门干预的情况下，出入金交易将在数秒内执行。
+
+### 通过Sticpay入金
+
+![CSVP-3826-ZH.gif](https://get.exness.help/hc/article_attachments/7329652360850/CSVP-3826-ZH.gif)
+
+1. 在您个人专区的**入金**版块中选择**Sticpay**。
+2. 选择需要充值的交易账户，输入入金金额，然后点击**继续**。
+3. 交易摘要窗口会弹出；点击**确认**继续操作。
+4. 在下一个页面中，您将被要求登录Sticpay账户。
+5. Sticpay会显示一条包含入金摘要的确认信息；点击**立即支付**确认操作。
+6. 您的入金操作现已完成，相关资金应该很快就会显示在您所选的交易账户中。
+
+为账户充值
+
+### 通过Sticpay出金
+
+![CSVP-3829-ZH.gif](https://get.exness.help/hc/article_attachments/7329841818130/CSVP-3829-ZH.gif)
+
+1. 在您个人专区的**出金**版块中选择**Sticpay**。
+2. 选择需要出金的交易账户，并根据显示的货币输入出金金额，然后点击**继续**。
+3. 交易摘要窗口会弹出。
+4. 系统将根据您所选的**安全类型**向您的电子邮箱或手机号码发送验证码，输入收到的验证码，然后确认操作。
+5. 输入与您的Sticpay账户关联的注册电子邮箱地址，然后点击**确认**。
+6. 您的出金操作已完成，相关资金应该很快就会显示在您的银行账户中。
+
+### Sticpay支付客服
+
+如果您的交易没有在到账时间内转入您的交易账户，请**联系客服**获取相关帮助。为让我们更好地协助您，届时请准备好出/入金详情、提供包含您的姓名、相关金额以及其他额外细节的支付证明或银行对账单。
+
+如果您想了解更多有关支付的信息，**请阅读我们的文章获取一切相关须知**。

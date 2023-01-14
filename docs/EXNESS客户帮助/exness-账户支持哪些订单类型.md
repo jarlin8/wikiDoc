@@ -1,0 +1,58 @@
+---
+title: "Exness 账户支持哪些订单类型？"
+date: "2023-01-10"
+---
+
+所有标准型账户和专业型**账户类型**均支持两种标准订单类型：**市价订单**和**挂单**，同时还支持两种订单执行方式：**市价执行**和**即时执行**。
+
+- **订单类型**
+- **订单执行类型**
+
+### **订单类型**
+
+订单类型分为两种：市价订单和挂单。
+
+**市价订单**
+
+**市价订单**会在激活时执行，包括**买单**和**卖单**，这是主要的订单类型。
+
+- **买单**：买单以**买价**开仓，以**卖价**平仓。
+- **卖单**：卖单以**卖价**开仓，以**买价**平仓。
+
+如需要深入了解买价、卖价相关信息，请**点击此链接**。
+
+**挂单**
+
+**挂单**用于设置相关条件，让订单在达到相应条件时自动执行，具体情况视订单类型而定。
+
+以下为订单类型一览表，同时还列出了支持对应订单类型的账户类型：
+
+<table><tbody><tr><td><p><strong>订单类型</strong></p></td><td><p><strong>标准账户</strong></p></td><td><p><strong>美分账户</strong></p></td><td><p><strong>先锋账户</strong></p></td><td><p><strong>裸点账户</strong></p></td><td><p><strong>零点</strong></p></td></tr><tr><td><p><strong>限价买单</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td></tr><tr><td><p><strong>限价卖单</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td></tr><tr><td><p><strong>止盈</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td></tr><tr><td><p><strong>止损买单</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td></tr><tr><td><p><strong>止损卖单</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td></tr><tr><td><p><strong>止损</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓</span></p></td></tr><tr><td><p><strong>限价止损多单</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">╳</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td></tr><tr><td><p><strong>限价止损空单</strong></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">╳</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td><td class="wysiwyg-text-align-center"><p><span style="font-weight: 400;">✓ (仅限 MT5)</span></p></td></tr></tbody></table>
+
+**挂单介绍**
+
+当价格达到特定价格或水平时，系统会自动激活进行交易，免去了您手动操作的麻烦。
+
+- **限价买单** - 以低于当前买价的价格设置买入价格。
+- **限价卖单 -** 以高于当前卖价的价格设置卖出价格。
+- **获利 -** 收益达到用户设置的水平时，订单即时平仓。
+- **止损买单 -** 以高于当前买价的价格设置买入价格，当价格达到该价位时执行订单。
+- **止损卖单 -** 以低于当前卖价的价格设置卖出价格，当价格达到该价位时执行订单。
+- **止损** - 亏损达到用户设置的水平时，订单即时平仓。
+- **限价止损多单**（仅限 MT5）- 止损买单与限价买单的结合，此种订单要求您设置两个价格，只有当这两个价格都达到时此订单才会被执行。
+- **限价止损空单**（仅限 MT5）- 止损卖单与限价卖单的结合，此种订单要求您设置两个价格，只有当这两个价格都达到时此订单才会被执行。
+
+上述订单可以让您更灵活地掌控自己的交易，因而我们强烈建议您熟悉相关内容，以便更好地管理、降低交易风险。
+
+### **订单执行类别**
+
+Exness 账户均支持两种订单执行方式，即**市价执行**和**即时执行**。
+
+- **即时执行**：使用这种方式进行交易时，经纪商会按照交易者要求的价格执行订单。
+- **市价执行**：使用这种方式进行交易时，交易者以订单处理时的市场价格执行，交易会在一秒之内完成。 由于价格不断变动，因此实际价格可能高于或低于交易者在终端窗口看到的价格。
+
+以下为不同账户类型的订单执行类别情况：
+
+<table><tbody><tr><td><p><strong>执行类别：</strong></p></td><td><p><strong>标准账户</strong></p></td><td><p><strong>美分账户</strong></p></td><td><p><strong>先锋账户</strong></p></td><td><p><strong>裸点账户</strong></p></td><td><p><strong>零点</strong></p></td></tr><tr><td><p><strong>即时执行</strong></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">╳</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">╳</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">✓</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">╳</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">╳</span></p></td></tr><tr><td><p><strong>市价执行</strong></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">✓</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">✓</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">✓</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">✓</span></p></td><td><p class="wysiwyg-text-align-center"><span style="font-weight: 400;">✓</span></p></td></tr></tbody></table>
+
+如需深入了解订单执行的相关信息，**请点击此链接**。

@@ -1,0 +1,37 @@
+---
+title: "如何在中国使用Neteller出入金"
+date: "2023-01-10"
+---
+
+Neteller 是一种安全的即时到账电子支付系统，在全球广受欢迎。 您可以使用 Neteller 免佣金为 Exness 账户充值。
+
+以下是 Neteller 使用须知：
+
+<table style="height: 197px;" width="444"><tbody><tr><td style="width: 221.516px;"><strong>最低入金金额</strong></td><td style="width: 199.484px;">10 美元</td></tr><tr><td style="width: 221.516px;"><strong>最高入金额</strong></td><td style="width: 199.484px;">50,000 美元</td></tr><tr><td style="width: 221.516px;"><strong>最低出金额</strong></td><td style="width: 199.484px;">4 美元</td></tr><tr><td style="width: 221.516px;"><strong>最高出金金额</strong></td><td style="width: 199.484px;">10,000 美元</td></tr><tr><td style="width: 221.516px;"><strong>入金和出金手续费</strong></td><td style="width: 199.484px;">免费</td></tr><tr><td style="width: 221.516px;"><strong>入金和出金处理时间</strong></td><td style="width: 199.484px;">即时</td></tr></tbody></table>
+
+> 注意：除另行声明，上述限额为**每一笔交易**的限额。
+
+## **如何通过 Neteller 入金：**
+
+1. 进入您个人专区的**入金**板块，点击 **Neteller**。
+2. 此时会弹出一个窗口，在窗口上选择需要充值的交易账户，选择入金货币，具体入金金额，然后点击**下一步**。
+3. 此时就会出现交易信息小结。 确认信息无误后点击**确认支付**。
+4. 页面就会跳转至 Neteller 网站，您需要在此输入您的 Neteller 账户信息，然后按照提示**完成订单**。
+5. 相应的金额就会自动从您的 Neteller 账户上自动扣除。
+
+![CSVP-3687_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6709225736850/CSVP-3687_ZH_resized.gif)
+
+资金将即时转入您的交易账户。
+
+## **如何通过 Neteller 出金：**
+
+1. 点击您个人专区上**出金**板块中的 **Neteller**。
+2. 选择需要出金的账户、出金货币，再输入您的 Neteller 账户电子邮箱，以及以您的账户货币为单位的出金金额。 点击**下一步**。
+
+> 请注意，您必须使用在通过 Neteller 入金时使用的相同的电子邮箱地址。
+
+3. 交易信息小结弹出。 系统会根据您个人专区的安全设置，给您发送电子邮件或手机验证码。请输入该验证码。 点击**确认出金**。
+
+![CSVP-3698_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6709572784786/CSVP-3698_ZH_resized.gif)
+
+您将很快收到出金资金。

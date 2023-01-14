@@ -1,0 +1,51 @@
+---
+title: "如何使用泰达币 (USDT ERC20) 出入金"
+date: "2023-01-10"
+---
+
+从您的个人专区里使用泰达币（USDT）为交易账户进行入资，即泰达币USDT ERC20。 USDT是一种稳定币，以美元为后盾，1个USDT等于1美元，其价格直接与美元挂钩；ERC20是用于本支付方式的一种以太坊代币协议。
+
+> 请注意，使用此支付方式需要通过**个人专区的所有验证**。
+
+最近，以太坊网络机制发生了变化，交易处理机制由工作量证明变为持有量证明；此次更新称为合并。 此次更新不会造成以太坊网络中断，但在少数情况下，可能会导致交易处理延迟。
+
+以下是关于使用USDT ERC20的详情：
+
+<table style="width: 657px; height: 206px;"><tbody><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最低入金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">10美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最高入金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">10,000,000美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最低出金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">100美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>最高出金金额</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">10,000,000美元&nbsp;</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>入金到账时间</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;"><strong>平均</strong><span style="font-weight: 400;">：即时*</span><br><strong>最多</strong><span style="font-weight: 400;">：3天</span></td></tr><tr><td style="width: 337.516px; vertical-align: middle;"><strong>出金到账时间</strong></td><td style="width: 296.484px; vertical-align: middle;"><strong>平均</strong><span style="font-weight: 400;">：即时*</span><br><strong>最多</strong><span style="font-weight: 400;">：3天</span></td></tr><tr style="height: 56px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 56px;"><strong>入金手续费</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 56px;">Exness：0%<br>适用区块链费用</td></tr><tr style="height: 25px;"><td class="wysiwyg-text-align-left" style="width: 337.516px; vertical-align: middle; height: 25px;"><strong>出金手续费</strong></td><td class="wysiwyg-text-align-left" style="width: 296.484px; vertical-align: middle; height: 25px;">0%（Exness 支付区块链费用）</td></tr></tbody></table>
+
+> **注意：**除另行声明，上述限额为每笔交易的限额。 请参照个人专区所显示的最新信息。
+
+> *“即时”代表在无需财务人员操作的情况下，出入金交易在数秒内执行。 这不代表入金/出金会即刻到账，而是指交易流程会即刻开始。
+
+> **重要提示：**请务必确保使用以太坊区块链上的ERC20 USDT地址进行出入金，否则资金将丢失且无法追回。
+
+## 通过泰达币（USDT ERC20）入金
+
+![CSVP-3658_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6814189805842)
+
+1. 在个人专区的**入金**版块中选择**泰达币USDT ERC20**。
+2. 选择想要入金的交易账户，然后点击**继续**。
+3. 将会显示指定的 USDT ERC20 地址，您需要将所需的入金金额从您的私人钱包发送到 Exness ERC20 地址。
+
+> 请确保向 Exness ERC20 地址入金时准确无误；向任何其他钱包地址发送的资金将会丢失且无法追回。
+
+4. 付款成功后，入金金额将存入您选择的交易账户，代表入金完成。
+
+**为账户充值**
+
+## 通过泰达币出金（USDT ERC20）
+
+![CSVP-3819_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6814367954834)
+
+1. 在个人专区的**出金**版块中选择**泰达币USDT ERC20**。
+2. 选择您想要出金的交易账户和按美元计算的出金金额，并提供私人钱包地址；请务必提供准确无误的地址，否则资金可能会丢失且无法追回。 完成表格后，点击**继续**。
+3. 系统将显示交易摘要。 输入收到的验证码。系统将根据您个人专区的**安全类型**，通过邮件或短信向您发送验证码。 点击**确认出金**。
+4. 指定以美元计的金额将以USDT ERC20存入您的私人钱包，即完成出金操作。
+
+> **注意**：如出金时所指定地址属于一个非兼容网络（例如比特币区块链），系统将显示一条错误消息，并且拒绝交易。
+
+## 泰达币客服
+
+如果交易款项未在到账时限内转入交易账户，请**联系客服**。届时请准备好入金或出金详细资料，以及其他任何关于交易的信息，以便我们更好地帮助您。
+
+如想了解更多关于支付的信息，**请阅读我们的文章获取一切相关须知**。

@@ -1,0 +1,23 @@
+---
+title: "为什么MT4/MT5和Exness网站上显示的点差不一样？"
+date: "2023-01-10"
+---
+
+Exness网站显示的点差为基点，而MT4/MT5平台显示的点差则为迷你点。 Exness网站上2个基点的点差值，在MT4/MT5平台上为20个迷你点。
+
+点差是指某一交易品种当前买价和卖价的点数之差。
+
+以下是Exness平台点差显示方式的简要介绍：
+
+<table style="width: 596px;"><tbody><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong><span class="wysiwyg-underline">Exness网站</span></strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">前一个交易日的平均点差（以基点为单位）</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong>MT4/MT5平台</strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">当前点差（以迷你点为单位）</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong>Exness网页交易终端</strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">当前点差（以基点为单位）</span></td></tr><tr><td class="wysiwyg-text-align-left" style="width: 165.297px; vertical-align: middle;"><strong>Exness交易应用</strong></td><td class="wysiwyg-text-align-center" style="width: 407.703px; text-align: center; vertical-align: middle;"><span style="font-weight: 400;">当前点差（以基点为单位）</span></td></tr></tbody></table>
+
+例如，USDCAD卖价为1.26586，买价为1.26600
+
+点差=(买价 - 卖价)/点单位  
+点差= (1.26600 - 1.26586)/0.0001 = 1.4个基点
+
+Exness网站上的点差值就是1.4个**基点**，而MT4/MT5上的点差值则为14个**迷你点**。
+
+> **迷你点**是价格变化的最小值（小数点后第5位），而**基点**是价格变化的值（小数点后第4位）。 1个**基点** 等于10个**迷你点**。 您可以阅读更多有关**基点和迷你点的内容**。
+
+Exness使其客户能够以**动态和稳定点差** 交易各种品种，并能检查每个品种在**合约细则**下的平均点差。

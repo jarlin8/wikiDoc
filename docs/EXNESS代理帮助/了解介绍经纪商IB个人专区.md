@@ -1,6 +1,6 @@
 
 欢迎来到您的个人专区，该专区为介绍经纪商（IB）和交易合作伙伴精心定制，集中了多种特色和功能，可让您获得相关最新动态，让作为 Exness 合作伙伴的您进行更有效的管理。
-让我们一起了解个人专区提供的所有工具吧：
+让咱们一起了解个人专区提供的所有工具吧：
 ![CSVP_2716_Exploring_the_IB_personal_area_ZH.jpg](https://v.youku.com/v_show/id_XNTgzOTExMjQ1Ng==.html)
 **仪表盘**
  
