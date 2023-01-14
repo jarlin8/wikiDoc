@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXNESS代理帮助/地区代表-区域代理.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXNESS代理帮助/地区代表-区域代理.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXNESS代理帮助/地区代表-区域代理.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXNESS代理帮助/地区代表-区域代理.md"
+                "file": "index.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "41d5c9bcb75e20b6",
   "lastOpenFiles": [
+    "EXNESS代理帮助/地区代表-区域代理.md",
     "EXNESS代理帮助/EXNESS代理帮助.md",
     "EXNESS代理帮助/标准账户.md",
     "EXNESS代理帮助/Exness的资金安全.md",
@@ -157,7 +158,6 @@
     "EXNESS代理帮助/手续费.md",
     "EXNESS代理帮助/Exness不接受哪些国家的客户.md",
     "EXNESS代理帮助/Exness推广指南.md",
-    "EXNESS代理帮助/返佣详述.md",
-    "EXNESS代理帮助/地区代表-区域代理.md"
+    "EXNESS代理帮助/返佣详述.md"
   ]
 }
