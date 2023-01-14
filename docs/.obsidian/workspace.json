@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXNESS代理帮助/我可以使用合作伙伴链接创建自定义合作伙伴链接吗.md",
+                "file": "EXNESS代理帮助/如何加入Exness合作伙伴计划.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e9c8326e47053f50",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXNESS代理帮助/我可以使用合作伙伴链接创建自定义合作伙伴链接吗.md",
+                "file": "EXNESS代理帮助/如何加入Exness合作伙伴计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXNESS代理帮助/我可以使用合作伙伴链接创建自定义合作伙伴链接吗.md",
+                "file": "EXNESS代理帮助/如何加入Exness合作伙伴计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXNESS代理帮助/我可以使用合作伙伴链接创建自定义合作伙伴链接吗.md"
+                "file": "EXNESS代理帮助/如何加入Exness合作伙伴计划.md"
               }
             }
           }
@@ -149,15 +148,15 @@
   },
   "active": "41d5c9bcb75e20b6",
   "lastOpenFiles": [
-    "EXNESS代理帮助/标准账户.md",
-    "EXNESS代理帮助/返佣详述.md",
-    "EXNESS代理帮助/单链接服务详解.md",
-    "EXNESS代理帮助/Exness支付服务.md",
-    "EXNESS代理帮助/Exness提供的交易平台.md",
-    "EXNESS代理帮助/Exness推广指南.md",
+    "EXNESS代理帮助/EXNESS代理帮助.md",
+    "EXNESS代理帮助/如何加入Exness合作伙伴计划.md",
+    "EXNESS代理帮助/加入Exness合作伙伴计划可以赚取多少钱.md",
+    "EXNESS代理帮助/地区代表-区域代理.md",
+    "EXNESS代理帮助/合作伙伴类型.md",
+    "EXNESS代理帮助/合作伙伴和介绍经纪商IB之间有何区别.md",
+    "EXNESS代理帮助/如何提取您的合作伙伴佣金.md",
     "EXNESS代理帮助/Exness提供的交易产品.md",
-    "EXNESS代理帮助/Exness是否允许返佣.md",
-    "EXNESS代理帮助/Exness合作伙伴忠诚计划条款和条件.md",
-    "EXNESS代理帮助/Exness合作伙伴计划.md"
+    "EXNESS代理帮助/我可以使用合作伙伴链接创建自定义合作伙伴链接吗.md",
+    "EXNESS代理帮助/标准账户.md"
   ]
 }
