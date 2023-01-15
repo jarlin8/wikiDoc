@@ -26,7 +26,7 @@ MT4 多账户管理终端为您带来更为便捷的多交易账户管理体验�
 
 观看下方视频，详细了解 MT4 多账户管理终端的使用方法：
 
-![CSVP-2337_ZH_Thumbnail__1_.jpg](https://haokan.baidu.com/v?vid=4068548728336754395)
+[![CSVP-2337_ZH_Thumbnail__1_.jpg](https://get.exness.help/hc/article_attachments/7094647047186/CSVP-2337_ZH_Thumbnail__1_.jpg)](https://haokan.baidu.com/v?vid=4068548728336754395)
 
 **下载安装 MT4 MultiTerminal**
 

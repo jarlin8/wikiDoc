@@ -15,7 +15,7 @@ date: "2023-01-10"
 
 > 身份和地址验证是一个十分重要的环节，可以有效帮助EXNESS保障您的账户和资金交易的安全。 为了确保客户交易环境的安全，Exness 采取多种防范措施，身份和地址验证只是其中之一。
 
-![ScreenCast_Thumbnail_00000.png](https://www.iqiyi.com/v_18y5a0ov5xc.html)
+[视频演示](https://www.iqiyi.com/v_18y5a0ov5xc.html)
 
 ### 1. 验证手机号码：
 

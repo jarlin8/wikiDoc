@@ -13,23 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXNESS客户帮助/EXNESS客户帮助.md",
+                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "3b62cd15078aff70",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9c8326e47053f50",
@@ -95,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md"
+              }
             }
           }
         ],
@@ -151,17 +147,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3b62cd15078aff70",
+  "active": "5386d913f8d1b1b2",
   "lastOpenFiles": [
-    "EXNESS客户帮助/未命名.md",
+    "EXNESS客户帮助/股票.md",
     "EXNESS客户帮助/EXNESS客户帮助.md",
+    "EXNESS客户帮助/隔夜利息.md",
+    "EXNESS客户帮助/exness-是否收取隔夜费用.md",
+    "EXNESS客户帮助/exness-不接受哪些国家的客户.md",
+    "EXNESS客户帮助/未命名.md",
     "EXNESS客户帮助/指数交易.md",
     "EXNESS客户帮助/小币种交易.md",
     "EXNESS客户帮助/为什么有时候股票的保证金会比平时高.md",
-    "EXNESS客户帮助/零点账户.md",
-    "EXNESS客户帮助/交易加密数字货币.md",
-    "EXNESS客户帮助/能源交易.md",
-    "EXNESS客户帮助/金属交易.md",
-    "EXNESS客户帮助/节假日交易时间.md"
+    "EXNESS客户帮助/零点账户.md"
   ]
 }

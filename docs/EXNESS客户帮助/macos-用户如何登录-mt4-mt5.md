@@ -7,8 +7,8 @@ date: "2023-01-10"
 
 安装交易终端：
 
-- 点击**此处**安装 MT4
-- 点击**此处**安装 MT5
+- 点击[**此处**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt4/exness4setup.exe)安装 MT4
+- 点击[**此处**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt5/exness5setup.exe)安装 MT5
 
 > 注意：为确保安装包与系统兼容，您需要将您的 macOS 更新至最新版本 **Big Sur**。
 

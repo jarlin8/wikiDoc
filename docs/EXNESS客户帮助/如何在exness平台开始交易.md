@@ -21,7 +21,7 @@ date: "2023-01-10"
 
 请观看下面的教学视频：
 
-![ScreenCast_Thumbnail_00000.jpg](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
+[![ScreenCast_Thumbnail_00000.jpg](https://get.exness.help/hc/article_attachments/4442752475154/ScreenCast_Thumbnail_00000.jpg)](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
 
 ## 完成账户验证
 
@@ -36,7 +36,7 @@ EXNESS需要验证以上信息，确保账户的所有操作都是由您本人�
 
 观看视频了解如何全面验证您的Exness账户：
 
-![ScreenCast_Thumbnail_00000__1_.png](https://haokan.baidu.com/v?vid=4202496354573953527)
+[视频演示](https://haokan.baidu.com/v?vid=4202496354573953527)
 
 ## 进行首次入金
 

@@ -9,7 +9,7 @@ date: "2023-01-10"
 
 有了 Exness 交易应用，无论您走到哪里，都可以畅享移动入金、出金以及交易验证的便利，还有一系列令人兴奋的功能等您发现。
 
-![ScreenCast_Thumbnail_00000__1_.png](https://haokan.baidu.com/v?vid=4340140238022525313)
+[视频演示](https://haokan.baidu.com/v?vid=4340140238022525313)
 
 ### **  
 Exness 交易应用主要功能**：

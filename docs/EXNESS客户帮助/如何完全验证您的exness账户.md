@@ -13,7 +13,7 @@ date: "2023-01-10"
 
 观看以下视频，学习如何通过几个简单步骤上传文件、验证Exness账户：
 
-![ScreenCast_Thumbnail_00000.png](https://haokan.baidu.com/v?vid=4202496354573953527&pd=pcshare)
+[![ScreenCast_Thumbnail_00000.png](https://get.exness.help/hc/article_attachments/6835131029266/ScreenCast_Thumbnail_00000.png)](https://haokan.baidu.com/v?vid=4202496354573953527&pd=pcshare)
 
 提交文件
 

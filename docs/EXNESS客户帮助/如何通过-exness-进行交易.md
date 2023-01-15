@@ -7,15 +7,15 @@ Exness 非常容易上手使用。 让EXNESS来带您一起了解一下操作步
 
 - **开始交易需要进行哪些操作？**
 
-         - 获取交易账户
+    - 获取交易账户
 
-         - 使用交易平台
+    - 使用交易平台
 
 - **什么是市价订单？如何设置？**
 
-         - 买单
+    - 买单
 
-         - 卖单
+    - 卖单
 
 - **如何从交易中赚取收益？**
 
@@ -29,7 +29,7 @@ Exness 非常容易上手使用。 让EXNESS来带您一起了解一下操作步
 
 观看下方视频了解**如何注册新的 Exness 账户**和交易账户：
 
-![ScreenCast_Thumbnail_00000.jpg](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
+[![ScreenCast_Thumbnail_00000.jpg](https://get.exness.help/hc/article_attachments/4442752475154/ScreenCast_Thumbnail_00000.jpg)](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
 
 ### **使用交易平台**
 

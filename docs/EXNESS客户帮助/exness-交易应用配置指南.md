@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 无论您身处何处，使用Exness交易应用即可注册Exness账户。 根据需要，选择iOS或安卓版**Exness交易应用**，下载后完成以下步骤即可。
 
-![CSVP_2911_Exness_Trader_How_to_set_up_Exness_Trader_ZH.jpg](https://haokan.baidu.com/v?vid=4375748892863944670)
+[视频演示](https://haokan.baidu.com/v?vid=4375748892863944670)
 
 - **设置Exness交易应用**
 - **如何使用已有的Exness账户登录**

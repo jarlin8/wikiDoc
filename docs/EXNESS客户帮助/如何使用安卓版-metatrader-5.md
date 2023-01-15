@@ -16,17 +16,17 @@ date: "2023-01-10"
 
 请观看下方的简易视频教程，了解有关下载、安装和首次打开使用安卓版 MT5 的所有相关内容：
 
-![CSVP_2378_How_to_install_MetaTrader_5_for_Android_ZH.jpg](https://www.iqiyi.com/v_1j1bm303gis.html)
+[视频演示](https://www.iqiyi.com/v_1j1bm303gis.html)
 
 **立即下载安卓版 MT5 应用！**
 
 ### **体验 MT5 安卓版应用**
 
-![](https://www.iqiyi.com/v_1bzangp1xh4.html)
+[视频演示](https://www.iqiyi.com/v_1bzangp1xh4.html)
 
 ### 安卓版 MT5 的特别功能
 
-![CSVP_2356_MetaTrader_5_for_Android_Additional_Features_ZH.jpg](https://www.iqiyi.com/v_1rrhf33vp18.html)
+[视频演示](https://www.iqiyi.com/v_1rrhf33vp18.html)
 
 ## **账户管理**
 
@@ -88,4 +88,4 @@ date: "2023-01-10"
 
 恭喜，现在您就可以放心使用安卓版 MT5 应用了。
 
-**立即下载安卓版 MT5 应用！**
+[**立即下载安卓版 MT5 应用！**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt5/exness5setup.exe)

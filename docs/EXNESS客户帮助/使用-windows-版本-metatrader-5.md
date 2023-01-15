@@ -17,7 +17,7 @@ date: "2023-01-10"
 
 Windows MetaTrader 5 安装步骤：
 
-1. **下载 MT5 安装文件**。
+1. [**下载 MT5 安装文件**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt5/exness5setup.exe)。
 2. 通过浏览器运行该文件，或双击运行已下载的安装文件。
 3. 您可以根据个人偏好，通过点击**设置**更改 MT5 的安装位置，也可以直接点击**下一步**同意最终用户许可协议并继续。
 4. 安装完成后，点击**完成，** 系统会自动打开 MT5。

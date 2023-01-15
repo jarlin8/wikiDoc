@@ -35,7 +35,7 @@ MT4/MT5 网页终端是一种基于网页、无需安装的交易终端，可让
 
 观看下方视频，了解如何登录、使用网页终端。
 
-![CSVP-3556_PA_WebTerm_ZH_Thumb_01.jpg](https://haokan.baidu.com/v?vid=4068548728336754395)
+[视频演示](https://haokan.baidu.com/v?vid=4068548728336754395)
 
 **登录网页终端：**
 

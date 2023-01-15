@@ -10,7 +10,7 @@ date: "2023-01-10"
 
 ### Windows：
 
-![CSVP-2315_ZH.jpg](https://www.iqiyi.com/v_21ryjudt5cc.html)
+[视频演示](https://www.iqiyi.com/v_21ryjudt5cc.html)
 
 1. 在**开始**菜单输入**远程桌面连接**，然后打开运行该程序。
 2. 请将您申请 VPS 时通过电子邮件收到的 IP 输入**计算机**一栏。
@@ -26,7 +26,7 @@ date: "2023-01-10"
 
 ### Mac:
 
-![CSVP-2326_ZH_Thumbnail.jpg](https://www.iqiyi.com/v_1i8sm1enp30.html)
+[视频演示](https://www.iqiyi.com/v_1i8sm1enp30.html)
 
 1. 在应用商店上下载 **Microsoft 远程桌面**应用。
 2. 运行程序并点击**添加电脑**。

@@ -17,7 +17,7 @@ date: "2023-01-10"
 
 安装 Windows 版本 MT4：
 
-1. 下载 MT4 安装文件。
+1. [下载 MT4 安装文件](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt4/exness4setup.exe)。
 2. 通过浏览器运行该文件，或双击运行已下载的安装文件。
 3. 您可以根据个人偏好，通过点击设置更改 MT4 的安装位置， 也可以直接点击下一步同意 最终用户许可协议并继续。
 4. 安装完成后，点击完成，系统会自动打开 MT4。

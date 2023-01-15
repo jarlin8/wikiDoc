@@ -9,9 +9,9 @@ date: "2023-01-10"
 
 - 在多个 MT4 终端上打开同一个账户，减少每个终端上的图表。 减少 EA 的数目也就减少了 EA 同时运行的几率。 在安装多个终端时，要确保顺利下载，请注意更改文件名。 您可以点击以下链接下载终端：
     
-    -**MT4**
+    -[**MT4**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt4/exness4setup.exe)
     
-    -**MT5**
+    -[**MT5**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt5/exness5setup.exe)
     
 - 重启终端。
 

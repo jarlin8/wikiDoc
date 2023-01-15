@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 Exness 账户注册流程快速简单，数分钟内即可完成注册。 下面的视频教程会向**您展示如何注册您的Exness账户**和**个人专区**，或者继续逐步了解指导。
 
-![ScreenCast_Thumbnail_00000.jpg](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
+[视频演示](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
 
 ### 如何在网页上进行注册
 
