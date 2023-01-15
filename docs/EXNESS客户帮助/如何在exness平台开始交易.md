@@ -21,7 +21,7 @@ date: "2023-01-10"
 
 请观看下面的教学视频：
 
-[![ScreenCast_Thumbnail_00000.jpg](https://get.exness.help/hc/article_attachments/4442752475154/ScreenCast_Thumbnail_00000.jpg)](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
+[![ScreenCast_Thumbnail_00000.jpg](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ScreenCast_Thumbnail_00000.jpg)](https://haokan.baidu.com/v?vid=4161871976850577379&pd=pcshare)
 
 ## 完成账户验证
 

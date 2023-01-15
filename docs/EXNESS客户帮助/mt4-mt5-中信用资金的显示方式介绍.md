@@ -9,7 +9,7 @@ date: "2023-01-10"
 
 > MT4/MT5 中显示的可用保证金同样包括信用资金。
 
-![CSVP_3123_About_the_credit_display_in_MT4MT5_ZH.gif](https://get.exness.help/hc/article_attachments/7147069034130/CSVP_3123_About_the_credit_display_in_MT4MT5_ZH.gif)
+![CSVP_3123_About_the_credit_display_in_MT4MT5_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3123_About_the_credit_display_in_MT4MT5_ZH.gif)
 
 在哪里查看信用资金。
 

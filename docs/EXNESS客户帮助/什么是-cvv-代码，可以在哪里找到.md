@@ -11,6 +11,6 @@ CVV 代表的是**C**ard（卡）**V**erification（验证）**V**alue（值）�
 
 您的 CVV 代码可以在卡片的背面找到。
 
-![CSVP-3545_CC_CCV_01.gif](https://get.exness.help/hc/article_attachments/6789971945874/CSVP-3545_CC_CCV_01.gif)
+![CSVP-3545_CC_CCV_01.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3545_CC_CCV_01.gif)
 
 > **注意**：自助取款机密码和 CVV 代码不是一回事。

@@ -26,7 +26,7 @@ date: "2023-01-10"
 
 ### **查看所有档案**
 
-**![CSVP-4366-ZH.gif](https://get.exness.help/hc/article_attachments/6254752606364)**
+**![CSVP-4366-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4366-ZH.gif)**
 
 如需查看所有支付档案，点击**入金**选项卡即可。 然后您就会看到您最近使用过和过去保存的支付档案，以及所有其他可用的支付系统。
 
@@ -38,7 +38,7 @@ date: "2023-01-10"
 
 系统会在您成功入金后自动创建支付档案。 该档案随即就会显示在您的入金页面。
 
-![CSVP-4369-ZH.gif](https://get.exness.help/hc/article_attachments/6255091557020)
+![CSVP-4369-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4369-ZH.gif)
 
 ### **使用档案入金**
 
@@ -46,11 +46,11 @@ date: "2023-01-10"
 
 如需了解如何给账户入金，请点击**此处**阅读更多相关内容。
 
-![CSVP-4373-ZH.gif](https://get.exness.help/hc/article_attachments/6255315720732)
+![CSVP-4373-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4373-ZH.gif)
 
 ### **管理档案**
 
-**![CSVP-4376-ZH.gif](https://get.exness.help/hc/article_attachments/6265393836316)**
+**![CSVP-4376-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4376-ZH.gif)**
 
 要管理您的支付档案，只需点击位于档案右上角的由三个垂直圆点的菜单图标即可调出管理选项：
 
@@ -61,10 +61,10 @@ date: "2023-01-10"
 
 在您查看支付档案详情时，系统会屏蔽某些信息。 档案详情无法更改。 您还可以在此处删除档案。
 
-![CSVP-4379-ZH.gif](https://get.exness.help/hc/article_attachments/6266681382556)
+![CSVP-4379-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4379-ZH.gif)
 
 #### **删除档案**
 
 如需删除档案，您也可以点击档案菜单选项进行操作。 点击删除后，系统会弹出确认窗口，让您再次确认操作。
 
-![CSVP-4382-ZH.gif](https://get.exness.help/hc/article_attachments/6266841862172)
+![CSVP-4382-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4382-ZH.gif)

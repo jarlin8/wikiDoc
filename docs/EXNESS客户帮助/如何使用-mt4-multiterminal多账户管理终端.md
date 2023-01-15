@@ -26,7 +26,7 @@ MT4 多账户管理终端为您带来更为便捷的多交易账户管理体验�
 
 观看下方视频，详细了解 MT4 多账户管理终端的使用方法：
 
-[![CSVP-2337_ZH_Thumbnail__1_.jpg](https://get.exness.help/hc/article_attachments/7094647047186/CSVP-2337_ZH_Thumbnail__1_.jpg)](https://haokan.baidu.com/v?vid=4068548728336754395)
+[![CSVP-2337_ZH_Thumbnail__1_.jpg](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2337_ZH_Thumbnail__1_.jpg)](https://haokan.baidu.com/v?vid=4068548728336754395)
 
 **下载安装 MT4 MultiTerminal**
 
@@ -116,7 +116,7 @@ MT4 多账户管理终端为您带来更为便捷的多交易账户管理体验�
 
 2. 点击**下单**下订单。
 
-![CSVP_3024_How_to_use_Mt4_Multiterminal_ZH__1_.gif](https://get.exness.help/hc/article_attachments/7094640380178/CSVP_3024_How_to_use_Mt4_Multiterminal_ZH__1_.gif)
+![CSVP_3024_How_to_use_Mt4_Multiterminal_ZH__1_.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3024_How_to_use_Mt4_Multiterminal_ZH__1_.gif)
 
 > 如果您设置了止盈和止损但是却无法点击“下单”，这时请查看您设置的止损和止盈数值。 举个例子：如果您开立的是止损/限价买单，那么止损价必须低于开仓价，且止盈价必须高于开仓价，对于止损/限价卖单反之亦然。 此外，请确保止损/止盈满足相应**交易品种止损位**的要求。
 

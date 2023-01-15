@@ -11,7 +11,7 @@ date: "2023-01-10"
     - **地址证明**
         - 示例：
 
-![CSVP-3339-ZH.gif](https://get.exness.help/hc/article_attachments/5169596489362/CSVP-3339-ZH.gif)
+![CSVP-3339-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3339-ZH.gif)
 
 > **上传文件**时，您需要选择自己所在的国家和文件类型，系统可能会显示相应的文件示例，具体取决于您的选择。
 

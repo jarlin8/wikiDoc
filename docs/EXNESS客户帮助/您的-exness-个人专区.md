@@ -13,7 +13,7 @@ date: "2023-01-10"
 
 请观看下方视频，跟着EXNESS一块探索 Exness 个人专区。
 
-[![](https://get.exness.help/hc/article_attachments/6771336547740)](https://haokan.baidu.com/v?vid=4921224364030631403)
+[![](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//haokan.baidu.com/v?vid=4921224364030631403)
 
 ### 如何登录您的个人专区：
 

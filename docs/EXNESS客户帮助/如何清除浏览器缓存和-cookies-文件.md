@@ -21,7 +21,7 @@ date: "2023-01-10"
 
 **谷歌 Chrome：**
 
-![CSVP-2851-ZH.gif](https://get.exness.help/hc/article_attachments/5895954812060/CSVP-2851-ZH.gif)
+![CSVP-2851-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2851-ZH.gif)
 
 1. 在电脑上打开**Chrome**。
 2. 点击右上角的**自定义及控制**，通常由三个垂直圆点表示。
@@ -37,7 +37,7 @@ date: "2023-01-10"
 
 **火狐浏览器:**
 
-![CSVP-4104-ZH.gif](https://get.exness.help/hc/article_attachments/5896295532828/CSVP-4104-ZH.gif)
+![CSVP-4104-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4104-ZH.gif)
 
 1. 点击右上角的**菜单**（图标为三条横线），然后选择**选项**。
 2. 选择**隐私&安全**。
@@ -50,7 +50,7 @@ date: "2023-01-10"
 
 **微软 Edge 浏览器：**
 
-![CSVP-4085-ZH.gif](https://get.exness.help/hc/article_attachments/5918601636124/CSVP-4085-ZH.gif)
+![CSVP-4085-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4085-ZH.gif)
 
 1. 打开**Edge**。
 2. 点击右上角由三个水平圆点表示的设置图标，并选择**设置**。
@@ -63,7 +63,7 @@ date: "2023-01-10"
 
 **Opera 浏览器：**
 
-![CSVP-4088-ZH.gif](https://get.exness.help/hc/article_attachments/5918711806748/CSVP-4088-ZH.gif)
+![CSVP-4088-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4088-ZH.gif)
 
 1. 打开**Opera**。
 2. 在左侧菜单中选择齿轮图标打开**设置**。
@@ -75,7 +75,7 @@ date: "2023-01-10"
 
 **Safari 浏览器：**
 
-![CSVP-4091-ZH.gif](https://get.exness.help/hc/article_attachments/5919241484572/CSVP-4091-ZH.gif)
+![CSVP-4091-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4091-ZH.gif)
 
 1. 打开 **Safari 浏览器**。
 2. 点击左上角的**Safari**，然后打开**偏好设置**。
@@ -88,7 +88,7 @@ date: "2023-01-10"
 
 **Google Chrome（在 Mac 设备上使用时）：**
 
-![CSVP-4094-ZH.gif](https://get.exness.help/hc/article_attachments/5919523698716/CSVP-4094-ZH.gif)
+![CSVP-4094-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4094-ZH.gif)
 
 1. 打开 **Chrome**。
 2. 在 Chrome 浏览器点击左上角，然后选择**清除浏览数据**。
@@ -104,7 +104,7 @@ date: "2023-01-10"
 
 **Chrome 浏览器：**
 
-![CSVP-4097-ZH.gif](https://get.exness.help/hc/article_attachments/5920610234396/CSVP-4097-ZH.gif)
+![CSVP-4097-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4097-ZH.gif)
 
 1. 在您的安卓手机或平板上打开 Chrome 应用。
 2. 点击右上角的**更多**选项，通常由三个垂直圆点的图标表示。
@@ -127,7 +127,7 @@ date: "2023-01-10"
 
 **Safari 浏览器：**
 
-![CSVP-4100_iOS_ZH_resized.gif](https://get.exness.help/hc/article_attachments/5921194615836/CSVP-4100_iOS_ZH_resized.gif)
+![CSVP-4100_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4100_iOS_ZH_resized.gif)
 
 1. 打开**设置** > **Sarari**。
 2. 下滑到底，选择**清除历史记录与网站数据**。

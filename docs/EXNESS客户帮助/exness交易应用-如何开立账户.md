@@ -14,7 +14,7 @@ date: "2023-01-10"
 
 创建更多模拟账户：
 
-![CSVP-4225-ZH.gif](https://get.exness.help/hc/article_attachments/6034142056732/CSVP-4225-ZH.gif)
+![CSVP-4225-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4225-ZH.gif)
 
 1. 点选主屏幕上账户选项卡上的下拉菜单。
 2. 点击右边的加号，选择**新模拟账户**。
@@ -29,7 +29,7 @@ date: "2023-01-10"
 
 创建更多真实账户：
 
-![CSVP-4228-ZH.gif](https://get.exness.help/hc/article_attachments/6034142111388/CSVP-4228-ZH.gif)
+![CSVP-4228-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4228-ZH.gif)
 
 1. 点选主屏幕上账户选项卡上的下拉菜单。
 2. 点击右边的加号，选择**新账户**。

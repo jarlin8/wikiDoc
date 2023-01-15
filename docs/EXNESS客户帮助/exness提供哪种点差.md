@@ -35,7 +35,7 @@ EXNESS支持交易点差为浮动点差的品种。 EXNESS也提供固定点差�
 
 ### **如何在MT4显示点差：**
 
-**![CSVP-4135_ZH.gif](https://get.exness.help/hc/article_attachments/6419048812828)**
+**![CSVP-4135_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4135_ZH.gif)**
 
 1. 登录MT4。
 2. 找到**市场报价**窗口。
@@ -44,7 +44,7 @@ EXNESS支持交易点差为浮动点差的品种。 EXNESS也提供固定点差�
 
 ### **如何在MT5显示点差：**
 
-![CSVP-4138_ZH.gif](https://get.exness.help/hc/article_attachments/6419064605980)
+![CSVP-4138_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4138_ZH.gif)
 
 1. 登录**MT5**。
 2. 找到**市场报价**窗口。

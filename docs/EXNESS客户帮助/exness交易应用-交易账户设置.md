@@ -19,7 +19,7 @@ Exness交易应用可让您随时随地管理您的交易账户设置。
 2. 选择**账户类型**： **模拟**或**真实**账户。
 3. 在选定的类别下选择您的交易账户。
 
-![CSVP-4533-ZH.gif](https://get.exness.help/hc/article_attachments/6383969685148)
+![CSVP-4533-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4533-ZH.gif)
 
 点选交易账户后，系统将显示账户详情。您也可以点选**+图标**，创建新的交易账户。 如需查看更多信息，点选**ⓘ图标**，进一步了解净值、保证金、最大杠杆等相关信息。
 
@@ -29,7 +29,7 @@ Exness交易应用可让您随时随地管理您的交易账户设置。
 
 更改杠杆：
 
-![CSVP-4536-ZH.gif](https://get.exness.help/hc/article_attachments/6384015127324)
+![CSVP-4536-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4536-ZH.gif)
 
 1. 在**账户**选项卡上，点击三个垂直圆点菜单图标，并选择**设置**。
 2. 在**账户设置**页面上，**最大杠杆**将显示所设置的杠杆。
@@ -46,7 +46,7 @@ Exness交易应用可让您随时随地管理您的交易账户设置。
 
 如需更改账户的交易密码：
 
-![CSVP-4539-ZH.gif](https://get.exness.help/hc/article_attachments/6393164451484)
+![CSVP-4539-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4539-ZH.gif)
 
 1. 在账户选项卡上，点击三个垂直圆点的菜单图标，选择**设置**。
 2. 在**账户设置**页面底部，可找到**更改交易密码**选项。

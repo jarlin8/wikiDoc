@@ -23,7 +23,7 @@ date: "2023-01-10"
 
 ### 通过Sticpay入金
 
-![CSVP-3826-ZH.gif](https://get.exness.help/hc/article_attachments/7329652360850/CSVP-3826-ZH.gif)
+![CSVP-3826-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3826-ZH.gif)
 
 1. 在您个人专区的**入金**版块中选择**Sticpay**。
 2. 选择需要充值的交易账户，输入入金金额，然后点击**继续**。
@@ -36,7 +36,7 @@ date: "2023-01-10"
 
 ### 通过Sticpay出金
 
-![CSVP-3829-ZH.gif](https://get.exness.help/hc/article_attachments/7329841818130/CSVP-3829-ZH.gif)
+![CSVP-3829-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3829-ZH.gif)
 
 1. 在您个人专区的**出金**版块中选择**Sticpay**。
 2. 选择需要出金的交易账户，并根据显示的货币输入出金金额，然后点击**继续**。

@@ -20,7 +20,7 @@ date: "2023-01-10"
 
 如何通过 Bitake 为您的交易账户充值：
 
-![CSVP-2676-ZH__1_.gif](https://get.exness.help/hc/article_attachments/4411758985362/CSVP-2676-ZH__1_.gif)
+![CSVP-2676-ZH__1_.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2676-ZH__1_.gif)
 
 1. 进入您个人专区中的**入金**版块，选择**Bitake**。
 2. 选择需要充值的账户，输入入金金额， 点击**继续**。

@@ -13,13 +13,13 @@ Exness 的成功离不开合作伙伴多年的支持和付出，为答谢EXNESS�
 #### 什么是有效交易量？ ####
 自您注册之日起，通过您完成注册的每位转介客户均计入有效交易量，**本金使用比率**也会纳入考量（如适用），由错误、欺诈或各种可疑操作产生的交易量均会从中扣除。
 ### 有哪些奖励？ ###
-![CSVP-4262__from_PLP_EDM_actual_prize_.jpg.png](https://get.exnessaffiliates.help/hc/article_attachments/5999439877148/CSVP-4262__from_PLP_EDM_actual_prize_.jpg.png)
+![CSVP-4262__from_PLP_EDM_actual_prize_.jpg.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4262__from_PLP_EDM_actual_prize_.jpg.png)
 奖励品种丰富多样，且随着您业绩级别的升级，奖励价值也将不断升级，其中包括辅助小工具、现金奖励、尊享假日、购物狂欢、奢华腕表，甚至超级跑车！ 大部分奖励允许兑换等值现金。
 EXNESS会在每月月初联系符合获奖要求的客户，该过程需要约 2—3 周的时间。
 > 请注意，不同地区奖励不同且可能会出现奖励变动的情况，恕不另行通知。
 ### 如何计算奖励要求？ ###
 奖励要求示例如下：
-![CSVP_1757_Loyalty_Program_prize_requirements_ZH.png](https://get.exnessaffiliates.help/hc/article_attachments/360024903439/CSVP_1757_Loyalty_Program_prize_requirements_EN.png)
+![CSVP_1757_Loyalty_Program_prize_requirements_ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_1757_Loyalty_Program_prize_requirements_EN.png)
 领奖要求：
 * **有效终身交易量需达到 5 亿美元**。 EXNESS将计算自您成为EXNESS的合作伙伴之日起，您的所有转介客户的交易量，如果转介客户在交易中使用了赠金，EXNESS将算入本金使用比率。 此外，由错误、欺诈或各种可疑操作产生的交易量，也将从中扣除。
 * **过去 90 天中您必须有至少 10 位活跃的转介客户**。 “活跃”的意思是“进行交易”。 假设现在是十二月，EXNESS就会查看您在九月到十一月之间是否拥有至少 10 位活跃的转介客户。

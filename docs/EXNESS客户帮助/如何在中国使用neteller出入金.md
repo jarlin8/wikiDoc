@@ -26,7 +26,7 @@ Neteller 是一种安全的即时到账电子支付系统，在全球广受欢�
 4. 页面就会跳转至 Neteller 网站，您需要在此输入您的 Neteller 账户信息，然后按照提示**完成订单**。
 5. 相应的金额就会自动从您的 Neteller 账户上自动扣除。
 
-![CSVP-3687_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6709225736850/CSVP-3687_ZH_resized.gif)
+![CSVP-3687_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3687_ZH_resized.gif)
 
 资金将即时转入您的交易账户。
 
@@ -39,6 +39,6 @@ Neteller 是一种安全的即时到账电子支付系统，在全球广受欢�
 
 3. 交易信息小结弹出。 系统会根据您个人专区的安全设置，给您发送电子邮件或手机验证码。请输入该验证码。 点击**确认出金**。
 
-![CSVP-3698_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6709572784786/CSVP-3698_ZH_resized.gif)
+![CSVP-3698_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3698_ZH_resized.gif)
 
 您将很快收到出金资金。

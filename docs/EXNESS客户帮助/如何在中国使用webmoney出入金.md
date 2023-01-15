@@ -27,7 +27,7 @@ WebMoney 是一种电子支付方式，目前在全球有 4000 多万人使用�
 
 转账完成后，相应的支付款项将能即刻转入您的账户。
 
-![CSVP-3703-ZH.gif](https://get.exness.help/hc/article_attachments/6711987517714/CSVP-3703-ZH.gif)
+![CSVP-3703-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3703-ZH.gif)
 
 ## **通过 WebMoney 出金：**
 
@@ -40,4 +40,4 @@ WebMoney 是一种电子支付方式，目前在全球有 4000 多万人使用�
 
 交易完成后，您很快就能收到出金资金。
 
-![CSVP-3706-ZH.gif](https://get.exness.help/hc/article_attachments/6726783369746/CSVP-3706-ZH.gif)
+![CSVP-3706-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3706-ZH.gif)

@@ -30,7 +30,7 @@ date: "2023-01-10"
 
 ## 通过泰达币（USDT ERC20）入金
 
-![CSVP-3658_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6814189805842)
+![CSVP-3658_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3658_ZH_resized.gif)
 
 1. 在个人专区的**入金**版块中选择**泰达币USDT ERC20**。
 2. 选择想要入金的交易账户，然后点击**继续**。
@@ -44,7 +44,7 @@ date: "2023-01-10"
 
 ## 通过泰达币出金（USDT ERC20）
 
-![CSVP-3819_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6814367954834)
+![CSVP-3819_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3819_ZH_resized.gif)
 
 1. 在个人专区的**出金**版块中选择**泰达币USDT ERC20**。
 2. 选择您想要出金的交易账户和按美元计算的出金金额，并提供私人钱包地址；请务必提供准确无误的地址，否则资金可能会丢失且无法追回。 完成表格后，点击**继续**。

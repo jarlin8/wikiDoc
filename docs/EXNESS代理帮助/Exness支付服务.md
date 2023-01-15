@@ -4,7 +4,7 @@ Exness 提供各种支付方式供您**提取**您的**合作伙伴佣金**，�
 **如何出金**
  
 出金:
-![CSVP_2907_Exness_Payment_Services__withdraw_funds__ZH.gif](https://get.exnessaffiliates.help/hc/article_attachments/4600098132754/CSVP_2907_Exness_Payment_Services__withdraw_funds__EN__1_.gif)
+![CSVP_2907_Exness_Payment_Services__withdraw_funds__ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_2907_Exness_Payment_Services__withdraw_funds__EN__1_.gif)
 1. 登录您的**个人专区**。
 2. 点击**支付 > 出金**。
 3. 请根据需要选择支付方式，并在提交出金请求时填写必要信息。

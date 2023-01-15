@@ -19,14 +19,14 @@ date: "2023-01-10"
     1. 在默认的**收藏夹**分类中点选任意品种以调出图表，此时即可找到买/卖按钮。
     2. 选择主屏上的一个分类组，点选需要的品种以调出图表，此时即可找到买/卖按钮。
 
-![CSVP-4493_iOS_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6532359870748)
+![CSVP-4493_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4493_iOS_ZH_resized.gif)
 
 2. 在**账户**选项卡上选择一个需要进行交易的账户，然后前往**市场动态**选项卡：
     1. 在**波幅最大**一栏中选择并点选一个品种，调出当前排名前十的看涨和看跌品种，然后即可找到买/卖按键。
     2. 点选任一交易信号条目。
     3. 任意点选**头条新闻**版块中的一则新闻。
 
-![CSVP-4496_iOS_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6532483607964)
+![CSVP-4496_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4496_iOS_ZH_resized.gif)
 
 #### **品种排序**
 
@@ -42,7 +42,7 @@ date: "2023-01-10"
 
 开立交易的步骤：
 
-![CSVP-4499_iOS_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6532676669980)
+![CSVP-4499_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4499_iOS_ZH_resized.gif)
 
 1. 点选**卖**或**买**按键 。
 2. 在弹出窗口中设置交易量。
@@ -53,7 +53,7 @@ date: "2023-01-10"
 
 如想关闭订单：
 
-![CSVP-4502_iOS_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6532570221852)
+![CSVP-4502_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4502_iOS_ZH_resized.gif)
 
 1. 在**账户**选项卡上选择一笔未结订单。
 2. 将所选订单向左滑。
@@ -62,7 +62,7 @@ date: "2023-01-10"
 
 如何部分关闭交易：
 
-![CSVP-4295-ZH.gif](https://get.exness.help/hc/article_attachments/6532574389532)
+![CSVP-4295-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4295-ZH.gif)
 
 1. 在**账户**选项卡上选择一笔未结订单。
 2. 在订单详情中选择**部分平仓**。

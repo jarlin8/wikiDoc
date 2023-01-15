@@ -24,7 +24,7 @@ FlashEx 为您带来更简易便捷的 Exness 账户入金体验，您可以使�
 
 ## **使用 FlashEx 入金**
 
-![CSVP_1672_FlashEx_deposit_ZH.gif](https://get.exness.help/hc/article_attachments/4402031326098/CSVP_1672_FlashEx_deposit_ZH.gif)
+![CSVP_1672_FlashEx_deposit_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_1672_FlashEx_deposit_ZH.gif)
 
 1. 进入您个人专区的**入金**版块，在**银行卡**中选择 **FlashEx**。
 2. 选择需要充值的交易账户，输入入金金额， 点击**下一步**。 请注意，货币无法更改。
@@ -41,7 +41,7 @@ FlashEx 为您带来更简易便捷的 Exness 账户入金体验，您可以使�
 
 ## **用 FlashEx 出金**
 
-![CSVP_1673_FlashEX_withdrawal_ZH.gif](https://get.exness.help/hc/article_attachments/4401920748178/CSVP_1673_FlashEX_withdrawal_ZH.gif)
+![CSVP_1673_FlashEX_withdrawal_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_1673_FlashEX_withdrawal_ZH.gif)
 
 1. 在您**个人专区****出金**版块的**银行卡**选项卡中选择 **FlashEx**。
 2. 选择需要出金的交易账户，出金货币设为美元，再输入出金金额，然后点击**下一步**。

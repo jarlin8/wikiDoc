@@ -19,7 +19,7 @@ Exness 渴望聆听您的心声，现在使用 Exness 意见门户即可轻松�
 
 您可以在个人专区轻松访问 Exness 意见门户并按以下步骤操作：
 
-![Suggesting_Idea_ZH.gif](https://get.exness.help/hc/article_attachments/4638726042642/Suggesting_Idea_ZH.gif)
+![Suggesting_Idea_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/Suggesting_Idea_ZH.gif)
 
 1. 登录您的**个人专区**。
 2. 点击页面顶部的“帮助”菜单，然后点击**功能建议**。
@@ -36,7 +36,7 @@ Exness 渴望聆听您的心声，现在使用 Exness 意见门户即可轻松�
 
 如果您想阅读的意见使用的是其他语言，可以使用翻译工具将页面内容转换为您常用的语言。 您可以轻松开启和关闭该功能，而且因为这是一个内置功能，非常方便操作，您不妨一试！
 
-![CSVP-2947_Translation_Widget_ZH.gif](https://get.exness.help/hc/article_attachments/4639152708498/CSVP-2947_Translation_Widget_ZH.gif)
+![CSVP-2947_Translation_Widget_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2947_Translation_Widget_ZH.gif)
 
 **点击此链接**进一步了解翻译小工具。
 

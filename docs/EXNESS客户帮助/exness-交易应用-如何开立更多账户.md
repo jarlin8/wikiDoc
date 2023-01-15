@@ -7,7 +7,7 @@ date: "2023-01-10"
 
 参照以下步骤创建新账户：
 
-![CSVP-4301_iOS_ZH_resized.gif](https://get.exness.help/hc/article_attachments/6173600134812)
+![CSVP-4301_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4301_iOS_ZH_resized.gif)
 
 1. 点选主屏幕上账户选项卡上的下拉菜单。 
 2. 点选右边的加号，选择**新真实账户**。 

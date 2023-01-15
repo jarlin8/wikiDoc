@@ -9,7 +9,7 @@ date: "2023-01-10"
 
 以下为操作步骤：
 
-![CSVP-3723_MTM_Signal_ZH_01__1_.gif](https://get.exness.help/hc/article_attachments/6688921218322/CSVP-3723_MTM_Signal_ZH_01__1_.gif)
+![CSVP-3723_MTM_Signal_ZH_01__1_.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3723_MTM_Signal_ZH_01__1_.gif)
 
 1. 前往您的应用的**设置**版块，然后选择**交易信号**。
 2. 输入您的**MQL5账户**的登录名和密码。 如果尚未拥有账户，可以**创建新账户**。

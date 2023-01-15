@@ -38,7 +38,7 @@ Perfect Money 是一种在全球范围内广受欢迎的电子支付方式。 �
 
 交易完成后，相应的支付款项将即刻转入您的 Exness 账户。
 
-![CSVP-3709-ZH.gif](https://get.exness.help/hc/article_attachments/6713780170770/CSVP-3709-ZH.gif)
+![CSVP-3709-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3709-ZH.gif)
 
 ## **使用Perfect Money出金**
 
@@ -48,7 +48,7 @@ Perfect Money 是一种在全球范围内广受欢迎的电子支付方式。 �
 
 资金将很快转入到您的Perfect Money账户。
 
-![CSVP-3712-ZH.gif](https://get.exness.help/hc/article_attachments/6714403935506/CSVP-3712-ZH.gif)
+![CSVP-3712-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3712-ZH.gif)
 
 ## **如果我的Perfect Money账户遭到了冻结，该如何出金？**
 
