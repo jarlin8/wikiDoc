@@ -31,4 +31,4 @@ date: "2023-01-10"
 
 ![CSVP-2869_email_bad_why_ZH.png](https://get.exness.help/hc/article_attachments/4417871503122/CSVP-2869_email_bad_why_ZH.png)
 
-希望对您有所帮助。 如该问题仍未解决，则请随时联系 Exness 客服团队获取更多帮助，我们将竭诚为您服务。
+希望对您有所帮助。 如该问题仍未解决，则请随时联系 Exness 客服团队获取更多帮助，EXNESS将竭诚为您服务。

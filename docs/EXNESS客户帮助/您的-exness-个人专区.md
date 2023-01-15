@@ -11,7 +11,7 @@ date: "2023-01-10"
 
 这里还有更多内容等待着您，在个人专区中，您能找到在 Exness 进行交易所需的全部内容。
 
-请观看下方视频，跟着我们一块探索 Exness 个人专区。
+请观看下方视频，跟着EXNESS一块探索 Exness 个人专区。
 
 ![ScreenCast_Thumbnail_00000.png](https://haokan.baidu.com/v?vid=4921224364030631403)
 
