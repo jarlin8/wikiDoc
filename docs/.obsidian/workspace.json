@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
+                "file": "EXNESS客户帮助/exness-不接受哪些国家的客户.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
+                "file": "EXNESS客户帮助/exness-不接受哪些国家的客户.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
+                "file": "EXNESS客户帮助/exness-不接受哪些国家的客户.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXNESS客户帮助/新闻发布期间提高保证金要求.md"
+                "file": "EXNESS客户帮助/exness-不接受哪些国家的客户.md"
               }
             }
           }
@@ -149,15 +149,15 @@
   },
   "active": "5386d913f8d1b1b2",
   "lastOpenFiles": [
-    "EXNESS客户帮助/股票.md",
     "EXNESS客户帮助/EXNESS客户帮助.md",
-    "EXNESS客户帮助/隔夜利息.md",
-    "EXNESS客户帮助/exness-是否收取隔夜费用.md",
-    "EXNESS客户帮助/exness-不接受哪些国家的客户.md",
-    "EXNESS客户帮助/未命名.md",
-    "EXNESS客户帮助/指数交易.md",
-    "EXNESS客户帮助/小币种交易.md",
+    "EXNESS客户帮助/在进行股票相关交易品种的交易时，我是否真正拥.md",
     "EXNESS客户帮助/为什么有时候股票的保证金会比平时高.md",
-    "EXNESS客户帮助/零点账户.md"
+    "EXNESS客户帮助/伊斯兰教地区可享零隔夜利息交易账户.md",
+    "EXNESS客户帮助/我在哪里可以查看自己的免隔夜利息权益.md",
+    "EXNESS客户帮助/我如何识别哪些交易品种属于免隔夜利息品种.md",
+    "EXNESS客户帮助/哪些账户可以免隔夜利息.md",
+    "EXNESS客户帮助/面向非伊斯兰教国家的免隔夜利息账户.md",
+    "EXNESS客户帮助/新闻发布期间提高保证金要求.md",
+    "EXNESS客户帮助/股票.md"
   ]
 }
