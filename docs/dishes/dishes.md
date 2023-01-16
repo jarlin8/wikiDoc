@@ -1,4 +1,7 @@
-
+---
+title: 食谱主目录
+sidebar_position: 3
+---
 - 🗂️ [[dishes/aquatic|水产]]
 - 🗂️ [[dishes/breakfast|早餐]]
 - 🗂️ [[dishes/condiment|调味]]
@@ -9,4 +12,3 @@
 - 🗂️ [[dishes/soup|汤粥]]
 - 🗂️ [[dishes/staple|主食]]
 - 🗂️ [[dishes/vegetable_dish|蔬菜]]
-

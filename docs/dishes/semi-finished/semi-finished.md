@@ -1,4 +1,6 @@
-
+---
+title: 半成品吃法
+---
 - 📄 [[dishes/semi-finished/半成品意面|半成品意面]]
 - 📄 [[dishes/semi-finished/凉皮|凉皮]]
 - 📄 [[dishes/semi-finished/牛油火锅底料|牛油火锅底料]]
@@ -9,4 +11,3 @@
 - 🗂️ [[dishes/semi-finished/懒人蛋挞|懒人蛋挞]]
 - 🗂️ [[dishes/semi-finished/速冻汤圆|速冻汤圆]]
 - 🗂️ [[dishes/semi-finished/炸薯条|炸薯条]]
-
