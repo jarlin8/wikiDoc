@@ -37,7 +37,7 @@ const config = {
 // const math = (await import('remark-math')).default;
 // const katex = (await import('rehype-katex')).default;
   title: 'JoeLeon wikiDoc',
-  tagline: 'Howdy Friend!',
+  tagline: '全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!',
   url: 'https://wikidoc.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -68,7 +68,7 @@ const config = {
 			routeBasePath: '/', // Serve the docs at the site's root
 			sidebarPath: require.resolve('./sidebars.js'),
       // Please change this to your repo.
-      editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
+      // editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
       showLastUpdateTime: true,
       showLastUpdateAuthor: true,
         },
@@ -200,10 +200,10 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      footer: {  
-        style: 'dark',
-        copyright: `CC-BY-SA 4.0 © 2022 - ${new Date().getFullYear()} 版权所有 `,
-      },
+//      footer: {  
+//        style: 'dark',
+//        copyright: `CC-BY-SA 4.0 © 2022 - ${new Date().getFullYear()} 版权所有 `,
+//      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
