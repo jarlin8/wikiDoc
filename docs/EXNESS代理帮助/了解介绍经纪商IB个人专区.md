@@ -6,7 +6,7 @@
  
 个人专区是**您登录账户时**默认登录的区域，包含了大部分用于追踪账户信息的主要工具。
 该页面顶部显示您当前的验证状态：
-![ZH1.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH1.png)
+![ZH1.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH1.png)
 **余额**
 显示您的佣金总额（美元）。
 **您的合作伙伴链接**
@@ -21,24 +21,24 @@
  
 报告中的数据至关重要，可让您掌握转介客户、交易量和总体业绩的相关信息。 每个数据均提供有效的搜索设置。 如想深入了解个人专区中非常重要的报告功能，建议阅读更多**关于个人专区报告功能**的文章。 在下文中，我们简要介绍了每一种报告功能。
 **客户列表**
-![ZH2.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH2.png)
+![ZH2.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH2.png)
 该工具功能齐全，您可以查询与您账户关联的全部转介客户的信息，如注册日期、交易量 (单位可选择手数或美元) 以及总收益。
 **佣金记录**
-![ZH3.jpg](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH3.png)
+![ZH3.jpg](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH3.png)
 您可以在个人专区中查看完整的佣金款项历史记录，包括收益（美元）、交易量（手数）以及交易量（美元）等。
 **转介客户**
-![ZH4.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH4.png)
+![ZH4.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH4.png)
 此外，您还可以查看转介客户交易活动的详细信息，如交易品种、点差等。
 **交易待付款**
-![ZH5.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH5.png)
+![ZH5.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH5.png)
 该区域列出您的转介客户当前所有待审批交易。 交易佣金将在24小时内同步到您的余额。
 **业绩数据**
-![ZH6.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH6.png)
+![ZH6.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//ZH6.png)
 此处对您的合作伙伴链接业绩进行评估，评估标准包括点击量、转换率、入金量等。 数据每2小时更新，您可以根据链接、来源、时间、地点进行相应设置。
 **支付**
  
 该区域提供两个选项卡，即“出金”和“交易历史”。
-![CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif)
+![CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp//CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif)
 **出金**
 点击“出金”选项卡后，您可以看到多种支付方式。 您可以通过这些支付方式将合作伙伴佣金转至有效交易账户，提取合作伙伴佣金。
 **交易历史**

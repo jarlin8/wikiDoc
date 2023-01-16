@@ -55,7 +55,7 @@ Exness尊享会员分为3个级别：
 
 如想查看尊享会员状态，可前往Exness交易应用中的**个人资料**菜单或Exness个人专区**设置**区域中的**Exness尊享会员**选项卡。 尊享会员状态也可在**社交交易应用**上查看。
 
-![CSVP-3876_ExnessPremier_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3876_ExnessPremier_ZH.gif)
+![CSVP-3876_ExnessPremier_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3876_ExnessPremier_ZH.gif)
 
 如无法在**个人资料**菜单查看Exness尊享会员状态或在**设置**区域中找不到**Exness尊享会员**选项卡，则代表您尚未达到潜在尊享会员的最低要求。
 
@@ -72,7 +72,7 @@ Exness尊享会员分为3个级别：
 
 如果客户接近资格要求，其Exness交易应用的**个人资料**菜单或Exness个人专区的**设置**区域也会显示**Exness尊享会员**选项卡，并且会突出可达到的Exness尊享会员状态和其他有用信息，比如：  
 
-![CSVP-3879_ExnessPremier_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3879_ExnessPremier_ZH.gif)
+![CSVP-3879_ExnessPremier_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3879_ExnessPremier_ZH.gif)
 
 - 下一次会员资格评估日期
 - 即将达到的级别的资格要求

@@ -51,7 +51,7 @@ date: "2023-01-10"
 
 #### 如何下订单：
 
-![CSVP-1611-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-1611-ZH.gif)
+![CSVP-1611-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-1611-ZH.gif)
 
 1. 前往**行情**。
 2. 点击需要交易的品种，然后点击**新订单**。
@@ -65,7 +65,7 @@ date: "2023-01-10"
 
 #### 平仓或修改订单：
 
-![CSVP-1607-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-1607-ZH.gif)
+![CSVP-1607-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-1607-ZH.gif)
 
 1. 前往**交易**。
 2. 点击任意订单查看订单详情（开仓价、止损、获利、订单号等）。
@@ -77,7 +77,7 @@ date: "2023-01-10"
 
 在行情选项卡中添加交易品种非常简单。
 
-![CSVP-2452-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2452-ZH.gif)
+![CSVP-2452-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2452-ZH.gif)
 
 1. 点击**行情**。
 2. 点击**+ 号**，然后从屏幕上显示出来的交易品种组中找到相应的交易品种。

@@ -20,7 +20,7 @@ date: "2023-01-10"
 
 ## 入金
 
-![CSVP-4202_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4202_iOS_ZH_resized.gif)
+![CSVP-4202_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4202_iOS_ZH_resized.gif)
 
 您可以在交易应用的主页发起入金：点击屏幕上方账户栏中的**入金**图标。 
 
@@ -28,7 +28,7 @@ date: "2023-01-10"
 
 ### 入金方法：
 
-![CSVP-4207-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4207-ZH.gif)
+![CSVP-4207-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4207-ZH.gif)
 
 1. 在主屏幕**账户**选项卡中的交易账户上点击**入金**。 要想查找其他交易账户，请点击屏幕上的交易账户旁的下拉图标，然后从列表中进行选择。
 2. 选择您想要使用的支付方式。
@@ -64,7 +64,7 @@ Exness交易应用提供多种支付方式（具体取决于账户的注册国�
 
 激活钱包：
 
-![CSVP-4210-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4210-ZH.gif)
+![CSVP-4210-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4210-ZH.gif)
 
 1. 前往**个人专区**>**入金**选项卡。
 2. 选择**比特币**，然后点击**继续**以激活钱包。
@@ -73,7 +73,7 @@ Exness交易应用提供多种支付方式（具体取决于账户的注册国�
 
 要想在该应用上使用比特币进行入金：
 
-![CSVP-4213-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4213-ZH.gif)
+![CSVP-4213-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4213-ZH.gif)
 
 1. 进入**个人资料**选项卡，下滑找到**比特币电子钱包**。
 2. 点击屏幕上显示的钱包，打开支付选项。
@@ -96,7 +96,7 @@ Exness交易应用上的出入金方法是相似的。 选择需要出金的交�
 
 出金：
 
-![CSVP-421-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-421-ZH.gif)
+![CSVP-421-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-421-ZH.gif)
 
 1. 在**账户**选项卡中的交易账户上点击**出金**。 要想查找其他交易账户，请点选屏幕上的交易账户旁的下拉图标，然后从列表中进行选择。
 2. 选择您想要使用的支付方式。
@@ -115,7 +115,7 @@ EXNESS提供两种**内部转账**：
 
 转账方法：
 
-![CSVP-4219-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4219-ZH.gif)
+![CSVP-4219-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4219-ZH.gif)
 
 1. 在**账户**选项卡中，点击账户卡上的3个点菜单图标，然后选择**转账**。
 2. 选择**自持账户间**。
@@ -126,7 +126,7 @@ EXNESS提供两种**内部转账**：
 
 转账方法：
 
-![CSVP-4222-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4222-ZH.gif)
+![CSVP-4222-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4222-ZH.gif)
 
 1. 在**账户**选项卡中，点击账户卡上的3个点菜单图标，然后选择**转账**。
 2. 选择**给其他用户**。

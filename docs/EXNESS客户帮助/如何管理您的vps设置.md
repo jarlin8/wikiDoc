@@ -13,7 +13,7 @@ date: "2023-01-10"
 
 时区设置步骤：
 
-![CSVP-2973_Set_up_timezone_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2973_Set_up_timezone_ZH.gif)
+![CSVP-2973_Set_up_timezone_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2973_Set_up_timezone_ZH.gif)
 
 1. 点击**开始（窗口图标** > **控制面板** > **时钟、语言和地区**）。 
 2. 选择**日期和时间** **更改时区**。
@@ -24,7 +24,7 @@ date: "2023-01-10"
 
 登录VPS，参照以下步骤安装智能交易。
 
-![CSVP-2983_VPS-Instaling_EA_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2983_VPS-Instaling_EA_ZH.gif)
+![CSVP-2983_VPS-Instaling_EA_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2983_VPS-Instaling_EA_ZH.gif)
 
 1. 打开 MetaTrader 4。
 2. 点击**文件** > **打开数据文件夹**。
@@ -43,7 +43,7 @@ date: "2023-01-10"
 
 如需重启 VPS：
 
-![CSVP-2980_Restarting_VPS_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2980_Restarting_VPS_ZH.gif)
+![CSVP-2980_Restarting_VPS_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2980_Restarting_VPS_ZH.gif)
 
 1. 点击**开始（窗口图标）。**
 2. 点击电源图标，选择**重启。**

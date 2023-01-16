@@ -13,7 +13,7 @@ date: "2023-01-10"
 
 观看以下视频，学习如何通过几个简单步骤上传文件、验证Exness账户：
 
-[![ScreenCast_Thumbnail_00000.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ScreenCast_Thumbnail_00000.png)](https://haokan.baidu.com/v?vid=4202496354573953527&pd=pcshare)
+[![ScreenCast_Thumbnail_00000.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ScreenCast_Thumbnail_00000.png)](https://haokan.baidu.com/v?vid=4202496354573953527&pd=pcshare)
 
 提交文件
 
@@ -53,7 +53,7 @@ EXNESS强烈建议您阅读以下链接文章，了解**Exness账户验证文件
 
 在**登录个人专区**时，可以在个人专区顶部看到自己的验证状态.
 
-![CSVP-3814a_ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3814a_ZH.png)
+![CSVP-3814a_ZH.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3814a_ZH.png)
 
 此处会显示您的验证状态。
 
@@ -63,7 +63,7 @@ EXNESS强烈建议您阅读以下链接文章，了解**Exness账户验证文件
 
 验证所剩天数将以通知的形式在您的个人专区上显示，这样您每次登录时都能更轻松地看到自己账户的验证状态。
 
-![CSVP-3814b_ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3814b_ZH.png)
+![CSVP-3814b_ZH.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3814b_ZH.png)
 
 账户验证期限如图所示。
 

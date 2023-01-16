@@ -7,7 +7,7 @@ date: "2023-01-10"
 
 出金：
 
-![CSVP-4198_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4198_iOS_ZH_resized.gif)
+![CSVP-4198_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4198_iOS_ZH_resized.gif)
 
 1. 点击主屏幕上**账户**选项卡下的**出金**。
 

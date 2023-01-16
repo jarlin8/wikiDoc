@@ -14,7 +14,7 @@ date: "2023-01-10"
 
 > 出现此错误，则说明该电子邮箱已被其他 Exness 账户注册，无法再次使用。
 
-![CSVP-2867_email_used_ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2867_email_used_ZH.png)
+![CSVP-2867_email_used_ZH.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2867_email_used_ZH.png)
 
 要想解决此问题，您可以：
 
@@ -25,10 +25,10 @@ date: "2023-01-10"
 
 请确认自己准确、完整地输入了电子邮箱地址，且没有不小心输入额外空格或字符。
 
-![CSVP-2868_email_bad_ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2868_email_bad_ZH.png)
+![CSVP-2868_email_bad_ZH.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2868_email_bad_ZH.png)
 
 如果看到此错误，请将鼠标悬停在错误信息上获取相关提示，了解究竟需要更改/修复哪些问题。
 
-![CSVP-2869_email_bad_why_ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2869_email_bad_why_ZH.png)
+![CSVP-2869_email_bad_why_ZH.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2869_email_bad_why_ZH.png)
 
 希望对您有所帮助。 如该问题仍未解决，则请随时联系 Exness 客服团队获取更多帮助，EXNESS将竭诚为您服务。

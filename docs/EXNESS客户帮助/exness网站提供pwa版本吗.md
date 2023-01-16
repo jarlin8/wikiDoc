@@ -7,7 +7,7 @@ date: "2023-01-10"
 
 PWA看起来就像一个手机应用，但实际上，PWA是打开个人专区手机版本的快捷方式。
 
-![CSVP-4323-All_Language.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4323-All_Language.png)
+![CSVP-4323-All_Language.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4323-All_Language.png)
 
 - **适用人群**
 - **PWA与Exness交易应用一样吗？**
@@ -29,6 +29,6 @@ PWA则是一个方便用户进入**交易者专区**的功能。 安装PWA后，
 
 安装成功后，您会在手机主屏幕上看到Exness图标。 点击此图标，即可快速登录个人专区。
 
-![CSVP-4324-ZH.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4324-ZH.png)
+![CSVP-4324-ZH.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4324-ZH.png)
 
 > 注意：如手机已安装Exness交易应用，系统将不会显示PWA通知。

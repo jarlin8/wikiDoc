@@ -14,7 +14,7 @@ date: "2023-01-10"
 
 ### 减少最多柱数
 
-![4074-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/4074-ZH.gif)
+![4074-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/4074-ZH.gif)
 
 减少显示的最多柱数后，设备所需渲染的图形信息也会减少，也就降低了计算机的处理负载，从而提升响应速度。
 
@@ -26,7 +26,7 @@ date: "2023-01-10"
 
 ### 禁用新闻
 
-![CSVP_4076_GIF_What_can_I_do_to_speed_up_MetaTrader_45_-_Disable_News_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4076_GIF_What_can_I_do_to_speed_up_MetaTrader_45_-_Disable_News_ZH.gif)
+![CSVP_4076_GIF_What_can_I_do_to_speed_up_MetaTrader_45_-_Disable_News_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4076_GIF_What_can_I_do_to_speed_up_MetaTrader_45_-_Disable_News_ZH.gif)
 
 MetaTrader带有新闻流功能（位于邮箱区域的新闻选项卡中），可以自动向该应用的用户提供值得关注的财经新闻。 不过该功能可能增加该应用的负载，导致运行速度减慢。
 
@@ -50,7 +50,7 @@ MetaTrader带有新闻流功能（位于邮箱区域的新闻选项卡中），�
 
 ### 创建最优配置文件
 
-![CSVP-4072-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4072-ZH.gif)
+![CSVP-4072-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4072-ZH.gif)
 
 EXNESS可以通过内置的配置文件功能轻松加载可优化性能的设置。 之后您就可以根据需要在不同的配置文件之间自如切换了：
 

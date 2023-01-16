@@ -5,13 +5,13 @@ date: "2023-01-10"
 
 Exness 交易应用是一款专为使用 Exness 账户进行交易定制的手机端解决方案。 该应用不仅具备交易终端的所有必备功能，同时提供精简的用户体验，让您随时随地畅享交易的乐趣。 您可以按名称、热度和每日变动轻松对您最喜爱的品种排序。
 
-![交易软件使用](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4195-ZH.gif)
+![交易软件使用](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4195-ZH.gif)
 
 ### 下载 Exness 交易应用
 
 **安卓系统**和 **iOS 系统**均可使用该应用，您可以在相应应用商店中下载，也可以直接在下方下载：
 
- [![Googlestore下载](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/Download-on-App_Store_ZH.png)](https://play.google.com/store/apps/details?id=com.exness.android.pa&hl=en&gl=US)
+ [![Googlestore下载](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/Download-on-App_Store_ZH.png)](https://play.google.com/store/apps/details?id=com.exness.android.pa&hl=en&gl=US)
 
 > 仅支持 iOS 版本 14.4 或更高版本，建议您的 Exness 交易应用程序始终保持最新版本。
 

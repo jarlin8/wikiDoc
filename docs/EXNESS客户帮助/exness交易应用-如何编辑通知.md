@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 在Exness交易应用中，您可以自定义需要收到哪些通知类型。 以下是一份关于如何进行自定义的便捷指南。
 
-![CSVP-4999_iOS_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4999_iOS_ZH.gif)
+![CSVP-4999_iOS_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4999_iOS_ZH.gif)
 
 通知的编辑方法：
 
@@ -16,4 +16,4 @@ date: "2023-01-10"
 
 系统仅为加入收藏夹的交易品种提供通知发送服务。 在交易品种通知页面，您可以通过删除或添加来编辑交易品种收藏列表。 您也可以通过“交易”选项卡查看交易品种的收藏列表。 您可以点击某交易品种页面中的星号图标，将该交易品种添加至收藏列表。
 
-![CSVP-5002_iOS_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-5002_iOS_ZH.gif)
+![CSVP-5002_iOS_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-5002_iOS_ZH.gif)

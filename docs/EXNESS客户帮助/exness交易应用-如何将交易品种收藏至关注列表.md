@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 将某交易品种添加至收藏列表，可以避免错过该品种价格变动的消息，这是保证您信息时效性的好方法。
 
-![CSVP-4283_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4283_iOS_ZH_resized.gif)
+![CSVP-4283_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4283_iOS_ZH_resized.gif)
 
 收藏步骤如下：
 

@@ -25,7 +25,7 @@ EA使用MetaQuotes Language 4 (MQL4) 或 MetaQuotes Language 5 (MQL5) 两种语�
 
 ### 安装
 
-![ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ZH.gif)
+![ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ZH.gif)
 
 1. 在**MQL社群**下载智能交易（EA）。MQL社群提供MetaTrader官方资源。
 2. 加载**MT4**或**MT5**，具体取决于您使用的是哪一种交易终端。
@@ -49,7 +49,7 @@ EA使用MetaQuotes Language 4 (MQL4) 或 MetaQuotes Language 5 (MQL5) 两种语�
 
 ### **安装EA的其他方法**
 
-**![CSVP-3966_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3966_ZH_resized.gif)**
+**![CSVP-3966_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3966_ZH_resized.gif)**
 
 此外，您还可以在交易终端内部直接安装EA。 具体操作步骤如下：
 
@@ -69,7 +69,7 @@ EA使用MetaQuotes Language 4 (MQL4) 或 MetaQuotes Language 5 (MQL5) 两种语�
 
 ### **移除EA**
 
-**![ZH__1_.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ZH__1_.gif)**
+**![ZH__1_.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ZH__1_.gif)**
 
 1. 如需移除EA， 请在安装有EA的交易品种图表窗口点击右键。
 2. 移除选项如下：

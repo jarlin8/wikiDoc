@@ -10,7 +10,7 @@ date: "2023-01-10"
 
 **业绩统计选项卡**全面概述了您的单个或所有交易账户的交易活动情况。 您可以通过界面底部选项卡或 **“账户”界面**左下角访问此选项卡。 您可以切换选项卡查看交易账户的 **净利润**、 **净值**、 **订单总数**和 **交易量**等详情；您也可以输入不同时段和交易账户号码以筛选每20分钟更新一次的数据。
 
-![CSVP-3804-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3804-ZH.gif)
+![CSVP-3804-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3804-ZH.gif)
 
 > 业绩统计选项卡仅包含真实交易账户的交易数据。 比特币账户、投资组合经理账户和合作伙伴账户则不包含在内。
 
@@ -27,7 +27,7 @@ date: "2023-01-10"
 
 除订单总数之外，盈利/亏损、净值和交易量均以美元计算。 相比之下，除了净值采用折线图表显示，所有数量均采用柱形图表显示。
 
-![CSVP-3807-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3807-ZH.gif)
+![CSVP-3807-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3807-ZH.gif)
 
 > 业绩统计选项卡默认显示所有账户在之前7天内的交易数据。 使用该选项卡，您可以筛选单个或所有真实交易账户以及不同时间范围（周、月、季度和年）。
 

@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 可以，您可以在**Exness交易**应用上更改用于 MT5 账户交易的**交易终端**。 以下为操作步骤：
 
-![CSVP-4776-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4776-ZH.gif)
+![CSVP-4776-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4776-ZH.gif)
 
 1. 单击**个人资料**图标，然后在**用户设置**下选择**交易终端**。
 2. 您将看到以下选项：

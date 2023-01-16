@@ -7,7 +7,7 @@
 出金（针对从未使用比特币入金的合作伙伴）
  
 即使合作伙伴从未创建Exness比特币电子钱包，或从未在合作伙伴个人专区上通过比特币入金，也可以将合作伙伴佣金从其Exness比特币电子钱包出金。 但是合作伙伴必须先在个人专区获得授权才能使用该选项。
-![CSVP-3677-ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3677-ZH.gif)
+![CSVP-3677-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3677-ZH.gif)
 1. 登录您的**个人专区**。
 2. 打开**出金**选项页面，选择“Bitcoin”。 如果未显示“Bitcoin”，则代表该个人专区未获授权使用比特币。
 3. “Bitcoin”选项出现后，选择**创建和充值比特币钱包**。
@@ -27,14 +27,14 @@
 如要将比特币转入您的Exness比特币钱包，您首先需要一个个人比特币电子钱包，关于**如何选择比特币电子钱包**，请打开链接中的文章阅读相关内容。
 > 请注意，虽然入金不限任何比特币地址，但出金仅限于初代地址（Legacy P2PKH）, 以1开头。
 ### 使用比特币入金： ###
-![CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif)
+![CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif)
 1. 打开您的Exness个人专区的**入金**版块。
 2. 选择**Bitcoin**，复制您的专属比特币电子钱包地址，或扫描二维码。
 3. 在您的个人比特币电子钱包的收款地址栏粘贴所复制的专属比特币电子钱包地址，并输入入金金额、矿工费，确认信息后选择发送。
 4. 您的Exness比特币电子钱包就会收到该笔入金。
 如何使用Exness比特币电子钱包出金
  
-![CSVP-3683_PA_BTC_WIT_ZH_01.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3683_PA_BTC_WIT_ZH_01.gif)
+![CSVP-3683_PA_BTC_WIT_ZH_01.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3683_PA_BTC_WIT_ZH_01.gif)
 1. 打开您的Exness个人专区中的**出金**版块。
 2. 选择**Bitcoin**，然后系统会请求您提供外部比特币电子钱包地址，即您的个人比特币电子钱包。
 3. 在您的个人比特币电子钱包中找到您的外部钱包地址并进行复制。

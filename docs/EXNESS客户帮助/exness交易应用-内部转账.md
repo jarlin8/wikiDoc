@@ -9,7 +9,7 @@ date: "2023-01-10"
 
 ### 在您自己的交易账户之间进行转账
 
-![CSVP-4231_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4231_iOS_ZH_resized.gif)
+![CSVP-4231_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4231_iOS_ZH_resized.gif)
 
 1. 在“账户”选项卡点选3个点菜单图标，然后选择**转账**。
 2. 选择**自持账户间**。
@@ -18,7 +18,7 @@ date: "2023-01-10"
 
 ### 向其他个人专区中的交易账户进行转账
 
-![CSVP-4234_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4234_iOS_ZH_resized.gif)
+![CSVP-4234_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4234_iOS_ZH_resized.gif)
 
 1. 在“账户”选项卡上点击3点菜单图标，然后选择**转账**。
 2. 选择**给其他用户**。

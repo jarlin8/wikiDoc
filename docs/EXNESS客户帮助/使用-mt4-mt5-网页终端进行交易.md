@@ -83,11 +83,11 @@ MT4/MT5 网页终端是一种基于网页、无需安装的交易终端，可让
 
 网页终端有三种图表类型供您选择：柱状图、蜡烛图和折线图。 您可以在菜单中任意选择改变图表类型。
 
-![chart-types.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/chart-types.png)
+![chart-types.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/chart-types.png)
 
 您可以通过在标题栏中选择任一按钮（下方所示）调整**时间周期**，或者通过打开**图表 > 周期性**，展开可用时间周期菜单进行相应调整。
 
-![timeframes.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/timeframes.png)
+![timeframes.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/timeframes.png)
 
 如需改变图表的配色方案，则需在图表上单击右键，选择**属性**，然后再选择配色方案：
 
@@ -126,7 +126,7 @@ MT4/MT5 网页终端是一种基于网页、无需安装的交易终端，可让
 
 一键交易是一种非常好用的功能，可以让您一键开立新订单。 一键交易在交易终端的位置：
 
-![one-click-trading-en.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/one-click-trading-en.png)
+![one-click-trading-en.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/one-click-trading-en.png)
 
 一键交易功能就在所打开的图表的左上角。 如果您需要交易其它品种，那么就把交易品种拖放到图表中。
 

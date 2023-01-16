@@ -7,7 +7,7 @@ date: "2023-01-10"
 
 IOS版本：
 
-![CSVP_4320_Gif_Exness_Trader_Where_can_I_find_details_of_my_Partner_Account__EN.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4320_Gif_Exness_Trader_Where_can_I_find_details_of_my_Partner_Account__EN.gif)
+![CSVP_4320_Gif_Exness_Trader_Where_can_I_find_details_of_my_Partner_Account__EN.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4320_Gif_Exness_Trader_Where_can_I_find_details_of_my_Partner_Account__EN.gif)
 
 1. 点击主界面底部的**个人资料**选项卡。
 2. 选择**客户转介**，调出客户转介选项。
@@ -24,7 +24,7 @@ IOS版本：
 
 安卓版：
 
-![CSVP-5007_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-5007_ZH.gif)
+![CSVP-5007_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-5007_ZH.gif)
 
 1. 点击主界面底部的**个人资料**选项卡。
 2. 选择**客户转介**，调出客户转介选项。

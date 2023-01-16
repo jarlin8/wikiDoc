@@ -22,7 +22,7 @@ date: "2023-01-10"
 
 #### 设置 MT4
 
-[![](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3522_How_to_use_the_MetaTrader_4_App_for_Android_Thumbnail_ZH.jpg)](https://haokan.baidu.com/v?vid=5063552562185079800)
+[![](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3522_How_to_use_the_MetaTrader_4_App_for_Android_Thumbnail_ZH.jpg)](https://haokan.baidu.com/v?vid=5063552562185079800)
 
 ## 账户管理
 

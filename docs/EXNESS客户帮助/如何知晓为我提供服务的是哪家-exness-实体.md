@@ -9,11 +9,11 @@ date: "2023-01-10"
 
 1. 查看个人专区页面的页脚。
 
-### ![CSVP-3440_PA_Entity_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3440_PA_Entity_ZH.gif)
+### ![CSVP-3440_PA_Entity_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3440_PA_Entity_ZH.gif)
 
 ### Exness 交易应用（手机端应用）用户：
 
 1. 进入**个人资料** > **法律文件**。
 2. 您可以在此查看客户协议。 查看页面页眉处即可了解您注册账户的 Exness 实体的名称。
 
-![CSVP-3443_ET_Entity_ZH_01.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3443_ET_Entity_ZH_01.gif)
+![CSVP-3443_ET_Entity_ZH_01.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3443_ET_Entity_ZH_01.gif)

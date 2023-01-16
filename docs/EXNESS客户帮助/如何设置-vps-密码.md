@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 请按照以下步骤设置 VPS 密码：
 
-[![CSVP-3260_ZH_00000.png](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3260_ZH_00000.png)](https://haokan.baidu.com/v?vid=4060657159805618088)
+[![CSVP-3260_ZH_00000.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3260_ZH_00000.png)](https://haokan.baidu.com/v?vid=4060657159805618088)
 
 1. 使用**您收到的登录信息**登录您在VPS服务器上的账户。
 2. 点击**开始（窗口图标）**菜单，打开**控制面板**。

@@ -5,7 +5,7 @@ date: "2023-01-10"
 
 阅读本文，您可以了解到如何通过几个简单步骤在Exness交易应用中操作入金。
 
-![CSVP_4199_Gif_Exness_Trader_Making_A_Deposit_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4199_Gif_Exness_Trader_Making_A_Deposit_ZH.gif)
+![CSVP_4199_Gif_Exness_Trader_Making_A_Deposit_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4199_Gif_Exness_Trader_Making_A_Deposit_ZH.gif)
 
 入金方法：
 

@@ -9,7 +9,7 @@ EXNESS的Exness货币转换器可根据实时数据，为您最多对比六种�
 
 **如何使用Exness货币转换器**：
 
-![CSVP-4975_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4975_ZH.gif)
+![CSVP-4975_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4975_ZH.gif)
 
 1. 访问**Exness网站**。
 2. 点击主菜单栏上的**工具**，然后再次点击**货币转换器**。

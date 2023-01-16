@@ -7,7 +7,7 @@ Metatrader 4 还未完全支持标准编码系统——Unicode，因此在更改
 
 请按照以下步骤解决该问题：
 
-![CSVP-3096_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3096_ZH.gif)
+![CSVP-3096_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3096_ZH.gif)
 
 1. 在 Windows 中打开**控制面板**。
 2. 请根据控制面板中设置的**查看方式**按如下步骤操作：

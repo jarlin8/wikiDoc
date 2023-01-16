@@ -31,7 +31,7 @@ MyPay 为您提供了在中国通过 Exness 交易账户出入金的便捷方式
 
 ### 使用 MyPay 入金
 
-![CSVP_3357_How_to_deposit_with_MyPay_in_China_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3357_How_to_deposit_with_MyPay_in_China_ZH.gif)
+![CSVP_3357_How_to_deposit_with_MyPay_in_China_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3357_How_to_deposit_with_MyPay_in_China_ZH.gif)
 
 1. 在您个人专区的**入金**板块，选择 **MyPay（USDT/CNY兑换平台）**。
 2. 选择需要充值的交易账户，输入入金金额，然后点击**下一步**。
@@ -42,7 +42,7 @@ MyPay 为您提供了在中国通过 Exness 交易账户出入金的便捷方式
 
 ### 使用 MyPay 出金
 
-![CSVP_3357_How_to_Withdraw_with_MyPay_in_China_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3357_How_to_Withdraw_with_MyPay_in_China_ZH.gif)
+![CSVP_3357_How_to_Withdraw_with_MyPay_in_China_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_3357_How_to_Withdraw_with_MyPay_in_China_ZH.gif)
 
 1. 在您个人专区的**出金**板块，选择 **MyPay（USDT/CNY兑换平台）**。
 2. 选择您需要进行出金操作的交易账户，并指定以美元为单位的出金金额。 点击**下一步**

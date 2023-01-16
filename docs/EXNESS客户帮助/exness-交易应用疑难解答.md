@@ -26,7 +26,7 @@ date: "2023-01-10"
 
 如果您需要重置您的账户信息才能成功登录，请参照以下步骤：
 
-![CSVP-4302_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4302_iOS_ZH_resized.gif)
+![CSVP-4302_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4302_iOS_ZH_resized.gif)
 
 1. 打开Exness交易应用。 
 2. 选择**登录**。
@@ -44,7 +44,7 @@ date: "2023-01-10"
 
 重置密码：
 
-![CSVP_4305_GIF_Exness_Trader_Troubleshooting_Reset_Passcode_ZH.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4305_GIF_Exness_Trader_Troubleshooting_Reset_Passcode_ZH.gif)
+![CSVP_4305_GIF_Exness_Trader_Troubleshooting_Reset_Passcode_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP_4305_GIF_Exness_Trader_Troubleshooting_Reset_Passcode_ZH.gif)
 
 1. 打开 Exness 交易应用。
 2. 在密码输入页面点击**忘记密码？**
@@ -57,7 +57,7 @@ date: "2023-01-10"
 
 交易开立方法：
 
-![CSVP-4308_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4308_iOS_ZH_resized.gif)
+![CSVP-4308_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4308_iOS_ZH_resized.gif)
 
 1. 前往屏幕下方的**交易**选项卡。 
 2. 选择您想要交易的品种。 
@@ -77,7 +77,7 @@ date: "2023-01-10"
 
 - **查找特定交易品种**
 
-**![CSVP-4311_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4311_iOS_ZH_resized.gif)**
+**![CSVP-4311_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4311_iOS_ZH_resized.gif)**
 
 如果您在寻找某一特定的交易品种但系统却未显示该品种，可以参照以下步骤搜索并加入您的**收藏夹**。
 
@@ -107,7 +107,7 @@ TradingView可在**Stories**查看。 您可以点击**个人资料** > **设置
 
 系统在您安装、重新安装或更新您的Exness交易应用时将默认交易终端设为了Exness。 如需**切换至您自己喜欢的交易终端**，比如Exness、内置MetaTrader 5或MetaTrader 5，请参照以下步骤：
 
-![CSVP-4314_iOS_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4314_iOS_ZH_resized.gif)
+![CSVP-4314_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4314_iOS_ZH_resized.gif)
 
 1. 在您的主屏幕上，前往**个人资料**选项卡。
 2. 在**个人资料**页面上，点选屏幕右上角的设置图标。 
@@ -126,7 +126,7 @@ TradingView可在**Stories**查看。 您可以点击**个人资料** > **设置
 
 查看安全类型：
 
-![CSVP-4317_ZH_resized.gif](https://cdn.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4317_ZH_resized.gif)
+![CSVP-4317_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4317_ZH_resized.gif)
 
 1. 登录您的**个人专区**。
 2. 在主菜单选择**设置**，然后进入**安全设置**选项卡。
