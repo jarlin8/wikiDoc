@@ -224,6 +224,8 @@ const config = {
             indexDocs: true,
             indexBlog: false,
             docsRouteBasePath: '/',
+            highlightSearchTermsOnTargetPage: true,
+            hideSearchBarWithNoSearchContext: true,
           },
         ],
       ],
