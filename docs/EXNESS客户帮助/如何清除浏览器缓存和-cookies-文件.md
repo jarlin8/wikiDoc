@@ -19,7 +19,7 @@ date: "2023-01-10"
 
 ### Windows 操作系统
 
-**谷歌 Chrome：**
+**谷歌 Chrome**：
 
 ![CSVP-2851-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-2851-ZH.gif)
 
@@ -48,7 +48,7 @@ date: "2023-01-10"
 
 5. 重启火狐浏览器。
 
-**微软 Edge 浏览器：**
+**微软 Edge 浏览器**：
 
 ![CSVP-4085-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4085-ZH.gif)
 
@@ -61,7 +61,7 @@ date: "2023-01-10"
 
 5. 退出所有浏览器窗口，然后重新打开浏览器。
 
-**Opera 浏览器：**
+**Opera 浏览器**：
 
 ![CSVP-4088-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4088-ZH.gif)
 
@@ -73,7 +73,7 @@ date: "2023-01-10"
 
 ### Mac
 
-**Safari 浏览器：**
+**Safari 浏览器**：
 
 ![CSVP-4091-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4091-ZH.gif)
 
@@ -86,7 +86,7 @@ date: "2023-01-10"
 
             a. 移除网站数据后，再次登录时您将需要输入账号密码。
 
-**Google Chrome（在 Mac 设备上使用时）：**
+**Google Chrome（在 Mac 设备上使用时）**：
 
 ![CSVP-4094-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4094-ZH.gif)
 
@@ -102,7 +102,7 @@ date: "2023-01-10"
 
 ### 安卓操作系统
 
-**Chrome 浏览器：**
+**Chrome 浏览器**：
 
 ![CSVP-4097-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4097-ZH.gif)
 
@@ -114,7 +114,7 @@ date: "2023-01-10"
 6. 选择**清除数据**。
 7. 重启 Chrome 浏览器。
 
-**其他浏览器：**
+**其他浏览器**：
 
 根据您选择安卓系统版本的不同，具体步骤可能会有所差别。
 
@@ -125,7 +125,7 @@ date: "2023-01-10"
 
 ### iOS 操作系统
 
-**Safari 浏览器：**
+**Safari 浏览器**：
 
 ![CSVP-4100_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4100_iOS_ZH_resized.gif)
 

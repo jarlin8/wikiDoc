@@ -33,7 +33,7 @@ EXNESS支持交易点差为浮动点差的品种。 EXNESS也提供固定点差�
 
 如果您需要查看某个交易品种的实时精确点差，请通过以下步骤在您的交易终端启用点差栏。
 
-### **如何在MT4显示点差：**
+### **如何在MT4显示点差**：
 
 **![CSVP-4135_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4135_ZH.gif)**
 
@@ -42,7 +42,7 @@ EXNESS支持交易点差为浮动点差的品种。 EXNESS也提供固定点差�
 3. 在窗口中任意处单击右键，然后在选项列表中选择“点差”。
 4. 现在，各交易品种的精确点差就会显示在新的一栏中了。
 
-### **如何在MT5显示点差：**
+### **如何在MT5显示点差**：
 
 ![CSVP-4138_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4138_ZH.gif)
 
