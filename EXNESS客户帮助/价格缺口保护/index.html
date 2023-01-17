@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.2.0">
 <title data-rh="true">价格缺口保护 | JoeLeon wikiDoc</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://wikidoc.pages.dev/EXNESS客户帮助/价格缺口保护"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="价格缺口保护 | JoeLeon wikiDoc"><meta data-rh="true" name="description" content="价格缺口保护用于限制挂单的滑点，可在您的挂单落入由波动性或其他因素引发的缺口时使用。"><meta data-rh="true" property="og:description" content="价格缺口保护用于限制挂单的滑点，可在您的挂单落入由波动性或其他因素引发的缺口时使用。"><link data-rh="true" rel="icon" href="/img/favicon.svg"><link data-rh="true" rel="canonical" href="https://wikidoc.pages.dev/EXNESS客户帮助/价格缺口保护"><link data-rh="true" rel="alternate" href="https://wikidoc.pages.dev/EXNESS客户帮助/价格缺口保护" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://wikidoc.pages.dev/EXNESS客户帮助/价格缺口保护" hreflang="x-default"><script src="https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js" defer="defer" data-domain="niu.fendou.la"></script><link rel="stylesheet" href="/assets/css/styles.b4d1072b.css">
-<link rel="preload" href="/assets/js/runtime~main.719c3627.js" as="script">
-<link rel="preload" href="/assets/js/main.b4dcc82a.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.2a4b9314.js" as="script">
+<link rel="preload" href="/assets/js/main.042b5478.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):window.matchMedia("(prefers-color-scheme: light)").matches?e("light"):e("dark")}()</script><div id="__docusaurus">
@@ -24,7 +24,7 @@
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="价格缺口保护何时适用">价格缺口保护何时适用？<a class="hash-link" href="#价格缺口保护何时适用" title="标题的直接链接">​</a></h2>
 <p>当挂单指定价格落入缺口时，则适用价格缺口保护。 根据本规则，如果出现缺口后的第一个市场价格与订单指定价格之间的点差值等于或超过相应交易品种的一定点数（缺口位），系统将以缺口后的第一个市场价格执行订单。 如果差值小于缺口，则以指定价格执行订单。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="价格缺口保护适用于哪些账户和品种类别">价格缺口保护适用于哪些账户和品种类别？<a class="hash-link" href="#价格缺口保护适用于哪些账户和品种类别" title="标题的直接链接">​</a></h2>
-<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="价格缺口保护适用于以下品种"><strong>价格缺口保护适用于以下品种：</strong><a class="hash-link" href="#价格缺口保护适用于以下品种" title="标题的直接链接">​</a></h4>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="价格缺口保护适用于以下品种"><strong>价格缺口保护适用于以下品种</strong>：<a class="hash-link" href="#价格缺口保护适用于以下品种" title="标题的直接链接">​</a></h4>
 <ul>
 <li>所有后缀为-c的货币对（美分账户）</li>
 <li>所有后缀为-m的货币对（标准账户），包括<strong>加密数字货币</strong>、<strong>能源</strong>、<strong><a class="internal new" href="/EXNESS客户帮助/股票">股票</a><strong>和</strong>指数</strong>。</li>
@@ -39,14 +39,14 @@
 <p>*订单执行时使用的点差。 请查看下文示例2。</p>
 <p><strong>零点交易账户</strong>：通常，此类账户为大多数品种提供0点点差，但XAUUSD的缺口值范围为0—（3×点差）。 如交易账户同时收取点差和佣金作为交易成本，则须基于“真实点差”来计算缺口值（<strong>计算公式</strong>：点差成本+单向佣金成本=真实点差）。 真实点差用于评估基于点差的缺口值。 因此，先锋与零点账户的缺口值和先锋点差成本一样，即等于“零点点差成本 + 账户单向佣金”，所以先锋和零点账户用于计算缺口值的真实点差是一样的。 <strong>请查看以下</strong>相关示例。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="价格缺口保护示例">价格缺口保护示例<a class="hash-link" href="#价格缺口保护示例" title="标题的直接链接">​</a></h2>
-<p><strong>示例1：</strong></p>
+<p><strong>示例1</strong>：</p>
 <blockquote>
 <p>假设您在先锋账户上开立了一个EURUSD止损买单，并将止损价位设置为1.30560。 接着出现了价格缺口。 出现价格缺口前的最后买价为 1.30550，出现缺口后的第一个买价为 1.30620。 如想确定止损买单的执行价格，需要计算缺口出现后第一个买价与订单指定价格的点差值：
 (1.30620 - 1.30560) = 0.00060 = 6点。
 现在，请查看缺口值列表，找到当前交易品种的缺口值范围。在本例中，EURUSD的缺口值范围为0—8点。 让EXNESS假设当时计算的缺口值为8点。
 因为<code>6&lt;8</code>，所以根据价格缺口保护，止损买单将按照订单指定价格1.30560执行。 这意味着订单执行价格比当前市场价格高出6个利润点。</p>
 </blockquote>
-<p><strong>示例2：</strong></p>
+<p><strong>示例2</strong>：</p>
 <blockquote>
 <p>假设您在先锋账户上为XAUUSD买单设置的止损价位为1817.635。 价格缺口出现，出现缺口前的最后卖出价为 1817.730，出现缺口后的第一个卖出价为 1814.730。 当前买价为1815.030。</p>
 </blockquote>
@@ -58,8 +58,8 @@
 (1817.635 — 1814.730) / 0.01 = 290.5点。
 因为290.5&gt; 90（最大缺口值），所以根据价格缺口保护，买单将以1814.730的价格执行止损。
 本示例同样适用于<strong>BTCUSD</strong>的缺口位计算。</p>
-</blockquote></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"></div><div class="col lastUpdated_vwxv"><span class="theme-last-updated">最后<!-- -->由 <b>jarlin8</b> <!-- -->于 <b><time datetime="2023-01-17T06:54:24.000Z">2023年1月17日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文档分页导航"><a class="pagination-nav__link pagination-nav__link--prev" href="/EXNESS客户帮助/以账户货币计算盈亏时，应使用何种价格进行换算"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">以账户货币计算盈亏时，应使用何种价格进行换算？</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/EXNESS客户帮助/伊斯兰教地区可享零隔夜利息交易账户"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">伊斯兰教地区可享零隔夜利息交易账户</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#价格缺口是什么" class="table-of-contents__link toc-highlight">价格缺口是什么？</a></li><li><a href="#价格缺口保护何时适用" class="table-of-contents__link toc-highlight">价格缺口保护何时适用？</a></li><li><a href="#价格缺口保护适用于哪些账户和品种类别" class="table-of-contents__link toc-highlight">价格缺口保护适用于哪些账户和品种类别？</a></li><li><a href="#一些常见货币对的缺口值范围" class="table-of-contents__link toc-highlight">一些常见货币对的缺口值范围：</a></li><li><a href="#价格缺口保护示例" class="table-of-contents__link toc-highlight">价格缺口保护示例</a></li></ul></div></div></div></div></main></div></div></div>
-<script src="/assets/js/runtime~main.719c3627.js"></script>
-<script src="/assets/js/main.b4dcc82a.js"></script>
+</blockquote></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"></div><div class="col lastUpdated_vwxv"><span class="theme-last-updated">最后<!-- -->由 <b>jarlin8</b> <!-- -->于 <b><time datetime="2023-01-17T07:26:27.000Z">2023年1月17日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文档分页导航"><a class="pagination-nav__link pagination-nav__link--prev" href="/EXNESS客户帮助/以账户货币计算盈亏时，应使用何种价格进行换算"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">以账户货币计算盈亏时，应使用何种价格进行换算？</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/EXNESS客户帮助/伊斯兰教地区可享零隔夜利息交易账户"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">伊斯兰教地区可享零隔夜利息交易账户</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#价格缺口是什么" class="table-of-contents__link toc-highlight">价格缺口是什么？</a></li><li><a href="#价格缺口保护何时适用" class="table-of-contents__link toc-highlight">价格缺口保护何时适用？</a></li><li><a href="#价格缺口保护适用于哪些账户和品种类别" class="table-of-contents__link toc-highlight">价格缺口保护适用于哪些账户和品种类别？</a></li><li><a href="#一些常见货币对的缺口值范围" class="table-of-contents__link toc-highlight">一些常见货币对的缺口值范围：</a></li><li><a href="#价格缺口保护示例" class="table-of-contents__link toc-highlight">价格缺口保护示例</a></li></ul></div></div></div></div></main></div></div></div>
+<script src="/assets/js/runtime~main.2a4b9314.js"></script>
+<script src="/assets/js/main.042b5478.js"></script>
 </body>
 </html>
