@@ -119,3 +119,4 @@ summary {
 
 blockquote {
     border-left: 0.6em solid #6d6d6d;border-radius: 0.3em;background:var(--ifm-menu-color-background-active);color: var(--ifm-navbar-link-color);padding: 0.6em;}
+table {width: 100%;}
