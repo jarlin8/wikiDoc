@@ -102,16 +102,16 @@ summary {
   --ifm-h1-font-size: 1.6rem;
 }
 .markdown>h2 {
-  --ifm-h2-font-size: 1.4rem;
+  --ifm-h2-font-size: 1.3rem;
 }
 .markdown>h3 {
-  --ifm-h3-font-size: 1.2rem;
+  --ifm-h3-font-size: 1.1rem;
 }
 .markdown>h4 {
-  --ifm-h4-font-size: 1rem;
+  --ifm-h4-font-size: .9rem;
 }
 .markdown>h5 {
-  --ifm-h5-font-size: 0.9rem;
+  --ifm-h5-font-size: .9rem;
 }
 .docusaurus-mt-lg {
     margin-top: 2rem;
