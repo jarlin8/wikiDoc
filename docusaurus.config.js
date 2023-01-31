@@ -182,13 +182,13 @@ const config = {
             items: [
             {
               type: 'doc',
-              docId: 'EXNESS客户帮助/EXNESS客户帮助',
+              docId: 'exness-trader/exness-trader',
               label: '💯 EXNESS客户帮助',
             },
             {
               type: 'doc',
-              docId: 'EXNESS代理帮助/EXNESS代理帮助',
-              label: '🎯 XNESS代理帮助',
+              docId: 'exness-agent/exness-agent',
+              label: '🎯 EXNESS代理帮助',
             },
             ],
           }
