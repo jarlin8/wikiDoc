@@ -1,4 +1,4 @@
-name: Python script
+name: Python script wencai
 
 on:
   push:
