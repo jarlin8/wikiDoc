@@ -25,7 +25,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        python wencai.py
+        python get-wencai.py
 
     - name: Commit and push changes
       uses: actions/github-script@v3
