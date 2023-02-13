@@ -6,28 +6,34 @@ on:
       - main
 
 jobs:
-  build:
+  collect_data:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Python
+    - name: Set up Python environment
       uses: actions/setup-python@v2
       with:
         python-version: 3.x
 
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install pywencai pandas tabulate
 
-    - name: Get stock data
+    - name: Run Python script
       run: |
-       python wencai.py
+        python wencai.py
 
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Commit and push changes
+      uses: actions/github-script@v3
       with:
-        message: "Update stock data {mtime}"
-        branch: gh-pages
+        script: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add stock_data.csv
+          git add stock_data.md
+          git commit -m "Update stock data" || echo "No changes to commit"
+          git push origin main

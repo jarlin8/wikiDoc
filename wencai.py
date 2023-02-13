@@ -23,24 +23,13 @@ data = pd.concat([original_data, df], ignore_index=True)
 
 # 将数据保存为CSV文件
 
-new_data.to_csv('stock_data.csv', mode='a', index=False, header=True, encoding='utf-8-sig')
+data.to_csv('stock_data.csv', mode='a', index=False, header=True, encoding='utf-8-sig')
 
 try:
     original_data = pd.read_csv('stock_data.md')
 except FileNotFoundError:
     original_data = pd.DataFrame()
 data = pd.concat([original_data, df], ignore_index=True)
-
-# md文件中新增数据用 --- 隔开
-with open("filename.md", "r") as file:
-    content = file.read()
-
-new_data = "---\n" + df.to_markdown()
-content = content + new_data
-
-with open("filename.md", "w") as file:
-    file.write(content)
-
 
 # 保存为.md格式
 with open("stock_data.md", "a", encoding="utf-8") as f:
