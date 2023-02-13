@@ -2,6 +2,9 @@ import pywencai
 import pandas as pd
 from tabulate import tabulate
 import datetime
+import os
+
+hexin_v_file = os.path.join(os.path.dirname(__file__), 'hexin-v.js')
 
 today = datetime.datetime.now()
 mtime = today.strftime("%Y%m%d")
