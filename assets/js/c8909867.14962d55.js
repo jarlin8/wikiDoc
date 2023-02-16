@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjoeleon_wikidoc=self.webpackChunkjoeleon_wikidoc||[]).push([[17603],{10867:e=>{e.exports=JSON.parse('{"label":"Prompts","permalink":"/tags/prompts","allTagsPath":"/tags","count":1,"items":[{"id":"chatgpt-edgegpt","title":"ChatGPT","description":"\u901a\u7528\u9700\u6c42","permalink":"/chatgpt-edgegpt"}]}')}}]);
