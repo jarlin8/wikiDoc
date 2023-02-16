@@ -1,6 +1,7 @@
 ---
 title: 食谱主目录
 sidebar_position: 3
+tags: 索引
 ---
 - 🗂️ [[dishes/aquatic|水产]]
 - 🗂️ [[dishes/breakfast|早餐]]

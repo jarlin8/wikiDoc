@@ -1,5 +1,6 @@
 ---
 title: EA相关参数设置
+tags: EA
 ---
 
 ## EA跟单软件

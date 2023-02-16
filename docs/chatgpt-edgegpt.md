@@ -1,5 +1,5 @@
 ---
-title: ChatGPT
+title: ChatGPT的用法合集
 date: 2023-02-09 10:28:43
 background: bg-[#4aa181]
 tags:
@@ -7,9 +7,7 @@ tags:
 - OpenAI
 - Prompts
 - Tips
-categories:
-- Toolkit
-intro: 这个小册子列出了世界各地关于如何有效使用ChatGPT的提示和技巧。
+description: 这个小册子列出了世界各地关于如何有效使用ChatGPT的提示和技巧。
 ---
 
 ## 通用需求
