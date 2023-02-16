@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjoeleon_wikidoc=self.webpackChunkjoeleon_wikidoc||[]).push([[31620],{38149:e=>{e.exports=JSON.parse('{"label":"EA","permalink":"/tags/ea","allTagsPath":"/tags","count":1,"items":[{"id":"ea-setup","title":"EA\u76f8\u5173\u53c2\u6570\u8bbe\u7f6e","description":"EA\u8ddf\u5355\u8f6f\u4ef6","permalink":"/ea-setup"}]}')}}]);
