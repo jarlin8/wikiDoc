@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4fe237f52a1c180a",
+        "id": "6180e925e4a430ba",
         "type": "tabs",
         "children": [
           {
-            "id": "6f1141d7d1139fc8",
+            "id": "4736c15ea2c9dc37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crypto/什么是加密货币.md",
+                "file": "ea-setup.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "crypto/什么是加密货币.md",
+                "file": "ea-setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "crypto/什么是加密货币.md",
+                "file": "ea-setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "crypto/什么是加密货币.md"
+                "file": "ea-setup.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6f1141d7d1139fc8",
+  "active": "4736c15ea2c9dc37",
   "lastOpenFiles": [
+    "index.md",
+    "ea-setup.md",
+    "dishes/aquatic/白灼虾/白灼虾.md",
+    "dishes/aquatic/白灼虾/白灼虾.webp",
+    "dishes/dishes.md",
+    "dishes/aquatic.md",
     "tips/learn/高压力锅.md",
     "crypto/什么是加密货币.md",
     "tips/tips.md",
-    "index.md",
-    "tips/厨房准备.md",
-    "EXNESS客户帮助/夏季交易时间.md",
-    "EXNESS客户帮助/EXNESS客户帮助.md",
-    "EXNESS客户帮助/exness-不接受哪些国家的客户.md",
-    "EXNESS客户帮助/在进行股票相关交易品种的交易时，我是否真正拥.md",
-    "EXNESS客户帮助/为什么有时候股票的保证金会比平时高.md"
+    "tips/厨房准备.md"
   ]
 }
