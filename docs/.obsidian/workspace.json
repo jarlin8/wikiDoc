@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4736c15ea2c9dc37",
+            "id": "ee11d62f5720e9eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ea-setup.md",
+                "file": "nytimes/纽约新闻.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ea-setup.md",
+                "file": "nytimes/纽约新闻.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ea-setup.md",
+                "file": "nytimes/纽约新闻.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ea-setup.md"
+                "file": "nytimes/纽约新闻.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4736c15ea2c9dc37",
+  "active": "ee11d62f5720e9eb",
   "lastOpenFiles": [
-    "index.md",
+    "nytimes/nytimes.md",
+    "chatgpt-edgegpt.md",
+    "tips/厨房准备.md",
+    "tips/tips.md",
+    "nytimes/纽约新闻.md",
     "ea-setup.md",
+    "index.md",
     "dishes/aquatic/白灼虾/白灼虾.md",
     "dishes/aquatic/白灼虾/白灼虾.webp",
-    "dishes/dishes.md",
-    "dishes/aquatic.md",
-    "tips/learn/高压力锅.md",
-    "crypto/什么是加密货币.md",
-    "tips/tips.md",
-    "tips/厨房准备.md"
+    "dishes/dishes.md"
   ]
 }
