@@ -21,6 +21,8 @@ description: 2023年，A股市场迎来了复苏的春天，各行各业都有�
 | 20230222 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230222.csv) | 中国卫星 [**三变科技**](https://www.iwencai.com/unifiedwap/result?w=%E4%B8%89%E5%8F%98%E7%A7%91%E6%8A%80%E6%B6%A8%E5%81%9C%E5%8E%9F%E5%9B%A0) 金龙羽 |  |
 | 20230223 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230223.csv) | 拓维信息 金发拉比        |         |
 | 20230224 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230224.csv) | 拓维信息 **三变科技**        |         |
+| 20230227 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230227.csv) |                          |                          |
+| 20230228 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230228.csv) |                          |                          |
 | 20230301 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230301.csv) |                          |                          |
 | 20230302 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230302.csv) |                          |                          |
 | 20230303 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230303.csv) |                          |                          |
