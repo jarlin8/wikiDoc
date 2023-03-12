@@ -32,13 +32,13 @@ const wikilink = [
 
 const config = {
   scripts: [
-    {src: 'https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js', defer: true, 'data-domain': 'niu.fendou.la'},
-  ], 
-// const math = (await import('remark-math')).default;
-// const katex = (await import('rehype-katex')).default;
-  title: 'JoeLeon wikiDoc',
+    { src: 'https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js', defer: true, 'data-domain': 'niu.fendou.la' },
+  ],
+  // const math = (await import('remark-math')).default;
+  // const katex = (await import('rehype-katex')).default;
+  title: 'wikiDoc',
   tagline: '全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!',
-  url: 'https://wikidoc.pages.dev',
+  url: 'https://wiki.ssgg.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -62,26 +62,26 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-      docs: {
-			remarkPlugins: [wikiLinkPlugin], //[math]
-			// rehypePlugins: [katex],
-			routeBasePath: '/', // Serve the docs at the site's root
-			sidebarPath: require.resolve('./sidebars.js'),
-      // Please change this to your repo.
-      // editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
-      showLastUpdateTime: true,
-      showLastUpdateAuthor: true,
+        docs: {
+          remarkPlugins: [wikiLinkPlugin], //[math]
+          // rehypePlugins: [katex],
+          routeBasePath: '/', // Serve the docs at the site's root
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-		blog: false,
+        blog: false,
       }),
     ],
   ],
 
   themes: [
-    ['mdx-v2', {customCss: [require.resolve('./src/css/custom.css')]}],],
+    ['mdx-v2', { customCss: [require.resolve('./src/css/custom.css')] }],],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -101,21 +101,21 @@ const config = {
             label: '做菜之前',
             position: 'left',
             items: [
-            {
-              type: 'doc',
-              docId: 'tips/tips',
-              label: '🥡 吃什么?',
-            },
-            {
-              type: 'doc',
-              docId: 'tips/learn/learn',
-              label: '🛠 学习操作',
-            },
-            {
-              type: 'doc',
-              docId: 'tips/advanced/advanced',
-              label: '🥗 大厨必备',
-            },
+              {
+                type: 'doc',
+                docId: 'tips/tips',
+                label: '🥡 吃什么?',
+              },
+              {
+                type: 'doc',
+                docId: 'tips/learn/learn',
+                label: '🛠 学习操作',
+              },
+              {
+                type: 'doc',
+                docId: 'tips/advanced/advanced',
+                label: '🥗 大厨必备',
+              },
             ],
           },
           {
@@ -123,56 +123,56 @@ const config = {
             label: '食谱',
             position: 'left',
             items: [
-          {
-            type: 'doc',
-            docId: 'dishes/aquatic/aquatic',
-            label: '🍤 水产',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/breakfast/breakfast',
-            label: '🍜 早餐',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/condiment/condiment',
-            label: '🍛 调味',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/dessert/dessert',
-            label: '🧀 甜品',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/drink/drink',
-            label: '🥤 饮料',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/meat_dish/meat_dish',
-            label: '🥩 肉类',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/semi-finished/semi-finished',
-            label: '🍖 半成品',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/soup/soup',
-            label: '🥘 汤类',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/staple/staple',
-            label: '🍚 主食',
-          },
-          {
-            type: 'doc',
-            docId: 'dishes/vegetable_dish/vegetable_dish',
-            label: '🥦 蔬菜',
-          },
+              {
+                type: 'doc',
+                docId: 'dishes/aquatic/aquatic',
+                label: '🍤 水产',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/breakfast/breakfast',
+                label: '🍜 早餐',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/condiment/condiment',
+                label: '🍛 调味',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/dessert/dessert',
+                label: '🧀 甜品',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/drink/drink',
+                label: '🥤 饮料',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/meat_dish/meat_dish',
+                label: '🥩 肉类',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/semi-finished/semi-finished',
+                label: '🍖 半成品',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/soup/soup',
+                label: '🥘 汤类',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/staple/staple',
+                label: '🍚 主食',
+              },
+              {
+                type: 'doc',
+                docId: 'dishes/vegetable_dish/vegetable_dish',
+                label: '🥦 蔬菜',
+              },
             ],
           },
           {
@@ -180,16 +180,16 @@ const config = {
             label: 'EXNESS',
             position: 'left',
             items: [
-            {
-              type: 'doc',
-              docId: 'exness-trader/exness-trader',
-              label: '💯 EXNESS客户帮助',
-            },
-            {
-              type: 'doc',
-              docId: 'exness-agent/exness-agent',
-              label: '🎯 EXNESS代理帮助',
-            },
+              {
+                type: 'doc',
+                docId: 'exness-trader/exness-trader',
+                label: '💯 EXNESS客户帮助',
+              },
+              {
+                type: 'doc',
+                docId: 'exness-agent/exness-agent',
+                label: '🎯 EXNESS代理帮助',
+              },
             ],
           }
         ],
@@ -200,10 +200,10 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-//      footer: {  
-//        style: 'dark',
-//        copyright: `CC-BY-SA 4.0 © 2022 - ${new Date().getFullYear()} 版权所有 `,
-//      },
+      //      footer: {  
+      //        style: 'dark',
+      //        copyright: `CC-BY-SA 4.0 © 2022 - ${new Date().getFullYear()} 版权所有 `,
+      //      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -214,21 +214,21 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-      }),
-      plugins: [
-        [
-          require.resolve("@easyops-cn/docusaurus-search-local"),
-          {
-            hashed: true,
-            language: ["zh", "en"],
-            indexDocs: true,
-            indexBlog: false,
-            docsRouteBasePath: '/',
-            highlightSearchTermsOnTargetPage: true,
-            explicitSearchResultPath: true,
-          },
-        ],
-      ],
-    };
+    }),
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["zh", "en"],
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+};
 
 module.exports = config;
