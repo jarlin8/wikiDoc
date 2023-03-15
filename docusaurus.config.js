@@ -40,6 +40,7 @@ const config = {
   tagline: '全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!',
   url: 'https://wiki.ssgg.net',
   baseUrl: '/',
+  trailingSlash: false, // 去掉url结尾的/
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
@@ -67,7 +68,6 @@ const config = {
           // rehypePlugins: [katex],
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
-          trailingSlash: false, // 会以.html结尾
           // Please change this to your repo.
           // editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
           showLastUpdateTime: true,
