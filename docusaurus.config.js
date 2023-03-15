@@ -67,6 +67,7 @@ const config = {
           // rehypePlugins: [katex],
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
+          trailingSlash: false, // 会以.html结尾
           // Please change this to your repo.
           // editUrl: 'https://github.com/jarlin8/wikiDoc/edit/main/',
           showLastUpdateTime: true,
@@ -74,6 +75,12 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.8,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
         blog: false,
       }),
