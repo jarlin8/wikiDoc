@@ -34,9 +34,10 @@ else if(OrderType() == OP_SELL)
 代码放在策略中需要计算止损和止盈水平的地方。如果希望在每个新的tick到来时重新计算止损和止盈水平，那么可以将其放在`ontick()`函数中。如果只希望在开仓时计算一次，那么可以将其放在全局中。
 
 ## 下单的函数及写法
+
 ```
-      int BuyTicket = OrderSend(Symbol(), OP_BUYLIMIT, CurrentBuyLotSize, BuyLimitPrice, 3, 0, 0, "WinLimit-Buy", MagicNumber, 0, clrGreen);
-      int SellTicket = OrderSend(Symbol(), OP_SELLLIMIT, CurrentSellLotSize, SellLimitPrice, 3, 0, 0, "WinLimit-Sell", MagicNumber, 0, clrRed);
+ int BuyTicket = OrderSend(Symbol(), OP_BUYLIMIT, CurrentBuyLotSize, BuyLimitPrice, 3, 0, 0, "WinLimit-Buy", MagicNumber, 0, clrGreen);
+ int SellTicket = OrderSend(Symbol(), OP_SELLLIMIT, CurrentSellLotSize, SellLimitPrice, 3, 0, 0, "WinLimit-Sell", MagicNumber, 0, clrRed);
 ```
 上面这段代码是用来在MetaTrader 4平台上下限价买卖单的。`OrderSend`函数的各个参数的意义如下：
 
@@ -66,6 +67,7 @@ else if(OrderType() == OP_SELL)
 在某些情况下，遍历订单的顺序可能会影响策略的执行。例如，如果你在循环中删除了某个订单，那么使用倒序遍历可以避免因为订单索引改变而导致的问题。
 
 ### 为什么在定义删除所有订单closeAllOder()时，必须使用for(int i = OrdersTotal() - 1; i >= 0; i--) 
+
 在定义删除所有订单的`closeAllOrder()`函数时，通常会使用`for(int i = OrdersTotal() - 1; i >= 0; i--)`这种倒序遍历的方式，原因是当你删除一个订单时，`OrdersTotal()`的值会减少1，而且所有订单的索引也会发生变化。
 
 如果你使用顺序遍历的方式，那么在删除一个订单后，下一个订单的索引会变成当前订单的索引，这样就会导致漏删订单。而使用倒序遍历的方式则不会出现这个问题，因为删除一个订单只会影响它后面的订单的索引，而不会影响它前面的订单。
