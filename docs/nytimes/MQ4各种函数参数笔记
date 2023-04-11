@@ -1,0 +1,11 @@
+# MQ4函数解析笔记
+
+详细解释一下 MarketInfo(OrderSymbol(), MODE_BID) MarketInfo(OrderSymbol(), MODE_ASK) 、ask 、bid、与OrderClosePrice()  并解释用哪一个关掉订单最合适?
+
+MarketInfo(OrderSymbol(), MODE_BID) 和 MarketInfo(OrderSymbol(), MODE_ASK) 是用来获取当前交易品种的买入价和卖出价的函数。其中，MODE_BID 表示买入价，MODE_ASK 表示卖出价。买入价指的是交易商愿意以该价格买入货币对的最高价格，卖出价指的是交易商愿意以该价格卖出货币对的最低价格。这两个价格之间的差距称为价差（或者叫做点差），是交易商的盈利来源之一。
+
+OrderClosePrice() 是用来获取已经关闭的订单的平仓价格的函数。当我们使用 OrderClose() 函数来关闭一个订单时，可以通过 OrderClosePrice() 函数来获取该订单的平仓价格。
+
+如果我们想要关闭一个买单，那么应该使用卖出价来计算平仓价格，因为卖出价比买入价更接近当前市场价格，而卖出价也是交易商愿意以该价格卖出货币对的最低价格。因此，在关闭买单时，应该使用 MarketInfo(OrderSymbol(), MODE_ASK) 来获取卖出价，并将其作为平仓价格。
+
+同理，如果我们想要关闭一个卖单，那么应该使用买入价来计算平仓价格，因为买入价比卖出价更接近当前市场价格，而买入价也是交易商愿意以该价格买入货币对的最高价格。因此，在关闭卖单时，应该使用 MarketInfo(OrderSymbol(), MODE_BID) 来获取买入价，并将其作为平仓价格。
