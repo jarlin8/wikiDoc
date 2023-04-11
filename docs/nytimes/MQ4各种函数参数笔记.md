@@ -55,6 +55,40 @@ else if(OrderType() == OP_SELL)
 
 如何要设置止盈和止损 要改动3后面两个0的位置为 `SL` `TP`
 
+如果你希望**在下单手数大于1手时才使用止盈止损**，**手数小于等于1手时不使用止盈止损**，那么可以在计算止损和止盈之前加入一个判断条件，如下所示：
+
+```c++
+extern double stopLoss = 1000; // 止损点数
+extern double takeProfit = 1300; // 止盈点数
+
+// 计算止损和止盈
+double SL = 0;
+double TP = 0;
+
+if(CurrentBuyLotSize > 1 || CurrentSellLotSize > 1)
+{
+    if(OrderSelect(0, SELECT_BY_POS, MODE_TRADES))
+    {
+        if(OrderType() == OP_BUY)
+        {
+            SL = Ask - stopLoss * Point;
+            TP = Ask + takeProfit * Point;
+        }
+        else if(OrderType() == OP_SELL)
+        {
+            SL = Bid + stopLoss * Point;
+            TP = Bid - takeProfit * Point;
+        }
+    }
+}
+// 可以替换成其他条件判断语句
+int BuyTicket = OrderSend(Symbol(), OP_BUYLIMIT, CurrentBuyLotSize, BuyLimitPrice, 3, SL, TP, "WinLimit-Buy", MagicNumber, 0, clrGreen);
+int SellTicket = OrderSend(Symbol(), OP_SELLLIMIT, CurrentSellLotSize, SellLimitPrice, 3, SL, TP, "WinLimit-Sell", MagicNumber, 0, clrRed);
+```
+
+这样，在下单手数大于1手时，`SL`和`TP`的值会被计算出来，否则它们的值都为0，表示不使用止盈止损。
+
+
 ## for循环的迷惑
 
 `for(int i = OrdersTotal() - 1; i >= 0; i--)与 for(int i = 0; i < OrdersTotal(); i++)`
@@ -66,7 +100,7 @@ else if(OrderType() == OP_SELL)
 
 在某些情况下，遍历订单的顺序可能会影响策略的执行。例如，如果你在循环中删除了某个订单，那么使用倒序遍历可以避免因为订单索引改变而导致的问题。
 
-### 为什么在定义删除所有订单closeAllOder()时，必须使用for(int i = OrdersTotal() - 1; i >= 0; i--) 
+**为什么在定义删除所有订单closeAllOder()时，必须使用for(int i = OrdersTotal() - 1; i >= 0; i--) **
 
 在定义删除所有订单的`closeAllOrder()`函数时，通常会使用`for(int i = OrdersTotal() - 1; i >= 0; i--)`这种倒序遍历的方式，原因是当你删除一个订单时，`OrdersTotal()`的值会减少1，而且所有订单的索引也会发生变化。
 
