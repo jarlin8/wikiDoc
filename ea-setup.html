@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.2.0">
 <title data-rh="true">EA相关参数设置 | wikiDoc</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://wiki.ssgg.net/ea-setup"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="EA相关参数设置 | wikiDoc"><meta data-rh="true" name="description" content="EA交易（Expert Advisor交易）是一种自动投资软件，由于它能够自动选择和执行交易，因此一直得到越来越多的应用和使用。EA交易的趋势显示，在过去的几年里，EA交易一直是受欢迎的投资工具，因为它能够为投资者提供更多的风险体系结构，更有效的风险控制能力以及更好的获利机会。随着越来越多的投资者意识到EA交易可以带来更多的优势，EA交易未来仍将继续受到投资者的青睐。"><meta data-rh="true" property="og:description" content="EA交易（Expert Advisor交易）是一种自动投资软件，由于它能够自动选择和执行交易，因此一直得到越来越多的应用和使用。EA交易的趋势显示，在过去的几年里，EA交易一直是受欢迎的投资工具，因为它能够为投资者提供更多的风险体系结构，更有效的风险控制能力以及更好的获利机会。随着越来越多的投资者意识到EA交易可以带来更多的优势，EA交易未来仍将继续受到投资者的青睐。"><link data-rh="true" rel="icon" href="/img/favicon.svg"><link data-rh="true" rel="canonical" href="https://wiki.ssgg.net/ea-setup"><link data-rh="true" rel="alternate" href="https://wiki.ssgg.net/ea-setup" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://wiki.ssgg.net/ea-setup" hreflang="x-default"><script src="https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js" defer="defer" data-domain="niu.fendou.la"></script><link rel="stylesheet" href="/assets/css/styles.9c55f52b.css">
-<link rel="preload" href="/assets/js/runtime~main.fc63974d.js" as="script">
-<link rel="preload" href="/assets/js/main.cd6606d6.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.78c94b16.js" as="script">
+<link rel="preload" href="/assets/js/main.b65eaedb.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):window.matchMedia("(prefers-color-scheme: light)").matches?e("light"):e("dark")}()</script><div id="__docusaurus">
@@ -186,8 +186,49 @@
 <li>21:10-23:59 反向趋势跟单【0.1起步 1000止盈】 控制时间EA 相应时间段 直接停止</li>
 <li>美国夏令时 主服务器用东京时间 UTF+9</li>
 <li>美国冬令时 主服务器用北京/香港/新加坡时间 UTF+8</li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/tags/ea">EA</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"></div><div class="col lastUpdated_vwxv"><span class="theme-last-updated">最后<!-- -->由 <b>jarlin8</b> <!-- -->于 <b><time datetime="2023-04-11T11:27:55.000Z">2023年4月11日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文档分页导航"><a class="pagination-nav__link pagination-nav__link--prev" href="/chatgpt-edgegpt"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">ChatGPT的用法合集</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/exness-agent"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">EXNESS代理帮助</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ea跟单软件" class="table-of-contents__link toc-highlight">EA跟单软件</a><ul><li><a href="#基础设置" class="table-of-contents__link toc-highlight">基础设置</a></li><li><a href="#跟单限制设置" class="table-of-contents__link toc-highlight">跟单限制设置</a></li><li><a href="#后缀设置" class="table-of-contents__link toc-highlight">后缀设置</a></li><li><a href="#跟单延迟设置" class="table-of-contents__link toc-highlight">跟单延迟设置</a></li><li><a href="#时间限制设置" class="table-of-contents__link toc-highlight">时间限制设置</a></li><li><a href="#特殊品种对应设置补充后缀设置的不足" class="table-of-contents__link toc-highlight">特殊品种对应设置[补充后缀设置的不足]</a></li><li><a href="#注释" class="table-of-contents__link toc-highlight">注释</a></li></ul></li><li><a href="#smartlimit主程序设置" class="table-of-contents__link toc-highlight">SmartLimit主程序设置</a></li><li><a href="#当前配置备注" class="table-of-contents__link toc-highlight">当前配置&amp;备注</a><ul><li><a href="#smartlimit实战主程序exness-0点差账户" class="table-of-contents__link toc-highlight">SmartLimit实战主程序[EXNESS 0点差账户]</a></li><li><a href="#ea跟单软件-实战配置" class="table-of-contents__link toc-highlight">EA跟单软件 实战配置</a></li></ul></li><li><a href="#遇到的问题解决方案" class="table-of-contents__link toc-highlight">遇到的问题&amp;解决方案</a><ul><li><a href="#止损与不止损的零界点" class="table-of-contents__link toc-highlight">止损与不止损的零界点</a></li></ul></li><li><a href="#需要规避的问题" class="table-of-contents__link toc-highlight">需要规避的问题</a><ul><li><a href="#调到-1-5-正向跟单-部分对冲" class="table-of-contents__link toc-highlight">调到 1-5 正向跟单 部分对冲</a></li></ul></li><li><a href="#五星数据行情规避跟单损失" class="table-of-contents__link toc-highlight">五星数据行情规避跟单损失</a></li><li><a href="#218更新操作计划" class="table-of-contents__link toc-highlight">2.18更新操作计划</a></li><li><a href="#非农和五星数据行情规避-uft8" class="table-of-contents__link toc-highlight">非农和五星数据行情规避 UFT+8</a></li><li><a href="#服务器时间改成utf9-东京时间" class="table-of-contents__link toc-highlight">服务器时间改成UTF+9 东京时间</a></li></ul></div></div></div></div></main></div></div></div>
-<script src="/assets/js/runtime~main.fc63974d.js"></script>
-<script src="/assets/js/main.cd6606d6.js"></script>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="给ea加上止盈止损">给EA加上止盈止损<a class="hash-link" href="#给ea加上止盈止损" title="标题的直接链接">​</a></h2>
+<p>当前EA具备的条件是
+1、4、7、10是间隔3递增很好的适应了震荡行情；10以上是1.5倍递增，尽量缩短<code>closeallorders()</code>的时间周期，避免大量订单累积造成爆仓。</p>
+<p>跟单出现的问题：</p>
+<ul>
+<li>$10以下使用1、4、7、10是间隔3递增，防止跳涨跳跌，设置了2000止盈和6000点止损<!-- -->
+<ul>
+<li>没有达到盈利目标 1、4、7、10全部6000点止损了 亏损巨大</li>
+</ul>
+</li>
+<li>$10以上使用的是20的固定手数跟，止盈止损均为1300<!-- -->
+<ul>
+<li>回调<code>&lt;1300</code> 触及不到止盈的小回调，造成多次硬止损 多次累积造成大亏损
+当上面两种情况同时出现的时候 当天的亏损就非常大。</li>
+<li>题外话：如果MD中出现<code>&lt;1300</code> 符号跟数字，一定要用<code>``</code>包起来，以免无法编译报错</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="解决方案">解决方案<a class="hash-link" href="#解决方案" title="标题的直接链接">​</a></h3>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="主程序解决方案">主程序解决方案：<a class="hash-link" href="#主程序解决方案" title="标题的直接链接">​</a></h4>
+<blockquote>
+<ul>
+<li>$1、4、7、10间隔3递增 <strong>止盈1300 止损6000</strong></li>
+<li>$10以上1.5倍递增 止盈1000 不止损</li>
+</ul>
+</blockquote>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="跟单程序解决方案">跟单程序解决方案<a class="hash-link" href="#跟单程序解决方案" title="标题的直接链接">​</a></h3>
+<blockquote>
+<ul>
+<li>$10以下使用固定比例跟单 <strong>2000止盈和6000点止损</strong> 不变</li>
+<li>$10以上使用20的固定手数跟，<strong>止盈止损均为1300</strong></li>
+</ul>
+</blockquote>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="代码修改部分">代码修改部分<a class="hash-link" href="#代码修改部分" title="标题的直接链接">​</a></h2>
+<p><a class="internal new" href="/nytimes/MQ4各种函数参数笔记">设置止盈和止损</a>有示例代码段。</p>
+<div class="language-c++ codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-c++ codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">//放在全局可自定义部分</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">extern double stopLoss = 6000; // 止损点数</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">extern double takeProfit = 1000; // 止盈点数</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>会出现的异常：
+所有已成交订单都被止盈，还有挂单吊着。
+在利润不达标那个条件判断中加上一条，<code>当没有买单或卖单且买入限价单的手数等于卖出限价但手术的时候就平掉所有订单</code>。等待测试结果。</p>
+<p>下单与止盈止损手数一切正常。
+测试中的EA名 <code>WinLimit</code> 与 <code>GoldLimit</code></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/tags/ea">EA</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"></div><div class="col lastUpdated_vwxv"><span class="theme-last-updated">最后<!-- -->由 <b>jarlin8</b> <!-- -->于 <b><time datetime="2023-04-12T09:57:55.000Z">2023年4月12日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文档分页导航"><a class="pagination-nav__link pagination-nav__link--prev" href="/chatgpt-edgegpt"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">ChatGPT的用法合集</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/exness-agent"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">EXNESS代理帮助</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ea跟单软件" class="table-of-contents__link toc-highlight">EA跟单软件</a><ul><li><a href="#基础设置" class="table-of-contents__link toc-highlight">基础设置</a></li><li><a href="#跟单限制设置" class="table-of-contents__link toc-highlight">跟单限制设置</a></li><li><a href="#后缀设置" class="table-of-contents__link toc-highlight">后缀设置</a></li><li><a href="#跟单延迟设置" class="table-of-contents__link toc-highlight">跟单延迟设置</a></li><li><a href="#时间限制设置" class="table-of-contents__link toc-highlight">时间限制设置</a></li><li><a href="#特殊品种对应设置补充后缀设置的不足" class="table-of-contents__link toc-highlight">特殊品种对应设置[补充后缀设置的不足]</a></li><li><a href="#注释" class="table-of-contents__link toc-highlight">注释</a></li></ul></li><li><a href="#smartlimit主程序设置" class="table-of-contents__link toc-highlight">SmartLimit主程序设置</a></li><li><a href="#当前配置备注" class="table-of-contents__link toc-highlight">当前配置&amp;备注</a><ul><li><a href="#smartlimit实战主程序exness-0点差账户" class="table-of-contents__link toc-highlight">SmartLimit实战主程序[EXNESS 0点差账户]</a></li><li><a href="#ea跟单软件-实战配置" class="table-of-contents__link toc-highlight">EA跟单软件 实战配置</a></li></ul></li><li><a href="#遇到的问题解决方案" class="table-of-contents__link toc-highlight">遇到的问题&amp;解决方案</a><ul><li><a href="#止损与不止损的零界点" class="table-of-contents__link toc-highlight">止损与不止损的零界点</a></li></ul></li><li><a href="#需要规避的问题" class="table-of-contents__link toc-highlight">需要规避的问题</a><ul><li><a href="#调到-1-5-正向跟单-部分对冲" class="table-of-contents__link toc-highlight">调到 1-5 正向跟单 部分对冲</a></li></ul></li><li><a href="#五星数据行情规避跟单损失" class="table-of-contents__link toc-highlight">五星数据行情规避跟单损失</a></li><li><a href="#218更新操作计划" class="table-of-contents__link toc-highlight">2.18更新操作计划</a></li><li><a href="#非农和五星数据行情规避-uft8" class="table-of-contents__link toc-highlight">非农和五星数据行情规避 UFT+8</a></li><li><a href="#服务器时间改成utf9-东京时间" class="table-of-contents__link toc-highlight">服务器时间改成UTF+9 东京时间</a></li><li><a href="#给ea加上止盈止损" class="table-of-contents__link toc-highlight">给EA加上止盈止损</a><ul><li><a href="#解决方案" class="table-of-contents__link toc-highlight">解决方案</a></li><li><a href="#跟单程序解决方案" class="table-of-contents__link toc-highlight">跟单程序解决方案</a></li></ul></li><li><a href="#代码修改部分" class="table-of-contents__link toc-highlight">代码修改部分</a></li></ul></div></div></div></div></main></div></div></div>
+<script src="/assets/js/runtime~main.78c94b16.js"></script>
+<script src="/assets/js/main.b65eaedb.js"></script>
 </body>
 </html>
