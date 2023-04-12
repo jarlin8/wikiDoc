@@ -22,13 +22,13 @@ double TP = 0;
 
 if(OrderType() == OP_BUY)
 {
-    SL = Ask - stopLoss * Point;
-    TP = Ask + takeProfit * Point;
+    SL = BuyLimitPrice - stopLoss * Point;
+    TP = BuyLimitPrice + takeProfit * Point;
 }
 else if(OrderType() == OP_SELL)
 {
-    SL = Bid + stopLoss * Point;
-    TP = Bid - takeProfit * Point;
+    SL = SellLimitPrice + stopLoss * Point;
+    TP = SellLimitPrice - takeProfit * Point;
 }
 ```
 代码放在策略中需要计算止损和止盈水平的地方。如果希望在每个新的tick到来时重新计算止损和止盈水平，那么可以将其放在`ontick()`函数中。如果只希望在开仓时计算一次，那么可以将其放在全局中。
@@ -71,13 +71,13 @@ if(CurrentBuyLotSize > 1 || CurrentSellLotSize > 1)
     {
         if(OrderType() == OP_BUY)
         {
-            SL = Ask - stopLoss * Point;
-            TP = Ask + takeProfit * Point;
+            SL = BuyLimitPrice - stopLoss * Point;
+            TP = BuyLimitPrice + takeProfit * Point;
         }
         else if(OrderType() == OP_SELL)
         {
-            SL = Bid + stopLoss * Point;
-            TP = Bid - takeProfit * Point;
+            SL = SellLimitPrice + stopLoss * Point;
+            TP = SellLimitPrice - takeProfit * Point;
         }
     }
 }
@@ -110,3 +110,4 @@ int SellTicket = OrderSend(Symbol(), OP_SELLLIMIT, CurrentSellLotSize, SellLimit
 
 > 在大多数情况下，使用`for(int i = 0; i < OrdersTotal(); i++)`顺序遍历和使用`for(int i = OrdersTotal() - 1; i >= 0; i--)`倒序遍历都是可以的。只有在你需要对订单进行删除或修改操作时，才需要注意遍历的顺序。
 > 如果只是想获取订单信息，而不需要对订单进行删除或修改操作，那么使用顺序遍历和倒序遍历都是可以的。例如，可以使用顺序遍历来统计当前所有订单的总盈亏。
+
