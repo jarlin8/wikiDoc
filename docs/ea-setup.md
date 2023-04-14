@@ -299,3 +299,25 @@ extern double takeProfit = 1000; // 止盈点数
 
 下单与止盈止损手数一切正常。
 测试中的EA名 `WinLimit` 与 `GoldLimit`
+默认参数：
+```c++
+extern int Distance = 1300; // 限价距离（点）
+extern double LotSize = 0.01; // 交易手数
+extern double LotSizeAdd = 0.03; // 间隔递增(手)
+extern double MaxLotSize = 0.07; // 间隔递增与倍数递增分界（手）
+extern double LotSizeTimes = 1.8; // 倍数递增
+extern double TargetProfit = 1.8; // 盈利目标（$）
+extern double stopLoss = 60000; // 止损点数
+extern double takeProfit = 1000; // 止盈点数
+const int DELAY_MS = 100; // 延迟的毫秒数
+extern int MagicNumber = 12345; // 魔术码
+
+```
+
+## 交易时间表UTC+9【剔除重要数据公布时间和重要金融市场的开盘时间】
+- 周一 10-14:50, 15:20-21, 22-24
+- 周二 0-14:50, 15:20-21, 22-24
+- 周三 0-14:50, 15:20-21, 22:50-23:40
+- 周四 0-14:50, 15:20-17:50, 18:30-21, 22:50-23:20
+- 周五 0-14:50, 15:20-21, 22:50-23:20
+- 周六 0-4

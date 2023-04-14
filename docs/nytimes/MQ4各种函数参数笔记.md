@@ -110,4 +110,3 @@ int SellTicket = OrderSend(Symbol(), OP_SELLLIMIT, CurrentSellLotSize, SellLimit
 
 > 在大多数情况下，使用`for(int i = 0; i < OrdersTotal(); i++)`顺序遍历和使用`for(int i = OrdersTotal() - 1; i >= 0; i--)`倒序遍历都是可以的。只有在你需要对订单进行删除或修改操作时，才需要注意遍历的顺序。
 > 如果只是想获取订单信息，而不需要对订单进行删除或修改操作，那么使用顺序遍历和倒序遍历都是可以的。例如，可以使用顺序遍历来统计当前所有订单的总盈亏。
-
