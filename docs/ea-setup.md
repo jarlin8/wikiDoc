@@ -305,11 +305,12 @@ extern int Distance = 1300; // 限价距离（点）
 extern double LotSize = 0.01; // 交易手数
 extern double LotSizeAdd = 0.03; // 间隔递增(手)
 extern double MaxLotSize = 0.07; // 间隔递增与倍数递增分界（手）
-extern double LotSizeTimes = 1.8; // 倍数递增
+extern double LotSizeTimes = 1.6; // 倍数递增
+extern double MaxLotSizeA = 1; // 第二分界（手）
+extern double LotSizeAddA = 0.1; // 第二间隔递增(手)
+extern double MaxLotSizeB = 2; // 第三分界（手）
+extern double LotSizeAddB = 0.3; // 第三间隔递增(手)
 extern double TargetProfit = 1.8; // 盈利目标（$）
-extern double stopLoss = 60000; // 止损点数
-extern double takeProfit = 1000; // 止盈点数
-const int DELAY_MS = 100; // 延迟的毫秒数
 extern int MagicNumber = 12345; // 魔术码
 
 ```
