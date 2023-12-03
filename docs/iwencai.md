@@ -6,6 +6,7 @@ tags:
 description: 2023年，A股市场迎来了复苏的春天，各行各业都有不少表现亮眼的牛股。其中，军工板块尤为引人注目，成飞集团、中航电测等重组上市的军工龙头股票连续涨停，创下了创业板史上的奇迹。另外，光伏行业也是一大热点，钧达股份等光伏巨头签订了大额硅片采购合同，预示着光伏产业的高速发展。如果你想抓住这些机会，就要密切关注2023年牛股的动态和走势，不要错过每一个投资窗口。
 ---
 
+`8.14-12.4` **pywencai程序问题 没配置好,数据不可用**
 - 净买入的资金
    - https://data.10jqka.com.cn/market/lhbgg/code/002112/
 - 涨停原因
@@ -142,85 +143,6 @@ description: 2023年，A股市场迎来了复苏的春天，各行各业都有�
 | 20230810 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230810.csv) |                          |                          |
 | 20230811 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230811.csv) |                          |                          |
 | 20230814 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230814.csv) |                          |                          |
-| 20230815 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230815.csv) |                          |                          |
-| 20230816 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230816.csv) |                          |                          |
-| 20230817 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230817.csv) |                          |                          |
-| 20230818 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230818.csv) |                          |                          |
-| 20230821 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230821.csv) |                          |                          |
-| 20230822 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230822.csv) |                          |                          |
-| 20230823 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230823.csv) |                          |                          |
-| 20230824 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230824.csv) |                          |                          |
-| 20230825 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230825.csv) |                          |                          |
-| 20230828 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230828.csv) |                          |                          |
-| 20230829 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230829.csv) |                          |                          |
-| 20230830 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230830.csv) |                          |                          |
-| 20230831 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230831.csv) |                          |                          |
-| 20230901 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230901.csv) |                          |                          |
-| 20230904 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230904.csv) |                          |                          |
-| 20230905 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230905.csv) |                          |                          |
-| 20230906 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230906.csv) |                          |                          |
-| 20230907 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230907.csv) |                          |                          |
-| 20230908 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230908.csv) |                          |                          |
-| 20230911 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230911.csv) |                          |                          |
-| 20230912 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230912.csv) |                          |                          |
-| 20230913 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230913.csv) |                          |                          |
-| 20230914 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230914.csv) |                          |                          |
-| 20230915 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230915.csv) |                          |                          |
-| 20230918 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230918.csv) |                          |                          |
-| 20230919 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230919.csv) |                          |                          |
-| 20230920 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230920.csv) |                          |                          |
-| 20230921 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230921.csv) |                          |                          |
-| 20230922 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230922.csv) |                          |                          |
-| 20230925 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230925.csv) |                          |                          |
-| 20230926 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230926.csv) |                          |                          |
-| 20230927 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230927.csv) |                          |                          |
-| 20230928 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230928.csv) |                          |                          |
-| 20230929 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20230929.csv) |                          |                          |
-| 20231002 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231002.csv) |                          |                          |
-| 20231003 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231003.csv) |                          |                          |
-| 20231004 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231004.csv) |                          |                          |
-| 20231005 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231005.csv) |                          |                          |
-| 20231006 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231006.csv) |                          |                          |
-| 20231009 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231009.csv) |                          |                          |
-| 20231010 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231010.csv) |                          |                          |
-| 20231011 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231011.csv) |                          |                          |
-| 20231012 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231012.csv) |                          |                          |
-| 20231013 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231013.csv) |                          |                          |
-| 20231016 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231016.csv) |                          |                          |
-| 20231017 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231017.csv) |                          |                          |
-| 20231018 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231018.csv) |                          |                          |
-| 20231019 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231019.csv) |                          |                          |
-| 20231020 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231020.csv) |                          |                          |
-| 20231023 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231023.csv) |                          |                          |
-| 20231024 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231024.csv) |                          |                          |
-| 20231025 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231025.csv) |                          |                          |
-| 20231026 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231026.csv) |                          |                          |
-| 20231027 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231027.csv) |                          |                          |
-| 20231030 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231030.csv) |                          |                          |
-| 20231031 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231031.csv) |                          |                          |
-| 20231101 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231101.csv) |                          |                          |
-| 20231102 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231102.csv) |                          |                          |
-| 20231103 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231103.csv) |                          |                          |
-| 20231106 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231106.csv) |                          |                          |
-| 20231107 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231107.csv) |                          |                          |
-| 20231108 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231108.csv) |                          |                          |
-| 20231109 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231109.csv) |                          |                          |
-| 20231110 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231110.csv) |                          |                          |
-| 20231113 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231113.csv) |                          |                          |
-| 20231114 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231114.csv) |                          |                          |
-| 20231115 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231115.csv) |                          |                          |
-| 20231116 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231116.csv) |                          |                          |
-| 20231117 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231117.csv) |                          |                          |
-| 20231120 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231120.csv) |                          |                          |
-| 20231121 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231121.csv) |                          |                          |
-| 20231122 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231122.csv) |                          |                          |
-| 20231123 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231123.csv) |                          |                          |
-| 20231124 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231124.csv) |                          |                          |
-| 20231127 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231127.csv) |                          |                          |
-| 20231128 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231128.csv) |                          |                          |
-| 20231129 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231129.csv) |                          |                          |
-| 20231130 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231130.csv) |                          |                          |
-| 20231201 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231201.csv) |                          |                          |
 | 20231204 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231204.csv) |                          |                          |
 | 20231205 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231205.csv) |                          |                          |
 | 20231206 | [结果链接](https://github.com/jarlin8/mkdoc/blob/wencai/docs/stock_data_20231206.csv) |                          |                          |
