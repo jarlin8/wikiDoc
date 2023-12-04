@@ -36,8 +36,8 @@ jobs:
       - name: Deploy to wiki.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
-          #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          #personal_token: ${{ secrets.PERSONAL_TOKEN }}
           exclude_assets: '.github,node_modules'
           external_repository: jarlin8/wiki.github.io
           publish_branch: main
