@@ -28,3 +28,16 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           exclude_assets: '.github,node_modules'
           publish_dir: ./build
+
+# 使用`deploy_key`的时候 将私钥设置为包含此操作的版本库，将公钥设置为外部版本库。
+# 密钥生成在`C:\Users\hank\.ssh`注意查找 无法添加私钥到仓库
+# 只能使用 `personal_token`登录后，点击右上角的个人头像，然后在下拉菜单中选择 "Settings"（设置）。
+# 访问 Developer settings：在设置页面的左侧菜单中，找到 "Developer settings"（开发者设置）并点击。
+      - name: Deploy to wiki.github.io
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: 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
+          exclude_assets: '.github,node_modules'
+          external_repository: jarlin8/wiki.github.io
+          publish_branch: main
+          publish_dir: ./build
