@@ -1,0 +1,40 @@
+name: Python script wencai
+
+on:
+  push
+
+jobs:
+  collect_data:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - name: Set up Node.js environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.10.0
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12.0
+
+    - name: Install dependencies
+      run: |
+        pip install pandas tabulate
+        pip install pywencai==0.12.0
+
+    - name: Run Python script
+      run: |
+        python get-wencai.py
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        exclude_assets: '.github,node_modules'
+        publish_branch: wencai
+        publish_dir: ./
+        keep_files: true
