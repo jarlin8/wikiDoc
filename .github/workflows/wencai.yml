@@ -28,7 +28,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        python get-wencai.py
+        python wencai.py
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
