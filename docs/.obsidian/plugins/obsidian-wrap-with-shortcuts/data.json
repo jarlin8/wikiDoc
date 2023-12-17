@@ -1,0 +1,16 @@
+{
+  "wrapperTags": [
+    {
+      "id": "w1673003226803",
+      "name": "可折叠内容",
+      "startTag": "<details> <summary>总结</summary>",
+      "endTag": "</details>"
+    },
+    {
+      "id": "w1673277598734",
+      "name": "维基百科",
+      "startTag": "](https://zh.wikipedia.org/wiki/",
+      "endTag": ")"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+title: "Exness 是否收取隔夜费用？"
+date: "2023-01-10"
+---
+
+是的，在大多数情况下，许多**交易品种**的持仓过夜均需缴纳[[exness-trader/隔夜利息|隔夜利息]]。 [[exness-trader/隔夜利息|隔夜利息]]在工作日的22:00（[GMT](https://zh.wikipedia.org/wiki/GMT)+0）增加或扣除的利息费，星期三或星期五的[[exness-trader/隔夜利息|隔夜利息]]是其他日期的三倍（具体视交易品种而定）。
+
+建议详细阅读EXNESS**关于[[exness-trader/隔夜利息|隔夜利息]]**的文章。 EXNESS也提供适用于**[伊斯兰教](https://zh.wikipedia.org/wiki/伊斯兰教)** 和**非伊斯兰教**国家/地区的**免[[exness-trader/隔夜利息|隔夜利息]]交易****账户**。
