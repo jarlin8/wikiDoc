@@ -2,7 +2,7 @@ name: Python script wencai
 
 on:
   schedule:
-    - cron: "30 10 * * 1,2,3,4,5"
+    - cron: "45 9 * * 1,2,3,4,5"
 
 jobs:
   collect_data:
