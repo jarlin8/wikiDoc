@@ -1,8 +1,11 @@
 name: Python script wencai
 
 on:
-  schedule:
-    - cron: "45 9 * * 1,2,3,4,5"
+  push:
+    branches:
+      - main
+  #schedule:
+  #  - cron: "45 9 * * 1,2,3,4,5"
 
 jobs:
   collect_data:
