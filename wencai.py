@@ -21,8 +21,8 @@ df = pd.DataFrame(data)
 columns_to_drop = ['股票市场类型', '经营范围', 'market_code']
 df.drop(columns=columns_to_drop, inplace=True, errors='ignore')
 
-# 修饰表头，去除 [数字] 模式
-df.columns = [re.sub(r'\[\d+\]', '', col) for col in df.columns]
+# 修饰表头，去除 [数字] 模式以及 {} 和 ()
+df.columns = [re.sub(r'\[\d+\]|\{|\}|\(|\)', '', col) for col in df.columns]
 
 # 文件路径
 file_path = './docs/data_' + mtime + '.csv'
