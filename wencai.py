@@ -2,6 +2,7 @@ import pywencai
 import pandas as pd
 import datetime
 import os
+import re
 
 # 设置 hexin-v.js 文件的路径
 hexin_v_file = os.path.join(os.path.dirname(__file__), 'hexin-v.js')
@@ -15,6 +16,13 @@ data = pywencai.get(query='当日龙虎榜净额大于0，非st的股票，非�
 
 # 将数据转换为 DataFrame
 df = pd.DataFrame(data)
+
+# 删除不需要的列
+columns_to_drop = ['股票市场类型', '经营范围', 'market_code']
+df.drop(columns=columns_to_drop, inplace=True, errors='ignore')
+
+# 修饰表头，去除 [数字] 模式
+df.columns = [re.sub(r'\[\d+\]', '', col) for col in df.columns]
 
 # 文件路径
 file_path = './docs/data_' + mtime + '.csv'
