@@ -12,7 +12,7 @@ today = datetime.datetime.now()
 mtime = today.strftime("%Y%m%d")
 
 # 使用 pywencai 获取股市数据
-data = pywencai.get(query='当日龙虎榜净额大于0，非st，非创业板，非科创板，非北交所，非次新股,涨幅大于0,涨停原因,(当日龙虎榜净额/当日龙虎榜买入金额)从大到小列出', query_type='stock', loop=True)
+data = pywencai.get(query='当日龙虎榜净额大于0，非st，非创业板，非科创板，非北交所，非次新股,涨幅大于-8%,涨停原因,(当日龙虎榜净额/当日龙虎榜买入金额)从大到小列出', query_type='stock', loop=True)
 
 # 将数据转换为 DataFrame
 df = pd.DataFrame(data)
