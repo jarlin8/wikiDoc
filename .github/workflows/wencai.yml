@@ -1,8 +1,9 @@
 name: Python script wencai
 
 on:
-  schedule:
-    - cron: "45 9 * * 1,2,3,4,5"
+  push
+  # schedule:
+  #   - cron: "45 9 * * 1,2,3,4,5"
 
 jobs:
   collect_data:
@@ -25,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pandas tabulate
-        pip install pywencai==0.12.0
+        pip install pywencai==0.12.2
 
     - name: Run Python script
       run: |
