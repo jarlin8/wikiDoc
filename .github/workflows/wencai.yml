@@ -2,7 +2,7 @@ name: Python script wencai
 
 on:
   push
-  # schedule:
+  ## schedule:
   #   - cron: "45 9 * * 1,2,3,4,5"
 
 jobs:
