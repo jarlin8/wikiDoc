@@ -1,0 +1,122 @@
+/* You can override the default Infima variables here. */
+:root {
+  --doc-sidebar-width: 260px !important;
+  --ifm-h1-font-size: 1.6rem !important;
+  --ifm-h2-font-size: 1.4rem !important;
+  --ifm-h3-font-size: 1.2rem !important;
+  --ifm-h4-font-size: 1rem !important;
+  --ifm-h5-font-size: 0.9rem !important;
+  --ifm-h6-font-size: 0.85rem !important;
+  --ifm-color-primary: #0bb45b;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 90%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --prism-color: #F8F8F2;
+  --prism-background-color:#282A36;
+  --ifm-font-family-monospace: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --ifm-font-famliy-base: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --prism-color: #F8F8F2;
+  --prism-background-color:#282A36;
+  --ifm-navbar-link-color:#ffffff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(127, 125, 125, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.table-of-contents__link {
+  font-size: 0.9rem;
+}
+
+pre code {
+  background-color: #c3c3c310;}
+  button {
+    font-size: 16px;
+    color: white;
+    background: #1877f2;
+    border-radius: 8px;
+    border: 1px;
+    padding: 4px;}
+
+code {
+  background-color: #0bb480ab;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footnote-ref {
+  color: white;
+  background: #1877f2;
+  border-radius: 2px;
+  padding: 2px;
+  font-size: 1px;
+}
+
+.font-extrabold {
+  font-weight: 800;
+  font-size: 1.7rem;
+  margin-bottom: 0rem;
+}
+
+.navbar__logo {
+  height: 3rem;
+  margin-right: -1.8rem;
+}
+
+details {
+ /* border: 1px solid #4cb3d4; */
+  border-radius: 6px;
+  background: #4cb3d442;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+
+summary {
+  padding: 5px;
+  font-size: 1.1rem;
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 1.6rem;
+}
+.markdown>h1 {
+  --ifm-h1-font-size: 1.6rem;
+}
+.markdown>h2 {
+  --ifm-h2-font-size: 1.3rem;
+}
+.markdown>h3 {
+  --ifm-h3-font-size: 1.1rem;
+}
+.markdown>h4 {
+  --ifm-h4-font-size: .9rem;
+}
+.markdown>h5 {
+  --ifm-h5-font-size: .9rem;
+}
+.docusaurus-mt-lg {
+    margin-top: 2rem;
+}
+
+blockquote {
+    border-left: 0.6em solid #6d6d6d;border-radius: 0.3em;background:var(--ifm-menu-color-background-active);color: var(--ifm-navbar-link-color);padding: 0.6em;}
+table {width: 100%;}
