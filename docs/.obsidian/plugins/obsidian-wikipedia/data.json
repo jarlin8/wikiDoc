@@ -1,7 +1,0 @@
-{
-  "template": "{{text}}",
-  "shouldUseParagraphTemplate": true,
-  "shouldBoldSearchTerm": true,
-  "paragraphTemplate": "{{paragraphText}}",
-  "language": "zh"
-}
