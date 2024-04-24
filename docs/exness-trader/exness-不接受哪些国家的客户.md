@@ -3,8 +3,6 @@ title: "Exness 不接受哪些国家的客户？"
 date: "2023-01-10"
 ---
 
-<Ads></Ads> 
-
 [美国](https://zh.wikipedia.org/wiki/美国)、[美属萨摩亚](https://zh.wikipedia.org/wiki/美属萨摩亚)、[贝克岛](https://zh.wikipedia.org/wiki/贝克岛)、[关岛](https://zh.wikipedia.org/wiki/关岛)、[豪兰岛](https://zh.wikipedia.org/wiki/豪兰岛)、[金曼礁](https://zh.wikipedia.org/wiki/金曼礁)、[马绍尔群岛](https://zh.wikipedia.org/wiki/马绍尔群岛)、[北马里亚纳群岛](https://zh.wikipedia.org/wiki/北马里亚纳群岛)、[波多黎各](https://zh.wikipedia.org/wiki/波多黎各)、[中途岛](https://zh.wikipedia.org/wiki/中途岛)、[威克岛](https://zh.wikipedia.org/wiki/威克岛)、[帕尔米拉环礁](https://zh.wikipedia.org/wiki/帕尔米拉环礁)、[贾维斯岛](https://zh.wikipedia.org/wiki/贾维斯岛)、[约翰斯顿环礁](https://zh.wikipedia.org/wiki/约翰斯顿环礁)、[纳瓦萨岛](https://zh.wikipedia.org/wiki/纳瓦萨岛)、[马提尼克](https://zh.wikipedia.org/wiki/马提尼克)、[美属维尔京群岛](https://zh.wikipedia.org/wiki/美属维尔京群岛)和[美国本土外小岛屿](https://zh.wikipedia.org/wiki/美国本土外小岛屿)的**国民***和**居民**** 无法注册为Exness的客户。
 
 此外，Exness也不接受下列国家的**[居民](https://zh.wikipedia.org/wiki/居民)****注册为客户：

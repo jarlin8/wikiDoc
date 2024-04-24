@@ -19,3 +19,30 @@
 通过以下步骤可轻松导入和使用 Docusaurus 主题组件。首先，在控制台中运行npm run swizzle命令，选择“@tarslib/docusaurus-theme”并导入所需组件，如 TOCItems （Unsafe）。通过浏览器控制台检查元素来快速定位组件。选择 Wrap （Unsafe）并确认，生成新组件后需重启项目。此后，您可以在组件中添加自定义内容。
 [详细文本教程](https://jsnoteclub.com/blog/how-to-change-default-sidebar-docusaurus/)
 [swizze](https://docusaurus.io/zh-CN/docs/swizzling)
+
+## 自动推送站点地图到搜索引擎
+[自动推送到搜索引擎](https://www.alanwang.site/posts/blog-guides/docusaurus-search-engines-urls-push)
+
+``` YAML
+name: search-engines-urls-push
+
+on: deployment
+
+jobs:
+  search-engines-urls-push:
+    runs-on: ubuntu-latest
+    name: search-engines-urls-push
+    steps:
+      - name: search-engines-urls-push
+        id: search-engines-urls-push
+        # 使用最新的版本
+        uses: 3Alan/search-engines-urls-push@v0.2.2
+        with:
+          site: ${{ secrets.SITE }}
+          sitemap: ${{ secrets.SITEMAP }}
+          count: ${{ secrets.COUNT }}
+          bing-token: ${{ secrets.BING_TOKEN }}
+          baidu-token: ${{ secrets.BAIDU_TOKEN }}
+          google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+```

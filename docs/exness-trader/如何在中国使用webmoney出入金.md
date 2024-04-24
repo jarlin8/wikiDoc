@@ -3,8 +3,6 @@ title: "如何在中国使用WebMoney出入金"
 date: "2023-01-10"
 ---
 
-<Ads></Ads> 
-
 WebMoney 是一种电子支付方式，目前在全球有 4000 多万人使用。 您可以使用 WebMoney 免佣金为 Exness 账户充值。
 
 以下是 WebMoney 使用须知：

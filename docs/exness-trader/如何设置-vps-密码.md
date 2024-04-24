@@ -3,8 +3,6 @@ title: "如何设置 VPS 密码"
 date: "2023-01-10"
 ---
 
-<Ads></Ads> 
-
 请按照以下步骤设置 VPS 密码：
 
 [![CSVP-3260_ZH_00000.png](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3260_ZH_00000.png)](https://haokan.baidu.com/v?vid=4060657159805618088)

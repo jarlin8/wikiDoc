@@ -3,8 +3,6 @@ title: "如何使用 Exness 货币转换器"
 date: "2023-01-10"
 ---
 
-<Ads></Ads> 
-
 EXNESS的Exness货币转换器可根据实时数据，为您最多对比六种不同的货币。
 
 **打开Exness货币转换器**

@@ -3,8 +3,6 @@ title: "Exness 交易应用：是否可以更改所使用的交易终端？"
 date: "2023-01-10"
 ---
 
-<Ads></Ads> 
-
 可以，您可以在**Exness交易**应用上更改用于 MT5 账户交易的**交易终端**。 以下为操作步骤：
 
 ![CSVP-4776-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4776-ZH.gif)
