@@ -3,6 +3,8 @@ title: "在哪可以找到 macOS 版MT4/MT5安装文件？"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 虽然EXNESS已从网站上移除了 macOS 版 MT4/MT5 安装包，但您可以通过以下链接下载：
 
 - 点击此处获取[**MT4**](https://download.metatrader.com/cdn/web/exness.technologies.ltd/mt4/exness4setup.exe)安装包

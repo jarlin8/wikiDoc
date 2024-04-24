@@ -3,6 +3,8 @@ title: "如何使用Sticpay出入金"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 您可以使用Sticpay来为您的交易账户便捷地出入金。Sticpay是一项全球电子钱包服务，通过该服务，无论您身在何处，您都可以即时办理入金和出金。 要使用Sticpay，您需要拥有一个Sticpay账户或在Sticpay网站上创建一个账户。
 
 以下为您提供Sticpay的相关使用详情：

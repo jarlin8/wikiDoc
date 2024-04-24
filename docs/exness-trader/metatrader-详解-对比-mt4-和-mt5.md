@@ -3,6 +3,8 @@ title: "MetaTrader 详解：对比 MT4 和 MT5"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 **MetaTrader 5** 是交易软件巨头 MetaQuotes Software Corp 推出的第五代高级交易平台。 MetaTrader 5 是 MetaTrader 4 的最新升级版本，添加了更多功能和工具，譬如**新的订单类型**和**个性化时间周期**。
 
 > 注意：如果您开立的是 MT4 账户，那么您就不能用 MT4 账户登录 MT5 交易终端，反之亦然。 如果您既想用 MT4 也想用 MT5 终端，那您就需要针对两个平台分别开立两个独立的交易账户。

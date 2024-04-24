@@ -3,6 +3,8 @@ title: "如何获得 Exness VPS 服务"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 只需满足如下几个简单要求，任何人均可使用 Exness VPS 服务。
 
 - **VPS服务要求**

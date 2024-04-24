@@ -3,6 +3,8 @@ title: "使用 Windows 版本 MetaTrader 5"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 欢迎阅读EXNESS的指南，了解如何安装、设置并使用 MT5 交易终端进行交易。
 
 - **安装**
