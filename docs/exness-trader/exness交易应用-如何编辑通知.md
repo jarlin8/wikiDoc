@@ -3,6 +3,8 @@ title: "Exness交易应用：如何编辑通知"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 在Exness交易应用中，您可以自定义需要收到哪些通知类型。 以下是一份关于如何进行自定义的便捷指南。
 
 ![CSVP-4999_iOS_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4999_iOS_ZH.gif)

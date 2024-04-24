@@ -3,6 +3,8 @@ title: "Exness VPS 使用须知"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 Exness **VPS** 是一种免费服务，用于提升您与交易服务器的网络连接。 在本文中，EXNESS整理了一些有关 Exness `VPS` 的常见问题。
 
 - **VPS 使用条款**

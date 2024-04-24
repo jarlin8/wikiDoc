@@ -3,6 +3,8 @@ title: "Exness交易应用：如何将交易品种收藏至关注列表"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 将某交易品种添加至收藏列表，可以避免错过该品种价格变动的消息，这是保证您信息时效性的好方法。
 
 ![CSVP-4283_iOS_ZH_resized.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-4283_iOS_ZH_resized.gif)

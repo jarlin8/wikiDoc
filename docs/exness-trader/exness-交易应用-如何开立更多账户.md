@@ -3,6 +3,8 @@ title: "Exness 交易应用：如何开立更多账户"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 现在Exness 交易应用上创建新的 MetaTrader 4或 MetaTrader 5**账户** 已十分便捷。
 
 参照以下步骤创建新账户：
