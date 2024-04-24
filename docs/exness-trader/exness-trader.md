@@ -2,6 +2,8 @@
 title: EXNESS客户帮助
 ---
 
+<Ads></Ads> 
+
 - [[exness-trader/保障您的vps安全|保障您的vps安全]]
 - [[exness-trader/保证金和可用保证金之间有何区别|保证金和可用保证金之间有何区别]]
 - [[exness-trader/标准账户|标准账户]]

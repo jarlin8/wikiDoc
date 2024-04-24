@@ -3,6 +3,8 @@ title: "如何在 Linux 系统中安装 MT4/MT5"
 date: "2023-01-10"
 ---
 
+<Ads></Ads> 
+
 为优化您的交易体验，请在桌面设备安装MetaTrader 4或MetaTrader 5，体验Exness交易平台的多种特色和功能，轻松管理多个交易账户。
 
 本文将为您介绍如何在Linux系统安装MT4和MT5。
