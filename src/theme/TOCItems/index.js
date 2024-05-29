@@ -7,7 +7,14 @@ export default function TOCItemsWrapper(props) {
       <TOCItems {...props} />
       <a target="_blank" href="https://www.ifttt.fun/go/atfx-cn/" rel="noopener noreferrer">
         <img 
-          style={{ border: '1px solid #ddd', boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)', padding: '18px', borderRadius: '8px' }}
+          style={{
+            border: '1px solid #ddd', 
+            boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)', 
+            padding: '18px', 
+            borderRadius: '8px', 
+            background: 'white', 
+            marginTop: '1.25em'
+          }}
           className="size-full wp-image-24489 aligncenter" 
           src="https://cdn.fendou.la/bluehost/ATFX-ads.svg" 
           alt="ATFX侧边栏广告" 
