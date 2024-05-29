@@ -62,19 +62,6 @@ const Ads = () => {
           <p>2014年成立，总部位于英国伦敦，FCA监管，提供外汇、贵金属、原油、股票等超过100种差价合约交易产品，银联出入金高效安全最高杠杆400倍，香港办事处服务中国客户。</p>
         </div>
       </div>
-      <a 
-        href="https://s.ifttt.fun/jsmt4" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <img 
-          src="https://testingcf.jsdelivr.net/gh/jarlin8/img@main/imgHD/1617860184554-forexgif.gif" 
-          alt="嘉盛集团广告" 
-          loading="lazy" 
-          fetchpriority="low" 
-          style={adstyle}
-        />
-      </a>
       <style jsx>{`
         @media (max-width: 767px) {
           .atfx-container {
