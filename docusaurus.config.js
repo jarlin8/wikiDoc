@@ -41,7 +41,7 @@ const config = {
     async: true,
     defer: true,
     "data-domain": "maxkb.ifttt.fun",
-  },
+    },
   ],
   // const math = (await import('remark-math')).default;
   // const katex = (await import('rehype-katex')).default;
