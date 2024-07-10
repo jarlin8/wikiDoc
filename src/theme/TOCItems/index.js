@@ -5,7 +5,7 @@ export default function TOCItemsWrapper(props) {
   return (
     <>
       <TOCItems {...props} />
-      <a target="_blank" href="https://www.ifttt.fun/go/atfx-cn/" rel="noopener noreferrer">
+      <a target="_blank" href="https://s.ifttt.fun/atfx" rel="noopener noreferrer">
         <img 
           style={{
             border: '1px solid #ddd', 
