@@ -1,0 +1,74 @@
+---
+title: "如何生成网络日志排除故障"
+date: "2023-01-10"
+---
+
+<Ads></Ads> 
+
+如何生成网络日志排查故障
+
+如果您曾因网站相关问题联系EXNESS的客服团队获取帮助，EXNESS的客服可能因排查故障的需要而要求您提供网络日志（.HAR 文件）。
+
+在本文中，EXNESS将告诉您这些文件是什么以及如何通过简单几步生成此类文件：
+
+- **什么是 HAR 文件？**
+- **为什么要使用 HAR 文件？**
+- **在浏览器上检索网络日志**
+
+- **谷歌浏览器**
+- **火狐浏览器 （Firefox）**
+- **IE 浏览器 （Internet Explorer）**
+- **Safari 浏览器**
+
+## 什么是 HAR 文件？
+
+HAR（HTTP 存档格式）是IE 浏览器、火狐浏览器、Chrome 浏览器、Safari 浏览器等诸多浏览器存储客户端与服务器之间的数据的文件格式。 当发送方和接收方之间发生通信时，HAR 负责存储 HTTP 响应数据和请求头。
+
+## 为什么要使用 HAR 文件？
+
+HAR 文件能够保存所有通过浏览器选项卡发出的网页请求，因此可以在排查网站性能问题时派上用场。
+
+## 在浏览器上检索网络日志
+
+咱们一起来看一下在下列常用浏览器上如何生成网络日志：
+
+### 谷歌浏览器
+
+![CSVP-3160_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3160_ZH.gif)
+
+1. 打开控制台（点击 F12）。
+2. 点击 **Network (网络)**。
+3. 请尝试重现正在面临的问题。
+4. 右键单击 **Name（命名）**区域，然后选择 **Save all as HAR with content（所有内容另存为 HAR）**。
+5. 命名 .HAR 文件并保存到电脑。
+
+### 火狐浏览器 （Firefox）
+
+![CSVP-3162-ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3162-ZH.gif)
+
+1. 点击火狐浏览器的菜单，然后选择**更多工具**>**网页开发工具**，调出调试控制台。 或者您也可以同时按住**Ctrl+Shift+I**。
+2. 在对接面板（docked panel）中选择**网络**选项卡。
+3. 请尝试重现正在面临的问题。 浏览器会记录执行过的操作。
+4. 完成后，右键单击**文件**栏任意区域，然后点击**所有内容另存为 HAR**。
+5. 点击**保存**图标将本文件保存到您的电脑。
+
+### IE 浏览器 （Internet Explorer）
+
+![ZH_CSVP-3165.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/ZH_CSVP-3165.gif)
+
+1. 打开控制台（按 F12 键)。
+2. 点击 **Network (网络)**。
+3. 请尝试重现正在面临的问题。
+4. 单击 **Save（保存）**图标并另存为 .HAR 或者 .xml 文件（两者均可）。
+
+### Safari 浏览器
+
+![CSVP-3169_ZH.gif](https://testingcf.jsdelivr.net/gh/jarlin8/OSS@main/exhelp/CSVP-3169_ZH.gif)
+
+1. 打开控制台（点击 Cmd+Option/Alt+i)。
+2. 打开 **Network（网络）**标签。
+3. 请尝试重现正在面临的问题。
+4. 单击控制台菜单最右侧的 **Export（导出）**图标。
+5. 命名 .HAR 文件并保存到电脑。
+
+就这么简单！ 现在您就可以像专业人士一样生成日志文件了。
