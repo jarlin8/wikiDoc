@@ -36,12 +36,6 @@ const config = {
       defer: true,
       "data-domain": "niu.fendou.la",
     },
-    {
-    src: "https://maxkb.ifttt.fun/api/application/embed?protocol=https&host=maxkb.ifttt.fun&token=329b39a217072dc5",
-    async: true,
-    defer: true,
-    "data-domain": "maxkb.ifttt.fun",
-    },
   ],
   // const math = (await import('remark-math')).default;
   // const katex = (await import('rehype-katex')).default;
