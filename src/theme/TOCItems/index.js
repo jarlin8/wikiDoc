@@ -1,23 +1,22 @@
 import React from 'react';
 import TOCItems from '@theme-original/TOCItems';
-
 export default function TOCItemsWrapper(props) {
   return (
     <>
       <TOCItems {...props} />
       <a target="_blank" href="https://s.ifttt.fun/atfx" rel="noopener noreferrer">
-        <img 
+        <img
           style={{
-            border: '1px solid #ddd', 
-            boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)', 
-            padding: '18px', 
-            borderRadius: '8px', 
-            background: 'white', 
+            border: '1px solid #ddd',
+            boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)',
+            padding: '18px',
+            borderRadius: '8px',
+            background: 'white',
             marginTop: '1.25em'
           }}
-          className="size-full wp-image-24489 aligncenter" 
-          src="https://cdn.fendou.la/bluehost/ATFX-ads.svg" 
-          alt="ATFX侧边栏广告" 
+          className="size-full wp-image-24489 aligncenter"
+          src="https://cdn.fendou.la/bluehost/ATFX-ads.svg"
+          alt="ATFX侧边栏广告"
         />
       </a>
       <a href="https://s.ifttt.fun/jsmt4" target="_blank" rel="noopener noreferrer">
