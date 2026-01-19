@@ -32,11 +32,8 @@ const wikilink = [
 
 const config = {
   scripts: [
-    {
-      src: "https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js",
-      defer: true,
-      "data-domain": "niu.fendou.la",
-    },
+    // wikiPreviewBox 脚本已移除 - 与 Docusaurus SPA 不兼容
+    // 使用 src/theme/Root.js 中的 WikiPreview 组件替代
   ],
   // const math = (await import('remark-math')).default;
   // const katex = (await import('rehype-katex')).default;
