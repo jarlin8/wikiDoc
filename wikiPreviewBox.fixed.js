@@ -323,7 +323,21 @@
         // 执行初始化
         initAll();
 
-        // SPA 兼容：监听 DOM 变化
+        // 记录当前 URL，用于检测变化
+        var currentUrl = window.location.href;
+
+        // 检查 URL 是否变化
+        function checkUrlChange() {
+            if (window.location.href !== currentUrl) {
+                currentUrl = window.location.href;
+                setTimeout(initAll, 300);
+            }
+        }
+
+        // 定时检查 URL 变化（作为备用方案）
+        setInterval(checkUrlChange, 500);
+
+        // SPA 兼容：监听 DOM 变化（更宽松的条件）
         var observer = new MutationObserver(function (mutations) {
             var shouldReinit = false;
             for (var i = 0; i < mutations.length; i++) {
@@ -331,9 +345,25 @@
                 if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
                     for (var j = 0; j < mutation.addedNodes.length; j++) {
                         var node = mutation.addedNodes[j];
-                        if (node.nodeType === 1 && (node.tagName === 'ARTICLE' || node.tagName === 'MAIN' || (node.classList && node.classList.contains('markdown')))) {
-                            shouldReinit = true;
-                            break;
+                        if (node.nodeType === 1) {
+                            // 检测更多可能的容器变化
+                            if (node.tagName === 'ARTICLE' ||
+                                node.tagName === 'MAIN' ||
+                                node.tagName === 'DIV' ||
+                                (node.classList && (
+                                    node.classList.contains('markdown') ||
+                                    node.classList.contains('docMainContainer') ||
+                                    node.classList.contains('container') ||
+                                    node.classList.contains('row')
+                                ))) {
+                                shouldReinit = true;
+                                break;
+                            }
+                            // 检查是否包含 wikipedia 链接
+                            if (node.querySelector && node.querySelector('[href*="wikipedia.org"]')) {
+                                shouldReinit = true;
+                                break;
+                            }
                         }
                     }
                 }
@@ -349,6 +379,34 @@
         // 监听浏览器前进/后退
         window.addEventListener('popstate', function () {
             setTimeout(initAll, 200);
+        });
+
+        // 拦截 pushState 和 replaceState（React Router 使用这些方法导航）
+        var originalPushState = history.pushState;
+        var originalReplaceState = history.replaceState;
+
+        history.pushState = function () {
+            originalPushState.apply(this, arguments);
+            setTimeout(initAll, 300);
+        };
+
+        history.replaceState = function () {
+            originalReplaceState.apply(this, arguments);
+            setTimeout(initAll, 300);
+        };
+
+        // 监听所有侧边栏链接点击
+        document.addEventListener('click', function (e) {
+            var target = e.target;
+            // 检查是否点击了导航链接
+            while (target && target !== document.body) {
+                if (target.tagName === 'A' && target.href && !target.href.includes('wikipedia.org')) {
+                    // 是内部导航链接，延迟重新初始化
+                    setTimeout(initAll, 500);
+                    break;
+                }
+                target = target.parentElement;
+            }
         });
 
     } // end init()
