@@ -168,6 +168,7 @@
             }
 
             wikiPreviewBox.innerHTML = wikiBoxContent;
+            wikiPreviewBox.scrollTop = 0; // 重置滚动位置到顶部
             var wikiBoxfooter = "<span class='wikiBoxfooter_" + textDir + "'><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener'>" + arrArticleSum[3] + "</a> (wikipedia.org)</span><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener' title='维基百科链接' alt='去维基百科查看完整内容'><span class='wikiBoxLogo-w_" + textDir + "'><img src='https://niu.fendou.la/wikiPrevBox/w.svg' height='30' width='35'></span></a>";
             wikiPreviewBox.insertAdjacentHTML("beforeend", wikiBoxfooter);
 
@@ -278,6 +279,7 @@
             var LinkerBoxContent = "";
             LinkerBoxContent = arrLinkerArticleSum[0];
             LinkerPreviewBox.innerHTML = LinkerBoxContent;
+            LinkerPreviewBox.scrollTop = 0; // 重置滚动位置到顶部
 
             var LinkerBoxfooter = "<span class='LinkerheadLink'><a href='" + LinkerArticleUrl + "' target='_blank' rel='noopener'></a></span>" +
                 "<a href='" + LinkerArticleUrl + "' target='_blank' rel='noopener' title='新窗口打开'>" +
