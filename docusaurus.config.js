@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 const wikiLinkPlugin = require("remark-wiki-link-plus");
 const walkSync = require("walk-sync");
@@ -32,9 +33,8 @@ const wikilink = [
 const config = {
   scripts: [
     {
-      src: "https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.js",
+      src: "/wikiPreviewBox.fixed.js",
       defer: true,
-      "data-domain": "niu.fendou.la",
     },
   ],
   // const math = (await import('remark-math')).default;
