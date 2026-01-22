@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pandas tabulate
-          pip install pywencai==0.12.2
+          pip install pywencai
 
       - name: Run Python script
         run: |
