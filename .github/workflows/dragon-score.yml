@@ -1,0 +1,42 @@
+name: Dragon Tiger Score
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Python script wencai"]
+    types: [completed]
+    branches: [wencai]
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout wencai branch
+        uses: actions/checkout@v5
+        with:
+          ref: wencai
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas numpy
+
+      - name: Run analysis
+        run: python dragon_score.py docs/
+
+      - name: Commit results
+        run: |
+          cd docs
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "更新龙头评分 $(date +%Y-%m-%d)"
+          git push origin wencai
