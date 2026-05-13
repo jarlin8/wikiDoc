@@ -13,60 +13,88 @@ BOT_SECRET = os.environ.get("BOT_SECRET", "")
 CHAT_USERID = os.environ.get("CHAT_USERID", "")
 REPORT_PATH = "docs/REPORT.md"
 
-
 def build_summary(content: str) -> str:
-    """从 REPORT.md 提取关键内容"""
+    """从 REPORT.md 提取关键内容，用完整 Markdown 格式（表格+emoji）"""
     lines = content.split("\n")
-    summary = []
     section = ""
-    count = 0
+    signals = []
+    watches = []
+    dist_lines = []
 
     for line in lines:
-        if line.startswith("# "):
-            summary.append(line.lstrip("# ").strip())
-            summary.append("")
-        elif line.startswith("## 阶段分布"):
+        if line.startswith("## 阶段分布"):
             section = "dist"
-            summary.append("📊 阶段分布")
-        elif line.startswith("## 🟢"):
+        elif line.startswith("## ") and "二次启动" in line:
             section = "signal"
-            count = 0
-            summary.append("\n🟢 二次启动信号")
-        elif line.startswith("## 🟡"):
+        elif line.startswith("## ") and "洗盘" in line:
             section = "watch"
-            count = 0
-            summary.append("\n🟡 洗盘观察期 TOP10")
         elif line.startswith("## "):
             section = "other"
         elif section == "dist" and line.startswith("- "):
-            summary.append(line)
-        elif section == "signal":
+            dist_lines.append(line.lstrip("- ").strip())
+        elif section in ("signal", "watch"):
             if "|" in line and "---" not in line and "代码" not in line:
                 parts = [p.strip() for p in line.split("|") if p.strip()]
                 if len(parts) >= 6:
-                    count += 1
-                    theme = parts[7] if len(parts) > 7 else ""
-                    summary.append(
-                        f"  {count}. {parts[1]}({parts[0]}) "
-                        f"评分{parts[2]} 净买比{parts[5]} {theme}"
-                    )
-        elif section == "watch":
-            if "|" in line and "---" not in line and "代码" not in line:
-                parts = [p.strip() for p in line.split("|") if p.strip()]
-                if len(parts) >= 6:
-                    count += 1
-                    if count <= 10:
-                        theme = parts[7] if len(parts) > 7 else ""
-                        summary.append(
-                            f"  {count}. {parts[1]}({parts[0]}) "
-                            f"评分{parts[2]} 沉寂{parts[4]}天 {theme}"
-                        )
+                    if section == "signal":
+                        signals.append(parts)
+                    else:
+                        watches.append(parts)
 
-    msg = "\n".join(summary)
-    if len(msg) > 2000:
-        msg = msg[:2000] + "\n\n... 已截断，完整报告见 GitHub"
-    return msg
+    from datetime import datetime
+    today = datetime.now().strftime("%Y-%m-%d")
 
+    msg = []
+    msg.append(f"# 🐲 龙虎榜强势股日报 {today}")
+    msg.append("")
+
+    # 阶段分布
+    if dist_lines:
+        msg.append("## 📊 阶段分布")
+        for d in dist_lines:
+            msg.append(f"- {d}")
+        msg.append("")
+
+    # 二次启动信号 - 表格
+    msg.append(f"## 🟢 二次启动信号（{len(signals)}只）")
+    if signals:
+        msg.append("")
+        msg.append("| # | 股票 | 代码 | 评分 | 涨幅 | 净买比 | 题材 |")
+        msg.append("|---|------|------|------|------|--------|------|")
+        for i, p in enumerate(signals, 1):
+            code = p[0]
+            name = p[1]
+            score = p[2]
+            change = p[3] if len(p) > 3 else ""
+            net_ratio = p[5] if len(p) > 5 else ""
+            theme = p[7] if len(p) > 7 else ""
+            msg.append(f"| {i} | **{name}** | {code} | {score} | {change} | {net_ratio} | {theme} |")
+    else:
+        msg.append("> 今日无二次启动信号")
+    msg.append("")
+
+    # 洗盘观察期 TOP15 - 表格
+    top_n = watches[:15]
+    msg.append(f"## 🟡 洗盘观察期 TOP15（共{len(watches)}只）")
+    if top_n:
+        msg.append("")
+        msg.append("| # | 股票 | 代码 | 评分 | 沉寂天数 | 净买比 | 题材 |")
+        msg.append("|---|------|------|------|----------|--------|------|")
+        for i, p in enumerate(top_n, 1):
+            code = p[0]
+            name = p[1]
+            score = p[2]
+            silent = p[4] if len(p) > 4 else ""
+            net_ratio = p[5] if len(p) > 5 else ""
+            theme = p[7] if len(p) > 7 else ""
+            msg.append(f"| {i} | **{name}** | {code} | {score} | {silent}天 | {net_ratio} | {theme} |")
+    else:
+        msg.append("> 今日无洗盘观察股")
+
+    result = "\n".join(msg)
+    if len(result) > 4000:
+        result = result[:3900] + "\n\n> … 已截断，完整报告见 GitHub"
+    return result
 
 async def send_report():
     """连接 WebSocket，认证后主动推送消息"""
