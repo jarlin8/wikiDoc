@@ -13,22 +13,133 @@ jobs:
 
     steps:
       - name: Checkout wencai branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: wencai
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pandas tabulate
+        run: pip install pandas tabulate websockets
 
       - name: Run dragon score
         working-directory: docs
         run: python dragon_score.py
+
+      - name: Send to WeCom Bot
+        env:
+          BOT_ID: $ secrets.WECOM_BOT_KEY 
+          BOT_SECRET: $toolu_01H3ntc6mpeWGqp6Q7HxDHm1
+        run: |
+          python3 << 'PYEOF'
+          import asyncio, json, os
+
+          import websockets
+
+          bot_id = os.environ["BOT_ID"]
+          bot_secret = os.environ["BOT_SECRET"]
+
+          # 读取报告并精简（单聊消息有长度限制）
+          with open("docs/REPORT.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          lines = content.split("\n")
+          summary = []
+          section = ""
+          count = 0
+
+          for line in lines:
+              if line.startswith("# "):
+                  summary.append(line.lstrip("# ").strip())
+                  summary.append("")
+              elif line.startswith("## 阶段分布"):
+                  section = "dist"
+                  summary.append("📊 阶段分布")
+              elif line.startswith("## 🟢"):
+                  section = "signal"
+                  count = 0
+                  summary.append("\n🟢 二次启动信号")
+              elif line.startswith("## 🟡"):
+                  section = "watch"
+                  count = 0
+                  summary.append("\n🟡 洗盘观察期 TOP10")
+              elif line.startswith("## "):
+                  section = "other"
+              elif section == "dist" and line.startswith("- "):
+                  summary.append(line)
+              elif section == "signal":
+                  if "|" in line and "---" not in line and "代码" not in line:
+                      parts = [p.strip() for p in line.split("|") if p.strip()]
+                      if len(parts) >= 6:
+                          count += 1
+                          theme = parts[7] if len(parts) > 7 else ""
+                          summary.append(
+                              f"  {count}. {parts[1]} ({parts[0]}) "
+                              f"评分{parts[2]} 净买比{parts[5]} {theme}"
+                          )
+              elif section == "watch":
+                  if "|" in line and "---" not in line and "代码" not in line:
+                      parts = [p.strip() for p in line.split("|") if p.strip()]
+                      if len(parts) >= 6:
+                          count += 1
+                          if count <= 10:
+                              theme = parts[7] if len(parts) > 7 else ""
+                              summary.append(
+                                  f"  {count}. {parts[1]} ({parts[0]}) "
+                                  f"评分{parts[2]} 沉寂{parts[4]}天 {theme}"
+                              )
+
+          msg_text = "\n".join(summary)
+          if len(msg_text) > 2000:
+              msg_text = msg_text[:2000] + "\n\n... 已截断，完整报告见GitHub"
+
+          async def send_report():
+              uri = "wss://openws.work.weixin.qq.com"
+              async with websockets.connect(uri) as ws:
+                  # 1. 订阅（认证）
+                  subscribe_msg = {
+                      "action": "aibot_subscribe",
+                      "data": {
+                          "bot_id": bot_id,
+                          "secret": bot_secret,
+                      },
+                  }
+                  await ws.send(json.dumps(subscribe_msg))
+                  resp = json.loads(await ws.recv())
+                  print(f"订阅结果: {resp}")
+
+                  if resp.get("errcode", -1) != 0 and resp.get("ret", -1) != 0:
+                      # 尝试兼容不同返回格式
+                      if "succ" not in str(resp).lower() and "ok" not in str(resp).lower():
+                          print(f"订阅失败: {resp}")
+                          return
+
+                  # 2. 主动推送消息
+                  send_msg = {
+                      "action": "aibot_send_msg",
+                      "data": {
+                          "bot_id": bot_id,
+                          "msg_type": "text",
+                          "content": {
+                              "text": msg_text,
+                          },
+                      },
+                  }
+                  await ws.send(json.dumps(send_msg))
+                  resp = json.loads(await ws.recv())
+                  print(f"发送结果: {resp}")
+
+                  if "errmsg" in resp and resp.get("errcode") == 0:
+                      print("✅ 报告已推送到企业微信")
+                  else:
+                      print(f"发送状态: {resp}")
+
+          asyncio.run(send_report())
+          PYEOF
 
       - name: Commit results
         run: |
