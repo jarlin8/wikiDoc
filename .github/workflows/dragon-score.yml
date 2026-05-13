@@ -5,38 +5,34 @@ on:
   workflow_run:
     workflows: ["Python script wencai"]
     types: [completed]
-    branches: [wencai]
 
 jobs:
   analyze:
-    runs-on: ubuntu-latest
-    if: >
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-22.04
+    if: github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout wencai branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           ref: wencai
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pandas numpy
+        run: pip install pandas tabulate
 
-      - name: Run analysis
-        run: python dragon_score.py docs/
+      - name: Run dragon score
+        run: python dragon_score.py
 
       - name: Commit results
         run: |
-          cd docs
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "更新龙头评分 $(date +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "update dragon score report"
           git push origin wencai
