@@ -32,7 +32,7 @@ jobs:
 
       - name: Send to WeCom Bot
         env:
-          BOT_ID: $${{ secrets.WECOM_BOT_ID }}
+          BOT_ID: ${{ secrets.WECOM_BOT_ID }}
           BOT_SECRET: ${{ secrets.WECOM_BOT_SECRET }}
         run: |
           python3 docs/send_wecom.py
