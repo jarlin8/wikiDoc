@@ -103,40 +103,25 @@ async def send_report():
                 content = f.read()
             msg_text = build_summary(content)
 
-            # 3. 主动推送消息（单聊，先尝试 markdown，失败则回退 text）
-            for msg_type in ["markdown", "text"]:
-                if msg_type == "markdown":
-                    body_content = {"markdown": msg_text}
-                else:
-                    body_content = {"text": {"content": msg_text}}
-
-                send_req = {
-                    "cmd": "aibot_send_msg",
-                    "headers": {"req_id": str(uuid.uuid4())},
-                    "body": {
-                        "chattype": "single",
-                        "userid": CHAT_USERID,
-                        "msg_type": msg_type,
-                        **body_content,
+            # 3. 主动推送消息
+            # 官方格式：chatid 单聊填 userid，msgtype + 对应结构体
+            send_req = {
+                "cmd": "aibot_send_msg",
+                "headers": {"req_id": str(uuid.uuid4())},
+                "body": {
+                    "chatid": CHAT_USERID,
+                    "msgtype": "markdown",
+                    "markdown": {
+                        "content": msg_text,
                     },
-                }
-                await ws.send(json.dumps(send_req))
-                resp = json.loads(await asyncio.wait_for(ws.recv(), timeout=15))
-                print(f"发送结果 (msg_type={msg_type}): {resp}")
-
-                if resp.get("errcode", -1) == 0:
-                    print(f"✅ 报告已推送到企业微信 (格式: {msg_type})")
-                    return True
-                else:
-                    print(f"⚠️ {msg_type} 格式失败，尝试下一种...")
-
-            print("❌ 所有格式都失败了")
-            return False
+                },
+            }
+            print(f"发送请求: {json.dumps(send_req, ensure_ascii=False)[:500]}")
             await ws.send(json.dumps(send_req))
             resp = json.loads(await asyncio.wait_for(ws.recv(), timeout=15))
             print(f"发送结果: {resp}")
 
-            if resp.get("errcode", 0) == 0:
+            if resp.get("errcode", -1) == 0:
                 print("✅ 报告已推送到企业微信")
                 return True
             else:
