@@ -1,4 +1,4 @@
-"""企业微信智能机器人推送 - 基于 WebSocket 长连接"""
+"""企业微信智能机器人推送 - WebSocket 长连接主动推送"""
 
 import asyncio
 import json
@@ -10,11 +10,12 @@ import websockets
 
 BOT_ID = os.environ.get("BOT_ID", "")
 BOT_SECRET = os.environ.get("BOT_SECRET", "")
+CHAT_USERID = os.environ.get("CHAT_USERID", "")
 REPORT_PATH = "docs/REPORT.md"
 
 
 def build_summary(content: str) -> str:
-    """从 REPORT.md 提取关键内容，适配企业微信消息长度限制"""
+    """从 REPORT.md 提取关键内容"""
     lines = content.split("\n")
     summary = []
     section = ""
@@ -68,7 +69,7 @@ def build_summary(content: str) -> str:
 
 
 async def send_report():
-    """连接企业微信 WebSocket，认证后推送消息"""
+    """连接 WebSocket，认证后主动推送消息"""
     uri = "wss://openws.work.weixin.qq.com"
 
     try:
@@ -102,18 +103,35 @@ async def send_report():
                 content = f.read()
             msg_text = build_summary(content)
 
-            # 3. 主动推送消息
-            send_req = {
-                "cmd": "aibot_send_msg",
-                "headers": {"req_id": str(uuid.uuid4())},
-                "body": {
-                    "bot_id": BOT_ID,
-                    "msg_type": "markdown",
-                    "content": {
-                        "markdown": msg_text,
+            # 3. 主动推送消息（单聊，先尝试 markdown，失败则回退 text）
+            for msg_type in ["markdown", "text"]:
+                if msg_type == "markdown":
+                    body_content = {"markdown": msg_text}
+                else:
+                    body_content = {"text": {"content": msg_text}}
+
+                send_req = {
+                    "cmd": "aibot_send_msg",
+                    "headers": {"req_id": str(uuid.uuid4())},
+                    "body": {
+                        "chattype": "single",
+                        "userid": CHAT_USERID,
+                        "msg_type": msg_type,
+                        **body_content,
                     },
-                },
-            }
+                }
+                await ws.send(json.dumps(send_req))
+                resp = json.loads(await asyncio.wait_for(ws.recv(), timeout=15))
+                print(f"发送结果 (msg_type={msg_type}): {resp}")
+
+                if resp.get("errcode", -1) == 0:
+                    print(f"✅ 报告已推送到企业微信 (格式: {msg_type})")
+                    return True
+                else:
+                    print(f"⚠️ {msg_type} 格式失败，尝试下一种...")
+
+            print("❌ 所有格式都失败了")
+            return False
             await ws.send(json.dumps(send_req))
             resp = json.loads(await asyncio.wait_for(ws.recv(), timeout=15))
             print(f"发送结果: {resp}")
@@ -138,7 +156,10 @@ async def send_report():
 
 def main():
     if not BOT_ID or not BOT_SECRET:
-        print("⚠️ 未配置 WECOM_BOT_ID 或 WECOM_BOT_SECRET，跳过推送")
+        print("⚠️ 未配置 BOT_ID 或 BOT_SECRET，跳过推送")
+        return
+    if not CHAT_USERID:
+        print("⚠️ 未配置 CHAT_USERID，跳过推送")
         return
 
     result = asyncio.run(send_report())
