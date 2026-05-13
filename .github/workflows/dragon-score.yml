@@ -34,6 +34,7 @@ jobs:
         env:
           BOT_ID: ${{ secrets.WECOM_BOT_ID }}
           BOT_SECRET: ${{ secrets.WECOM_BOT_SECRET }}
+          CHAT_USERID: ${{ secrets.WECOM_CHAT_USERID }}
         run: |
           python3 docs/send_wecom.py
 
