@@ -27,6 +27,7 @@ jobs:
         run: pip install pandas tabulate
 
       - name: Run dragon score
+        working-directory: docs
         run: python dragon_score.py
 
       - name: Commit results
@@ -34,5 +35,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "update dragon score report"
+          git diff --cached --quiet || git commit -m "update dragon score report [$(date +'%Y-%m-%d')]"
           git push origin wencai
