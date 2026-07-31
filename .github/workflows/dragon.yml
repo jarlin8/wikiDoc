@@ -1,8 +1,7 @@
-name: Python script wencai
+name: DragonRank
 
 on:
-  schedule:
-    - cron: "38 9 * * 1,2,3,4,5"
+  workflow_dispatch:
 
 jobs:
   collect_data:
