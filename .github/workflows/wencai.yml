@@ -1,46 +1,40 @@
-name: GetWencaiDATA
+name: Python script wencai
 
 on:
-  schedule:
-    # 北京时间 21:30（UTC+8）。GitHub Actions 的 cron 为 UTC，故 13:30 UTC。
-    # 收盘后约 1.5 小时，龙虎榜数据已发布；若当天未出则脚本自动回退到昨天。
-    - cron: "30 10 * * 1,2,3,4,5"
   workflow_dispatch:
-    inputs:
-      date:
-        description: "指定采集日期(YYYYMMDD)，留空=今天"
-        required: false
+  schedule:
+    - cron: "30 10 * * 1,2,3,4,5"
 
 jobs:
   collect_data:
-    runs-on: ubuntu-22.04
-
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v5
-        with:
-          ref: wencai
+    - name: Set up Node.js environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.10.0
+    - name: Checkout code
+      uses: actions/checkout@v5
 
-      - name: Set up Python environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+    - name: Set up Python environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
 
-      # 仅用 Python 标准库，无需 pip install（不再依赖不稳定的 pywencai）
-      - name: Run collector (东方财富龙虎榜接口)
-        run: |
-          DATE_ARG="${{ github.event.inputs.date }}"
-          if [ -n "$DATE_ARG" ]; then
-            python wencai.py "$DATE_ARG"
-          else
-            python wencai.py
-          fi
+    - name: Install dependencies
+      run: |
+        pip install pandas tabulate
+        pip install pywencai
 
-      - name: Deploy to GitHub Pages (wencai 分支)
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: wencai
-          publish_dir: ./
-          keep_files: true
-          exclude_assets: ".github,node_modules"
+    - name: Run Python script
+      run: |
+        python wencai.py
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        exclude_assets: '.github,node_modules'
+        publish_branch: wencai
+        publish_dir: ./
+        keep_files: true
