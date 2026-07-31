@@ -1,24 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-龙虎榜数据稳定采集器（替代 pywencai 方案）
-
-数据源：东方财富「龙虎榜每日明细」官方接口（datacenter-web.eastmoney.com）
-  - 免费、无需 token、无需浏览器、无第三方依赖，仅用 Python 标准库
-  - 稳定性远高于逆向爬取 i问财（pywencai）
-
-输出：./docs/data_YYYYMMDD.csv —— 列结构与旧 wencai.py 完全兼容，
-      下游 download_data.py / fetch_klines.py / compute_metrics.py / build_page.py 无需改动。
-
-特性：
-  - 自动重试（3 次）+ 超时
-  - 自动翻页（单日可能 >1000 条）
-  - 非交易日 / 数据未出 -> 自动跳过（不写空文件，避免覆盖历史好数据）
-  - 可选过滤：剔除 北交所/创业板/科创板/退市ST、要求净额>0（默认开启，见 FILTERS）
-
-用法：
-  python wencai.py            # 采集「北京时间今天」的龙虎榜（今天无数据则回退到昨天）
-  python wencai.py 2026-07-29 # 采集指定日期
-"""
 import csv
 import datetime
 import json
@@ -70,7 +49,7 @@ def _http_get(url, retries=3):
 
 
 def fetch_day(date_str):
-    """拉取某天的全部龙虎榜明细（自动翻页），返回原始记录列表"""
+    #拉取某天的全部龙虎榜明细（自动翻页），返回原始记录列表
     out = []
     page = 1
     while True:
