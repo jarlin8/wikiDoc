@@ -11,12 +11,14 @@ from datetime import timezone, timedelta
 # ============== 可配置项 ==============
 # 是否剔除特定板块 / 类型（与旧 i问财 查询口径保持一致，可自由开关）
 FILTERS = {
-    "net_gt_0": True,        # 当日龙虎榜净额 > 0
-    "exclude_bj": True,      # 剔除北交所
-    "exclude_cyb": True,     # 剔除创业板 (300/301)
-    "exclude_kcb": True,     # 剔除科创板 (688/689)
-    "exclude_delist_st": True,  # 剔除退市 / ST
-    # 注：旧查询中的「非次新股」东方财富该接口无直接字段，未实现（如需可另行按上市日过滤）
+    "net_gt_0": True,          # 当日龙虎榜净额 > 0
+    "exclude_bj": True,        # 剔除北交所 (4/8 开头, .BJ)
+    "exclude_cyb": True,       # 剔除创业板 (300/301 开头)
+    "exclude_kcb": True,       # 剔除科创板 (688/689 开头)
+    "exclude_b": True,         # 剔除 B 股 (900 上交所B股 / 200 深交所B股)
+    "exclude_delist_st": True, # 剔除退市 / ST
+    "exclude_subnew": False,   # 剔除次新股 (上市 < 60 个交易日) — EM 该接口无此字段，默认关闭
+    "chg_gt_neg8": True,       # 涨幅 > -8% (与 iwencai 查询口径一致)
 }
 # =====================================
 
@@ -76,16 +78,43 @@ def is_excluded(r):
     code = (r.get("SECUCODE") or "")
     name = (r.get("SECURITY_NAME_ABBR") or "")
     expl = (r.get("EXPLANATION") or "")
+    # 用前 3 位数字切片判断（避免 '300.' 这种带点 startswith 永远不匹配的坑）
+    prefix3 = code[:3] if code else ""
+    # 北交所: 4/8 开头 + .BJ
     if FILTERS["exclude_bj"] and (r.get("MARKET") == "BJ" or code.endswith(".BJ")):
         return True
-    if FILTERS["exclude_cyb"] and (code.startswith("300.") or code.startswith("301.")):
+    # 创业板: 300/301 开头
+    if FILTERS["exclude_cyb"] and prefix3 in ("300", "301"):
         return True
-    if FILTERS["exclude_kcb"] and (code.startswith("688.") or code.startswith("689.")):
+    # 科创板: 688/689 开头
+    if FILTERS["exclude_kcb"] and prefix3 in ("688", "689"):
         return True
+    # B 股: 900 (上交所B股) / 200 (深交所B股)
+    if FILTERS["exclude_b"] and (prefix3 == "900" or prefix3 == "200"):
+        return True
+    # 退市 / ST
     if FILTERS["exclude_delist_st"]:
         up = name.upper()
         if "退" in name or up.startswith("ST") or "ST" in up or "退市" in expl:
             return True
+    # 次新股: 上市交易日天数 < 60
+    if FILTERS["exclude_subnew"]:
+        try:
+            days = r.get("LISTING_DAYS") or r.get("TRADE_DAYS_SINCE_LIST")
+            if days is not None and int(days) < 60:
+                return True
+        except (TypeError, ValueError):
+            pass
+    # 涨幅 > -8%
+    if FILTERS["chg_gt_neg8"]:
+        chg = r.get("CHANGE_RATE")
+        if chg is not None:
+            try:
+                if float(chg) <= -8.0:
+                    return True
+            except (TypeError, ValueError):
+                pass
+    # 当日龙虎榜净额 > 0
     if FILTERS["net_gt_0"] and (r.get("BILLBOARD_NET_AMT") or 0) <= 0:
         return True
     return False
@@ -165,11 +194,21 @@ def main():
         rows = [build_row(r) for r in raw if not is_excluded(r)]
         print(f"  原始 {len(raw)} 条 -> 过滤后 {len(rows)} 条")
 
-        # 同一(股票,上榜原因)可能因接口重复，按 key 去重保留一条
+        # 同一(股票,交易日)可能因多原因/多日榜重复出现，按 key 去重
+        # 保留净买比例最高的那条（与 iwencai 默认行为一致）
+        def _nr(row):
+            try:
+                return float(row["当日龙虎榜净额/当日龙虎榜买入金额"])
+            except (TypeError, ValueError):
+                return -1.0
         seen = {}
         for row in rows:
-            seen[(row["股票代码"], row["当日上榜原因"])] = row
+            k = (row["股票代码"], row["营业部交易日期"])
+            if k not in seen or _nr(row) > _nr(seen[k]):
+                seen[k] = row
         rows = list(seen.values())
+        # 按净买比例降序，与 iwencai 截图展示顺序一致
+        rows.sort(key=_nr, reverse=True)
 
         fname = f"data_{date_str.replace('-', '')}.csv"
         fpath = os.path.join(DOCS_DIR, fname)
