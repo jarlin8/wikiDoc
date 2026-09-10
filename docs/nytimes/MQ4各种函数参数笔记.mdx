@@ -92,7 +92,6 @@ int SellTicket = OrderSend(Symbol(), OP_SELLLIMIT, CurrentSellLotSize, SellLimit
 
 这样，在下单手数大于1手时，`SL`和`TP`的值会被计算出来，否则它们的值都为0，表示不使用止盈止损。
 
-
 ## for循环的迷惑
 
 `for(int i = OrdersTotal() - 1; i >= 0; i--)与 for(int i = 0; i < OrdersTotal(); i++)`
