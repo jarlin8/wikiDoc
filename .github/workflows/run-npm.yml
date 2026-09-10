@@ -31,7 +31,7 @@ jobs:
           # showLastUpdateTime / showLastUpdateAuthor 与 sitemap 的 lastmod
           # 都依赖 git 历史；默认的浅克隆会让它们全部失真
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: yarn
