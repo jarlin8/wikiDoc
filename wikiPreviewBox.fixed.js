@@ -24,7 +24,7 @@
         if (!document.querySelector('link[href*="wikiPreviewBox.min.css"]')) {
             document.getElementsByTagName("head")[0].insertAdjacentHTML(
                 "beforeend",
-                '<link rel="stylesheet" type="text/css" href="https://niu.fendou.la/wikiPrevBox/wikiPreviewBox.min.css">'
+                '<link rel="stylesheet" type="text/css" href="/wikiPrevBox/wikiPreviewBox.min.css">'
             );
         }
 
@@ -54,6 +54,40 @@
         if (!wikiPreviewBox) return;
 
         wikiPreviewBox.style.width = wikiBoxWidth + "px";
+
+        // 结果缓存 + 200ms 防抖：修复前每次 hover 都会发起一次网络请求，
+        // 同一链接反复悬停会重复下载整页 HTML（单页实测 130 KB+）
+        var wikiPreviewCache = Object.create(null);
+        var linkerPreviewCache = Object.create(null);
+        var wikiHoverTimer = null;
+        var linkerHoverTimer = null;
+        var HOVER_DELAY = 200;
+
+        function scheduleWikiPreview(article, lang) {
+            var key = (lang || "en") + "|" + article;
+            var cached = wikiPreviewCache[key];
+            if (cached) {
+                createWikiBox(cached.data, cached.dir);
+                return;
+            }
+            clearTimeout(wikiHoverTimer);
+            wikiHoverTimer = setTimeout(function () {
+                getWikiPreviewData(article, lang);
+            }, HOVER_DELAY);
+        }
+
+        function scheduleLinkerPreview(url) {
+            var cached = linkerPreviewCache[url];
+            if (cached) {
+                LinkerArticleUrl = url;
+                createLinkerBox([cached]);
+                return;
+            }
+            clearTimeout(linkerHoverTimer);
+            linkerHoverTimer = setTimeout(function () {
+                getLinkerPreviewData(url);
+            }, HOVER_DELAY);
+        }
 
         // 移除旧事件监听器（避免重复绑定）
         wikiPreviewBox.onclick = function () { hideWikiBox(); };
@@ -93,12 +127,12 @@
                             wikiBoxLeft = winInnerWidth - wikiBoxWidth - 20;
                         }
                         wikiPreviewBox.style.left = wikiBoxLeft + "px";
-                        getWikiPreviewData(whatArticle, wikiLang);
+                        scheduleWikiPreview(whatArticle, wikiLang);
                     }, false);
 
-                    link.addEventListener("click", function (event) {
-                        event.preventDefault();
-                    });
+                    // 修复：原此处对所有维基百科链接无条件 event.preventDefault()，
+                    // 导致全站 85 处维基外链点击无反应、无法跳转。现在恢复默认跳转行为，
+                    // Ctrl/Cmd/中键 的新标签页打开由浏览器原生处理，无需拦截。
 
                     link.addEventListener("mouseout", function () {
                         hideWikiBox();
@@ -108,6 +142,10 @@
         }
 
         function getWikiPreviewData(article, lang) {
+            // 缓存键必须在 article 被 transform（首字母大写 / 空格转下划线）之前取，
+            // 否则与 scheduleWikiPreview 里用原始参数算出的键对不上
+            var cacheKey = (lang || "en") + "|" + article;
+
             lang = lang || "en";
             article = (article.charAt(0).toUpperCase() + article.slice(1)).replace(/ /g, "_");
             var showThisImgAnyway = article.includes("#showimage");
@@ -140,6 +178,10 @@
                                 wikiSummData.title
                             ];
                         }
+                        wikiPreviewCache[cacheKey] = {
+                            data: arrArticleSummary,
+                            dir: wikiSummData.dir
+                        };
                         createWikiBox(arrArticleSummary, wikiSummData.dir);
                     })
                     .catch(function () { });
@@ -169,7 +211,7 @@
 
             wikiPreviewBox.innerHTML = wikiBoxContent;
             wikiPreviewBox.scrollTop = 0; // 重置滚动位置到顶部
-            var wikiBoxfooter = "<span class='wikiBoxfooter_" + textDir + "'><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener'>" + arrArticleSum[3] + "</a> (wikipedia.org)</span><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener' title='维基百科链接' alt='去维基百科查看完整内容'><span class='wikiBoxLogo-w_" + textDir + "'><img src='https://niu.fendou.la/wikiPrevBox/w.svg' height='30' width='35'></span></a>";
+            var wikiBoxfooter = "<span class='wikiBoxfooter_" + textDir + "'><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener'>" + arrArticleSum[3] + "</a> (wikipedia.org)</span><a href='" + arrArticleSum[2] + "' target='_blank' rel='noopener' title='维基百科链接' alt='去维基百科查看完整内容'><span class='wikiBoxLogo-w_" + textDir + "'><img src='/wikiPrevBox/w.svg' height='30' width='35'></span></a>";
             wikiPreviewBox.insertAdjacentHTML("beforeend", wikiBoxfooter);
 
             var pElement = wikiPreviewBox.getElementsByTagName("P")[0];
@@ -244,7 +286,7 @@
                             LinkerBoxLeft = winInnerWidth - LinkerBoxWidth - 20;
                         }
                         LinkerPreviewBox.style.left = LinkerBoxLeft + "px";
-                        getLinkerPreviewData(LinkerArticleUrl);
+                        scheduleLinkerPreview(LinkerArticleUrl);
                     }, false);
 
                     link.addEventListener("mouseout", function () {
@@ -269,6 +311,7 @@
                         var articleEl = doc.querySelector('.markdown');
                         if (!articleEl) return;
                         var article = articleEl.innerHTML;
+                        linkerPreviewCache[url] = article;
                         createLinkerBox([article, html.article]);
                     })
                     .catch(function () { });
@@ -283,7 +326,7 @@
 
             var LinkerBoxfooter = "<span class='LinkerheadLink'><a href='" + LinkerArticleUrl + "' target='_blank' rel='noopener'></a></span>" +
                 "<a href='" + LinkerArticleUrl + "' target='_blank' rel='noopener' title='新窗口打开'>" +
-                "<span class='LinkerBoxLogo'><img src='https://niu.fendou.la/wikiPrevBox/starlink.svg'></span></a>";
+                "<span class='LinkerBoxLogo'><img src='/wikiPrevBox/starlink.svg'></span></a>";
 
             LinkerPreviewBox.insertAdjacentHTML('afterbegin', LinkerBoxfooter);
             showLinkerBox();
@@ -325,19 +368,9 @@
         // 执行初始化
         initAll();
 
-        // 记录当前 URL，用于检测变化
-        var currentUrl = window.location.href;
-
-        // 检查 URL 是否变化
-        function checkUrlChange() {
-            if (window.location.href !== currentUrl) {
-                currentUrl = window.location.href;
-                setTimeout(initAll, 300);
-            }
-        }
-
-        // 定时检查 URL 变化（作为备用方案）
-        setInterval(checkUrlChange, 500);
+        // 已移除原先的 setInterval(checkUrlChange, 500)：它每 500ms 轮询一次
+        // location.href，与下面的 popstate 监听、pushState/replaceState 钩子、
+        // MutationObserver 四重冗余。SPA 路由变化已由前三者完整覆盖。
 
         // SPA 兼容：监听 DOM 变化（更宽松的条件）
         var observer = new MutationObserver(function (mutations) {
