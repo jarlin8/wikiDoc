@@ -1,0 +1,604 @@
+{
+  "stats": {
+    "img_alt_filename": 317,
+    "img_empty_alt": 8,
+    "table_col_mismatch": 2
+  },
+  "files": {
+    "docs\\exness-agent\\Exness合作伙伴忠诚计划.mdx": [
+      "L26: 图片 alt 仅为文件名: CSVP_1757_Loyalty_Program_prize_requirements_ZH.png"
+    ],
+    "docs\\exness-agent\\Exness合作伙伴计划.mdx": [
+      "L9: 图片 alt 仅为文件名: CSVP_1489_Exness_Affiliates_partner_link_GIF_ZH.gif"
+    ],
+    "docs\\exness-agent\\个人专区报告功能介绍.mdx": [
+      "L10: 图片 alt 仅为文件名: CSVP-4861_ZH.gif",
+      "L26: 图片 alt 仅为文件名: CSVP_4789_GIF_About_the_Personal_Area_reporting_features_-_Reward_History__2nd_GIF__ZH.gif",
+      "L41: 图片 alt 仅为文件名: CSVP_4792_GIF_About_the_Personal_Area_reporting_features_-_Client_transactions__3rd_GIF__ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP_4795_GIF_About_the_Personal_Area_reporting_features_-_Transactions_pending_payment__4th_GIF__ZH.gif",
+      "L59: 图片 alt 仅为文件名: CSVP-4798_ZH_resized.gif",
+      "L87: 图片 alt 仅为文件名: CSVP-4803-ZH.gif"
+    ],
+    "docs\\exness-agent\\了解介绍经纪商IB个人专区.mdx": [
+      "L8: 图片 alt 为空（建议添加描述）",
+      "L14: 图片 alt 仅为文件名: ZH1.png",
+      "L29: 图片 alt 仅为文件名: ZH2.png",
+      "L32: 图片 alt 仅为文件名: ZH3.jpg",
+      "L35: 图片 alt 仅为文件名: ZH4.png",
+      "L38: 图片 alt 仅为文件名: ZH5.png",
+      "L41: 图片 alt 仅为文件名: ZH6.png",
+      "L46: 图片 alt 仅为文件名: CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif"
+    ],
+    "docs\\exness-agent\\关于内部转账.mdx": [
+      "L7: 图片 alt 仅为文件名: CSVP_2970_About_internal_transfers_ZH.gif"
+    ],
+    "docs\\exness-agent\\关于合作伙伴链接的所有信息.mdx": [
+      "L22: 图片 alt 仅为文件名: CSVP-4064-ZH.gif"
+    ],
+    "docs\\exness-agent\\单链接服务详解.mdx": [
+      "L16: 图片 alt 仅为文件名: Promo_Link_EN.png"
+    ],
+    "docs\\exness-agent\\合作伙伴佣金与Exness比特币电子钱包.mdx": [
+      "L14: 图片 alt 仅为文件名: CSVP-3677-ZH.gif",
+      "L34: 图片 alt 仅为文件名: CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif",
+      "L41: 图片 alt 仅为文件名: CSVP-3683_PA_BTC_WIT_ZH_01.gif"
+    ],
+    "docs\\exness-agent\\合作伙伴链接和合作伙伴账户.mdx": [
+      "L9: 图片 alt 仅为文件名: CSVP-3488-ZH.gif"
+    ],
+    "docs\\exness-agent\\在哪里可以查看我推介客户的交易活动情况及交易量.mdx": [
+      "L17: 图片 alt 仅为文件名: ZH-CSVP-883.gif",
+      "L21: 图片 alt 仅为文件名: CSVP-4996_ZH.gif",
+      "L27: 图片 alt 仅为文件名: ZH-CSVP-879.gif"
+    ],
+    "docs\\exness-agent\\如何提取您的合作伙伴佣金.mdx": [
+      "L7: 图片 alt 仅为文件名: CSVP_2910_How_to_withdraw_your_partner_rewards_ZH.gif"
+    ],
+    "docs\\exness-agent\\如何查看某位客户是否注册在了我名下.mdx": [
+      "L10: 图片 alt 仅为文件名: CSVP-2246-ZH.gif"
+    ],
+    "docs\\exness-agent\\如何管理返佣.mdx": [
+      "L14: 图片 alt 仅为文件名: CSVP-3503_ZH.gif",
+      "L25: 图片 alt 仅为文件名: CSVP-3506_ZH.gif",
+      "L34: 图片 alt 仅为文件名: CSVP-4031-ZH.gif",
+      "L40: 图片 alt 仅为文件名: CSVP-4034-ZH.gif",
+      "L48: 图片 alt 仅为文件名: CSVP-3998-ZH.gif",
+      "L55: 图片 alt 仅为文件名: CSVP-4001-ZH.gif",
+      "L70: 图片 alt 仅为文件名: CSVP-4004-ZH.gif"
+    ],
+    "docs\\exness-agent\\如何通过电汇提取合作伙伴佣金.mdx": [
+      "L8: 图片 alt 仅为文件名: CSVP-4273-ZH.gif"
+    ],
+    "docs\\exness-agent\\我可以使用合作伙伴链接创建自定义合作伙伴链接吗.mdx": [
+      "L9: 图片 alt 仅为文件名: Partner_link_ZH.jpg"
+    ],
+    "docs\\exness-agent\\探索合作伙伴佣金信息面板.mdx": [
+      "L9: 图片 alt 仅为文件名: CSVP-4658-ZH.gif",
+      "L13: 图片 alt 仅为文件名: CSVP-4661-ZH.gif",
+      "L17: 图片 alt 仅为文件名: CSVP-4662-ZH.jpg",
+      "L19: 图片 alt 仅为文件名: CSVP-4665-ZH.gif",
+      "L25: 图片 alt 仅为文件名: CSVP-4671-ZH.jpg",
+      "L32: 图片 alt 仅为文件名: CSVP-4666-ZH.jpg"
+    ],
+    "docs\\exness-trader\\exness-交易应用-入金操作.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP_4199_Gif_Exness_Trader_Making_A_Deposit_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-出金操作.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4198_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-在哪可以查看我的合作伙伴账户详情.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_4320_Gif_Exness_Trader_Where_can_I_find_details_of_my_Partner_Account__EN.gif",
+      "L30: 图片 alt 仅为文件名: CSVP-5007_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-如何开立更多账户.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4301_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-是否可以更改所使用的交易终端.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4776-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用疑难解答.mdx": [
+      "L32: 图片 alt 仅为文件名: CSVP-4302_iOS_ZH_resized.gif",
+      "L50: 图片 alt 仅为文件名: CSVP_4305_GIF_Exness_Trader_Troubleshooting_Reset_Passcode_ZH.gif",
+      "L63: 图片 alt 仅为文件名: CSVP-4308_iOS_ZH_resized.gif",
+      "L83: 图片 alt 仅为文件名: CSVP-4311_iOS_ZH_resized.gif",
+      "L113: 图片 alt 仅为文件名: CSVP-4314_iOS_ZH_resized.gif",
+      "L132: 图片 alt 仅为文件名: CSVP-4317_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness-意见门户介绍.mdx": [
+      "L25: 图片 alt 仅为文件名: Suggesting_Idea_ZH.gif",
+      "L42: 图片 alt 仅为文件名: CSVP-2947_Translation_Widget_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-了解业绩统计选项卡.mdx": [
+      "L16: 图片 alt 仅为文件名: CSVP-3804-ZH.gif",
+      "L33: 图片 alt 仅为文件名: CSVP-3807-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-交易账户设置.mdx": [
+      "L25: 图片 alt 仅为文件名: CSVP-4533-ZH.gif",
+      "L35: 图片 alt 仅为文件名: CSVP-4536-ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-4539-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-内置交易终端详解.mdx": [
+      "L30: 图片 alt 仅为文件名: CSVP_4430_Gif_Trade_tab_ZH.gif",
+      "L38: 图片 alt 仅为文件名: CSVP-4435-ZH.gif",
+      "L50: 图片 alt 仅为文件名: CSVP-4438-ZH.gif",
+      "L74: 图片 alt 仅为文件名: CSVP-4453_iOS_ZH_resized.gif",
+      "L80: 图片 alt 为空（建议添加描述）",
+      "L84: 图片 alt 为空（建议添加描述）",
+      "L88: 图片 alt 为空（建议添加描述）",
+      "L93: 图片 alt 为空（建议添加描述）",
+      "L101: 图片 alt 为空（建议添加描述）",
+      "L105: 图片 alt 仅为文件名: CSVP-4456_iOS_ZH_resized.gif",
+      "L112: 图片 alt 仅为文件名: CSVP-4609-ZH.png",
+      "L130: 图片 alt 仅为文件名: CSVP-4441-ZH.gif",
+      "L152: 图片 alt 仅为文件名: CSVP-4444_iOS_ZH_resized.gif",
+      "L162: 图片 alt 仅为文件名: CSVP-4295-ZH.gif",
+      "L172: 图片 alt 仅为文件名: CSVP-4450_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-内部转账.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-4231_iOS_ZH_resized.gif",
+      "L24: 图片 alt 仅为文件名: CSVP-4234_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何将交易品种收藏至关注列表.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4283_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何开立和关闭交易.mdx": [
+      "L25: 图片 alt 仅为文件名: CSVP-4493_iOS_ZH_resized.gif",
+      "L32: 图片 alt 仅为文件名: CSVP-4496_iOS_ZH_resized.gif",
+      "L48: 图片 alt 仅为文件名: CSVP-4499_iOS_ZH_resized.gif",
+      "L59: 图片 alt 仅为文件名: CSVP-4502_iOS_ZH_resized.gif",
+      "L68: 图片 alt 仅为文件名: CSVP-4295-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何开立账户.mdx": [
+      "L20: 图片 alt 仅为文件名: CSVP-4225-ZH.gif",
+      "L35: 图片 alt 仅为文件名: CSVP-4228-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何编辑通知.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4999_iOS_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-5002_iOS_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-支付操作须知.mdx": [
+      "L26: 图片 alt 仅为文件名: CSVP-4202_iOS_ZH_resized.gif",
+      "L34: 图片 alt 仅为文件名: CSVP-4207-ZH.gif",
+      "L70: 图片 alt 仅为文件名: CSVP-4210-ZH.gif",
+      "L79: 图片 alt 仅为文件名: CSVP-4213-ZH.gif",
+      "L102: 图片 alt 仅为文件名: CSVP-421-ZH.gif",
+      "L121: 图片 alt 仅为文件名: CSVP-4219-ZH.gif",
+      "L132: 图片 alt 仅为文件名: CSVP-4222-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness尊享会员制适用于中国台湾香港和澳门地.mdx": [
+      "L61: 图片 alt 仅为文件名: CSVP-3876_ExnessPremier_ZH.gif",
+      "L78: 图片 alt 仅为文件名: CSVP-3879_ExnessPremier_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness提供哪种点差.mdx": [
+      "L41: 图片 alt 仅为文件名: CSVP-4135_ZH.gif",
+      "L50: 图片 alt 仅为文件名: CSVP-4138_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness网站提供pwa版本吗.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4323-All_Language.png",
+      "L35: 图片 alt 仅为文件名: CSVP-4324-ZH.png"
+    ],
+    "docs\\exness-trader\\exness账户验证文件.mdx": [
+      "L17: 图片 alt 仅为文件名: CSVP-3339-ZH.gif"
+    ],
+    "docs\\exness-trader\\mt4-mt5-中信用资金的显示方式介绍.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_3123_About_the_credit_display_in_MT4MT5_ZH.gif"
+    ],
+    "docs\\exness-trader\\为什么我的入金-出金会被拒绝.mdx": [
+      "L36: 图片 alt 仅为文件名: Copy_of_CSVP-3836-ZH.gif"
+    ],
+    "docs\\exness-trader\\为什么我的文件被拒绝了.mdx": [
+      "L22: 图片 alt 仅为文件名: CSVP-5016-ZH.gif",
+      "L60: 图片 alt 仅为文件名: Underage_Male_Passport_White_BG.jpg",
+      "L64: 图片 alt 仅为文件名: Bank_Statement.png",
+      "L72: 图片 alt 仅为文件名: Driving_Licence_Female.jpg",
+      "L76: 图片 alt 仅为文件名: Bank_Statement_with_Name.png"
+    ],
+    "docs\\exness-trader\\为什么无法在我的个人专区中找到我的交易账户.mdx": [
+      "L26: 图片 alt 仅为文件名: CSVP-3771_PA_TrdAcc_ZH_01.gif",
+      "L38: 图片 alt 仅为文件名: CSVP-3775_ET_TrdAcc_ZH_01__1_.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-3777_PA_Archive_ZH_01.gif"
+    ],
+    "docs\\exness-trader\\了解做市商.mdx": [
+      "L19: 图片 alt 仅为文件名: ZH_2.jpg",
+      "L23: 图片 alt 仅为文件名: ZH.jpg"
+    ],
+    "docs\\exness-trader\\交易品种.mdx": [
+      "L34: 数据行 4 列与 header 3 列不一致"
+    ],
+    "docs\\exness-trader\\什么是-cvv-代码，可以在哪里找到.mdx": [
+      "L17: 图片 alt 仅为文件名: CSVP-3545_CC_CCV_01.gif"
+    ],
+    "docs\\exness-trader\\什么是偏差.mdx": [
+      "L46: 图片 alt 仅为文件名: CSVP-3114_MT_Deviation_ZH_01.gif",
+      "L53: 图片 alt 仅为文件名: CSVP-2032-ZH.gif",
+      "L61: 图片 alt 仅为文件名: CSVP_3117_What_is_deviation__MetaTrader_WebTerminal__ZH.gif"
+    ],
+    "docs\\exness-trader\\仍未收到出金款项.mdx": [
+      "L23: 图片 alt 仅为文件名: CSVP-3406-ZH.gif"
+    ],
+    "docs\\exness-trader\\使用-mt4-mt5-网页终端进行交易.mdx": [
+      "L89: 图片 alt 仅为文件名: chart-types.png",
+      "L93: 图片 alt 仅为文件名: timeframes.png",
+      "L132: 图片 alt 仅为文件名: one-click-trading-en.png"
+    ],
+    "docs\\exness-trader\\入金款项仍未到账.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_3231_My_deposit_hasn_t_been_credited_to_my_account_yet_ZH.gif"
+    ],
+    "docs\\exness-trader\\入金须知.mdx": [
+      "L23: 图片 alt 仅为文件名: CSVP-3392_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\出入金到账需要多长时间.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4958_ZH.gif"
+    ],
+    "docs\\exness-trader\\出金须知.mdx": [
+      "L25: 图片 alt 仅为文件名: CSVP-4133_Withdraw_ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\在中国如何通过otc365出入金.mdx": [
+      "L26: 图片 alt 仅为文件名: CSVP-3505_PA_Dep_OTC365_ZH_1800x1125_01.gif",
+      "L39: 图片 alt 仅为文件名: CSVP-3504_PA_Wit_OTC365_ZH_1800x1125_01.gif"
+    ],
+    "docs\\exness-trader\\在交易终端关闭订单.mdx": [
+      "L27: 图片 alt 仅为文件名: CSVP-4729-ZH.gif",
+      "L46: 图片 alt 仅为文件名: CSVP-4287_ZH_resized.gif",
+      "L57: 图片 alt 仅为文件名: CSVP-4290_iOS_ZH_resized.gif",
+      "L67: 图片 alt 仅为文件名: CSVP-4295-ZH.gif",
+      "L78: 图片 alt 仅为文件名: CSVP-4296_ZH_resized.gif",
+      "L108: 图片 alt 仅为文件名: CSVP-4520_ZH_resized.gif",
+      "L119: 图片 alt 仅为文件名: CSVP-4274_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\在哪里可以找到我的信用相关信息.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_3218_Where_can_I_find_information_regarding_my_credits_ZH.gif"
+    ],
+    "docs\\exness-trader\\在哪里查看交易账户类型.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-3521-ZH.gif"
+    ],
+    "docs\\exness-trader\\夏季交易时间.mdx": [
+      "L52: 数据行 5 列与 header 3 列不一致"
+    ],
+    "docs\\exness-trader\\外汇和其他交易品种的基本交易术语.mdx": [
+      "L103: 图片 alt 仅为文件名: Buy_Order__P_L_ZH.png",
+      "L105: 图片 alt 仅为文件名: Sell_Order__P_L_ZH.png"
+    ],
+    "docs\\exness-trader\\如何上传屏幕截图给支持团队.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3963-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何为客服团队创建屏幕截图.mdx": [
+      "L25: 图片 alt 仅为文件名: CSVP-3965_GIF_resized.gif",
+      "L64: 图片 alt 仅为文件名: CSVP-3968-EN.gif"
+    ],
+    "docs\\exness-trader\\如何从报价手机移动端里显示-添加-移除交易品.mdx": [
+      "L27: 图片 alt 仅为文件名: ZH.gif",
+      "L36: 图片 alt 仅为文件名: ZH_Remove_Symbol_MT4.gif",
+      "L47: 图片 alt 仅为文件名: ZH.gif",
+      "L56: 图片 alt 仅为文件名: ZH.gif",
+      "L69: 图片 alt 仅为文件名: CSVP-2520_GIFs_ZH__1_.gif",
+      "L78: 图片 alt 仅为文件名: CSVP-2523_GIFs_ZH__1_.gif",
+      "L90: 图片 alt 仅为文件名: CSVP-2527_GIFs_ZH.gif",
+      "L98: 图片 alt 仅为文件名: CSVP-2532_GIFs_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用-exness-货币转换器.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-4975_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用-mt4-multiterminal多账户管理终端.mdx": [
+      "L32: 图片 alt 仅为文件名: CSVP-2337_ZH_Thumbnail__1_.jpg",
+      "L122: 图片 alt 仅为文件名: CSVP_3024_How_to_use_Mt4_Multiterminal_ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\如何使用perfect-money出入金.mdx": [
+      "L43: 图片 alt 仅为文件名: CSVP-3709-ZH.gif",
+      "L53: 图片 alt 仅为文件名: CSVP-3712-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用sticpay出入金.mdx": [
+      "L28: 图片 alt 仅为文件名: CSVP-3826-ZH.gif",
+      "L41: 图片 alt 仅为文件名: CSVP-3829-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用安卓版-metatrader-4.mdx": [
+      "L28: 图片 alt 为空（建议添加描述）"
+    ],
+    "docs\\exness-trader\\如何使用安卓版-metatrader-5.mdx": [
+      "L57: 图片 alt 仅为文件名: CSVP-1611-ZH.gif",
+      "L71: 图片 alt 仅为文件名: CSVP-1607-ZH.gif",
+      "L83: 图片 alt 仅为文件名: CSVP-2452-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用泰达币-usdt-erc20-出入金.mdx": [
+      "L35: 图片 alt 仅为文件名: CSVP-3658_ZH_resized.gif",
+      "L49: 图片 alt 仅为文件名: CSVP-3819_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何入金.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_4871_GIF_How_do_I_deposit_money_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何出金.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_4874_GIF_How_do_I_withdraw_funds_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在exness平台开始交易.mdx": [
+      "L27: 图片 alt 仅为文件名: ScreenCast_Thumbnail_00000.jpg"
+    ],
+    "docs\\exness-trader\\如何在个人专区创建新的交易账户.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-2938-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用bitake入金.mdx": [
+      "L26: 图片 alt 仅为文件名: CSVP-2676-ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用flashex出入金.mdx": [
+      "L29: 图片 alt 仅为文件名: CSVP_1672_FlashEx_deposit_ZH.gif",
+      "L46: 图片 alt 仅为文件名: CSVP_1673_FlashEX_withdrawal_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用neteller出入金.mdx": [
+      "L31: 图片 alt 仅为文件名: CSVP-3687_ZH_resized.gif",
+      "L44: 图片 alt 仅为文件名: CSVP-3698_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用webmoney出入金.mdx": [
+      "L32: 图片 alt 仅为文件名: CSVP-3703-ZH.gif",
+      "L45: 图片 alt 仅为文件名: CSVP-3706-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在市场报价桌面版终端中显示-添加-删除交.mdx": [
+      "L18: 图片 alt 仅为文件名: CSVP-2993-ZH.gif",
+      "L42: 图片 alt 仅为文件名: CSVP-3002-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在我的个人专区查看交易的单号.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3839_-_ZH_-_Finding_Invoice_ID.gif"
+    ],
+    "docs\\exness-trader\\如何在手机应用上的metatrader订阅交易信号.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3723_MTM_Signal_ZH_01__1_.gif"
+    ],
+    "docs\\exness-trader\\如何在移动终端中设置挂单.mdx": [
+      "L31: 图片 alt 仅为文件名: CSVP_3089_How_to_set_up_pending_orders_in_mobile_terminals__iOS__MT4_and_MT5__ZH.gif",
+      "L54: 图片 alt 仅为文件名: CSVP_3092_How_to_set_up_pending_orders_in_mobile_terminals__Android__MT4_and_MT5__ZH.gif"
+    ],
+    "docs\\exness-trader\\如何完全验证您的exness账户.mdx": [
+      "L19: 图片 alt 仅为文件名: ScreenCast_Thumbnail_00000.png",
+      "L59: 图片 alt 仅为文件名: CSVP-3814a_ZH.png",
+      "L69: 图片 alt 仅为文件名: CSVP-3814b_ZH.png"
+    ],
+    "docs\\exness-trader\\如何开立模拟账户.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-3446-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何提升metatrader4-5的速度.mdx": [
+      "L20: 图片 alt 仅为文件名: 4074-ZH.gif",
+      "L32: 图片 alt 仅为文件名: CSVP_4076_GIF_What_can_I_do_to_speed_up_MetaTrader_45_-_Disable_News_ZH.gif",
+      "L56: 图片 alt 仅为文件名: CSVP-4072-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何显示买价线.mdx": [
+      "L33: 图片 alt 仅为文件名: CSVP-3137-ZH.gif",
+      "L43: 图片 alt 仅为文件名: CSVP-3140-ZH.gif",
+      "L57: 图片 alt 仅为文件名: CSVP-3143-ZH.gif",
+      "L69: 图片 alt 仅为文件名: CSVP-3146-ZH.gif",
+      "L80: 图片 alt 仅为文件名: CSVP-3149-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查找交易软件登录账号和服务器.mdx": [
+      "L17: 图片 alt 仅为文件名: CSVP_3101_How_can_I_find_my_terminal_login_and_server_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查找需要提高保证金要求的新闻事件.mdx": [
+      "L13: 图片 alt 仅为文件名: ZH_00000.png",
+      "L17: 图片 alt 仅为文件名: CSVP-2988-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看您的交易历史.mdx": [
+      "L24: 图片 alt 仅为文件名: CSVP-3597-ZH.gif",
+      "L37: 图片 alt 仅为文件名: ZH__1_.jpg",
+      "L45: 图片 alt 仅为文件名: ZH.PNG",
+      "L51: 图片 alt 仅为文件名: CSVP_2629_How_to_check_your_trading_history__Monthly_daily_statements___2_.png"
+    ],
+    "docs\\exness-trader\\如何查看我可以使用的支付平台.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP_3213_How_can_I_find_which_payment_system_is_available_to_me_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看我当前的杠杆设置.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4112_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看我的交易状态.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4614_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何查看自己上传的验证文档的状态.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-3779_PA_Reject_ZH.PNG"
+    ],
+    "docs\\exness-trader\\如何查看账户是否已可以入金和交易.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP-5010_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看账户验证被拒绝的原因.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3779_PA_Reject_ZH.PNG",
+      "L21: 图片 alt 仅为文件名: ZH_00000.png"
+    ],
+    "docs\\exness-trader\\如何清除浏览器缓存和-cookies-文件.mdx": [
+      "L27: 图片 alt 仅为文件名: CSVP-2851-ZH.gif",
+      "L43: 图片 alt 仅为文件名: CSVP-4104-ZH.gif",
+      "L56: 图片 alt 仅为文件名: CSVP-4085-ZH.gif",
+      "L69: 图片 alt 仅为文件名: CSVP-4088-ZH.gif",
+      "L81: 图片 alt 仅为文件名: CSVP-4091-ZH.gif",
+      "L94: 图片 alt 仅为文件名: CSVP-4094-ZH.gif",
+      "L110: 图片 alt 仅为文件名: CSVP-4097-ZH.gif",
+      "L133: 图片 alt 仅为文件名: CSVP-4100_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何生成网络日志排除故障.mdx": [
+      "L38: 图片 alt 仅为文件名: CSVP-3160_ZH.gif",
+      "L48: 图片 alt 仅为文件名: CSVP-3162-ZH.gif",
+      "L58: 图片 alt 仅为文件名: ZH_CSVP-3165.gif",
+      "L67: 图片 alt 仅为文件名: CSVP-3169_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何知晓为我提供服务的是哪家-exness-实体.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3440_PA_Entity_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-3443_ET_Entity_ZH_01.gif"
+    ],
+    "docs\\exness-trader\\如何管理图表设置.mdx": [
+      "L30: 图片 alt 仅为文件名: CSVP-3187_MT_Chart_ZH_01.gif",
+      "L38: 图片 alt 仅为文件名: CSVP-3190_MT_Chart_Ribbon_PT_01__1_.gif",
+      "L53: 图片 alt 仅为文件名: CSVP-3193_MT_Indicator_ON_ZH_01.gif",
+      "L57: 图片 alt 仅为文件名: CSVP-3196_MT_Indicator_OFF_ZH_01.gif",
+      "L65: 图片 alt 仅为文件名: CSVP-3199_MT_ChartProperties_ZH_01.gif"
+    ],
+    "docs\\exness-trader\\如何管理您的vps设置.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP-2973_Set_up_timezone_ZH.gif",
+      "L30: 图片 alt 仅为文件名: CSVP-2983_VPS-Instaling_EA_ZH.gif",
+      "L49: 图片 alt 仅为文件名: CSVP-2980_Restarting_VPS_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何管理您的交易账户设置.mdx": [
+      "L34: 图片 alt 仅为文件名: ZH_-_Changing_Leverage.gif",
+      "L50: 图片 alt 仅为文件名: CSVP-3976_ZH_resized.gif",
+      "L63: 图片 alt 仅为文件名: CSVP-3978_ZH_resized.gif",
+      "L74: 图片 alt 仅为文件名: CSVP-3982_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何管理注册手机号码.mdx": [
+      "L31: 图片 alt 仅为文件名: CSVP-3516_Change_Phone_ZH.gif",
+      "L47: 图片 alt 仅为文件名: CSVP-3513_Remove_Phone_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何给模拟账户充值.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4879_ZH.gif",
+      "L27: 图片 alt 仅为文件名: CSVP-4882_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何获取日志文件.mdx": [
+      "L47: 图片 alt 仅为文件名: logs-android.gif",
+      "L57: 图片 alt 仅为文件名: logs-iOS.gif"
+    ],
+    "docs\\exness-trader\\如何解决交易终端中的常见错误.mdx": [
+      "L11: 图片 alt 仅为文件名: ZH.png"
+    ],
+    "docs\\exness-trader\\如何设置-vps-密码.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-3260_ZH_00000.png"
+    ],
+    "docs\\exness-trader\\如何设置修改止损与获利.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP_4559_SL_TP_MT5_Desktop_Terminal_while_opening_an_order_ZH_resized.gif",
+      "L24: 图片 alt 仅为文件名: CSVP_4562_How_to_set_up_and_modify_Stop_Loss.gif",
+      "L35: 图片 alt 仅为文件名: CSVP_4758_Revision_SL_TP_Exness_Terminal__Web__while_opening_an_order_ZH_resized.gif",
+      "L45: 图片 alt 仅为文件名: CSVP_4758_Revision_SL_TP_Exness_Terminal__Web__order_is_already_open_ZH_resized.gif",
+      "L55: 图片 alt 仅为文件名: CSVP_4758_Revision_SL_TP_Exness_Terminal__Web__existing_pending_order_ZH_resized.gif",
+      "L63: 图片 alt 仅为文件名: CSVP_4575_SL_TP_Exness_trader_While_opening_order_ZH.gif",
+      "L74: 图片 alt 仅为文件名: CSVP_4578_SL_TP_Exness_trader_When_order_is_open_ZH.gif",
+      "L86: 图片 alt 仅为文件名: CSVP_4581_SL_TP_Exness_trader_existing_pending_order_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何进行交易账户间转账.mdx": [
+      "L66: 图片 alt 仅为文件名: CSVP-4403-ZH.gif",
+      "L80: 图片 alt 仅为文件名: CSVP-4406-ZH.gif",
+      "L94: 图片 alt 仅为文件名: CSVP_3666_To_verify_an_internal_transfer_has_been_received_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何进行订单部分平仓.mdx": [
+      "L20: 图片 alt 仅为文件名: CSVP-4287_ZH_resized.gif",
+      "L31: 图片 alt 仅为文件名: CSVP-4290_iOS_ZH_resized.gif",
+      "L41: 图片 alt 仅为文件名: CSVP-4295-ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-4296_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何通过-exness-进行交易.mdx": [
+      "L35: 图片 alt 仅为文件名: ScreenCast_Thumbnail_00000.jpg"
+    ],
+    "docs\\exness-trader\\如何通过-mypay-出入金.mdx": [
+      "L37: 图片 alt 仅为文件名: CSVP_3357_How_to_deposit_with_MyPay_in_China_ZH.gif",
+      "L48: 图片 alt 仅为文件名: CSVP_3357_How_to_Withdraw_with_MyPay_in_China_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何验证我的支付方式.mdx": [
+      "L11: 图片 alt 仅为文件名: 4959-ZH.jpg"
+    ],
+    "docs\\exness-trader\\如果我在入金时使用了多种支付方式，应当如何出.mdx": [
+      "L20: 图片 alt 仅为文件名: CSVP-3562_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\客户支付档案-cpp-须知.mdx": [
+      "L32: 图片 alt 仅为文件名: CSVP-4366-ZH.gif",
+      "L44: 图片 alt 仅为文件名: CSVP-4369-ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-4373-ZH.gif",
+      "L56: 图片 alt 仅为文件名: CSVP-4376-ZH.gif",
+      "L67: 图片 alt 仅为文件名: CSVP-4379-ZH.gif",
+      "L73: 图片 alt 仅为文件名: CSVP-4382-ZH.gif"
+    ],
+    "docs\\exness-trader\\归档账户须知.mdx": [
+      "L34: 图片 alt 仅为文件名: CSVP-4784-ZH_resized.gif",
+      "L79: 图片 alt 仅为文件名: CSVP-4787-ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\我不小心删除了我的手机应用，该如何恢复.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4587_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\我可以在哪里查看汇率.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP_3207_Where_can_I_find_the_conversion_rate_ZH.gif"
+    ],
+    "docs\\exness-trader\\我可以在手机交易终端上使用指标吗.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_2636_Can_I_use_indicators_in_my_mobile_trading_terminal___MetaTreader_4-5__EN.gif",
+      "L27: 图片 alt 仅为文件名: CSVP_2638_Can_I_use_indicators_in_my_mobile_trading_terminal___Exness_Trader__EN__1_.gif"
+    ],
+    "docs\\exness-trader\\我可以用什么货币入金.mdx": [
+      "L21: 图片 alt 仅为文件名: Check_Currency_ZH.png"
+    ],
+    "docs\\exness-trader\\我在交易软件收到了授权失败的错误提示.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP-3831-ZH.gif"
+    ],
+    "docs\\exness-trader\\我在哪里可以查看自己的免隔夜利息权益.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_3154_Where_can_I_check_my_Swap-Free_status_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-3157_Swap_Stat_ZH.PNG"
+    ],
+    "docs\\exness-trader\\我在我的交易终端的图表中只能看到等待更新.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-3243-ZH.gif"
+    ],
+    "docs\\exness-trader\\我如何识别哪些交易品种属于免隔夜利息品种.mdx": [
+      "L13: 图片 alt 仅为文件名: swap-free_PA_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-3334_ZH.gif"
+    ],
+    "docs\\exness-trader\\探索-exness-网页交易终端.mdx": [
+      "L37: 图片 alt 仅为文件名: CSVP_4490_Gif_The_main_menu_ZH.gif",
+      "L49: 图片 alt 仅为文件名: CSVP-4626-ZH.gif",
+      "L55: 图片 alt 仅为文件名: CSVP-4507_ZH.gif",
+      "L75: 图片 alt 仅为文件名: CSVP_3844_GIF_Explore_Your_Exness_Terminal_New_chart_ZH.gif",
+      "L85: 图片 alt 仅为文件名: CSVP-3796_-_ZH_-_Reorder_Instrument_Tabs_-_D01_-_072222.gif",
+      "L91: 图片 alt 仅为文件名: CSVP_4005_GIF_Explore_Your_Exness_Terminal_Close_a_chart_ZH.gif",
+      "L97: 图片 alt 仅为文件名: CSVP_4008_GIF_Explore_Your_Exness_Terminal_-_Customize_chart_ZH.gif",
+      "L103: 图片 alt 仅为文件名: CSVP_4011_GIF_Explore_Your_Exness_Terminal_-_Adding_indicators_ZH.gif",
+      "L109: 图片 alt 仅为文件名: CSVP_4014_GIF_Explore_Your_Exness_Terminal_-_To_use_drawing_tools_-ZH.gif",
+      "L115: 图片 alt 仅为文件名: CSVP-4629-ZH.gif",
+      "L128: 图片 alt 仅为文件名: CSVP_4017_GIF_Explore_Your_Exness_Terminal_-_Trading_Functions__ZH.gif",
+      "L134: 图片 alt 仅为文件名: CSVP_4082_Explore_Your_Exness_Terminal_-Trading_account_information_ZH__1_.gif",
+      "L148: 图片 alt 仅为文件名: CSVP-4513_ZH.gif",
+      "L158: 图片 alt 仅为文件名: CSVP_4066_GIF_Explore_Your_Exness_Terminal_Grid_icon_ZH.gif",
+      "L176: 图片 alt 仅为文件名: CSVP_4020_GIF_Explore_Your_Exness_Terminal_-_Trading_Options__first_GIF__ZH.gif",
+      "L188: 图片 alt 仅为文件名: CSVP-4632-ZH.gif",
+      "L194: 图片 alt 仅为文件名: CSVP-4635-ZH.gif",
+      "L208: 图片 alt 仅为文件名: CSVP_4023_GIF_Explore_Your_Exness_Terminal_-_Trading_Options__second_GIF__ZH__1_.gif",
+      "L216: 图片 alt 仅为文件名: CSVP-4516-ZH_resized.gif",
+      "L237: 图片 alt 仅为文件名: CSVP-4519_ZH.gif"
+    ],
+    "docs\\exness-trader\\文件被拒绝后如何再次上传.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3449_ZH_resized.gif",
+      "L26: 图片 alt 仅为文件名: CSVP-3457-ZH.gif"
+    ],
+    "docs\\exness-trader\\新订单按键是灰色的.mdx": [
+      "L20: 图片 alt 仅为文件名: CSVP_3235_The_New_Order_button_is_gray__1st_GIF__ZH.gif",
+      "L37: 图片 alt 仅为文件名: CSVP_3238_The_New_Order_button_is_gray__2nd_GIF__ZH.gif"
+    ],
+    "docs\\exness-trader\\无法上传文件.mdx": [
+      "L17: 图片 alt 仅为文件名: CSVP-3808_ZH.png"
+    ],
+    "docs\\exness-trader\\无法在注册时设置密码.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP-4689-ZH.png"
+    ],
+    "docs\\exness-trader\\无法注册-exness-账户.mdx": [
+      "L20: 图片 alt 仅为文件名: CSVP-2867_email_used_ZH.png",
+      "L31: 图片 alt 仅为文件名: CSVP-2868_email_bad_ZH.png",
+      "L35: 图片 alt 仅为文件名: CSVP-2869_email_bad_why_ZH.png"
+    ],
+    "docs\\exness-trader\\更改-mt4-语言设置时出现乱码该如何解决.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-3096_ZH.gif"
+    ],
+    "docs\\exness-trader\\立即开始交易.mdx": [
+      "L20: 图片 alt 为空（建议添加描述）"
+    ],
+    "docs\\exness-trader\\管理智能交易-ea.mdx": [
+      "L31: 图片 alt 仅为文件名: ZH.gif",
+      "L55: 图片 alt 仅为文件名: CSVP-3966_ZH_resized.gif",
+      "L75: 图片 alt 仅为文件名: ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\自定义爆仓位.mdx": [
+      "L36: 图片 alt 仅为文件名: CSVP-2901_Custom_stop_out_ZH.gif",
+      "L49: 图片 alt 仅为文件名: ZH_Customize_stop_out_level_0_1.png"
+    ],
+    "docs\\exness-trader\\订单执行类型.mdx": [
+      "L27: 图片 alt 仅为文件名: CSVP-3129-ZH.gif"
+    ],
+    "docs\\exness-trader\\跳动点历史记录须知.mdx": [
+      "L46: 图片 alt 仅为文件名: CSVP-4978_ZH.gif"
+    ],
+    "docs\\exness-trader\\重新报价.mdx": [
+      "L21: 图片 alt 仅为文件名: ZH_Requote.png"
+    ],
+    "docs\\exness-trader\\银行卡交易详解.mdx": [
+      "L45: 图片 alt 仅为文件名: CSVP_2994_How_to_deposit_with_new_bank_card_EN.gif",
+      "L57: 图片 alt 仅为文件名: CSVP_2998_How_to_deposit_with_existing_bank_card_EN.gif",
+      "L117: 图片 alt 仅为文件名: CSVP-4127-ZH.gif",
+      "L131: 图片 alt 仅为文件名: CSVP-3768_ZH_resized.gif",
+      "L162: 图片 alt 仅为文件名: CSVP_3006_How_to_withdraw_profit_EN.gif"
+    ],
+    "docs\\exness-trader\\面向非伊斯兰教国家的免隔夜利息账户.mdx": [
+      "L58: 图片 alt 仅为文件名: CSVP-4597-ZH.gif"
+    ]
+  }
+}

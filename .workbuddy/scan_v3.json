@@ -1,0 +1,1548 @@
+{
+  "stats": {
+    "punct_space": 516,
+    "img_alt_filename": 317,
+    "orphan_caption": 13,
+    "english_bold_half_colon": 9,
+    "table_col_mismatch": 2
+  },
+  "files": {
+    "docs\\ea-setup.mdx": [
+      "L231: 标点后多余空格: ...`解决方法： 每周末列出..."
+    ],
+    "docs\\exness-agent\\Exness不接受哪些国家的合作伙伴.mdx": [
+      "L3: 标点后多余空格: ...关系，包括： 美国(国民..."
+    ],
+    "docs\\exness-agent\\Exness不接受哪些国家的客户.mdx": [
+      "L3: 标点后多余空格: ...接受为客户。 此外，Ny..."
+    ],
+    "docs\\exness-agent\\Exness合作伙伴忠诚计划.mdx": [
+      "L3: 标点后多余空格: ...了忠诚计划。 了解这项特...",
+      "L3: 标点后多余空格: ...取丰厚奖励。 注册 Ex...",
+      "L3: 标点后多余空格: ... 推介客户。 达成新目标...",
+      "L26: 图片 alt 仅为文件名: CSVP_1757_Loyalty_Program_prize_requirements_ZH.png"
+    ],
+    "docs\\exness-agent\\Exness合作伙伴计划.mdx": [
+      "L3: 标点后多余空格: ...的可靠方式。 Exnes...",
+      "L10: 图片说明未格式化（建议改为斜体）: 合作伙伴链接示例。",
+      "L9: 图片 alt 仅为文件名: CSVP_1489_Exness_Affiliates_partner_link_GIF_ZH.gif"
+    ],
+    "docs\\exness-agent\\Exness推广指南.mdx": [
+      "L3: 标点后多余空格: ...ss 赚钱。 不要使用以...",
+      "L3: 标点后多余空格: ...创造收入”。 同时，禁止...",
+      "L3: 标点后多余空格: ...依据的福利。 不可使用任..."
+    ],
+    "docs\\exness-agent\\Exness提供的交易产品.mdx": [
+      "L3: 标点后多余空格: ...种交易品种。 本文将带您...",
+      "L3: 标点后多余空格: ...易品种详情。 交易品种组..."
+    ],
+    "docs\\exness-agent\\Exness提供的交易平台.mdx": [
+      "L3: 标点后多余空格: ...行简要介绍。 MetaT..."
+    ],
+    "docs\\exness-agent\\Exness支付服务.mdx": [
+      "L3: 标点后多余空格: ...可顺利出金。 下面为您介...",
+      "L3: 标点后多余空格: ...个相关方面： 登录您的个...",
+      "L3: 标点后多余空格: ...的个人专区。 点击支付 ...",
+      "L3: 标点后多余空格: ... > 出金。 请根据需要..."
+    ],
+    "docs\\exness-agent\\Exness是否允许返佣.mdx": [
+      "L3: 标点后多余空格: ...返回给客户。 您可以访问...",
+      "L3: 标点后多余空格: ...管理的详情。 如果您不是..."
+    ],
+    "docs\\exness-agent\\Exness的资金安全.mdx": [
+      "L3: 标点后多余空格: ...的重中之重。 EXNES...",
+      "L3: 标点后多余空格: ...种不同方式： 客户资金独..."
+    ],
+    "docs\\exness-agent\\Exness经纪公司.mdx": [
+      "L3: 标点后多余空格: ...部门的监管。 接受合作伙..."
+    ],
+    "docs\\exness-agent\\Exness财务审计.mdx": [
+      "L3: 标点后多余空格: ...SS的原则。 对EXNE...",
+      "L3: 标点后多余空格: ...络——德勤。 财务报告\"..."
+    ],
+    "docs\\exness-agent\\VPS虚拟专用服务器.mdx": [
+      "L3: 标点后多余空格: ...务器）服务。 什么是 V..."
+    ],
+    "docs\\exness-agent\\一般出金规则.mdx": [
+      "L3: 标点后多余空格: ...注意的事宜： 为了保障资...",
+      "L3: 标点后多余空格: ...的个人账户。 Exnes...",
+      "L3: 标点后多余空格: ...三方的支付。 出金可在一..."
+    ],
+    "docs\\exness-agent\\个人专区报告功能介绍.mdx": [
+      "L3: 标点后多余空格: ...了简要介绍。 让EXNE...",
+      "L3: 标点后多余空格: ...用这些功能： 客户列表\"...",
+      "L88: 图片说明未格式化（建议改为斜体）: 1. 登录**个人专区**。",
+      "L10: 图片 alt 仅为文件名: CSVP-4861_ZH.gif",
+      "L26: 图片 alt 仅为文件名: CSVP_4789_GIF_About_the_Personal_Area_reporting_features_-_Reward_History__2nd_GIF__ZH.gif",
+      "L41: 图片 alt 仅为文件名: CSVP_4792_GIF_About_the_Personal_Area_reporting_features_-_Client_transactions__3rd_GIF__ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP_4795_GIF_About_the_Personal_Area_reporting_features_-_Transactions_pending_payment__4th_GIF__ZH.gif",
+      "L59: 图片 alt 仅为文件名: CSVP-4798_ZH_resized.gif",
+      "L87: 图片 alt 仅为文件名: CSVP-4803-ZH.gif"
+    ],
+    "docs\\exness-agent\\了解介绍经纪商IB个人专区.mdx": [
+      "L3: 标点后多余空格: ...有效的管理。 让咱们一起...",
+      "L14: 图片 alt 仅为文件名: ZH1.png",
+      "L29: 图片 alt 仅为文件名: ZH2.png",
+      "L32: 图片 alt 仅为文件名: ZH3.jpg",
+      "L35: 图片 alt 仅为文件名: ZH4.png",
+      "L38: 图片 alt 仅为文件名: ZH5.png",
+      "L41: 图片 alt 仅为文件名: ZH6.png",
+      "L46: 图片 alt 仅为文件名: CSVP_4767_GIF_Exploring_the_IB_Personal_Area_ZH.gif"
+    ],
+    "docs\\exness-agent\\介绍经纪商.mdx": [
+      "L3: 标点后多余空格: ...入这一计划。 已全面验证...",
+      "L3: 标点后多余空格: ...请表格申请。 在部分国家..."
+    ],
+    "docs\\exness-agent\\先锋账户.mdx": [
+      "L3: 标点后多余空格: ...种都无后缀。 例如，EU...",
+      "L3: 标点后多余空格: ...BPUSD。 先锋账户提...",
+      "L3: 标点后多余空格: ...下交易品种： 假设您是一...",
+      "L3: 标点后多余空格: ...级合作伙伴。 佣金 = ...",
+      "L3: 标点后多余空格: ...获得的佣金。 在适用情况..."
+    ],
+    "docs\\exness-agent\\关于内部转账.mdx": [
+      "L3: 标点后多余空格: ...个人专区内。 登录您的个...",
+      "L3: 标点后多余空格: ...的个人专区。 选择支付选...",
+      "L3: 标点后多余空格: ...并点击出金。 向下滚动至...",
+      "L3: 标点后多余空格: ...至转账部分。 如果是“自...",
+      "L3: 标点后多余空格: ...击继续即可。 查看所示摘...",
+      "L8: 图片说明未格式化（建议改为斜体）: 1. 登录您的**个人专区**。",
+      "L7: 图片 alt 仅为文件名: CSVP_2970_About_internal_transfers_ZH.gif"
+    ],
+    "docs\\exness-agent\\关于合作伙伴链接的所有信息.mdx": [
+      "L22: 图片 alt 仅为文件名: CSVP-4064-ZH.gif"
+    ],
+    "docs\\exness-agent\\加入Exness合作伙伴计划可以赚取多少钱.mdx": [
+      "L3: 标点后多余空格: ...们的交易量。 让咱们一起..."
+    ],
+    "docs\\exness-agent\\单链接服务详解.mdx": [
+      "L3: 标点后多余空格: ...进行自定义。 继续阅读了...",
+      "L16: 图片 alt 仅为文件名: Promo_Link_EN.png"
+    ],
+    "docs\\exness-agent\\合作伙伴佣金与Exness比特币电子钱包.mdx": [
+      "L3: 标点后多余空格: ...币电子钱包。 本文将为您...",
+      "L15: 图片说明未格式化（建议改为斜体）: 1. 登录您的**个人专区**。",
+      "L35: 图片说明未格式化（建议改为斜体）: 1. 打开您的Exness个人专区的**入金**版块。",
+      "L42: 图片说明未格式化（建议改为斜体）: 1. 打开您的Exness个人专区中的**出金**版块。",
+      "L14: 图片 alt 仅为文件名: CSVP-3677-ZH.gif",
+      "L34: 图片 alt 仅为文件名: CSVP-3680_PA_BTC_DEP_ZH_01__1_.gif",
+      "L41: 图片 alt 仅为文件名: CSVP-3683_PA_BTC_WIT_ZH_01.gif"
+    ],
+    "docs\\exness-agent\\合作伙伴佣金框架.mdx": [
+      "L3: 标点后多余空格: ...方为您列出。 不同账户的..."
+    ],
+    "docs\\exness-agent\\合作伙伴和介绍经纪商IB之间有何区别.mdx": [
+      "L3: 标点后多余空格: ...注册的客户。 根据上述两...",
+      "L3: 标点后多余空格: ...计划和报酬。 介绍经纪商..."
+    ],
+    "docs\\exness-agent\\合作伙伴如何知道他们介绍经纪商IB水平的变化.mdx": [
+      "L3: 标点后多余空格: ...整伙伴级别。 由于这是一...",
+      "L3: 标点后多余空格: ...步骤来完成： 登录您的个...",
+      "L3: 标点后多余空格: ...的个人专区。 在仪表盘版...",
+      "L3: 标点后多余空格: ...佣金信息框。 EXNES..."
+    ],
+    "docs\\exness-agent\\合作伙伴类型.mdx": [
+      "L3: 标点后多余空格: ...将随之升级。 两大合作伙...",
+      "L3: 标点后多余空格: ...计划分为是： 介绍经纪商..."
+    ],
+    "docs\\exness-agent\\合作伙伴链接和合作伙伴账户.mdx": [
+      "L3: 标点后多余空格: ...作伙伴账户。 EXNES...",
+      "L3: 标点后多余空格: ...用这些工具。 您的合作伙...",
+      "L3: 标点后多余空格: ...享给其他人。 当有人点击...",
+      "L10: 图片说明未格式化（建议改为斜体）: 合作伙伴链接示例。",
+      "L9: 图片 alt 仅为文件名: CSVP-3488-ZH.gif"
+    ],
+    "docs\\exness-agent\\在哪里可以查看我推介客户的交易活动情况及交易量.mdx": [
+      "L3: 标点后多余空格: ...易量的信息。 客户列表\"...",
+      "L17: 图片 alt 仅为文件名: ZH-CSVP-883.gif",
+      "L21: 图片 alt 仅为文件名: CSVP-4996_ZH.gif",
+      "L27: 图片 alt 仅为文件名: ZH-CSVP-879.gif"
+    ],
+    "docs\\exness-agent\\地区代表-区域代理.mdx": [
+      "L3: 标点后多余空格: ...表（RR）。 虽然地区代..."
+    ],
+    "docs\\exness-agent\\如何加入Exness合作伙伴计划.mdx": [
+      "L3: 标点后多余空格: ...作伙伴计划。 您将会发现..."
+    ],
+    "docs\\exness-agent\\如何成为一名介绍经纪商IB.mdx": [
+      "L3: 标点后多余空格: ...升到40%。 IB还可以..."
+    ],
+    "docs\\exness-agent\\如何提取您的合作伙伴佣金.mdx": [
+      "L3: 标点后多余空格: ...作伙伴账户。 如需提取这...",
+      "L3: 标点后多余空格: ...列步骤操作： 登录您的个...",
+      "L3: 标点后多余空格: ...的个人专区。 点击支付 ...",
+      "L3: 标点后多余空格: ... > 出金。 请根据需要...",
+      "L8: 图片说明未格式化（建议改为斜体）: 1.  登录您的**个人专区**。",
+      "L7: 图片 alt 仅为文件名: CSVP_2910_How_to_withdraw_your_partner_rewards_ZH.gif"
+    ],
+    "docs\\exness-agent\\如何查看某位客户是否注册在了我名下.mdx": [
+      "L3: 标点后多余空格: ...了您的名下。 如何查看\"...",
+      "L11: 图片说明未格式化（建议改为斜体）: 1. 登录您的**个人专区**。",
+      "L10: 图片 alt 仅为文件名: CSVP-2246-ZH.gif"
+    ],
+    "docs\\exness-agent\\如何管理返佣.mdx": [
+      "L3: 标点后多余空格: ...返还给客户。 EXNES...",
+      "L3: 标点后多余空格: ...数据和功能。 返佣提供多...",
+      "L26: 图片说明未格式化（建议改为斜体）: 1. 在您的个人专区选择**返佣**。",
+      "L56: 图片说明未格式化（建议改为斜体）: 1. 在**设置**选项卡上，点击**添加新条件**。",
+      "L71: 图片说明未格式化（建议改为斜体）: 1. 设置筛选器，显示客户列表。",
+      "L14: 图片 alt 仅为文件名: CSVP-3503_ZH.gif",
+      "L25: 图片 alt 仅为文件名: CSVP-3506_ZH.gif",
+      "L34: 图片 alt 仅为文件名: CSVP-4031-ZH.gif",
+      "L40: 图片 alt 仅为文件名: CSVP-4034-ZH.gif",
+      "L48: 图片 alt 仅为文件名: CSVP-3998-ZH.gif",
+      "L55: 图片 alt 仅为文件名: CSVP-4001-ZH.gif",
+      "L70: 图片 alt 仅为文件名: CSVP-4004-ZH.gif"
+    ],
+    "docs\\exness-agent\\如何通过电汇提取合作伙伴佣金.mdx": [
+      "L3: 标点后多余空格: ...作伙伴佣金。 电汇仅限于...",
+      "L3: 标点后多余空格: ...该支付方式。 如您提供的...",
+      "L3: 标点后多余空格: ...供电汇选项。 登录您的个...",
+      "L3: 标点后多余空格: ...的个人专区。 打开顶部菜...",
+      "L3: 标点后多余空格: ...单中的支付。 点击出金选...",
+      "L9: 图片说明未格式化（建议改为斜体）: 1. 登录您的**个人专区**。",
+      "L8: 图片 alt 仅为文件名: CSVP-4273-ZH.gif"
+    ],
+    "docs\\exness-agent\\客户如何确定他们的资金是否安全.mdx": [
+      "L3: 标点后多余空格: ...客户的资金。 EXNES...",
+      "L3: 标点后多余空格: ...信赖的环境。 EXNES..."
+    ],
+    "docs\\exness-agent\\客服支持.mdx": [
+      "L3: 标点后多余空格: ...户服务为豪。 公司上下内...",
+      "L3: 标点后多余空格: ...了诸多努力。 以下为我司...",
+      "L3: 标点后多余空格: ...要特色内容： EXNES..."
+    ],
+    "docs\\exness-agent\\我可以使用合作伙伴链接创建自定义合作伙伴链接吗.mdx": [
+      "L9: 图片 alt 仅为文件名: Partner_link_ZH.jpg"
+    ],
+    "docs\\exness-agent\\手续费.mdx": [
+      "L3: 标点后多余空格: ...任何手续费。 尽管如此，...",
+      "L3: 标点后多余空格: ...低限额要求。 EXNES..."
+    ],
+    "docs\\exness-agent\\探索合作伙伴佣金信息面板.mdx": [
+      "L3: 标点后多余空格: ...况一目了然。 了解自己合...",
+      "L3: 标点后多余空格: ...作伙伴级别。 让EXNE...",
+      "L3: 标点后多余空格: ...实用性功能： 合作伙伴佣...",
+      "L9: 图片 alt 仅为文件名: CSVP-4658-ZH.gif",
+      "L13: 图片 alt 仅为文件名: CSVP-4661-ZH.gif",
+      "L17: 图片 alt 仅为文件名: CSVP-4662-ZH.jpg",
+      "L19: 图片 alt 仅为文件名: CSVP-4665-ZH.gif",
+      "L25: 图片 alt 仅为文件名: CSVP-4671-ZH.jpg",
+      "L32: 图片 alt 仅为文件名: CSVP-4666-ZH.jpg"
+    ],
+    "docs\\exness-agent\\探索返佣版块.mdx": [
+      "L3: 标点后多余空格: ...的一切功能。 本文将带您...",
+      "L3: 标点后多余空格: ...区域的内容。 要找到返佣...",
+      "L3: 标点后多余空格: ...到返佣版块： 登录您的个...",
+      "L3: 标点后多余空格: ...的个人专区。 在主菜单中...",
+      "L3: 标点后多余空格: ...中选择返佣。 如果菜单中..."
+    ],
+    "docs\\exness-agent\\收入分享模型是如何发挥作用的.mdx": [
+      "L3: 标点后多余空格: ...也就是点差。 作为合作伙...",
+      "L3: 标点后多余空格: ...% 的利润。 也就是说，..."
+    ],
+    "docs\\exness-agent\\最低和最高出金限额.mdx": [
+      "L3: 标点后多余空格: ...以随时提取。 只需按照步...",
+      "L3: 标点后多余空格: ...高金额设定。 进行出金操...",
+      "L3: 标点后多余空格: ...高出金限额。 原则上最低..."
+    ],
+    "docs\\exness-agent\\社交交易介绍.mdx": [
+      "L3: 标点后多余空格: ...者）的交易。 如果策略提...",
+      "L3: 标点后多余空格: ...的比率计算。 投资者必须..."
+    ],
+    "docs\\exness-agent\\美分账户.mdx": [
+      "L3: 标点后多余空格: ...级别来计算。 这些品种有..."
+    ],
+    "docs\\exness-agent\\自定义合作伙伴链接.mdx": [
+      "L3: 标点后多余空格: ...自定义设置。 为便于您操..."
+    ],
+    "docs\\exness-agent\\裸点账户的合作伙伴佣金如何计算.mdx": [
+      "L3: 标点后多余空格: ...金额的佣金。 详情见下方..."
+    ],
+    "docs\\exness-agent\\返佣详述.mdx": [
+      "L3: 标点后多余空格: ...置自动返佣。 您可以设置..."
+    ],
+    "docs\\exness-agent\\零点账户的合伙人佣金如何计算.mdx": [
+      "L3: 标点后多余空格: ...金额的佣金。 详情见下方..."
+    ],
+    "docs\\exness-trader\\exness-vps-使用须知.mdx": [
+      "L4: 标点后多余空格: ...的网络连接。 在本文中，...",
+      "L4: 标点后多余空格: ...的常见问题。 VPS 使...",
+      "L4: 标点后多余空格: ...PS 账户？ 变更主账户...",
+      "L4: 标点后多余空格: ...个交易平台？ 能否更改 ..."
+    ],
+    "docs\\exness-trader\\exness-交易应用-入金操作.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP_4199_Gif_Exness_Trader_Making_A_Deposit_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-出金操作.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4198_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-在哪可以查看我的合作伙伴账户详情.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_4320_Gif_Exness_Trader_Where_can_I_find_details_of_my_Partner_Account__EN.gif",
+      "L30: 图片 alt 仅为文件名: CSVP-5007_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-如何开立更多账户.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4301_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用-如何更改-exness-交易应用的语言设置.mdx": [
+      "L4: 标点后多余空格: ...置非常简单。 请点击“个...",
+      "L4: 标点后多余空格: ...骤进行操作： 点击语言。...",
+      "L4: 标点后多余空格: ... 点击语言。 您将进入您...",
+      "L4: 标点后多余空格: ...的设置界面。 点击更改语...",
+      "L4: 标点后多余空格: ...他语言选项。 选择您想要..."
+    ],
+    "docs\\exness-trader\\exness-交易应用-如何验证个人资料.mdx": [
+      "L4: 标点后多余空格: ...资料的验证。 即简单直接..."
+    ],
+    "docs\\exness-trader\\exness-交易应用-是否可以更改所使用的交易终端.mdx": [
+      "L4: 标点后多余空格: ...的交易终端。 以下为操作...",
+      "L4: 标点后多余空格: ...为操作步骤： 单击个人资...",
+      "L4: 标点后多余空格: ...择交易终端。 您将看到以...",
+      "L4: 标点后多余空格: ...到以下选项： Exnes...",
+      "L4: 标点后多余空格: ...端进行交易。 内置 Me...",
+      "L11: 图片 alt 仅为文件名: CSVP-4776-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用疑难解答.mdx": [
+      "L4: 标点后多余空格: ...户登录使用。 借助该应用...",
+      "L32: 图片 alt 仅为文件名: CSVP-4302_iOS_ZH_resized.gif",
+      "L50: 图片 alt 仅为文件名: CSVP_4305_GIF_Exness_Trader_Troubleshooting_Reset_Passcode_ZH.gif",
+      "L63: 图片 alt 仅为文件名: CSVP-4308_iOS_ZH_resized.gif",
+      "L83: 图片 alt 仅为文件名: CSVP-4311_iOS_ZH_resized.gif",
+      "L113: 图片 alt 仅为文件名: CSVP-4314_iOS_ZH_resized.gif",
+      "L132: 图片 alt 仅为文件名: CSVP-4317_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness-交易应用配置指南.mdx": [
+      "L4: 标点后多余空格: ...ess账户。 根据需要，..."
+    ],
+    "docs\\exness-trader\\exness-对哪些类型的账户收取交易手续费.mdx": [
+      "L4: 标点后多余空格: ...和裸点账户。 交易手续费..."
+    ],
+    "docs\\exness-trader\\exness-意见门户介绍.mdx": [
+      "L4: 标点后多余空格: ...意见和建议。 什么是 E...",
+      "L4: 标点后多余空格: ... 意见门户？ 提出意见 ...",
+      "L25: 图片 alt 仅为文件名: Suggesting_Idea_ZH.gif",
+      "L42: 图片 alt 仅为文件名: CSVP-2947_Translation_Widget_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness-提供交易信号吗.mdx": [
+      "L4: 标点后多余空格: ...义交易信号。 但您可以在..."
+    ],
+    "docs\\exness-trader\\exness-提供的石油是差价合约，还是期货.mdx": [
+      "L4: 标点后多余空格: ...别下的石油。 期货不在E..."
+    ],
+    "docs\\exness-trader\\exness-收取出入金手续费吗.mdx": [
+      "L4: 标点后多余空格: ...收取手续费。 但是部分电..."
+    ],
+    "docs\\exness-trader\\exness-是做什么的.mdx": [
+      "L4: 标点后多余空格: ...组织或公司。 就 Exn...",
+      "L4: 标点后多余空格: ...价合约交易。 公司角色 ..."
+    ],
+    "docs\\exness-trader\\exness-是否收取隔夜费用.mdx": [
+      "L4: 标点后多余空格: ...纳隔夜利息。 隔夜利息在..."
+    ],
+    "docs\\exness-trader\\exness-账户支持哪些订单类型.mdx": [
+      "L4: 标点后多余空格: ...和即时执行。 订单类型 ..."
+    ],
+    "docs\\exness-trader\\exness交易应用-了解业绩统计选项卡.mdx": [
+      "L16: 图片 alt 仅为文件名: CSVP-3804-ZH.gif",
+      "L33: 图片 alt 仅为文件名: CSVP-3807-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-交易账户设置.mdx": [
+      "L25: 图片 alt 仅为文件名: CSVP-4533-ZH.gif",
+      "L35: 图片 alt 仅为文件名: CSVP-4536-ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-4539-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-内置交易终端详解.mdx": [
+      "L4: 标点后多余空格: ...的交易终端。 您可以通过...",
+      "L30: 图片 alt 仅为文件名: CSVP_4430_Gif_Trade_tab_ZH.gif",
+      "L38: 图片 alt 仅为文件名: CSVP-4435-ZH.gif",
+      "L50: 图片 alt 仅为文件名: CSVP-4438-ZH.gif",
+      "L74: 图片 alt 仅为文件名: CSVP-4453_iOS_ZH_resized.gif",
+      "L105: 图片 alt 仅为文件名: CSVP-4456_iOS_ZH_resized.gif",
+      "L112: 图片 alt 仅为文件名: CSVP-4609-ZH.png",
+      "L130: 图片 alt 仅为文件名: CSVP-4441-ZH.gif",
+      "L152: 图片 alt 仅为文件名: CSVP-4444_iOS_ZH_resized.gif",
+      "L162: 图片 alt 仅为文件名: CSVP-4295-ZH.gif",
+      "L172: 图片 alt 仅为文件名: CSVP-4450_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-内部转账.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-4231_iOS_ZH_resized.gif",
+      "L24: 图片 alt 仅为文件名: CSVP-4234_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何将交易品种收藏至关注列表.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4283_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何开立和关闭交易.mdx": [
+      "L4: 标点后多余空格: ...用开立交易： 找到买卖按...",
+      "L25: 图片 alt 仅为文件名: CSVP-4493_iOS_ZH_resized.gif",
+      "L32: 图片 alt 仅为文件名: CSVP-4496_iOS_ZH_resized.gif",
+      "L48: 图片 alt 仅为文件名: CSVP-4499_iOS_ZH_resized.gif",
+      "L59: 图片 alt 仅为文件名: CSVP-4502_iOS_ZH_resized.gif",
+      "L68: 图片 alt 仅为文件名: CSVP-4295-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何开立账户.mdx": [
+      "L4: 标点后多余空格: ...交易账户了。 让咱们一起...",
+      "L4: 标点后多余空格: ...上创建账户： 模拟账户 ...",
+      "L20: 图片 alt 仅为文件名: CSVP-4225-ZH.gif",
+      "L35: 图片 alt 仅为文件名: CSVP-4228-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-如何编辑通知.mdx": [
+      "L4: 标点后多余空格: ...些通知类型。 以下是一份...",
+      "L11: 图片 alt 仅为文件名: CSVP-4999_iOS_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-5002_iOS_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-支付操作须知.mdx": [
+      "L4: 标点后多余空格: ...应用上完成。 在Exne...",
+      "L4: 标点后多余空格: ...的支付选择。 为此，EX...",
+      "L4: 标点后多余空格: ...此了解详情。 入金 可用...",
+      "L26: 图片 alt 仅为文件名: CSVP-4202_iOS_ZH_resized.gif",
+      "L34: 图片 alt 仅为文件名: CSVP-4207-ZH.gif",
+      "L70: 图片 alt 仅为文件名: CSVP-4210-ZH.gif",
+      "L79: 图片 alt 仅为文件名: CSVP-4213-ZH.gif",
+      "L102: 图片 alt 仅为文件名: CSVP-421-ZH.gif",
+      "L121: 图片 alt 仅为文件名: CSVP-4219-ZH.gif",
+      "L132: 图片 alt 仅为文件名: CSVP-4222-ZH.gif"
+    ],
+    "docs\\exness-trader\\exness交易应用-管理个人专区.mdx": [
+      "L4: 标点后多余空格: ...理个人专区。 下面，让咱...",
+      "L4: 标点后多余空格: ...现这一目标。 账户选项卡..."
+    ],
+    "docs\\exness-trader\\exness尊享会员制适用于中国台湾香港和澳门地.mdx": [
+      "L4: 标点后多余空格: ...尊享会员制？ Exnes...",
+      "L4: 标点后多余空格: ...享会员状态？ 资格要求 ...",
+      "L61: 图片 alt 仅为文件名: CSVP-3876_ExnessPremier_ZH.gif",
+      "L78: 图片 alt 仅为文件名: CSVP-3879_ExnessPremier_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness市场保护工具.mdx": [
+      "L4: 标点后多余空格: ...的交易条件。 这包括提供...",
+      "L4: 标点后多余空格: ...级保护工具。 下面，让咱...",
+      "L4: 标点后多余空格: ...索这些功能： 基本保护工..."
+    ],
+    "docs\\exness-trader\\exness提供哪种点差.mdx": [
+      "L4: 标点后多余空格: ...差异的衡量。 点差值以点...",
+      "L41: 图片 alt 仅为文件名: CSVP-4135_ZH.gif",
+      "L50: 图片 alt 仅为文件名: CSVP-4138_ZH.gif"
+    ],
+    "docs\\exness-trader\\exness是否受到相关监管.mdx": [
+      "L4: 标点后多余空格: ...机构的监管。 监管Exn...",
+      "L4: 标点后多余空格: ...的机构包括： 塞舌尔金融...",
+      "L4: 标点后多余空格: ...局（FSA） 塞浦路斯证...",
+      "L4: 标点后多余空格: ...CySEC） 英国金融行...",
+      "L4: 标点后多余空格: ...y/FCA） 南非金融部..."
+    ],
+    "docs\\exness-trader\\exness网站提供pwa版本吗.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-4323-All_Language.png",
+      "L35: 图片 alt 仅为文件名: CSVP-4324-ZH.png"
+    ],
+    "docs\\exness-trader\\exness账户验证文件.mdx": [
+      "L4: 标点后多余空格: ...ess账户。 Exnes...",
+      "L4: 标点后多余空格: ...称为POR。 文件要求 ...",
+      "L4: 标点后多余空格: ...证明 示例： 地址证明 ...",
+      "L17: 图片 alt 仅为文件名: CSVP-3339-ZH.gif"
+    ],
+    "docs\\exness-trader\\metatrader-使用什么时区的时间.mdx": [
+      "L4: 标点后多余空格: ...GMT+0。 请注意，以..."
+    ],
+    "docs\\exness-trader\\metatrader-详解-对比-mt4-和-mt5.mdx": [
+      "L4: 标点后多余空格: ...级交易平台。 MetaT..."
+    ],
+    "docs\\exness-trader\\metatrader交易信号.mdx": [
+      "L4: 标点后多余空格: ...全面型平台。 交易信号功..."
+    ],
+    "docs\\exness-trader\\mt4-mt5-中信用资金的显示方式介绍.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_3123_About_the_credit_display_in_MT4MT5_ZH.gif"
+    ],
+    "docs\\exness-trader\\mt4-mt5-提供哪些交易品种.mdx": [
+      "L4: 标点后多余空格: ...列交易品种： 外汇市场 ..."
+    ],
+    "docs\\exness-trader\\vps-被冻结后还能解冻吗.mdx": [
+      "L4: 标点后多余空格: ...的恢复条件： 申请账户需..."
+    ],
+    "docs\\exness-trader\\一个账户有几个密码.mdx": [
+      "L4: 标点后多余空格: ...能有些困难。 别担心，在...",
+      "L4: 标点后多余空格: ...护哪一部分。 密码类型 ..."
+    ],
+    "docs\\exness-trader\\不同类型的交易账户可以使用相同的服务器么.mdx": [
+      "L4: 标点后多余空格: ...: \"可以。 这是有可能..."
+    ],
+    "docs\\exness-trader\\不同类型的账户是否有地区限制.mdx": [
+      "L4: 标点后多余空格: ...有地区限制， 其他账户则...",
+      "L4: 标点后多余空格: ...有地区限制。 注意，各地..."
+    ],
+    "docs\\exness-trader\\为-metatrader-4-5-设置推送通知.mdx": [
+      "L4: 标点后多余空格: ...是 iOS， 均可发送。...",
+      "L4: 标点后多余空格: ... 均可发送。 请按照下方...",
+      "L4: 标点后多余空格: ...置推送通知。 找到您的 ...",
+      "L4: 标点后多余空格: ...es ID： 在您的移动..."
+    ],
+    "docs\\exness-trader\\为什么-exness-交易应用上的支付方式比网页版个人专区.mdx": [
+      "L4: 标点后多余空格: ...款易用应用。 话虽如此，...",
+      "L4: 标点后多余空格: ...其进行优化。 与网页版个..."
+    ],
+    "docs\\exness-trader\\为什么-exness-账户验证流程是重要的.mdx": [
+      "L4: 标点后多余空格: ...行全面验证。 但是，全面..."
+    ],
+    "docs\\exness-trader\\为什么mt4-mt5和exness网站上显示的点差不一样.mdx": [
+      "L4: 标点后多余空格: ...则为迷你点。 Exnes..."
+    ],
+    "docs\\exness-trader\\为什么在一天中的某些时候，指数的保证金会增加.mdx": [
+      "L4: 标点后多余空格: ...的价格波动。 为了保护您..."
+    ],
+    "docs\\exness-trader\\为什么我个人专区中可用保证金的金额与交易平台.mdx": [
+      "L4: 标点后多余空格: ...旧称奖励）。 个人专区中..."
+    ],
+    "docs\\exness-trader\\为什么我在进行入金操作时屏幕显示系统出错.mdx": [
+      "L4: 标点后多余空格: ...出现该错误。 如果支付货...",
+      "L4: 标点后多余空格: ...的支付系统。 第一种为本..."
+    ],
+    "docs\\exness-trader\\为什么我的入金-出金会被拒绝.mdx": [
+      "L4: 标点后多余空格: ...人非常烦恼。 出入金遭拒...",
+      "L36: 图片 alt 仅为文件名: Copy_of_CSVP-3836-ZH.gif"
+    ],
+    "docs\\exness-trader\\为什么我的对冲单突然要我缴纳保证金.mdx": [
+      "L4: 标点后多余空格: ...原因可能为： 您正在交易...",
+      "L4: 标点后多余空格: ...后缀不统一。 您已平仓了..."
+    ],
+    "docs\\exness-trader\\为什么我的所有交易一开始都处于亏损状态.mdx": [
+      "L4: 标点后多余空格: ...品种的点差。 点差是交易...",
+      "L4: 标点后多余空格: ...单位的差异。 简而言之，...",
+      "L4: 标点后多余空格: ...本和保证金。 完成检测后..."
+    ],
+    "docs\\exness-trader\\为什么我的文件被拒绝了.mdx": [
+      "L4: 标点后多余空格: ...取行动解决。 如何查看文...",
+      "L22: 图片 alt 仅为文件名: CSVP-5016-ZH.gif",
+      "L60: 图片 alt 仅为文件名: Underage_Male_Passport_White_BG.jpg",
+      "L64: 图片 alt 仅为文件名: Bank_Statement.png",
+      "L72: 图片 alt 仅为文件名: Driving_Licence_Female.jpg",
+      "L76: 图片 alt 仅为文件名: Bank_Statement_with_Name.png"
+    ],
+    "docs\\exness-trader\\为什么我的账户上有资金，交易账户却显示余额为.mdx": [
+      "L4: 标点后多余空格: ...单历史记录。 如果您的账...",
+      "L4: 标点后多余空格: ...而自动关闭。 个人专区中..."
+    ],
+    "docs\\exness-trader\\为什么我需要一种账户货币.mdx": [
+      "L4: 标点后多余空格: ...个账户货币。 也就是该账..."
+    ],
+    "docs\\exness-trader\\为什么无法在我的个人专区中找到我的交易账户.mdx": [
+      "L4: 标点后多余空格: ...S获取帮助。 请查看关于...",
+      "L4: 标点后多余空格: ...的交易账户。 新账户 E...",
+      "L26: 图片 alt 仅为文件名: CSVP-3771_PA_TrdAcc_ZH_01.gif",
+      "L38: 图片 alt 仅为文件名: CSVP-3775_ET_TrdAcc_ZH_01__1_.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-3777_PA_Archive_ZH_01.gif"
+    ],
+    "docs\\exness-trader\\为什么有时候股票的保证金会比平时高.mdx": [
+      "L4: 标点后多余空格: ...务业绩报告。 这样做是为..."
+    ],
+    "docs\\exness-trader\\了解交易终端.mdx": [
+      "L4: 标点后多余空格: ...应用或平台。 要轻松选择..."
+    ],
+    "docs\\exness-trader\\了解做市商.mdx": [
+      "L4: 标点后多余空格: ...的金融公司。 顾名思义，...",
+      "L19: 图片 alt 仅为文件名: ZH_2.jpg",
+      "L23: 图片 alt 仅为文件名: ZH.jpg"
+    ],
+    "docs\\exness-trader\\交叉盘交易.mdx": [
+      "L4: 标点后多余空格: ...外汇货币对。 不包含美元...",
+      "L4: 标点后多余空格: ...元（USD） 的外汇货币...",
+      "L226: **English:** 半角冒号: ...#### **EURJPY:**..."
+    ],
+    "docs\\exness-trader\\交易品种.mdx": [
+      "L34: 数据行 4 列与 header 3 列不一致: |**先锋账户**| | * 即时执行的外汇市场货币对、黄金、白银、白金和钯<br/>* 可以市价执行的加密数字货币<b"
+    ],
+    "docs\\exness-trader\\交易新手最适合什么账户类型.mdx": [
+      "L4: 标点后多余空格: ...友好的一种。 该账户类型..."
+    ],
+    "docs\\exness-trader\\什么是-3d-安全协议.mdx": [
+      "L4: 标点后多余空格: ...全防护协议。 3D 安全...",
+      "L4: 标点后多余空格: ...现欺诈行为。 Exnes...",
+      "L4: 标点后多余空格: ...和出金操作。 也就是说，..."
+    ],
+    "docs\\exness-trader\\什么是-cvv-代码，可以在哪里找到.mdx": [
+      "L17: 图片 alt 仅为文件名: CSVP-3545_CC_CCV_01.gif"
+    ],
+    "docs\\exness-trader\\什么是vps-.mdx": [
+      "L4: 标点后多余空格: ...拟电脑系统。 VPS服务..."
+    ],
+    "docs\\exness-trader\\什么是偏差.mdx": [
+      "L4: 标点后多余空格: ...的手动设置。 这可以让系...",
+      "L46: 图片 alt 仅为文件名: CSVP-3114_MT_Deviation_ZH_01.gif",
+      "L53: 图片 alt 仅为文件名: CSVP-2032-ZH.gif",
+      "L61: 图片 alt 仅为文件名: CSVP_3117_What_is_deviation__MetaTrader_WebTerminal__ZH.gif"
+    ],
+    "docs\\exness-trader\\什么是对冲单可以进行部分对冲吗.mdx": [
+      "L4: 标点后多余空格: ...反的的交易。 如，1 手...",
+      "L4: 标点后多余空格: ...SD 卖单。 对冲单保证..."
+    ],
+    "docs\\exness-trader\\什么是移动止损.mdx": [
+      "L4: 标点后多余空格: ...动平仓机制。 这是风险管..."
+    ],
+    "docs\\exness-trader\\仍未收到出金款项.mdx": [
+      "L4: 标点后多余空格: ...会非常难熬。 考虑到这一...",
+      "L23: 图片 alt 仅为文件名: CSVP-3406-ZH.gif"
+    ],
+    "docs\\exness-trader\\仍未收到手机短信验证码.mdx": [
+      "L4: 标点后多余空格: ...解决该问题： 登录个人专...",
+      "L4: 标点后多余空格: ...的手机号码。 如果此处显..."
+    ],
+    "docs\\exness-trader\\伊斯兰教地区可享零隔夜利息交易账户.mdx": [
+      "L4: 标点后多余空格: ...息交易账户。 如果拥有免..."
+    ],
+    "docs\\exness-trader\\使用-mt4-mt5-网页终端进行交易.mdx": [
+      "L89: 图片 alt 仅为文件名: chart-types.png",
+      "L93: 图片 alt 仅为文件名: timeframes.png",
+      "L132: 图片 alt 仅为文件名: one-click-trading-en.png"
+    ],
+    "docs\\exness-trader\\使用-windows-版本-metatrader-4.mdx": [
+      "L4: 标点后多余空格: ...端进行交易。 安装 登录..."
+    ],
+    "docs\\exness-trader\\使用-windows-版本-metatrader-5.mdx": [
+      "L4: 标点后多余空格: ...端进行交易。 安装 登录..."
+    ],
+    "docs\\exness-trader\\使用模拟账户进行交易时需要存入真实资金吗.mdx": [
+      "L4: 标点后多余空格: ...拟交易账户。 模拟账户的...",
+      "L4: 标点后多余空格: ...完全虚拟的。 模拟账户旨..."
+    ],
+    "docs\\exness-trader\\保证金和可用保证金之间有何区别.mdx": [
+      "L4: 标点后多余空格: ...解的新术语。 在这篇短文..."
+    ],
+    "docs\\exness-trader\\保障您的vps安全.mdx": [
+      "L4: 标点后多余空格: ...的交易活动。 与他人共享..."
+    ],
+    "docs\\exness-trader\\先锋账户.mdx": [
+      "L4: 标点后多余空格: ...哪些交易者？ 先锋账户的..."
+    ],
+    "docs\\exness-trader\\先锋账户上都可以交易哪些品种.mdx": [
+      "L4: 标点后多余空格: ...能无法使用。 如果您使用..."
+    ],
+    "docs\\exness-trader\\入金款项仍未到账.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_3231_My_deposit_hasn_t_been_credited_to_my_account_yet_ZH.gif"
+    ],
+    "docs\\exness-trader\\入金金额有限制吗.mdx": [
+      "L4: 标点后多余空格: ...有任何限制。 不过在入金..."
+    ],
+    "docs\\exness-trader\\入金须知.mdx": [
+      "L4: 标点后多余空格: ...易于操作的。 EXNES...",
+      "L23: 图片 alt 仅为文件名: CSVP-3392_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\关于-exness-交易应用.mdx": [
+      "L4: 标点后多余空格: ...端解决方案。 该应用不仅...",
+      "L4: 标点后多余空格: ...交易的乐趣。 您可以按名..."
+    ],
+    "docs\\exness-trader\\出入金到账需要多长时间.mdx": [
+      "L4: 标点后多余空格: ...的支付方式。 根据账户验...",
+      "L4: 标点后多余空格: ...会有所不同。 为方便您交...",
+      "L11: 图片 alt 仅为文件名: CSVP-4958_ZH.gif"
+    ],
+    "docs\\exness-trader\\出入金最快的方法是什么.mdx": [
+      "L4: 标点后多余空格: ...的支付方式。 EXNES..."
+    ],
+    "docs\\exness-trader\\出现报价关闭提示.mdx": [
+      "L4: 标点后多余空格: ...为市价使用。 也因此，当..."
+    ],
+    "docs\\exness-trader\\出现禁止交易的错误提示.mdx": [
+      "L4: 标点后多余空格: ...是只读密码。 此密码用于..."
+    ],
+    "docs\\exness-trader\\出现资金不足错误提示.mdx": [
+      "L4: 标点后多余空格: ...个错误提示。 让EXNE...",
+      "L4: 标点后多余空格: ...进一步了解： 解决问题小..."
+    ],
+    "docs\\exness-trader\\出金为何退回了我的-exness-账户.mdx": [
+      "L4: 标点后多余空格: ...现这种状况。 咱们一起来...",
+      "L4: 标点后多余空格: ...情况的原因： 出金表单信...",
+      "L4: 标点后多余空格: ...息填写错误。 您的出金请...",
+      "L4: 标点后多余空格: ...的基本要求。 您可以点击...",
+      "L4: 标点后多余空格: ...一般性规则。 账户余额不...",
+      "L4: 标点后多余空格: ...法完成出金。 在还有未结..."
+    ],
+    "docs\\exness-trader\\出金须知.mdx": [
+      "L4: 标点后多余空格: ...种支付方式。 EXNES...",
+      "L25: 图片 alt 仅为文件名: CSVP-4133_Withdraw_ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\创建真实账户和模拟账户时必须提供哪些文件.mdx": [
+      "L4: 标点后多余空格: ...和居住地址。 未能满足文..."
+    ],
+    "docs\\exness-trader\\加密数字货币交叉盘.mdx": [
+      "L4: 标点后多余空格: ...有相关信息。 Exnes...",
+      "L4: 标点后多余空格: ...交叉盘如下： BTCXA..."
+    ],
+    "docs\\exness-trader\\可以使用不同的支付平台出金吗.mdx": [
+      "L4: 标点后多余空格: ...的支付方式。 这是为了确...",
+      "L4: 标点后多余空格: ...有人的手上。 如果您因为...",
+      "L4: 标点后多余空格: ...的客服团队。 客服可能会..."
+    ],
+    "docs\\exness-trader\\可以在周末节假日出金入金吗.mdx": [
+      "L4: 标点后多余空格: ... \"可以的。 您可以在周...",
+      "L4: 标点后多余空格: ...出金和转账。 但是因为周..."
+    ],
+    "docs\\exness-trader\\同一个电子邮箱可以注册多个个人专区吗.mdx": [
+      "L4: 标点后多余空格: ...个个人专区。 您可以使用..."
+    ],
+    "docs\\exness-trader\\品种分类.mdx": [
+      "L4: 标点后多余空格: ...为几大类别。 了解交易品..."
+    ],
+    "docs\\exness-trader\\在中国如何通过otc365出入金.mdx": [
+      "L4: 标点后多余空格: ...行双向交易。 通过这种支...",
+      "L26: 图片 alt 仅为文件名: CSVP-3505_PA_Dep_OTC365_ZH_1800x1125_01.gif",
+      "L39: 图片 alt 仅为文件名: CSVP-3504_PA_Wit_OTC365_ZH_1800x1125_01.gif"
+    ],
+    "docs\\exness-trader\\在交易终端关闭订单.mdx": [
+      "L4: 标点后多余空格: ...以便您查看。 关闭订单 ...",
+      "L27: 图片 alt 仅为文件名: CSVP-4729-ZH.gif",
+      "L46: 图片 alt 仅为文件名: CSVP-4287_ZH_resized.gif",
+      "L57: 图片 alt 仅为文件名: CSVP-4290_iOS_ZH_resized.gif",
+      "L67: 图片 alt 仅为文件名: CSVP-4295-ZH.gif",
+      "L78: 图片 alt 仅为文件名: CSVP-4296_ZH_resized.gif",
+      "L108: 图片 alt 仅为文件名: CSVP-4520_ZH_resized.gif",
+      "L119: 图片 alt 仅为文件名: CSVP-4274_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\在哪可以找到-macos-版mt4-mt5安装文件.mdx": [
+      "L4: 标点后多余空格: ...下链接下载： 点击此处获..."
+    ],
+    "docs\\exness-trader\\在哪查询某一品种的相关信息.mdx": [
+      "L4: 标点后多余空格: ...种交易品种。 品种类别的..."
+    ],
+    "docs\\exness-trader\\在哪里可以找到我的信用相关信息.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_3218_Where_can_I_find_information_regarding_my_credits_ZH.gif"
+    ],
+    "docs\\exness-trader\\在哪里查看交易账户类型.mdx": [
+      "L4: 标点后多余空格: ...的账户类型： 登录您的个...",
+      "L4: 标点后多余空格: ...的个人专区， 进入“我的...",
+      "L4: 标点后多余空格: ...我的账户”。 找到您想要...",
+      "L4: 标点后多余空格: ...标调出设置。 在设置中选...",
+      "L4: 标点后多余空格: ...择账户信息。 您交易账户...",
+      "L11: 图片 alt 仅为文件名: CSVP-3521-ZH.gif"
+    ],
+    "docs\\exness-trader\\在安装mt4时，为什么需要提供代理服务器地址.mdx": [
+      "L4: 标点后多余空格: ...出现了故障。 CDN的作..."
+    ],
+    "docs\\exness-trader\\在进行股票相关交易品种的交易时，我是否真正拥.mdx": [
+      "L4: 标点后多余空格: ...D）为基础。 Exnes..."
+    ],
+    "docs\\exness-trader\\基点和迷你点之间有何区别.mdx": [
+      "L4: 标点后多余空格: ...这两个术语。 让EXNE...",
+      "L4: 标点后多余空格: ... 中的用法。 定义 基点..."
+    ],
+    "docs\\exness-trader\\夏季交易时间.mdx": [
+      "L52: 数据行 5 列与 header 3 列不一致: | **[[exness-trader/股票|股票]]（下行提及的除外）** | 休市 | 星期五 | 19:45 |"
+    ],
+    "docs\\exness-trader\\外汇与外汇市场.mdx": [
+      "L4: 标点后多余空格: ...种中的一种。 如果您想进...",
+      "L4: 标点后多余空格: ...些基本信息。 什么是外汇...",
+      "L4: 标点后多余空格: ...什么是外汇？ 理解外汇市..."
+    ],
+    "docs\\exness-trader\\外汇和其他交易品种的基本交易术语.mdx": [
+      "L4: 标点后多余空格: ...的交易体验。 请参见下方...",
+      "L4: 标点后多余空格: ...键交易术语： 货币对、交...",
+      "L103: 图片 alt 仅为文件名: Buy_Order__P_L_ZH.png",
+      "L105: 图片 alt 仅为文件名: Sell_Order__P_L_ZH.png"
+    ],
+    "docs\\exness-trader\\外汇市场交易时间.mdx": [
+      "L4: 标点后多余空格: ...时间的详情： 外汇交易时..."
+    ],
+    "docs\\exness-trader\\如何上传屏幕截图给支持团队.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3963-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何为客服团队创建屏幕截图.mdx": [
+      "L4: 标点后多余空格: ...遇到的问题。 这篇文章将...",
+      "L4: 标点后多余空格: ...）屏幕截图。 Mac台式...",
+      "L25: 图片 alt 仅为文件名: CSVP-3965_GIF_resized.gif",
+      "L64: 图片 alt 仅为文件名: CSVP-3968-EN.gif"
+    ],
+    "docs\\exness-trader\\如何从报价手机移动端里显示-添加-移除交易品.mdx": [
+      "L4: 标点后多余空格: ...易更加便捷。 本文将向您...",
+      "L4: 标点后多余空格: ...除交易品种。 iOS 系...",
+      "L27: 图片 alt 仅为文件名: ZH.gif",
+      "L36: 图片 alt 仅为文件名: ZH_Remove_Symbol_MT4.gif",
+      "L47: 图片 alt 仅为文件名: ZH.gif",
+      "L56: 图片 alt 仅为文件名: ZH.gif",
+      "L69: 图片 alt 仅为文件名: CSVP-2520_GIFs_ZH__1_.gif",
+      "L78: 图片 alt 仅为文件名: CSVP-2523_GIFs_ZH__1_.gif",
+      "L90: 图片 alt 仅为文件名: CSVP-2527_GIFs_ZH.gif",
+      "L98: 图片 alt 仅为文件名: CSVP-2532_GIFs_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用-exness-货币转换器.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-4975_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用-mt4-multiterminal多账户管理终端.mdx": [
+      "L4: 标点后多余空格: ...户管理体验。 本文将带您...",
+      "L32: 图片 alt 仅为文件名: CSVP-2337_ZH_Thumbnail__1_.jpg",
+      "L122: 图片 alt 仅为文件名: CSVP_3024_How_to_use_Mt4_Multiterminal_ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\如何使用perfect-money出入金.mdx": [
+      "L4: 标点后多余空格: ...子支付方式。 您可以使用...",
+      "L43: 图片 alt 仅为文件名: CSVP-3709-ZH.gif",
+      "L53: 图片 alt 仅为文件名: CSVP-3712-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用sticpay出入金.mdx": [
+      "L4: 标点后多余空格: ...入金和出金。 要使用St...",
+      "L28: 图片 alt 仅为文件名: CSVP-3826-ZH.gif",
+      "L41: 图片 alt 仅为文件名: CSVP-3829-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用中国银联入金.mdx": [
+      "L4: 标点后多余空格: ...银行卡网络。 通过银联，...",
+      "L4: 标点后多余空格: ...行各种交易。 您可以使用..."
+    ],
+    "docs\\exness-trader\\如何使用安卓版-metatrader-4.mdx": [
+      "L4: 标点后多余空格: ...其完成设置： 安卓版 M...",
+      "L4: 标点后多余空格: ...或修改订单： 配置图表\"..."
+    ],
+    "docs\\exness-trader\\如何使用安卓版-metatrader-5.mdx": [
+      "L57: 图片 alt 仅为文件名: CSVP-1611-ZH.gif",
+      "L71: 图片 alt 仅为文件名: CSVP-1607-ZH.gif",
+      "L83: 图片 alt 仅为文件名: CSVP-2452-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何使用日本或韩国银行卡出金.mdx": [
+      "L4: 标点后多余空格: ...国的银行卡。 如果您不能..."
+    ],
+    "docs\\exness-trader\\如何使用比特币出入金.mdx": [
+      "L4: 标点后多余空格: ...入金比特币。 本文将为您...",
+      "L4: 标点后多余空格: ...币电子钱包： 如何使用比..."
+    ],
+    "docs\\exness-trader\\如何使用比特币电子钱包查看交易.mdx": [
+      "L4: 标点后多余空格: ...网络）之上。 因此，所有..."
+    ],
+    "docs\\exness-trader\\如何使用泰达币-usdt-erc20-出入金.mdx": [
+      "L4: 标点后多余空格: ...ERC20。 USDT是...",
+      "L35: 图片 alt 仅为文件名: CSVP-3658_ZH_resized.gif",
+      "L49: 图片 alt 仅为文件名: CSVP-3819_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何使用虚拟美元稳定币-usdc-erc20-出入金.mdx": [
+      "L4: 标点后多余空格: ...户进行入资， 即虚拟货币...",
+      "L4: 标点后多余空格: ...ERC20。 虚拟数字货...",
+      "L4: 标点后多余空格: ...美元为后盾， 1个USD...",
+      "L4: 标点后多余空格: ...与美元挂钩。 ERC20..."
+    ],
+    "docs\\exness-trader\\如何使用银行卡兑换usdt来入金.mdx": [
+      "L4: 标点后多余空格: ...金交易账户。 在这种方法..."
+    ],
+    "docs\\exness-trader\\如何修改或移除移动止损.mdx": [
+      "L4: 标点后多余空格: ...其进行修改。 而且，如果...",
+      "L4: 标点后多余空格: ...以将它移除。 请参阅以下..."
+    ],
+    "docs\\exness-trader\\如何入金.mdx": [
+      "L4: 标点后多余空格: ...易账户入金。 下面EXN...",
+      "L13: 图片 alt 仅为文件名: CSVP_4871_GIF_How_do_I_deposit_money_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何出金.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP_4874_GIF_How_do_I_withdraw_funds_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在exness平台开始交易.mdx": [
+      "L27: 图片 alt 仅为文件名: ScreenCast_Thumbnail_00000.jpg"
+    ],
+    "docs\\exness-trader\\如何在个人专区创建新的交易账户.mdx": [
+      "L4: 标点后多余空格: ...人专区之中。 一个个人专...",
+      "L15: 图片 alt 仅为文件名: CSVP-2938-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用bitake入金.mdx": [
+      "L26: 图片 alt 仅为文件名: CSVP-2676-ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用flashex出入金.mdx": [
+      "L4: 标点后多余空格: ...国进行交易。 使用该支付...",
+      "L29: 图片 alt 仅为文件名: CSVP_1672_FlashEx_deposit_ZH.gif",
+      "L46: 图片 alt 仅为文件名: CSVP_1673_FlashEX_withdrawal_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用neteller出入金.mdx": [
+      "L4: 标点后多余空格: ...球广受欢迎。 您可以使用...",
+      "L31: 图片 alt 仅为文件名: CSVP-3687_ZH_resized.gif",
+      "L44: 图片 alt 仅为文件名: CSVP-3698_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何在中国使用webmoney出入金.mdx": [
+      "L4: 标点后多余空格: ...多万人使用。 您可以使用...",
+      "L32: 图片 alt 仅为文件名: CSVP-3703-ZH.gif",
+      "L45: 图片 alt 仅为文件名: CSVP-3706-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在市场报价桌面版终端中显示-添加-删除交.mdx": [
+      "L4: 标点后多余空格: ...有交易品种。 为了更好地...",
+      "L4: 标点后多余空格: ...自定义设置。 添加交易品...",
+      "L18: 图片 alt 仅为文件名: CSVP-2993-ZH.gif",
+      "L42: 图片 alt 仅为文件名: CSVP-3002-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何在我的个人专区查看交易的单号.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3839_-_ZH_-_Finding_Invoice_ID.gif"
+    ],
+    "docs\\exness-trader\\如何在手机应用上的metatrader订阅交易信号.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3723_MTM_Signal_ZH_01__1_.gif"
+    ],
+    "docs\\exness-trader\\如何在移动终端中设置挂单.mdx": [
+      "L4: 标点后多余空格: ...执行的订单。 在介绍挂单...",
+      "L31: 图片 alt 仅为文件名: CSVP_3089_How_to_set_up_pending_orders_in_mobile_terminals__iOS__MT4_and_MT5__ZH.gif",
+      "L54: 图片 alt 仅为文件名: CSVP_3092_How_to_set_up_pending_orders_in_mobile_terminals__Android__MT4_and_MT5__ZH.gif"
+    ],
+    "docs\\exness-trader\\如何处理无效sl-tp错误.mdx": [
+      "L4: 标点后多余空格: ...意一项引起。 请查看问题..."
+    ],
+    "docs\\exness-trader\\如何完全验证您的exness账户.mdx": [
+      "L19: 图片 alt 仅为文件名: ScreenCast_Thumbnail_00000.png",
+      "L59: 图片 alt 仅为文件名: CSVP-3814a_ZH.png",
+      "L69: 图片 alt 仅为文件名: CSVP-3814b_ZH.png"
+    ],
+    "docs\\exness-trader\\如何开立模拟账户.mdx": [
+      "L4: 标点后多余空格: ...速做好准备。 注册个人专...",
+      "L4: 标点后多余空格: ...元虚拟货币。 模拟账户的...",
+      "L13: 图片 alt 仅为文件名: CSVP-3446-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何快速便捷地恢复-exness-密码.mdx": [
+      "L4: 标点后多余空格: ...密码的类型： 个人专区密..."
+    ],
+    "docs\\exness-trader\\如何提升metatrader4-5的速度.mdx": [
+      "L4: 标点后多余空格: ...方法有很多。 这些操作可...",
+      "L4: 标点后多余空格: ...他常见问题。 请注意，受...",
+      "L4: 标点后多余空格: ...此加以考量。 减少最多柱...",
+      "L20: 图片 alt 仅为文件名: 4074-ZH.gif",
+      "L32: 图片 alt 仅为文件名: CSVP_4076_GIF_What_can_I_do_to_speed_up_MetaTrader_45_-_Disable_News_ZH.gif",
+      "L56: 图片 alt 仅为文件名: CSVP-4072-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何显示买价线.mdx": [
+      "L4: 标点后多余空格: ...都显示卖价。 但是，如果...",
+      "L33: 图片 alt 仅为文件名: CSVP-3137-ZH.gif",
+      "L43: 图片 alt 仅为文件名: CSVP-3140-ZH.gif",
+      "L57: 图片 alt 仅为文件名: CSVP-3143-ZH.gif",
+      "L69: 图片 alt 仅为文件名: CSVP-3146-ZH.gif",
+      "L80: 图片 alt 仅为文件名: CSVP-3149-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何更改我的exness账户的注册姓名.mdx": [
+      "L4: 标点后多余空格: ...成一个流程。 更换姓名可..."
+    ],
+    "docs\\exness-trader\\如何更改更新我的个人信息与地址.mdx": [
+      "L4: 标点后多余空格: ...账户的安全。 您的个人信..."
+    ],
+    "docs\\exness-trader\\如何更改注册名称.mdx": [
+      "L4: 标点后多余空格: ...和出生日期。 您可能输入..."
+    ],
+    "docs\\exness-trader\\如何查找交易软件登录账号和服务器.mdx": [
+      "L4: 标点后多余空格: ...应的服务器： 登录您的个...",
+      "L4: 标点后多余空格: ...的个人专区。 在“我的账...",
+      "L4: 标点后多余空格: ...示设置选项。 选择账户信...",
+      "L4: 标点后多余空格: ...出账户信息。 您在这里就...",
+      "L17: 图片 alt 仅为文件名: CSVP_3101_How_can_I_find_my_terminal_login_and_server_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查找我的交易账户账号.mdx": [
+      "L4: 标点后多余空格: ...法非常简单。 下面，让E..."
+    ],
+    "docs\\exness-trader\\如何查找需要提高保证金要求的新闻事件.mdx": [
+      "L4: 标点后多余空格: ...格波动预测。 EXNES...",
+      "L13: 图片 alt 仅为文件名: ZH_00000.png",
+      "L17: 图片 alt 仅为文件名: CSVP-2988-ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看您的交易历史.mdx": [
+      "L4: 标点后多余空格: ...的交易历史。 让EXNE...",
+      "L4: 标点后多余空格: ...种访问方式： 个人专区 ...",
+      "L24: 图片 alt 仅为文件名: CSVP-3597-ZH.gif",
+      "L37: 图片 alt 仅为文件名: ZH__1_.jpg",
+      "L45: 图片 alt 仅为文件名: ZH.PNG",
+      "L51: 图片 alt 仅为文件名: CSVP_2629_How_to_check_your_trading_history__Monthly_daily_statements___2_.png"
+    ],
+    "docs\\exness-trader\\如何查看我可以使用的支付平台.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP_3213_How_can_I_find_which_payment_system_is_available_to_me_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看我当前的杠杆设置.mdx": [
+      "L4: 标点后多余空格: ...的杠杆设置： 登录您的 ...",
+      "L4: 标点后多余空格: ... 个人专区。 点击所选交...",
+      "L4: 标点后多余空格: ...择账户信息。 弹出窗口实...",
+      "L11: 图片 alt 仅为文件名: CSVP-4112_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看我的交易状态.mdx": [
+      "L4: 标点后多余空格: ...有交易记录。 登录您的个...",
+      "L4: 标点后多余空格: ...的个人专区。 点击出入金...",
+      "L4: 标点后多余空格: ...交易的清单。 要找到某一...",
+      "L4: 标点后多余空格: ...付方式下手。 在状态下，...",
+      "L4: 标点后多余空格: ...中、已拒绝。 您可以点击...",
+      "L11: 图片 alt 仅为文件名: CSVP-4614_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何查看旧的个人专区是否依然处于活跃状态.mdx": [
+      "L4: 标点后多余空格: ...活跃的状态。 如果本公司..."
+    ],
+    "docs\\exness-trader\\如何查看自己上传的验证文档的状态.mdx": [
+      "L4: 标点后多余空格: ...封确认邮件。 如果仍然找...",
+      "L13: 图片 alt 仅为文件名: CSVP-3779_PA_Reject_ZH.PNG"
+    ],
+    "docs\\exness-trader\\如何查看账户是否已可以入金和交易.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP-5010_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何查看账户验证被拒绝的原因.mdx": [
+      "L4: 标点后多余空格: ...应的拒原因。 登录您的个...",
+      "L4: 标点后多余空格: ...的个人专区。 点击屏幕上...",
+      "L4: 标点后多余空格: ...[见下图]。 此处会显示...",
+      "L15: 图片 alt 仅为文件名: CSVP-3779_PA_Reject_ZH.PNG",
+      "L21: 图片 alt 仅为文件名: ZH_00000.png"
+    ],
+    "docs\\exness-trader\\如何查询我的代理信息.mdx": [
+      "L4: 标点后多余空格: ...名下的信息。 如果想知道..."
+    ],
+    "docs\\exness-trader\\如何注册-exness-个人专区和交易账户.mdx": [
+      "L4: 标点后多余空格: ...可完成注册。 下面的视频..."
+    ],
+    "docs\\exness-trader\\如何清除浏览器缓存和-cookies-文件.mdx": [
+      "L4: 标点后多余空格: ...的实用指南。 浏览器是指...",
+      "L4: 标点后多余空格: ...的各种程序。 桌面浏览器...",
+      "L27: 图片 alt 仅为文件名: CSVP-2851-ZH.gif",
+      "L43: 图片 alt 仅为文件名: CSVP-4104-ZH.gif",
+      "L56: 图片 alt 仅为文件名: CSVP-4085-ZH.gif",
+      "L69: 图片 alt 仅为文件名: CSVP-4088-ZH.gif",
+      "L81: 图片 alt 仅为文件名: CSVP-4091-ZH.gif",
+      "L94: 图片 alt 仅为文件名: CSVP-4094-ZH.gif",
+      "L110: 图片 alt 仅为文件名: CSVP-4097-ZH.gif",
+      "L133: 图片 alt 仅为文件名: CSVP-4100_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何生成网络日志排除故障.mdx": [
+      "L38: 图片 alt 仅为文件名: CSVP-3160_ZH.gif",
+      "L48: 图片 alt 仅为文件名: CSVP-3162-ZH.gif",
+      "L58: 图片 alt 仅为文件名: ZH_CSVP-3165.gif",
+      "L67: 图片 alt 仅为文件名: CSVP-3169_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何申请关闭账户.mdx": [
+      "L4: 标点后多余空格: ...步即可完成。 请通读本指...",
+      "L4: 标点后多余空格: ...解相关流程。 申请流程 ..."
+    ],
+    "docs\\exness-trader\\如何知晓为我提供服务的是哪家-exness-实体.mdx": [
+      "L4: 标点后多余空格: ...该如何操作。 查看个人专...",
+      "L4: 标点后多余空格: ...页面的页脚。 进入个人资...",
+      "L4: 标点后多余空格: ... 法律文件。 您可以在此...",
+      "L4: 标点后多余空格: ...看客户协议。 查看页面页...",
+      "L15: 图片 alt 仅为文件名: CSVP-3440_PA_Entity_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-3443_ET_Entity_ZH_01.gif"
+    ],
+    "docs\\exness-trader\\如何确定我的资金是安全的.mdx": [
+      "L4: 标点后多余空格: ...护您的资金： 客户资金独...",
+      "L4: 标点后多余空格: ...金产生影响。 此外EXN..."
+    ],
+    "docs\\exness-trader\\如何管理图表设置.mdx": [
+      "L4: 标点后多余空格: ...策很有帮助。 MetaT...",
+      "L30: 图片 alt 仅为文件名: CSVP-3187_MT_Chart_ZH_01.gif",
+      "L38: 图片 alt 仅为文件名: CSVP-3190_MT_Chart_Ribbon_PT_01__1_.gif",
+      "L53: 图片 alt 仅为文件名: CSVP-3193_MT_Indicator_ON_ZH_01.gif",
+      "L57: 图片 alt 仅为文件名: CSVP-3196_MT_Indicator_OFF_ZH_01.gif",
+      "L65: 图片 alt 仅为文件名: CSVP-3199_MT_ChartProperties_ZH_01.gif"
+    ],
+    "docs\\exness-trader\\如何管理您的vps设置.mdx": [
+      "L4: 标点后多余空格: ...的个人需求。 设置自己需...",
+      "L4: 标点后多余空格: ...交易（EA） 重启VPS...",
+      "L19: 图片 alt 仅为文件名: CSVP-2973_Set_up_timezone_ZH.gif",
+      "L30: 图片 alt 仅为文件名: CSVP-2983_VPS-Instaling_EA_ZH.gif",
+      "L49: 图片 alt 仅为文件名: CSVP-2980_Restarting_VPS_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何管理您的交易账户设置.mdx": [
+      "L4: 标点后多余空格: ...下账户设置： 杠杆 昵称...",
+      "L34: 图片 alt 仅为文件名: ZH_-_Changing_Leverage.gif",
+      "L50: 图片 alt 仅为文件名: CSVP-3976_ZH_resized.gif",
+      "L63: 图片 alt 仅为文件名: CSVP-3978_ZH_resized.gif",
+      "L74: 图片 alt 仅为文件名: CSVP-3982_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何管理注册手机号码.mdx": [
+      "L4: 标点后多余空格: ...的手机号码。 添加手机号...",
+      "L4: 标点后多余空格: ...并打开设置。 前往安全设...",
+      "L31: 图片 alt 仅为文件名: CSVP-3516_Change_Phone_ZH.gif",
+      "L47: 图片 alt 仅为文件名: CSVP-3513_Remove_Phone_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何给模拟账户充值.mdx": [
+      "L4: 标点后多余空格: ...值十分简单。 如需充值，...",
+      "L13: 图片 alt 仅为文件名: CSVP-4879_ZH.gif",
+      "L27: 图片 alt 仅为文件名: CSVP-4882_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何获取日志文件.mdx": [
+      "L4: 标点后多余空格: ...服务器连接。 这些信息在...",
+      "L47: 图片 alt 仅为文件名: logs-android.gif",
+      "L57: 图片 alt 仅为文件名: logs-iOS.gif"
+    ],
+    "docs\\exness-trader\\如何获得-exness-vps-服务.mdx": [
+      "L4: 标点后多余空格: ...PS 服务。 VPS服务...",
+      "L4: 标点后多余空格: ...个VPS吗？ 我可以在V..."
+    ],
+    "docs\\exness-trader\\如何获得无限杠杆.mdx": [
+      "L4: 标点后多余空格: ...用无限杠杆。 更多详情请...",
+      "L4: 标点后多余空格: ...阅下方内容： 无限杠杆资..."
+    ],
+    "docs\\exness-trader\\如何解决交易终端中的常见错误.mdx": [
+      "L11: 图片 alt 仅为文件名: ZH.png"
+    ],
+    "docs\\exness-trader\\如何计算利润和损失.mdx": [
+      "L4: 标点后多余空格: ...乏味又复杂， 不过别担心..."
+    ],
+    "docs\\exness-trader\\如何计算开立订单所需资金.mdx": [
+      "L4: 标点后多余空格: ...充足的资金。 在开立订单...",
+      "L4: 标点后多余空格: ...您需要计算： 所需的保证..."
+    ],
+    "docs\\exness-trader\\如何设置-vps-密码.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-3260_ZH_00000.png"
+    ],
+    "docs\\exness-trader\\如何设置exness比特币电子钱包.mdx": [
+      "L4: 标点后多余空格: ...易账户充值？ 本文将为您...",
+      "L4: 标点后多余空格: ...示操作方法。 要使用比特...",
+      "L4: 标点后多余空格: ...的实用视频。 设置您的E..."
+    ],
+    "docs\\exness-trader\\如何设置修改止损与获利.mdx": [
+      "L19: 图片 alt 仅为文件名: CSVP_4559_SL_TP_MT5_Desktop_Terminal_while_opening_an_order_ZH_resized.gif",
+      "L24: 图片 alt 仅为文件名: CSVP_4562_How_to_set_up_and_modify_Stop_Loss.gif",
+      "L35: 图片 alt 仅为文件名: CSVP_4758_Revision_SL_TP_Exness_Terminal__Web__while_opening_an_order_ZH_resized.gif",
+      "L45: 图片 alt 仅为文件名: CSVP_4758_Revision_SL_TP_Exness_Terminal__Web__order_is_already_open_ZH_resized.gif",
+      "L55: 图片 alt 仅为文件名: CSVP_4758_Revision_SL_TP_Exness_Terminal__Web__existing_pending_order_ZH_resized.gif",
+      "L63: 图片 alt 仅为文件名: CSVP_4575_SL_TP_Exness_trader_While_opening_order_ZH.gif",
+      "L74: 图片 alt 仅为文件名: CSVP_4578_SL_TP_Exness_trader_When_order_is_open_ZH.gif",
+      "L86: 图片 alt 仅为文件名: CSVP_4581_SL_TP_Exness_trader_existing_pending_order_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何设置移动止损.mdx": [
+      "L4: 标点后多余空格: ...照以下步骤： 在交易选项...",
+      "L4: 标点后多余空格: ...止损的订单。 选择追踪止...",
+      "L4: 标点后多余空格: ...择追踪止损。 决定您的止..."
+    ],
+    "docs\\exness-trader\\如何进行交易账户间转账.mdx": [
+      "L4: 标点后多余空格: ...行即时转账。 请注意，尽...",
+      "L4: 标点后多余空格: ...要转换货币。 内部转账限...",
+      "L66: 图片 alt 仅为文件名: CSVP-4403-ZH.gif",
+      "L80: 图片 alt 仅为文件名: CSVP-4406-ZH.gif",
+      "L94: 图片 alt 仅为文件名: CSVP_3666_To_verify_an_internal_transfer_has_been_received_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何进行订单部分平仓.mdx": [
+      "L4: 标点后多余空格: ...部分交易量。 订单部分平...",
+      "L4: 标点后多余空格: ...如下文所述： 桌面终端和...",
+      "L20: 图片 alt 仅为文件名: CSVP-4287_ZH_resized.gif",
+      "L31: 图片 alt 仅为文件名: CSVP-4290_iOS_ZH_resized.gif",
+      "L41: 图片 alt 仅为文件名: CSVP-4295-ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-4296_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如何连接-vps.mdx": [
+      "L4: 标点后多余空格: ...进行连接了。 请按照下方...",
+      "L4: 标点后多余空格: ...看指导视频。 Windo..."
+    ],
+    "docs\\exness-trader\\如何通过-exness-进行交易.mdx": [
+      "L4: 标点后多余空格: ...易上手使用。 让EXNE...",
+      "L4: 标点后多余空格: ...下操作步骤： 开始交易需...",
+      "L4: 标点后多余空格: ...行哪些操作？ 获取交易账...",
+      "L4: 标点后多余空格: ...？如何设置？ 买单 卖单...",
+      "L35: 图片 alt 仅为文件名: ScreenCast_Thumbnail_00000.jpg"
+    ],
+    "docs\\exness-trader\\如何通过-mypay-出入金.mdx": [
+      "L4: 标点后多余空格: ...的便捷方式。 直接以人民...",
+      "L37: 图片 alt 仅为文件名: CSVP_3357_How_to_deposit_with_MyPay_in_China_ZH.gif",
+      "L48: 图片 alt 仅为文件名: CSVP_3357_How_to_Withdraw_with_MyPay_in_China_ZH.gif"
+    ],
+    "docs\\exness-trader\\如何通过检索-har-文件进行故障调试.mdx": [
+      "L4: 标点后多余空格: ...信息的格式。 HAR 主...",
+      "L4: 标点后多余空格: ...面渲染问题。 如果无法进..."
+    ],
+    "docs\\exness-trader\\如何通过电汇出入金.mdx": [
+      "L4: 标点后多余空格: ...出金的选择。 电汇具有方..."
+    ],
+    "docs\\exness-trader\\如何通过银行卡出入金.mdx": [
+      "L4: 标点后多余空格: ...出入金操作。 您可以阅读..."
+    ],
+    "docs\\exness-trader\\如何验证我的支付方式.mdx": [
+      "L4: 标点后多余空格: ...的支付选项。 为了方便您...",
+      "L11: 图片 alt 仅为文件名: 4959-ZH.jpg"
+    ],
+    "docs\\exness-trader\\如果在个人专区中无法找到我的首选支付系统该怎.mdx": [
+      "L4: 标点后多余空格: ...于移除状态。 EXNES..."
+    ],
+    "docs\\exness-trader\\如果我出金到错误的账号，接下来应该怎么做.mdx": [
+      "L4: 标点后多余空格: ...以获取帮助。 您提供此次...",
+      "L4: 标点后多余空格: ...可能的情形。 如果错误输...",
+      "L4: 标点后多余空格: ...取这些资金。 如果错误输..."
+    ],
+    "docs\\exness-trader\\如果我在入金时使用了多种支付方式，应当如何出.mdx": [
+      "L20: 图片 alt 仅为文件名: CSVP-3562_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\如果我在入金时使用的支付系统在出金时无法使用.mdx": [
+      "L4: 标点后多余空格: ...他解决方案。 EXNES..."
+    ],
+    "docs\\exness-trader\\如果我是在其他国家开立的账户，如何进行账户验.mdx": [
+      "L4: 标点后多余空格: ...家开立账户。 如果您正在..."
+    ],
+    "docs\\exness-trader\\如果我有未平仓位，还可以出金吗.mdx": [
+      "L4: 标点后多余空格: ...的资金额度。 但是EXN..."
+    ],
+    "docs\\exness-trader\\如果我的验证文件不在我的名下该怎么办.mdx": [
+      "L4: 标点后多余空格: ...在他人名下。 如被发现并..."
+    ],
+    "docs\\exness-trader\\客户支付档案-cpp-须知.mdx": [
+      "L32: 图片 alt 仅为文件名: CSVP-4366-ZH.gif",
+      "L44: 图片 alt 仅为文件名: CSVP-4369-ZH.gif",
+      "L52: 图片 alt 仅为文件名: CSVP-4373-ZH.gif",
+      "L56: 图片 alt 仅为文件名: CSVP-4376-ZH.gif",
+      "L67: 图片 alt 仅为文件名: CSVP-4379-ZH.gif",
+      "L73: 图片 alt 仅为文件名: CSVP-4382-ZH.gif"
+    ],
+    "docs\\exness-trader\\客户是否可以使用其它交易账户入金时使用的支付.mdx": [
+      "L4: 标点后多余空格: ...例进行操作。 不过，这一..."
+    ],
+    "docs\\exness-trader\\小币种交易.mdx": [
+      "L4: 标点后多余空格: ...流货币组成。 由于这些货...",
+      "L4: 标点后多余空格: ...差也比较高。 此外，经济..."
+    ],
+    "docs\\exness-trader\\差价合约详解.mdx": [
+      "L4: 标点后多余空格: ...FD）交易。 这些品种包..."
+    ],
+    "docs\\exness-trader\\市价滑点.mdx": [
+      "L4: 标点后多余空格: ...出现了滑点。 什么时候会...",
+      "L4: 标点后多余空格: ...会出现滑点？ 滑点是一件...",
+      "L4: 标点后多余空格: ...一件坏事吗？ 如何应对滑..."
+    ],
+    "docs\\exness-trader\\市场已关闭.mdx": [
+      "L4: 标点后多余空格: ...市场已闭市。 除加密数字..."
+    ],
+    "docs\\exness-trader\\归档账户须知.mdx": [
+      "L4: 标点后多余空格: ...户区域之中。 EXNES...",
+      "L4: 标点后多余空格: ...户须知指南。 交易账户归...",
+      "L4: 标点后多余空格: ...有哪些限制？ 归档账户中...",
+      "L4: 标点后多余空格: ...金如何处理？ 恢复归档账...",
+      "L34: 图片 alt 仅为文件名: CSVP-4784-ZH_resized.gif",
+      "L79: 图片 alt 仅为文件名: CSVP-4787-ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\您的-exness-个人专区.mdx": [
+      "L4: 标点后多余空格: ...操作，包括： 对您的交易..."
+    ],
+    "docs\\exness-trader\\我不小心删除了我的手机应用，该如何恢复.mdx": [
+      "L11: 图片 alt 仅为文件名: CSVP-4587_iOS_ZH_resized.gif"
+    ],
+    "docs\\exness-trader\\我为什么需要验证我的支付账户.mdx": [
+      "L4: 标点后多余空格: ...户进行验证。 尽管一般情..."
+    ],
+    "docs\\exness-trader\\我可以使用他人的支付系统入金吗.mdx": [
+      "L4: 标点后多余空格: ...的支付系统。 这是为了避..."
+    ],
+    "docs\\exness-trader\\我可以使用哪些交易终端进行交易.mdx": [
+      "L4: 标点后多余空格: ...造交易便利。 继续阅读了..."
+    ],
+    "docs\\exness-trader\\我可以使用多张银行卡给账户入金吗.mdx": [
+      "L4: 标点后多余空格: ...: \"可以。 您可以将任..."
+    ],
+    "docs\\exness-trader\\我可以在个人信息中添加多少个手机号码.mdx": [
+      "L4: 标点后多余空格: ...个手机号码。 不过每天每...",
+      "L4: 标点后多余空格: ...信数量有关。 这样可以确..."
+    ],
+    "docs\\exness-trader\\我可以在哪里查看汇率.mdx": [
+      "L4: 标点后多余空格: ...要进行转换。 在此类情况...",
+      "L11: 图片 alt 仅为文件名: CSVP_3207_Where_can_I_find_the_conversion_rate_ZH.gif"
+    ],
+    "docs\\exness-trader\\我可以在我的电脑上同时运行多个交易终端软件吗.mdx": [
+      "L4: 标点后多余空格: ...个软件即可。 唯一的限制...",
+      "L4: 标点后多余空格: ...对应的账户： MT4 账..."
+    ],
+    "docs\\exness-trader\\我可以在手机交易终端上使用指标吗.mdx": [
+      "L4: 标点后多余空格: ...内置的指标。 目前无法安...",
+      "L15: 图片 alt 仅为文件名: CSVP_2636_Can_I_use_indicators_in_my_mobile_trading_terminal___MetaTreader_4-5__EN.gif",
+      "L27: 图片 alt 仅为文件名: CSVP_2638_Can_I_use_indicators_in_my_mobile_trading_terminal___Exness_Trader__EN__1_.gif"
+    ],
+    "docs\\exness-trader\\我可以用什么货币入金.mdx": [
+      "L21: 图片 alt 仅为文件名: Check_Currency_ZH.png"
+    ],
+    "docs\\exness-trader\\我在交易软件收到了授权失败的错误提示.mdx": [
+      "L4: 标点后多余空格: ...的错误提示。 最常见的原...",
+      "L19: 图片 alt 仅为文件名: CSVP-3831-ZH.gif"
+    ],
+    "docs\\exness-trader\\我在哪里可以查看自己的免隔夜利息权益.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP_3154_Where_can_I_check_my_Swap-Free_status_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-3157_Swap_Stat_ZH.PNG"
+    ],
+    "docs\\exness-trader\\我在国外可以用自己的交易账户交易吗.mdx": [
+      "L4: 标点后多余空格: ...以进行交易。 但是，如果..."
+    ],
+    "docs\\exness-trader\\我在我的交易终端的图表中只能看到等待更新.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-3243-ZH.gif"
+    ],
+    "docs\\exness-trader\\我如何识别哪些交易品种属于免隔夜利息品种.mdx": [
+      "L13: 图片 alt 仅为文件名: swap-free_PA_ZH.gif",
+      "L22: 图片 alt 仅为文件名: CSVP-3334_ZH.gif"
+    ],
+    "docs\\exness-trader\\我应为交易账户设置什么杠杆.mdx": [
+      "L4: 标点后多余空格: ...杠杆的范围。 最大杠杆取..."
+    ],
+    "docs\\exness-trader\\我应该选择哪种账户.mdx": [
+      "L4: 标点后多余空格: ...的交易条件。 在不了解个...",
+      "L4: 标点后多余空格: ...账户类型的。 但EXNE..."
+    ],
+    "docs\\exness-trader\\我收到了交易参数无效的错误提示.mdx": [
+      "L4: 标点后多余空格: ...下两个原因： 您正在执行..."
+    ],
+    "docs\\exness-trader\\我收到了账户无效的错误提示.mdx": [
+      "L4: 标点后多余空格: ...的错误提示。 有3个原因..."
+    ],
+    "docs\\exness-trader\\我是否可以验证来自海外国家的exness账户.mdx": [
+      "L4: 标点后多余空格: ...服务的国家。 然后，您必...",
+      "L4: 标点后多余空格: ...ess账户， 提供有效的...",
+      "L4: 标点后多余空格: ...是外国居民。 居住在原籍...",
+      "L4: 标点后多余空格: ...国提供服务。 是EXNE..."
+    ],
+    "docs\\exness-trader\\我能否更改自己的的账户服务器.mdx": [
+      "L4: 标点后多余空格: ...歉，不可以。 当您创建帐...",
+      "L4: 标点后多余空格: ...一个服务器。 但您可以一..."
+    ],
+    "docs\\exness-trader\\我能用预付卡进行入金么.mdx": [
+      "L4: 标点后多余空格: ...\"当然可以。 EXNES..."
+    ],
+    "docs\\exness-trader\\拆股详解.mdx": [
+      "L4: 标点后多余空格: ...什么是拆股？ 拆股对现有...",
+      "L4: 标点后多余空格: ...寸有何影响？ 拆股后的交...",
+      "L4: 标点后多余空格: ...（反向拆股） 拆股在交易...",
+      "L4: 标点后多余空格: ...上如何体现？ MT4 (..."
+    ],
+    "docs\\exness-trader\\指数交易的最低金额是多少.mdx": [
+      "L4: 标点后多余空格: ...的支付方式。 指数交易适..."
+    ],
+    "docs\\exness-trader\\探索-exness-网页交易终端.mdx": [
+      "L4: 标点后多余空格: ...交易者使用， 真实账户和...",
+      "L4: 标点后多余空格: ...账户均适用。 该款基于浏...",
+      "L4: 标点后多余空格: ...更新和优化。 如何打开E...",
+      "L37: 图片 alt 仅为文件名: CSVP_4490_Gif_The_main_menu_ZH.gif",
+      "L49: 图片 alt 仅为文件名: CSVP-4626-ZH.gif",
+      "L55: 图片 alt 仅为文件名: CSVP-4507_ZH.gif",
+      "L75: 图片 alt 仅为文件名: CSVP_3844_GIF_Explore_Your_Exness_Terminal_New_chart_ZH.gif",
+      "L85: 图片 alt 仅为文件名: CSVP-3796_-_ZH_-_Reorder_Instrument_Tabs_-_D01_-_072222.gif",
+      "L91: 图片 alt 仅为文件名: CSVP_4005_GIF_Explore_Your_Exness_Terminal_Close_a_chart_ZH.gif",
+      "L97: 图片 alt 仅为文件名: CSVP_4008_GIF_Explore_Your_Exness_Terminal_-_Customize_chart_ZH.gif",
+      "L103: 图片 alt 仅为文件名: CSVP_4011_GIF_Explore_Your_Exness_Terminal_-_Adding_indicators_ZH.gif",
+      "L109: 图片 alt 仅为文件名: CSVP_4014_GIF_Explore_Your_Exness_Terminal_-_To_use_drawing_tools_-ZH.gif",
+      "L115: 图片 alt 仅为文件名: CSVP-4629-ZH.gif",
+      "L128: 图片 alt 仅为文件名: CSVP_4017_GIF_Explore_Your_Exness_Terminal_-_Trading_Functions__ZH.gif",
+      "L134: 图片 alt 仅为文件名: CSVP_4082_Explore_Your_Exness_Terminal_-Trading_account_information_ZH__1_.gif",
+      "L148: 图片 alt 仅为文件名: CSVP-4513_ZH.gif",
+      "L158: 图片 alt 仅为文件名: CSVP_4066_GIF_Explore_Your_Exness_Terminal_Grid_icon_ZH.gif",
+      "L176: 图片 alt 仅为文件名: CSVP_4020_GIF_Explore_Your_Exness_Terminal_-_Trading_Options__first_GIF__ZH.gif",
+      "L188: 图片 alt 仅为文件名: CSVP-4632-ZH.gif",
+      "L194: 图片 alt 仅为文件名: CSVP-4635-ZH.gif",
+      "L208: 图片 alt 仅为文件名: CSVP_4023_GIF_Explore_Your_Exness_Terminal_-_Trading_Options__second_GIF__ZH__1_.gif",
+      "L216: 图片 alt 仅为文件名: CSVP-4516-ZH_resized.gif",
+      "L237: 图片 alt 仅为文件名: CSVP-4519_ZH.gif"
+    ],
+    "docs\\exness-trader\\收到一条阻止我交易的错误提示.mdx": [
+      "L4: 标点后多余空格: ...一类的信息， 具体取决于..."
+    ],
+    "docs\\exness-trader\\收到订单数量过多错误提示.mdx": [
+      "L4: 标点后多余空格: ...的错误提示。 当您的挂单...",
+      "L4: 标点后多余空格: ...生这种情况。 只要执行或..."
+    ],
+    "docs\\exness-trader\\文件被拒绝后如何再次上传.mdx": [
+      "L15: 图片 alt 仅为文件名: CSVP-3449_ZH_resized.gif",
+      "L26: 图片 alt 仅为文件名: CSVP-3457-ZH.gif"
+    ],
+    "docs\\exness-trader\\新订单按键是灰色的.mdx": [
+      "L4: 标点后多余空格: ...种情况之一： 您尚未登录...",
+      "L20: 图片 alt 仅为文件名: CSVP_3235_The_New_Order_button_is_gray__1st_GIF__ZH.gif",
+      "L37: 图片 alt 仅为文件名: CSVP_3238_The_New_Order_button_is_gray__2nd_GIF__ZH.gif"
+    ],
+    "docs\\exness-trader\\新闻发布期间提高保证金要求.mdx": [
+      "L4: 标点后多余空格: ...段性的波动。 为了缓冲市...",
+      "L4: 标点后多余空格: ...保证金要求。 保证金要求..."
+    ],
+    "docs\\exness-trader\\无效价格错误.mdx": [
+      "L4: 标点后多余空格: ...价格”错误。 当EA功能..."
+    ],
+    "docs\\exness-trader\\无法上传文件.mdx": [
+      "L4: 标点后多余空格: ...到困难了吗？ 不用担心，...",
+      "L17: 图片 alt 仅为文件名: CSVP-3808_ZH.png"
+    ],
+    "docs\\exness-trader\\无法使用买入和卖出按键.mdx": [
+      "L4: 标点后多余空格: ...户类型无效。 要解决问题..."
+    ],
+    "docs\\exness-trader\\无法出金时该如何操作.mdx": [
+      "L4: 标点后多余空格: ...错误的原因。 请查看下方..."
+    ],
+    "docs\\exness-trader\\无法在-macos-catalina-操作系统上登录-mt4-mt5.mdx": [
+      "L4: 标点后多余空格: ...时遇到问题。 这是因为 ..."
+    ],
+    "docs\\exness-trader\\无法在注册时设置密码.mdx": [
+      "L4: 标点后多余空格: ...简单和方便。 在设置个人...",
+      "L4: 标点后多余空格: ...的基本要求： 必须包括 ...",
+      "L4: 标点后多余空格: ...如 a、z） 必须是数字...",
+      "L19: 图片 alt 仅为文件名: CSVP-4689-ZH.png"
+    ],
+    "docs\\exness-trader\\无法注册-exness-账户.mdx": [
+      "L4: 标点后多余空格: ...话号码即可。 首先，创建...",
+      "L20: 图片 alt 仅为文件名: CSVP-2867_email_used_ZH.png",
+      "L31: 图片 alt 仅为文件名: CSVP-2868_email_bad_ZH.png",
+      "L35: 图片 alt 仅为文件名: CSVP-2869_email_bad_why_ZH.png"
+    ],
+    "docs\\exness-trader\\无法登录-exness-个人专区.mdx": [
+      "L4: 标点后多余空格: ...人感到沮丧。 别担心，E..."
+    ],
+    "docs\\exness-trader\\无法登录交易终端.mdx": [
+      "L4: 标点后多余空格: ...络连接问题。 EXNES...",
+      "L4: 标点后多余空格: ...的最佳方法。 交易账户登..."
+    ],
+    "docs\\exness-trader\\是否可由朋友或家人代我进行交易.mdx": [
+      "L4: 标点后多余空格: ...交易的用户。 根据Exn..."
+    ],
+    "docs\\exness-trader\\是否所有类型账户都支持指数的差价合约.mdx": [
+      "L4: 标点后多余空格: ...账户都支持。 支持指数差..."
+    ],
+    "docs\\exness-trader\\更改-mt4-语言设置时出现乱码该如何解决.mdx": [
+      "L13: 图片 alt 仅为文件名: CSVP-3096_ZH.gif"
+    ],
+    "docs\\exness-trader\\最少需要多少资金才能开始交易.mdx": [
+      "L4: 标点后多余空格: ...的美分账户。 美分账户提..."
+    ],
+    "docs\\exness-trader\\未验证账户面临哪些限制.mdx": [
+      "L4: 标点后多余空格: ...的个人信息， 包括： 身...",
+      "L4: 标点后多余空格: ...息， 包括： 身份证明 ..."
+    ],
+    "docs\\exness-trader\\杠杆和保证金要求.mdx": [
+      "L4: 标点后多余空格: ...证金要求吗？ 本文将为您...",
+      "L4: 标点后多余空格: ...解如下内容： 什么是杠杆...",
+      "L4: 标点后多余空格: ...什么是杠杆？ 无限杠杆 ...",
+      "L4: 标点后多余空格: ...求（HMR） 如何计算保..."
+    ],
+    "docs\\exness-trader\\杠杆对爆仓的影响.mdx": [
+      "L4: 标点后多余空格: ...沮丧的事情。 但风险管理...",
+      "L4: 标点后多余空格: ...充分的准备。 EXNES...",
+      "L4: 标点后多余空格: ...地掌控局面。 爆仓是怎么...",
+      "L4: 标点后多余空格: ...是怎么回事？ 什么是保证...",
+      "L4: 标点后多余空格: ...保证金比例？ 什么是杠杆..."
+    ],
+    "docs\\exness-trader\\查询已归档订单.mdx": [
+      "L4: 标点后多余空格: ...自动归档了。 为了减少交..."
+    ],
+    "docs\\exness-trader\\标准账户.mdx": [
+      "L4: 标点后多余空格: ...哪些交易者？ 标准账户的..."
+    ],
+    "docs\\exness-trader\\标准账户上可以交易哪些品种.mdx": [
+      "L4: 标点后多余空格: ...的品种包括： 外汇（12...",
+      "L4: 标点后多余空格: ...多种货币对） 金属（最多...",
+      "L4: 标点后多余空格: ...8 个品种） 加密数字货...",
+      "L4: 标点后多余空格: ...7 个品种） 能源 指数..."
+    ],
+    "docs\\exness-trader\\止损位.mdx": [
+      "L4: 标点后多余空格: ...最小的距离。 这一段距离..."
+    ],
+    "docs\\exness-trader\\注册后我还可以更改电子邮箱地址吗.mdx": [
+      "L4: 标点后多余空格: ... \"不可以。 抱歉，注册...",
+      "L4: 标点后多余空格: ...子邮箱地址。 您可以用新...",
+      "L4: 标点后多余空格: ...的个人专区。 不过请注意..."
+    ],
+    "docs\\exness-trader\\电子支付平台eps交易相关事宜.mdx": [
+      "L4: 标点后多余空格: ...受用户欢迎。 非现金支付..."
+    ],
+    "docs\\exness-trader\\登录-mt4-的时候，为什么我的账户昵称显示错误.mdx": [
+      "L4: 标点后多余空格: ...码/代码页。 MT4 不..."
+    ],
+    "docs\\exness-trader\\直盘交易.mdx": [
+      "L4: 标点后多余空格: ...组合货币对。 这些货币对...",
+      "L39: **English:** 半角冒号: ...#### **EURUSD:**...",
+      "L57: **English:** 半角冒号: ...#### **GBPUSD:**...",
+      "L75: **English:** 半角冒号: ...#### **NZDUSD:**...",
+      "L93: **English:** 半角冒号: ...#### **USDCAD:**...",
+      "L111: **English:** 半角冒号: ...#### **USDCHF:**...",
+      "L129: **English:** 半角冒号: ...#### **USDJPY:**..."
+    ],
+    "docs\\exness-trader\\石油价格是现货价格吗.mdx": [
+      "L4: 标点后多余空格: ...: \"是的。 EXNES..."
+    ],
+    "docs\\exness-trader\\石油差价合约有到期日期吗.mdx": [
+      "L4: 标点后多余空格: ...USOIL。 这两个品种..."
+    ],
+    "docs\\exness-trader\\立即开始交易.mdx": [
+      "L4: 标点后多余空格: ...第 5 步！ 现在，您已...",
+      "L4: 标点后多余空格: ...了交易终端。 只差进行首...",
+      "L4: 标点后多余空格: ...现在开始吧： 登录终端 ..."
+    ],
+    "docs\\exness-trader\\管理智能交易-ea.mdx": [
+      "L4: 标点后多余空格: ...的交易所需。 让咱们一起...",
+      "L4: 标点后多余空格: ...其进行管理。 什么是EA...",
+      "L4: 标点后多余空格: ...什么是EA？ 设置EA ...",
+      "L31: 图片 alt 仅为文件名: ZH.gif",
+      "L55: 图片 alt 仅为文件名: CSVP-3966_ZH_resized.gif",
+      "L75: 图片 alt 仅为文件名: ZH__1_.gif"
+    ],
+    "docs\\exness-trader\\美分账户.mdx": [
+      "L4: 标点后多余空格: ...哪些交易者？ 美分账户的...",
+      "L4: 标点后多余空格: ...么是美分手？ 美分账户可..."
+    ],
+    "docs\\exness-trader\\美分账户上可以交易哪些品种.mdx": [
+      "L4: 标点后多余空格: ...易品种包括： 外汇 （3...",
+      "L4: 标点后多余空格: ... 种货币对） 金属 （黄..."
+    ],
+    "docs\\exness-trader\\美分账户有哪些地域限制.mdx": [
+      "L4: 标点后多余空格: ...下地区提供： 拉丁美洲：...",
+      "L4: 标点后多余空格: ... 拉丁美洲： 阿根廷、多..."
+    ],
+    "docs\\exness-trader\\股票.mdx": [
+      "L4: 标点后多余空格: ...差价合约）。 现在，您可...",
+      "L4: 标点后多余空格: ...多或做空了。 谷歌、亚马...",
+      "L4: 标点后多余空格: ...票差价合约。 股票到底是...",
+      "L4: 标点后多余空格: ...到底是什么？ Exnes..."
+    ],
+    "docs\\exness-trader\\能否更改-metatrader-4-5-平台上的时区.mdx": [
+      "L4: 标点后多余空格: ...不可以更改。 但线上有一..."
+    ],
+    "docs\\exness-trader\\能否更改我的账户货币.mdx": [
+      "L4: 标点后多余空格: ... \"不可以。 您在个人专...",
+      "L4: 标点后多余空格: ...其进行更改。 如果想要不..."
+    ],
+    "docs\\exness-trader\\自定义爆仓位.mdx": [
+      "L4: 标点后多余空格: ...动平仓净值。 完全掌控您...",
+      "L36: 图片 alt 仅为文件名: CSVP-2901_Custom_stop_out_ZH.gif",
+      "L49: 图片 alt 仅为文件名: ZH_Customize_stop_out_level_0_1.png"
+    ],
+    "docs\\exness-trader\\节假日交易时间.mdx": [
+      "L4: 标点后多余空格: ...独立纪念日。 市场在某些...",
+      "L4: 标点后多余空格: ...全中止交易； 而在其它节...",
+      "L4: 标点后多余空格: ...相应的调整。 其余节假日..."
+    ],
+    "docs\\exness-trader\\裸点账户.mdx": [
+      "L4: 标点后多余空格: ...哪些交易者？ 裸点账户的..."
+    ],
+    "docs\\exness-trader\\订单执行类型.mdx": [
+      "L4: 标点后多余空格: ...型供您选择。 特定交易品...",
+      "L27: 图片 alt 仅为文件名: CSVP-3129-ZH.gif"
+    ],
+    "docs\\exness-trader\\诈骗活动-安全小贴士.mdx": [
+      "L4: 标点后多余空格: ...也越来越多。 EXNES..."
+    ],
+    "docs\\exness-trader\\账户类型.mdx": [
+      "L4: 标点后多余空格: ...供客户选择。 EXNES...",
+      "L4: 标点后多余空格: ...型和专业型。 每种账户类...",
+      "L4: 标点后多余空格: ...不同的条件。 标准账户 ..."
+    ],
+    "docs\\exness-trader\\账户长时间未使用会出现什么情况.mdx": [
+      "L4: 标点后多余空格: ...可能被归档。 个人专区 ..."
+    ],
+    "docs\\exness-trader\\跳动点历史记录须知.mdx": [
+      "L4: 标点后多余空格: ...数据的存档。 通过查看跳...",
+      "L46: 图片 alt 仅为文件名: CSVP-4978_ZH.gif"
+    ],
+    "docs\\exness-trader\\过期版本.mdx": [
+      "L4: 标点后多余空格: ...版本已过期。 请更新到最..."
+    ],
+    "docs\\exness-trader\\退出交易终端时，我的订单会被平仓吗.mdx": [
+      "L4: 标点后多余空格: ...用关闭影响。 您必须在离..."
+    ],
+    "docs\\exness-trader\\通过-skrill-出入金.mdx": [
+      "L4: 标点后多余空格: ...个国家使用。 您可以使用...",
+      "L4: 标点后多余空格: ...现即时转账。 您可以使用..."
+    ],
+    "docs\\exness-trader\\重新报价.mdx": [
+      "L21: 图片 alt 仅为文件名: ZH_Requote.png"
+    ],
+    "docs\\exness-trader\\金属交易.mdx": [
+      "L4: 标点后多余空格: ...白金和钯金。 继续阅读，...",
+      "L90: **English:** 半角冒号: ...#### **BTCXAU:** ####...",
+      "L185: **English:** 半角冒号: ...#### **BTCXAG:** ####..."
+    ],
+    "docs\\exness-trader\\银行卡交易详解.mdx": [
+      "L4: 标点后多余空格: ...解几项要点。 入金 出金...",
+      "L45: 图片 alt 仅为文件名: CSVP_2994_How_to_deposit_with_new_bank_card_EN.gif",
+      "L57: 图片 alt 仅为文件名: CSVP_2998_How_to_deposit_with_existing_bank_card_EN.gif",
+      "L117: 图片 alt 仅为文件名: CSVP-4127-ZH.gif",
+      "L131: 图片 alt 仅为文件名: CSVP-3768_ZH_resized.gif",
+      "L162: 图片 alt 仅为文件名: CSVP_3006_How_to_withdraw_profit_EN.gif"
+    ],
+    "docs\\exness-trader\\隔夜利息.mdx": [
+      "L4: 标点后多余空格: ...析隔夜利息： 什么是隔夜..."
+    ],
+    "docs\\exness-trader\\零点账户.mdx": [
+      "L4: 标点后多余空格: ...哪些交易者？ 零点账户的...",
+      "L4: 标点后多余空格: ...享受零点差？ 账户信息\"..."
+    ],
+    "docs\\exness-trader\\零点账户提供哪些交易品种.mdx": [
+      "L4: 标点后多余空格: ...能无法使用。 如果您使用...",
+      "L4: 标点后多余空格: ...的品种包括： 金属 外汇..."
+    ],
+    "docs\\exness-trader\\面向非伊斯兰教国家的免隔夜利息账户.mdx": [
+      "L58: 图片 alt 仅为文件名: CSVP-4597-ZH.gif"
+    ],
+    "docs\\exness-trader\\验证文件的大小限制是多少.mdx": [
+      "L4: 标点后多余空格: ...64 MB。 此为单个上...",
+      "L4: 标点后多余空格: ...传多份文件。 EXNES..."
+    ],
+    "docs\\nytimes\\concise-vs-natrue.mdx": [
+      "L3: 标点后多余空格: ...是一些例子： 清晰简洁的..."
+    ]
+  }
+}
