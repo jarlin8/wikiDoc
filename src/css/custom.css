@@ -101,9 +101,42 @@ code {
 
 .navbar__logo {
   height: 3rem;
+  /* 显式声明 width: auto：logo.svg 现已带 width/height 固有尺寸，
+     若不定宽，浏览器可能按固有宽度渲染导致横向变形 */
+  width: auto;
   /* 去掉 margin-right: -1.8rem。该负值当初是为了让注入的 h1 贴近 logo 才加的；
      标题改由原生 navbar.title 渲染后位于 .navbar__brand 内部，
      负边距会让 logo 与标题重叠 */
+}
+
+/* 页脚底部：Logo 与版权文字「同行」居中。
+   原始 DOM 是两个块级 div（Logo 包裹层 + .footer__copyright），默认上下堆叠；
+   把 .footer__bottom 改成 flex row 即可并排。 */
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* Docusaurus 给 Logo 包裹层带的 .margin-bottom--sm 是 !important 工具类，
+   同行布局下必须清零，否则会破坏垂直居中 */
+.footer__bottom > div:first-of-type {
+  margin-bottom: 0 !important;
+}
+
+/* 页脚 Logo 尺寸。
+   此前无任何尺寸约束，而 Infima 默认
+   `.footer__logo { max-width: var(--ifm-footer-logo-max-width) }`（变量值 min(30rem,90vw)），
+   配合未定义宽高的正方形 SVG，会被撑到最大 480×480 并把版权挤走。
+   现与版权文字同行，取 1.75rem 与文字视觉平衡。 */
+.footer__logo {
+  height: 1.75rem;
+  width: 1.75rem;
+  max-width: none;
+  display: block;
+  margin: 0;
 }
 
 details {

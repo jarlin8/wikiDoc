@@ -179,6 +179,11 @@ const config = {
           alt: "WikiDoc Logo",
           src: "img/logo.svg",
           href: "/",
+          // 显式给出宽高：Logo 是正方形 SVG，此前未声明尺寸，
+          // 会被 Infima 的 max-width(30rem) 撑大；补上后同时避免布局抖动(CLS)。
+          // 数值与 custom.css 中 .footer__logo 的 1.75rem 保持一致。
+          width: 28,
+          height: 28,
         },
         links: [
           {
