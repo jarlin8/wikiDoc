@@ -1,0 +1,45 @@
+/* 侧边栏（TOC 下方）广告位。
+   原先这段标记内联在 src/theme/TOCItems/index.js 里，带硬编码白底、
+   WordPress 残留类名，且图片无固有尺寸（会产生布局偏移）。 */
+
+.sidebarAds {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.adCard {
+  display: block;
+  /* 原为内联的 background: 'white' —— 站点 defaultMode 是 dark，
+     暗色模式下会突兀地出现一块白底 */
+  background-color: var(--ifm-background-surface-color, #ffffff);
+  border: 1px solid var(--ifm-color-emphasis-300, #dddddd);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 18px;
+  transition: box-shadow 0.3s ease;
+}
+
+.adCard:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.adImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.adLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.adLink:hover {
+  text-decoration: underline;
+}

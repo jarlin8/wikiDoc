@@ -18,3 +18,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# 股票数据抓取脚本的产物（wencai.py / dragonrank.py）。
+# 这些 CSV 带日期戳会逐日累积，不应进入版本历史。
+/data/*.csv

@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      # 把 @docusaurus/* 的升级合并成一个 PR，避免 core / preset-classic /
+      # module-type-aliases 三者被拆开升级导致版本不一致
+      docusaurus:
+        patterns: ["@docusaurus/*"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

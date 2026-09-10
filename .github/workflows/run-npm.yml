@@ -4,21 +4,54 @@ on:
   push:
     branches:
       - main
+    # 原先无路径过滤：wencai.py / dragonrank.py 每次往 docs/ 写 CSV 并提交，
+    # 都会触发 425 页站点的全量重建部署。限定只有站点相关文件变更才部署。
+    paths:
+      - "docs/**"
+      - "src/**"
+      - "static/**"
+      - "docusaurus.config.js"
+      - "sidebars.js"
+      - "babel.config.js"
+      - "package.json"
+      - "yarn.lock"
+      - ".github/workflows/run-npm.yml"
 jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    env:
+      # 原先在 package.json 里用 `set NODE_OPTIONS=--max-old-space-size=8192 &&`，
+      # 这是 cmd.exe 语法，在 ubuntu runner 上会被 bash 当成内置 set 命令静默忽略，
+      # 8GB 堆上限从未生效。改为在工作流层面注入，跨平台可靠。
+      NODE_OPTIONS: --max-old-space-size=8192
     steps:
       - uses: actions/checkout@v4
+        with:
+          # showLastUpdateTime / showLastUpdateAuthor 与 sitemap 的 lastmod
+          # 都依赖 git 历史；默认的浅克隆会让它们全部失真
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: yarn
 
+      # Rspack（Docusaurus Faster）的持久化缓存写在 node_modules/.cache。
+      # CI 每次全新安装拿不到，这里按 lockfile + commit 做缓存以加速构建。
+      - uses: actions/cache@v4
+        with:
+          path: node_modules/.cache
+          key: docusaurus-${{ hashFiles('yarn.lock') }}-${{ github.sha }}
+          restore-keys: |
+            docusaurus-${{ hashFiles('yarn.lock') }}-
+
       - name: Install dependencies
-        run: yarn install --check-files
-      - name: install local search[CHINESE]
-        run: yarn add @easyops-cn/docusaurus-search-local
+        # --frozen-lockfile：lockfile 与 package.json 不一致时直接失败，杜绝隐式升级。
+        # 原 --check-files 只校验 node_modules 中已安装文件是否被删除，不提供该保证。
+        run: yarn install --frozen-lockfile
+      # 原此处有一步 `yarn add @easyops-cn/docusaurus-search-local`：
+      # 该包已在 package.json 的 dependencies 中，这行会绕过 lockfile 拉取当时最新版，
+      # 既破坏构建可复现性，也构成供应链风险。已删除。
       - name: Build website
         run: yarn build
 
