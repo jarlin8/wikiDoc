@@ -18,6 +18,11 @@ const wikiLinkPlugin = require("remark-wiki-link-plus");
 
 /** @type {import('@docusaurus/types').Config} */
 
+// 站点根地址。页脚里的 /sitemap.xml、/robots.txt 属静态文件而非路由，
+// Docusaurus 的断链检查器只认识路由，因此这里用绝对 URL 引用，
+// 既避免误报，也保证外链语义正确。
+const SITE_URL = "https://wiki.ssgg.net";
+
 const config = {
   scripts: [
     {
@@ -31,11 +36,29 @@ const config = {
   // 页面 <title> 会输出「标准账户 | wikiDoc」，统一为 WikiDoc。
   title: "WikiDoc",
   tagline: "全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!",
-  url: "https://wiki.ssgg.net",
+  url: SITE_URL,
   baseUrl: "/",
   trailingSlash: false, // 去掉url结尾的/
   onBrokenLinks: "throw",
   favicon: "img/favicon.svg",
+
+  // 全站 <head> 补充标签。
+  // og:type / og:site_name 是社交分享卡片的标准字段，Docusaurus 默认不输出。
+  // theme-color 让移动端浏览器地址栏 UI 跟随品牌主色。
+  headTags: [
+    {
+      tagName: "meta",
+      attributes: { property: "og:type", content: "article" },
+    },
+    {
+      tagName: "meta",
+      attributes: { property: "og:site_name", content: "WikiDoc" },
+    },
+    {
+      tagName: "meta",
+      attributes: { name: "theme-color", content: "#0bb45b" },
+    },
+  ],
 
   // 根级 onBrokenMarkdownLinks 在 3.9 已弃用、v4 将移除，迁到 markdown.hooks
   markdown: {
@@ -108,6 +131,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // 默认社交分享图（og:image / twitter:image）。此前缺失，
+      // 导致所有页面分享到微信/微博/Twitter 时没有缩略图，
+      // 且 twitter:card 声明了 summary_large_image 却无图，自相矛盾。
+      image: "https://wiki.ssgg.net/img/og-default.png",
       navbar: {
         // 使用原生 title：渲染为 <b class="navbar__title"> 而非 <h1>，
         // 语义正确，且自带跳转首页的链接。
@@ -143,10 +170,55 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      //      footer: {
-      //        style: 'dark',
-      //        copyright: `CC-BY-SA 4.0 © 2022 - ${new Date().getFullYear()} 版权所有 `,
-      //      },
+      // 启用页脚：此前整段被注释，导致全站无版权、无导航、无 sitemap 入口。
+      // 链接统一用 `to`（内部路由，参与断链校验）；
+      // /search、/sitemap.xml、/robots.txt 属插件/静态产物，用 href 避免路由校验误报。
+      footer: {
+        style: "dark",
+        logo: {
+          alt: "WikiDoc Logo",
+          src: "img/logo.svg",
+          href: "/",
+        },
+        links: [
+          {
+            title: "文档分类",
+            items: [
+              { label: "EXNESS 客户帮助", to: "/exness-trader" },
+              { label: "EXNESS 代理帮助", to: "/exness-agent" },
+              { label: "AI 与工具", to: "/chatgpt-edgegpt" },
+              { label: "纽时播报", to: "/nytimes" },
+            ],
+          },
+          {
+            title: "常用入口",
+            items: [
+              { label: "账户类型对比", to: "/exness-trader/账户类型" },
+              {
+                label: "MetaTrader：MT4 与 MT5 对比",
+                to: "/exness-trader/metatrader-详解-对比-mt4-和-mt5",
+              },
+              {
+                label: "出入金到账需要多长时间",
+                to: "/exness-trader/出入金到账需要多长时间",
+              },
+              {
+                label: "合作伙伴佣金框架",
+                to: "/exness-agent/合作伙伴佣金框架",
+              },
+            ],
+          },
+          {
+            title: "其他",
+            items: [
+              { label: "站内搜索", href: "/search" },
+              { label: "站点地图", href: `${SITE_URL}/sitemap.xml` },
+              { label: "robots.txt", href: `${SITE_URL}/robots.txt` },
+            ],
+          },
+        ],
+        copyright: `CC-BY-SA 4.0 © ${new Date().getFullYear()} WikiDoc · wiki.ssgg.net`,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
