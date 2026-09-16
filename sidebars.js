@@ -11,18 +11,18 @@ const sidebars = {
       // 决策型支柱页：整合站内内容 + 外部核实数据，逐条标注来源。
       // 与下方"帮助文档"不同，这部分是面向搜索流量的原创内容。
       //
-      // 【一级分类统一约定】link 一律用 generated-index，slug 前缀固定 /category/
-      //   理由：① 分类标题可点击 ② 索引页由 Docusaurus 自动生成（卡片式），
-      //   不必再手写"全是链接"的列表页 ③ 该页面结构上不含右侧 TOC
-      //   ④ /category/ 前缀避免与文档自身 URL（如 /exness-trader）冲突
+      // 【一级分类统一约定】（2026-09-16 定，替代了此前的 generated-index 方案）
+      //   ① link 一律用 doc 型，指向该目录自己的索引页；**不使用 generated-index**
+      //      → URL 保持短路径（/exness-trader、/exness-agent、/nytimes、/guides、/ai-tools）
+      //      → 依赖 Docusaurus 的 folder/folder 折叠规则（如 docs/guides/guides.mdx → /guides）
+      //   ② 索引页统一用 <SectionIndex section="..." /> 渲染，样式与首页 index.mdx 一致
+      //      （Hero + 卡片网格 + 分组链接）；数据源 src/data/sections.js
+      //   ③ 索引页 frontmatter 必须带 hide_table_of_contents: true（一级目录不要右侧 TOC）
+      //   ④ 新增一级分类时：建 <目录>/<同名>.mdx 索引页 → 在 src/data/sections.js 加数据
+      //      （数据由 .workbuddy/gen_section_index.js 从本文件生成，勿手改）
       type: "category",
       label: "深度指南",
-      link: {
-        type: "generated-index",
-        slug: "/category/guides",
-        title: "深度指南",
-        description: "面向决策的经纪商研究：监管合规、出入金、交易平台与账户选择。",
-      },
+      link: { type: "doc", id: "guides/guides" },
       collapsible: true,
       collapsed: false,
       items: [
@@ -35,13 +35,7 @@ const sidebars = {
     {
       type: "category",
       label: "EXNESS 客户帮助",
-      link: {
-        type: "generated-index",
-        slug: "/category/exness-trader",
-        title: "EXNESS 客户帮助",
-        description:
-          "Exness 零售客户帮助文档总览：账户类型、开户验证、出入金、交易品种、平台终端、订单操作与故障排除。",
-      },
+      link: { type: "doc", id: "exness-trader/exness-trader" },
       collapsible: true,
       collapsed: true,
       items: [
@@ -378,13 +372,7 @@ const sidebars = {
     {
       type: "category",
       label: "EXNESS 代理帮助",
-      link: {
-        type: "generated-index",
-        slug: "/category/exness-agent",
-        title: "EXNESS 代理帮助",
-        description:
-          "Exness 合作伙伴（IB / 代理）帮助文档总览：合作计划入门、佣金与返佣、个人专区报告、资金与平台安全。",
-      },
+      link: { type: "doc", id: "exness-agent/exness-agent" },
       collapsible: true,
       collapsed: true,
       items: [
@@ -472,12 +460,7 @@ const sidebars = {
     {
       type: "category",
       label: "AI 与工具",
-      link: {
-        type: "generated-index",
-        slug: "/category/ai-tools",
-        title: "AI 与工具",
-        description: "AI 助手使用与 EA 交易环境配置相关文档。",
-      },
+      link: { type: "doc", id: "ai-tools" },
       collapsible: true,
       collapsed: true,
       items: [
@@ -488,12 +471,7 @@ const sidebars = {
     {
       type: "category",
       label: "纽时播报",
-      link: {
-        type: "generated-index",
-        slug: "/category/nytimes",
-        title: "纽时播报",
-        description: "翻译与写作、留学与移民、自动化脚本等主题笔记。",
-      },
+      link: { type: "doc", id: "nytimes/nytimes" },
       collapsible: true,
       collapsed: true,
       items: [
