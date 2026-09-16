@@ -1,0 +1,703 @@
+---
+title: PU Prime 经纪商深度调研与合规评测报告
+sidebar_label: PU Prime 全景合规调研
+description: 系统化解构跨国多资产差价合约经纪商 PU Prime 的 7 大法人实体、4 层账户摩擦费、1:1000 动态杠杆、资金托管隔离及争议仲裁全流程。
+keywords: [PU Prime, 外汇监管, 塞舌尔FSA, 澳洲ASIC, 劳合社保险, 交易成本, 差价合约, FAQ]
+slug: /pu-prime-broker-research-report
+---
+
+<!-- STREAMING_CHUNK:Configuring frontmatter and metadata... -->
+import React, { useState, useMemo } from 'react';
+
+<head>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "PU Prime 经纪商深度调研与合规评测报告",
+          "description": "深入剖析 PU Prime 的法人架构、多牌照隔离体系、点差与佣金实测、出入金清算规则及资金安全五重保障。",
+          "datePublished": "2026-01-15T08:00:00+08:00",
+          "dateModified": "2026-09-15T17:30:00+08:00",
+          "author": {
+            "@type": "Organization",
+            "name": "全球金融合规与衍生品研究院"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "PU Prime 受到哪些金融机构的监管？核心法律对手方是谁？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "PU Prime 拥有多重跨司法管辖区牌照：主站零售客户的核心交易对手方法律主体为 PU Prime Limited（塞舌尔金融服务管理局 FSA，牌照号 SD050）及 PU Prime Ltd（毛里求斯金融服务委员会 FSC，牌照号 GB23202672）；在岸业务由 PU Prime Trading Pty Ltd 受澳大利亚 ASIC 监管（AFSL 410681，仅限本土站）；中东与非洲设有阿联酋 CMA 咨询牌照及南非 FSCA 中介牌照。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "PU Prime 客户资金有哪些安全与赔偿保障？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "平台构筑了五重资金安全矩阵：1. 国际 AA 级商业银行客户资金独立隔离信托托管；2. 强制负余额保护（NBP），穿仓免责；3. 投保英国劳合社（Lloyd's of London）超额责任商业保险，单人最高清偿额度达 1,000,000 美元；4. 国际金融委员会（Financial Commission）成员资质，单案最高 20,000 欧元垫付保障基金；5. 多辖区独立年度财务合规审计。"
+              }
+            }
+          ]
+        }
+      ]
+    })}
+  </script>
+</head>
+
+<!-- STREAMING_CHUNK:Importing React hooks and defining state components... -->
+export const EntityMatrix = () => {
+  const [filter, setFilter] = useState('all');
+  const entities = [
+    { name: "PU Prime Limited", region: "塞舌尔", function: "国际零售业务核心产品发行人与交易对手方", license: "FSA SD050", cat: "offshore", address: "CT House, Office 1A / Office 9A, Providence, Mahe, Seychelles", tag: "离岸做市主体", tagColor: "#d97706" },
+    { name: "PU Prime Ltd", region: "毛里求斯", function: "国际离岸衍生品投资交易商与清算实体", license: "FSC GB23202672", cat: "offshore", address: "Suite 201 Level 2, The Catalyst Building, Ebene, Mauritius", tag: "离岸做市主体", tagColor: "#d97706" },
+    { name: "PU Prime Trading Pty Ltd", region: "澳大利亚", function: "澳大利亚本土受规管产品发行人 (独立本土站点运营)", license: "ASIC AFSL 410681", cat: "onshore", address: "Suite 103, Level 1, 17 Castlereagh St, Sydney, NSW 2000", tag: "在岸规管主体", tagColor: "#2563eb" },
+    { name: "PU Prime Financial Services LLC", region: "阿联酋", function: "中东区金融产品推介、客户安排与投资咨询", license: "UAE CMA 20200000388", cat: "advisory", address: "The Prime Tower, Office No. 1209, Business Bay, Dubai, UAE", tag: "区域中介/咨询", tagColor: "#7c3aed" },
+    { name: "PU Prime (Pty) Ltd", region: "南非", function: "区域金融服务中介机构 (依据 FAIS 法案，非衍生品做市商)", license: "FSCA FSP 52218", cat: "advisory", address: "18 Cavendish Road, Claremont, Cape Town, 7708, South Africa", tag: "区域中介/咨询", tagColor: "#7c3aed" },
+    { name: "P.U.P. Integrated Services Limited", region: "英国", function: "集团内部行政支持与非交易类支付清算中转通道", license: "UK 17424116", cat: "internal", address: "Queens House, 55–56 Lincoln's Inn Fields, London, UK", tag: "行政/支付通道", tagColor: "#475569" },
+    { name: "PU Prime (CY) Limited", region: "塞浦路斯", function: "欧洲区技术支持、独立代表与支付便利实体", license: "Cyprus HE414308", cat: "internal", address: "Archiepiskopou Makariou III, 160-1st floor, Limassol, Cyprus", tag: "行政/支付通道", tagColor: "#475569" }
+  ];
+
+  const filtered = filter === 'all' ? entities : entities.filter(e => e.cat === filter);
+
+  return (
+    <div style={{ margin: '1.5rem 0' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
+        {[
+          { id: 'all', label: '全部 7 家核心实体' },
+          { id: 'offshore', label: '离岸做市主体 (FSA/FSC)' },
+          { id: 'onshore', label: '在岸规管主体 (ASIC)' },
+          { id: 'advisory', label: '区域咨询与中介 (CMA/FSCA)' },
+          { id: 'internal', label: '内部行政与支付 (UK/CY)' },
+        ].map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => setFilter(tab.id)}
+            style={{
+              padding: '0.4rem 0.8rem',
+              borderRadius: '6px',
+              border: filter === tab.id ? '1px solid #d97706' : '1px solid var(--ifm-color-emphasis-300)',
+              backgroundColor: filter === tab.id ? '#d97706' : 'var(--ifm-card-background-color, #fff)',
+              color: filter === tab.id ? '#fff' : 'inherit',
+              cursor: 'pointer',
+              fontSize: '0.82rem',
+              fontWeight: 600,
+              transition: 'all 0.2s'
+            }}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1rem' }}>
+        {filtered.map((e, idx) => (
+          <div key={idx} style={{
+            border: '1px solid var(--ifm-color-emphasis-200)',
+            borderRadius: '10px',
+            padding: '1.2rem',
+            backgroundColor: 'var(--ifm-card-background-color, #fff)',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between'
+          }}>
+            <div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+                <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#888' }}>{e.region}</span>
+                <span style={{ fontSize: '0.7rem', fontWeight: 700, color: e.tagColor, backgroundColor: `${e.tagColor}15`, padding: '0.2rem 0.5rem', borderRadius: '4px' }}>
+                  {e.tag}
+                </span>
+              </div>
+              <h4 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1rem' }}>{e.name}</h4>
+              <p style={{ fontSize: '0.82rem', color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.4' }}>{e.function}</p>
+            </div>
+            <div style={{ borderTop: '1px solid var(--ifm-color-emphasis-200)', paddingTop: '0.8rem', marginTop: '0.8rem', fontSize: '0.75rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.3rem' }}>
+                <span style={{ color: '#888' }}>牌照/登记号:</span>
+                <span style={{ fontWeight: 700, fontFamily: 'monospace' }}>{e.license}</span>
+              </div>
+              <div style={{ color: '#888', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }} title={e.address}>
+                地址: {e.address}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+<!-- STREAMING_CHUNK:Developing the live Margin and Cost Calculator... -->
+export const MarginCalculator = () => {
+  const [symbol, setSymbol] = useState('EURUSD');
+  const [lots, setLots] = useState(1.0);
+  const [account, setAccount] = useState('prime');
+  const [leverage, setLeverage] = useState(500);
+
+  const instruments = {
+    EURUSD: { price: 1.0850, size: 100000, stdSpread: 1.3, rawSpread: 0.1, mult: 10 },
+    GBPUSD: { price: 1.2650, size: 100000, stdSpread: 1.5, rawSpread: 0.2, mult: 10 },
+    XAUUSD: { price: 2500.00, size: 100, stdSpread: 2.5, rawSpread: 0.8, mult: 100 },
+    US500: { price: 5500.00, size: 10, stdSpread: 0.6, rawSpread: 0.4, mult: 10 },
+  };
+
+  const currentInst = instruments[symbol];
+  const effectiveSize = account === 'cent' ? currentInst.size / 100 : currentInst.size;
+  const notional = lots * effectiveSize * currentInst.price;
+  const margin = notional / leverage;
+
+  const commissionPerLot = account === 'prime' ? 7.0 : account === 'ecn' ? 2.0 : 0.0;
+  const appliedSpread = (account === 'prime' || account === 'ecn') ? currentInst.rawSpread : currentInst.stdSpread;
+  const spreadCost = appliedSpread * currentInst.mult * lots;
+  const totalCommission = commissionPerLot * lots;
+  const totalFriction = spreadCost + totalCommission;
+  const marginCall = margin * 0.5;
+  const stopOut = margin * 0.2;
+
+  return (
+    <div style={{
+      backgroundColor: '#0f172a',
+      color: '#f8fafc',
+      padding: '1.5rem',
+      borderRadius: '12px',
+      margin: '1.5rem 0',
+      boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+    }}>
+      <div style={{ borderBottom: '1px solid #334155', paddingBottom: '0.75rem', marginBottom: '1rem' }}>
+        <h4 style={{ color: '#fbbf24', margin: 0, fontSize: '1.05rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <span>⚡</span> 实时头寸保证金与综合摩擦费演算器
+        </h4>
+        <p style={{ color: '#94a3b8', fontSize: '0.8rem', margin: '0.3rem 0 0 0' }}>
+          选择交易品种、交易手数与账户类型，实时测算名义价值、占用保证金、点差/佣金摩擦费及 20% 强平临界值。
+        </p>
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1rem', marginBottom: '1.2rem' }}>
+        <div>
+          <label style={{ display: 'block', fontSize: '0.75rem', color: '#cbd5e1', marginBottom: '0.3rem' }}>交易标的</label>
+          <select
+            value={symbol}
+            onChange={(e) => setSymbol(e.target.value)}
+            style={{ width: '100%', padding: '0.5rem', borderRadius: '6px', backgroundColor: '#1e293b', color: '#fff', border: '1px solid #475569', fontSize: '0.85rem' }}
+          >
+            <option value="EURUSD">EUR/USD (外汇主流对)</option>
+            <option value="GBPUSD">GBP/USD (外汇主流对)</option>
+            <option value="XAUUSD">XAU/USD (现货黄金)</option>
+            <option value="US500">US500 (标准普尔指数)</option>
+          </select>
+        </div>
+
+        <div>
+          <label style={{ display: 'block', fontSize: '0.75rem', color: '#cbd5e1', marginBottom: '0.3rem' }}>交易手数 (Lots)</label>
+          <input
+            type="number"
+            value={lots}
+            step="0.01"
+            min="0.01"
+            onChange={(e) => setLots(parseFloat(e.target.value) || 0.01)}
+            style={{ width: '100%', padding: '0.5rem', borderRadius: '6px', backgroundColor: '#1e293b', color: '#fff', border: '1px solid #475569', fontSize: '0.85rem' }}
+          />
+        </div>
+
+        <div>
+          <label style={{ display: 'block', fontSize: '0.75rem', color: '#cbd5e1', marginBottom: '0.3rem' }}>账户类型</label>
+          <select
+            value={account}
+            onChange={(e) => setAccount(e.target.value)}
+            style={{ width: '100%', padding: '0.5rem', borderRadius: '6px', backgroundColor: '#1e293b', color: '#fff', border: '1px solid #475569', fontSize: '0.85rem' }}
+          >
+            <option value="standard">Standard (点差 1.3, 免佣)</option>
+            <option value="prime">Prime (裸点 0.1, $7/手佣金)</option>
+            <option value="ecn">ECN (裸点 0.1, $2/手佣金)</option>
+            <option value="cent">Cent 美分 (1/100 合约)</option>
+          </select>
+        </div>
+
+        <div>
+          <label style={{ display: 'block', fontSize: '0.75rem', color: '#cbd5e1', marginBottom: '0.3rem' }}>应用杠杆</label>
+          <select
+            value={leverage}
+            onChange={(e) => setLeverage(parseInt(e.target.value))}
+            style={{ width: '100%', padding: '0.5rem', borderRadius: '6px', backgroundColor: '#1e293b', color: '#fff', border: '1px solid #475569', fontSize: '0.85rem' }}
+          >
+            <option value={1000}>1:1000 (最高极值)</option>
+            <option value={500}>1:500 (默认标准)</option>
+            <option value={200}>1:200 (指数标准)</option>
+            <option value={100}>1:100 (大宗商品)</option>
+            <option value={30}>1:30 (澳洲 ASIC 上限)</option>
+          </select>
+        </div>
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '0.75rem', borderTop: '1px solid #334155', paddingTop: '1rem' }}>
+        <div style={{ backgroundColor: '#1e293b', padding: '0.75rem', borderRadius: '8px' }}>
+          <span style={{ fontSize: '0.72rem', color: '#94a3b8', display: 'block' }}>头寸名义价值 (Notional)</span>
+          <span style={{ fontSize: '1rem', fontWeight: 700, fontFamily: 'monospace', color: '#fff' }}>${notional.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+        </div>
+        <div style={{ backgroundColor: '#1e293b', padding: '0.75rem', borderRadius: '8px' }}>
+          <span style={{ fontSize: '0.72rem', color: '#94a3b8', display: 'block' }}>所需占用保证金 (Margin)</span>
+          <span style={{ fontSize: '1rem', fontWeight: 700, fontFamily: 'monospace', color: '#fbbf24' }}>${margin.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+        </div>
+        <div style={{ backgroundColor: '#1e293b', padding: '0.75rem', borderRadius: '8px' }}>
+          <span style={{ fontSize: '0.72rem', color: '#94a3b8', display: 'block' }}>点差+佣金总摩擦费</span>
+          <span style={{ fontSize: '1rem', fontWeight: 700, fontFamily: 'monospace', color: '#34d399' }}>${totalFriction.toFixed(2)}</span>
+        </div>
+        <div style={{ backgroundColor: '#1e293b', padding: '0.75rem', borderRadius: '8px' }}>
+          <span style={{ fontSize: '0.72rem', color: '#94a3b8', display: 'block' }}>50%追加 / 20%强平线</span>
+          <span style={{ fontSize: '0.9rem', fontWeight: 700, fontFamily: 'monospace', color: '#f87171' }}>${marginCall.toFixed(2)} / ${stopOut.toFixed(2)}</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+<!-- STREAMING_CHUNK:Rendering the Asset Leverage visualization... -->
+export const AssetLeverageVisualizer = () => {
+  const assets = [
+    { name: "外汇主流货币对", lev: 1000, type: "动态杠杆", color: "#059669" },
+    { name: "现货黄金 (XAUUSD)", lev: 1000, type: "动态杠杆", color: "#d97706" },
+    { name: "XAUUSD247 (周末连续黄金)", lev: 1000, type: "专属做市", color: "#d97706" },
+    { name: "主要股票指数 (US500/NAS100)", lev: 200, type: "固定杠杆", color: "#3b82f6" },
+    { name: "大宗商品能源 (原油/天然气)", lev: 100, type: "固定杠杆", color: "#6366f1" },
+    { name: "加密货币 CFD (BTC/ETH)", lev: 100, type: "固定杠杆", color: "#8b5cf6" },
+    { name: "股票 CFD (美股/港股个股)", lev: 20, type: "固定杠杆", color: "#64748b" }
+  ];
+
+  return (
+    <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '10px', padding: '1.2rem', backgroundColor: 'var(--ifm-card-background-color, #fff)', margin: '1.5rem 0' }}>
+      <h4 style={{ margin: '0 0 1rem 0', fontSize: '0.95rem' }}>各资产类别最高可用杠杆对照图 (1:X)</h4>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+        {assets.map((item, i) => (
+          <div key={i}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', marginBottom: '0.2rem' }}>
+              <span style={{ fontWeight: 600 }}>{item.name} <span style={{ color: '#888', fontWeight: 400 }}>({item.type})</span></span>
+              <span style={{ fontWeight: 700, color: item.color }}>1:{item.lev}</span>
+            </div>
+            <div style={{ height: '8px', width: '100%', backgroundColor: 'var(--ifm-color-emphasis-200)', borderRadius: '4px', overflow: 'hidden' }}>
+              <div style={{
+                height: '100%',
+                width: `${Math.min(100, (item.lev / 1000) * 100)}%`,
+                backgroundColor: item.color,
+                borderRadius: '4px',
+                transition: 'width 0.3s ease'
+              }}></div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div style={{ marginTop: '1rem', fontSize: '0.72rem', color: '#888', backgroundColor: 'var(--ifm-color-emphasis-100)', padding: '0.5rem', borderRadius: '6px' }}>
+        * 提示：即便主账户杠杆设置为 1:1000，股票或指数订单仍强制执行固定的产品底层杠杆比例计算保证金。
+      </div>
+    </div>
+  );
+};
+
+<!-- STREAMING_CHUNK:Implementing the IBT Withdrawal Simulator... -->
+export const IBTSimulator = () => {
+  const [count, setCount] = useState(1);
+  const [amount, setAmount] = useState(100);
+
+  const minReq = count === 1 ? 50 : 70;
+  const fee = count === 1 ? 0 : 20;
+  const net = Math.max(0, amount - fee);
+  const isValid = amount >= minReq;
+
+  return (
+    <div style={{
+      backgroundColor: '#0f172a',
+      color: '#f8fafc',
+      padding: '1.2rem',
+      borderRadius: '10px',
+      margin: '1.5rem 0'
+    }}>
+      <h4 style={{ color: '#fbbf24', margin: '0 0 0.5rem 0', fontSize: '0.95rem' }}>
+        国际银行电汇 (IBT) 阶梯手续费测算器
+      </h4>
+      <p style={{ fontSize: '0.75rem', color: '#94a3b8', margin: '0 0 1rem 0' }}>
+        验证当月第 1 笔与第 2 笔及之后的出金费率与最低限额规则。
+      </p>
+
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', marginBottom: '1rem' }}>
+        <div>
+          <label style={{ display: 'block', fontSize: '0.72rem', color: '#cbd5e1', marginBottom: '0.2rem' }}>当月已提现笔数</label>
+          <select
+            value={count}
+            onChange={(e) => setCount(parseInt(e.target.value))}
+            style={{ width: '100%', padding: '0.4rem', borderRadius: '6px', backgroundColor: '#1e293b', color: '#fff', border: '1px solid #475569', fontSize: '0.8rem' }}
+          >
+            <option value={1}>第 1 笔出金 (平台补贴免手续费)</option>
+            <option value={2}>第 2 笔及以后 (强制扣除 20 手续费)</option>
+          </select>
+        </div>
+
+        <div>
+          <label style={{ display: 'block', fontSize: '0.72rem', color: '#cbd5e1', marginBottom: '0.2rem' }}>计划提现金额 (账户基础货币)</label>
+          <input
+            type="number"
+            value={amount}
+            onChange={(e) => setAmount(parseFloat(e.target.value) || 0)}
+            style={{ width: '100%', padding: '0.4rem', borderRadius: '6px', backgroundColor: '#1e293b', color: '#fff', border: '1px solid #475569', fontSize: '0.8rem' }}
+          />
+        </div>
+      </div>
+
+      <div style={{ backgroundColor: '#1e293b', padding: '0.75rem', borderRadius: '6px', fontSize: '0.8rem', display: 'flex', flexDirection: 'column', gap: '0.3rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <span style={{ color: '#94a3b8' }}>最低强制起提额:</span>
+          <span style={{ fontWeight: 700, color: '#fbbf24' }}>{minReq} 账户单位</span>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <span style={{ color: '#94a3b8' }}>平台扣收手续费:</span>
+          <span style={{ fontWeight: 700, color: fee === 0 ? '#34d399' : '#f87171' }}>{fee} 账户单位 {fee === 0 ? '(首笔全免)' : ''}</span>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px solid #334155', paddingTop: '0.3rem' }}>
+          <span style={{ color: '#fff', fontWeight: 600 }}>预计实际汇出净额:</span>
+          <span style={{ fontWeight: 700, color: '#fff', fontFamily: 'monospace' }}>{net.toFixed(2)} 账户单位</span>
+        </div>
+        <div style={{ fontSize: '0.72rem', color: isValid ? '#34d399' : '#f87171', marginTop: '0.3rem', fontWeight: 600 }}>
+          {isValid ? '✓ 金额符合当前阶段出金规则' : `❌ 提现金额低于当前阶段起提额 (${minReq} 单位)`}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+<!-- STREAMING_CHUNK:Creating the 3-Stage Dispute Resolution stepper... -->
+export const DisputeStepper = () => {
+  const [stage, setStage] = useState(1);
+
+  const stages = [
+    {
+      num: 1,
+      name: "阶段一：官方立案",
+      sub: "客服投诉初审",
+      input: "客户填报官方《投诉表格》，提供交易订单号、争议成交价格及 MT4/MT5 截图证据。",
+      process: "系统派发全局唯一工单号，全面封存当事人争议时段通信记录与客户端网络连接会话。",
+      legal: "进入法定义务答复周期，防止数据追溯篡改，为第三方独立仲裁保留原始电子证据链。"
+    },
+    {
+      num: 2,
+      name: "阶段二：技术复核",
+      sub: "合规与风控介入",
+      input: "工单正式转交合规风控部，启动毫秒级订单重放与底层原始数据回溯。",
+      process: "比对底层交易服务器 Journal 原始日志、Tier-1 流动性供应商报价 Tick 深度及成交时间戳。",
+      legal: "经纪商出具书面《最终调查结论决议书》；若达成调解协议则即时执行出金赔偿并结案。"
+    },
+    {
+      num: 3,
+      name: "阶段三：终局仲裁",
+      sub: "金融委员会裁决",
+      input: "若客户对内部决议存有异议或逾期未获答复，向国际金融委员会（FC）递交第三方仲裁申请。",
+      process: "金融委员会争议解决专家委员会（DRC）调取买卖双方技术材料进行独立交叉质证。",
+      legal: "裁决具备终局法律约束力；若经纪商拒不执行，由官方基金单案最高赔付 €20,000 先行垫付。"
+    }
+  ];
+
+  const current = stages.find(s => s.num === stage);
+
+  return (
+    <div style={{ margin: '1.5rem 0' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem', marginBottom: '1rem' }}>
+        {stages.map(s => (
+          <div
+            key={s.num}
+            onClick={() => setStage(s.num)}
+            style={{
+              padding: '0.8rem',
+              borderRadius: '8px',
+              border: stage === s.num ? '2px solid #d97706' : '1px solid var(--ifm-color-emphasis-300)',
+              backgroundColor: stage === s.num ? 'rgba(217,119,6,0.08)' : 'var(--ifm-card-background-color, #fff)',
+              cursor: 'pointer',
+              transition: 'all 0.2s'
+            }}
+          >
+            <span style={{ fontSize: '0.7rem', fontWeight: 700, color: stage === s.num ? '#d97706' : '#888' }}>阶段 0{s.num}</span>
+            <div style={{ fontWeight: 700, fontSize: '0.88rem', margin: '0.2rem 0' }}>{s.name}</div>
+            <div style={{ fontSize: '0.72rem', color: '#888' }}>{s.sub}</div>
+          </div>
+        ))}
+      </div>
+
+      <div style={{
+        backgroundColor: '#0f172a',
+        color: '#f8fafc',
+        padding: '1.2rem',
+        borderRadius: '10px',
+        fontSize: '0.82rem'
+      }}>
+        <div style={{ color: '#fbbf24', fontWeight: 700, fontSize: '0.95rem', marginBottom: '0.75rem' }}>
+          {current.name} 核心机制与法律效力
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+          <div>
+            <span style={{ color: '#94a3b8', display: 'block', fontSize: '0.75rem', marginBottom: '0.2rem' }}>输入要素与申报条件:</span>
+            <p style={{ margin: 0, lineHeight: 1.4 }}>{current.input}</p>
+          </div>
+          <div>
+            <span style={{ color: '#94a3b8', display: 'block', fontSize: '0.75rem', marginBottom: '0.2rem' }}>技术审查与日志取证:</span>
+            <p style={{ margin: 0, lineHeight: 1.4 }}>{current.process}</p>
+          </div>
+          <div>
+            <span style={{ color: '#94a3b8', display: 'block', fontSize: '0.75rem', marginBottom: '0.2rem' }}>法律地位与救济保障:</span>
+            <p style={{ margin: 0, lineHeight: 1.4 }}>{current.legal}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+<!-- STREAMING_CHUNK:Rendering Section 1 Overview and Metric Cards... -->
+## 01. 概览仪表盘与核心参数
+
+PU Prime 自 2015 年成立以来，逐步演变为覆盖全球的综合型场外衍生品（CFD）经纪商。平台采用典型的**“离岸做市发行主体 + 在岸本土属地持牌 + 外部商业险与调解基金”**复合治理结构。
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '0.75rem', margin: '1.2rem 0' }}>
+  <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', padding: '0.8rem', textAlign: 'center', backgroundColor: 'var(--ifm-card-background-color, #fff)' }}>
+    <div style={{ fontSize: '0.72rem', color: '#888' }}>全球活跃交易者</div>
+    <div style={{ fontSize: '1.25rem', fontWeight: 900, margin: '0.2rem 0' }}>700,000+</div>
+    <div style={{ fontSize: '0.68rem', color: '#059669' }}>100+ 国家与地区</div>
+  </div>
+  <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', padding: '0.8rem', textAlign: 'center', backgroundColor: 'var(--ifm-card-background-color, #fff)' }}>
+    <div style={{ fontSize: '0.72rem', color: '#888' }}>外汇/黄金最高杠杆</div>
+    <div style={{ fontSize: '1.25rem', fontWeight: 900, margin: '0.2rem 0', color: '#d97706' }}>1:1000</div>
+    <div style={{ fontSize: '0.68rem', color: '#888' }}>可自主分级调节</div>
+  </div>
+  <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', padding: '0.8rem', textAlign: 'center', backgroundColor: 'var(--ifm-card-background-color, #fff)' }}>
+    <div style={{ fontSize: '0.72rem', color: '#888' }}>劳合社商业破产险</div>
+    <div style={{ fontSize: '1.25rem', fontWeight: 900, margin: '0.2rem 0' }}>$1,000,000</div>
+    <div style={{ fontSize: '0.68rem', color: '#059669' }}>单人最高理赔保障</div>
+  </div>
+  <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', padding: '0.8rem', textAlign: 'center', backgroundColor: 'var(--ifm-card-background-color, #fff)' }}>
+    <div style={{ fontSize: '0.72rem', color: '#888' }}>金融委员会保障金</div>
+    <div style={{ fontSize: '1.25rem', fontWeight: 900, margin: '0.2rem 0' }}>€20,000</div>
+    <div style={{ fontSize: '0.68rem', color: '#059669' }}>单案独立垫付基金</div>
+  </div>
+  <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', padding: '0.8rem', textAlign: 'center', backgroundColor: 'var(--ifm-card-background-color, #fff)' }}>
+    <div style={{ fontSize: '0.72rem', color: '#888' }}>账户强制平仓线</div>
+    <div style={{ fontSize: '1.25rem', fontWeight: 900, margin: '0.2rem 0', color: '#dc2626' }}>20%</div>
+    <div style={{ fontSize: '0.68rem', color: '#888' }}>50%追加 / 20%强平</div>
+  </div>
+</div>
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 2 Global Entities and Regulation... -->
+## 02. 集团跨司法管辖区法人实体与监管授权
+
+PU Prime 在全球 7 家核心实体之间划分了明确的法律职能：由离岸机构担任零售交易发行人与合约对手方，在岸机构专营属地合规，欧洲机构处理集团行政与非交易性支付支持。
+
+<EntityMatrix />
+
+:::warning 法律实体与对手方识别核心提示
+交易者在主域名（`puprime.com`）注册开户时，协议签署方为 **PU Prime Limited（塞舌尔 FSA）** 或 **PU Prime Ltd（毛里求斯 FSC）**。澳大利亚实体（PU Prime Trading Pty Ltd）仅通过专用站点（`puprime.au`）接受澳洲本土居民申请；南非 FSCA 与阿联酋 CMA 实体依法不作为交易保证金的归集池。
+:::
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 3 Account Tiers and Cost Table... -->
+## 03. 账户体系规格、摩擦成本与实时演算器
+
+平台设立了 Cent、Standard、Prime 与 ECN 四种主账户，均支持 0.01 手起投，爆仓强制平仓线均统一设定为 20%：
+
+| 账户类型 | 最低开户门槛 | 点差模型 | 外汇交易手续费 (双边) | 单手合约大小 | 伊斯兰免息 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cent (美分)** | **$20** (2,000 USC) | 1.3 pips 起 (做市加成) | **$0** (免佣金) | 1,000 基础货币 (微型) | 支持 |
+| **Standard (标准)** | **$50** | 1.3 pips 起 (全包加成) | **$0** (免佣金) | 100,000 基础货币 | 支持 |
+| **Prime (优越)** | **$1,000** | 0.0 pips 起 (ECN 裸点) | **$7.00 / 手** ($3.5 单边) | 100,000 基础货币 | 支持 |
+| **ECN (机构)** | **$10,000** | 0.0 pips 起 (银行间裸点) | **$2.00 / 手** ($1.0 单边) | 100,000 基础货币 | **不支持免息** |
+
+<MarginCalculator />
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 4 Asset Leverage and XAUUSD247... -->
+## 04. 资产标的矩阵、固定杠杆与 XAUUSD247 全天候黄金
+
+PU Prime 提供千余种标的。必须注意的是：**最高 1:1000 动态杠杆仅适用于主要外汇对与现货黄金**。其余所有大宗商品、股票指数、个股 CFD 及合成指数均执行系统强制的固定产品杠杆（Fixed Leverage）：
+
+<AssetLeverageVisualizer />
+
+### XAUUSD247 合约机制
+* **全天候交易**：打破传统贵金属周五收盘与周一早盘跳空的限制，提供 7x24 小时不间断场外连续报价与下单。
+* **独立流动性**：由专属做市商池提供周末撮合，周末浮动点差通常较工作日略有加宽。
+* **展期与利息**：外汇在周三结算 3 倍 Swap 利息，能源通常在周五结算 3 倍利息。期货合约到期时执行**现金中性展期（Cash-neutral Rollover）**，自动对冲合约价差。
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 5 Trading Technology and Copy Trading... -->
+## 05. 交易终端生态与双轨跟单网络
+
+PU Prime 拥有覆盖 MT4、MT5、WebTrader 及官方自研 App 的全套技术架构。在跟单交易领域，平台提供了互补的双轨体系：
+
+1. **PU Social (社交跟单社区)**：各大应用商城独立上架的独立社交应用，主打交易员发帖互动、策略讨论与社区式跟单。
+2. **PU Copy Trading (量化镜像跟单)**：内嵌于 PU Prime 官方主应用中的量化模块，注重收益曲线、夏普比率与纯粹资金镜像。
+
+:::info 跟单结算法则：高水位线 (High Water Mark)
+跟单平台免收任何订阅费与管理费，信号提供者可设置最高不超过 50% 的利润分成。系统严格遵循**高水位线法则**：仅在跟单账户净值超越**历史最高峰值净值**时，才对超出的纯利润增量计提分成；处于回撤修复期间一律免收提成。分成在**每周六系统自动清算**。
+:::
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 6 Security Pillars and Fund Isolation... -->
+## 06. 资金安全五重矩阵与出入金清算
+
+经纪商建立了五重防线保障客户资金安全：
+
+* 🛡️ **一级商业银行信托隔离**：客户资金完全存放于国际 AA 级银行独立账户，与日常经营费用物理隔离。
+* 🛡️ **强制负余额保护 (NBP)**：极端黑天鹅跳空导致账户穿仓时，系统强制清零负值，无需追加亏损。
+* 🛡️ **劳合社 (Lloyd's) $1,000,000 商业保单**：经纪商清算破产时，单人最高享 100 万美元超额偿还额度。
+* 🛡️ **金融委员会 (FC) €20,000 赔偿基金**：经裁定违规而经纪商不履约时，基金单案最高赔付 2 万欧元先行垫付。
+* 🛡️ **定期多辖区合规审计**：接受塞舌尔 FSA 与毛里求斯 FSC 定期法定资产充足率稽核。
+
+### 出入金通道时效与 IBT 阶梯手续费
+
+| 支付渠道 | 官方入金手续费 / 时效 | 出金手续费规则 | 出金清算到账时效 |
+| :--- | :--- | :--- | :--- |
+| **本地银行转账 (Local Bank)** | 0% 免收 / 即时 | 0% 免收 | 韩国 24h 内；其余 1–3 工作日 |
+| **国际银行电汇 (IBT/Wire)** | 0% (中转行自理) / 2–5 天 | **首笔免收；次笔起扣 20 单位** | 2 – 5 个工作日 |
+| **信用卡/借记卡 (Visa/MC)** | 0% 免收 / 即时 | 0% 免收 | 2 – 5 个工作日原路退回 |
+| **主流电子钱包 (E-wallets)** | 0% 免收 / 即时 | 0% 免收 | 审核通过后即时到账 |
+
+<IBTSimulator />
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 7 Restricted Jurisdictions and Dispute Flow... -->
+## 07. 受限司法管辖区与三阶段争议仲裁流程
+
+根据反洗钱（AML）及属地金融专营法规，PU Prime 明确拒绝接收以下国家及地区签发的 POI/POA 证明开户：
+* **北美与亚太受限**：美国（含波多黎各、关岛等全境领地）、加拿大全境、新加坡、中国大陆、澳大利亚（仅限本土站）、菲律宾、印度、塞浦路斯。
+* **制裁与 FATF 黑名单**：伊朗、朝鲜、古巴等国际联合重大经济制裁与高风险监控名单地区。
+
+当订单成交出现异常滑点、流动性争议或资金划转异议时，交易者可按照以下标准的三阶段争议路径进行救济：
+
+<DisputeStepper />
+
+---
+
+<!-- STREAMING_CHUNK:Rendering Section 8 Authoritative FAQ Accordion... -->
+## 08. PU Prime 官方权威常见问题解答 (FAQ)
+
+<details>
+<summary><strong>Q1. PU Prime 受到哪些金融机构的监管？核心法律对手方是谁？</strong></summary>
+<div>
+
+PU Prime 在全球多个司法管辖区设有实体并分别持有牌照：
+* **塞舌尔 FSA (License No. SD050)**：PU Prime Limited 持牌运作，为国际零售业务的核心对手方法人。
+* **毛里求斯 FSC (License No. GB23202672)**：PU Prime Ltd 负责衍生品合约发行。
+* **澳大利亚 ASIC (AFSL No. 410681)**：PU Prime Trading Pty Ltd 仅服务澳大利亚在岸合规居民。
+* **南非 FSCA (FSP No. 52218)** 与 **阿联酋 CMA (No. 20200000388)**：分别持有中介与咨询牌照。
+* 英国及塞浦路斯机构仅承担集团内部非交易性技术与支付通道职能。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q2. 提供哪些账户类型？最低开户门槛与强平规则是什么？</strong></summary>
+<div>
+
+平台提供四种标准主账户类型（所有账户的强制平仓线均为统一的 **20%**，追加保证金提醒线为 **50%**）：
+* **Cent 账户**：门槛 $20，点差 1.3 pips 起，免佣金，合约为标准手 1/100 (1手=1,000单位)。
+* **Standard 账户**：门槛 $50，全包点差 1.3 pips 起，免交易佣金。
+* **Prime 账户**：门槛 $1,000，原始点差 0.0 pips 起，外汇佣金每手单边 $3.5 (双边合计 $7)。
+* **ECN 账户**：门槛 $10,000，银行间点差 0.0 pips 起，外汇佣金降至每手单边 $1.0 (双边合计 $2)，**不支持伊斯兰免息模式**。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q3. 最高 1:1000 杠杆是否适用于所有交易品种？</strong></summary>
+<div>
+
+**并非所有品种均可使用 1:1000 杠杆。** 最高 1:1000 的动态杠杆仅适用于主要外汇货币对和现货黄金（含 XAUUSD247）。股票指数（最高 1:200）、大宗商品（1:100）及个股 CFD（最高 1:20）均强制执行固定产品杠杆。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q4. PU Prime 是否支持周末黄金交易？机制如何？</strong></summary>
+<div>
+
+**支持。** 平台开发了名为 `XAUUSD247` 的专属场外衍生品合约，提供 7x24 小时连续报价与下单功能。周末流动性较薄弱，点差较工作日略有拓宽，隔夜利息按天顺延。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q5. 客户资金存放在哪里？若经纪商破产如何赔付？</strong></summary>
+<div>
+
+构筑了四重资金安全防线：
+1. **独立信托隔离**：客户保证金存放于顶级 AA 级商业银行，物理隔离于经纪商运营资金。
+2. **负余额保护 (NBP)**：极端跳空穿仓免责，损失严格限定于本金。
+3. **英国劳合社 (Lloyd's) 超额保单**：经纪商破产清算时，单名合规客户最高可获 **$1,000,000** 商业理赔。
+4. **金融委员会 (Financial Commission) 赔偿基金**：单案终局裁决最高享 **€20,000** 垫付保障。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q6. 出入金有哪些渠道？清算到账时效是多久？</strong></summary>
+<div>
+
+* **入金**：支持本地银行转账、信用卡/借记卡（Visa/Mastercard）、电子钱包及国际电汇（IBT）。卡支付与电子钱包即时到账，电汇需 2–5 工作日。平台入金免收手续费，周末支持即时入金到账。
+* **出金**：电子钱包即时到账；本地银行转账通常 1–3 工作日；信用卡及国际电汇需 2–5 工作日。周末提交的出金在周一银行工作日依次处理。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q7. 国际银行电汇（IBT）出金手续费的阶梯扣减规则是什么？</strong></summary>
+<div>
+
+平台针对 IBT 实施阶梯收费：
+* **每月第 1 笔**：免收平台手续费（经纪商补贴 20 账户单位），最低起提额为 **50 账户货币单位**。
+* **每月第 2 笔及以后**：每笔强制扣收 **20 账户货币单位**手续费。为确保扣费后净到账不低于 50 单位，最低起提额强制提升为 **70 账户货币单位**。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q8. 长期不交易是否会被扣除“账户闲置费 / 休眠费”？</strong></summary>
+<div>
+
+**不会扣除任何闲置费用。** PU Prime 明确不收取月度维护费或闲置管理费。若账户连续 90 天无交易活动，系统会自动将账户移至“休眠”（Dormant）归档，后续联系客服即可免费申请复权激活。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q9. 跟单交易（PU Social / Copy Trading）的提成分成如何计算？</strong></summary>
+<div>
+
+跟单分成严格基于**高水位线（High Water Mark）**：
+* 平台免收订阅费或管理费；
+* 交易员分成比例上限为 50%；
+* 仅当跟单净值打破历史资产最高纪录时才对纯利润增量计提分成；
+* 利润分成在**每周六系统自动清算扣划**。
+
+</div>
+</details>
+
+<details>
+<summary><strong>Q10. 哪些国家和地区的居民受限，无法在 PU Prime 开户？</strong></summary>
+<div>
+
+平台拒绝接收美国（含所有海外离岸属地）、加拿大全境、新加坡、中国大陆、澳大利亚（仅限本土站）、菲律宾、印度、塞浦路斯，以及被 FATF 列入高风险黑名单与受国际制裁地区（伊朗、朝鲜、古巴等）签发的身份证件开户。
+
+</div>
+</details>
+
+---
+
+<!-- STREAMING_CHUNK:Finalizing SEO Schema and Disclaimer... -->
+:::note 调研方法论与风险揭示 (Methodology & Risk Warning)
+本报告所有参数均严格核查自塞舌尔 FSA (SD050)、毛里求斯 FSC (GB23202672)、澳大利亚 ASIC (AFSL 410681)、阿联酋 CMA (20200000388)、南非 FSCA (FSP 52218) 公示登记册及官方公布文件。差价合约（CFD）属于高风险衍生品，可能导致投资者损失全部初始保证金，请审慎评估自身风险承受能力。
+:::

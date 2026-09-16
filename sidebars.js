@@ -10,8 +10,19 @@ const sidebars = {
     {
       // 决策型支柱页：整合站内内容 + 外部核实数据，逐条标注来源。
       // 与下方"帮助文档"不同，这部分是面向搜索流量的原创内容。
+      //
+      // 【一级分类统一约定】link 一律用 generated-index，slug 前缀固定 /category/
+      //   理由：① 分类标题可点击 ② 索引页由 Docusaurus 自动生成（卡片式），
+      //   不必再手写"全是链接"的列表页 ③ 该页面结构上不含右侧 TOC
+      //   ④ /category/ 前缀避免与文档自身 URL（如 /exness-trader）冲突
       type: "category",
       label: "深度指南",
+      link: {
+        type: "generated-index",
+        slug: "/category/guides",
+        title: "深度指南",
+        description: "面向决策的经纪商研究：监管合规、出入金、交易平台与账户选择。",
+      },
       collapsible: true,
       collapsed: false,
       items: [
@@ -24,7 +35,13 @@ const sidebars = {
     {
       type: "category",
       label: "EXNESS 客户帮助",
-      link: { type: "doc", id: "exness-trader/exness-trader" },
+      link: {
+        type: "generated-index",
+        slug: "/category/exness-trader",
+        title: "EXNESS 客户帮助",
+        description:
+          "Exness 零售客户帮助文档总览：账户类型、开户验证、出入金、交易品种、平台终端、订单操作与故障排除。",
+      },
       collapsible: true,
       collapsed: true,
       items: [
@@ -361,7 +378,13 @@ const sidebars = {
     {
       type: "category",
       label: "EXNESS 代理帮助",
-      link: { type: "doc", id: "exness-agent/exness-agent" },
+      link: {
+        type: "generated-index",
+        slug: "/category/exness-agent",
+        title: "EXNESS 代理帮助",
+        description:
+          "Exness 合作伙伴（IB / 代理）帮助文档总览：合作计划入门、佣金与返佣、个人专区报告、资金与平台安全。",
+      },
       collapsible: true,
       collapsed: true,
       items: [
@@ -449,6 +472,12 @@ const sidebars = {
     {
       type: "category",
       label: "AI 与工具",
+      link: {
+        type: "generated-index",
+        slug: "/category/ai-tools",
+        title: "AI 与工具",
+        description: "AI 助手使用与 EA 交易环境配置相关文档。",
+      },
       collapsible: true,
       collapsed: true,
       items: [
@@ -459,10 +488,16 @@ const sidebars = {
     {
       type: "category",
       label: "纽时播报",
-      link: { type: "doc", id: "nytimes/nytimes" },
+      link: {
+        type: "generated-index",
+        slug: "/category/nytimes",
+        title: "纽时播报",
+        description: "翻译与写作、留学与移民、自动化脚本等主题笔记。",
+      },
       collapsible: true,
       collapsed: true,
       items: [
+        "nytimes/pu_prime_broker_research_report",
         "nytimes/MQ4各种函数参数笔记",
         "nytimes/prm写作风格和语调",
         "nytimes/美硕移民",
