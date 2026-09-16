@@ -56,8 +56,13 @@ export default function DocItemLayoutWrapper(props) {
     },
     ...(image ? { image: [image] } : {}),
     ...(toIso(frontMatter.date) ? { datePublished: toIso(frontMatter.date) } : {}),
+    // ⚠️ metadata.lastUpdatedAt 已经是**毫秒**时间戳（来源：
+    //    utils/lastUpdateUtils → vcs.getFileLastUpdateInfo().timestamp）。
+    //    此处曾误写成 `lastUpdatedAt * 1000`，导致输出 `+058677-09-20` 这类
+    //    垃圾日期；由于当时 git 信息读取失败（core.quotepath 问题）该值恒为
+    //    null，错误被掩盖。2026-09-16 修正。
     ...(metadata.lastUpdatedAt
-      ? { dateModified: new Date(metadata.lastUpdatedAt * 1000).toISOString() }
+      ? { dateModified: new Date(metadata.lastUpdatedAt).toISOString() }
       : {}),
   };
 

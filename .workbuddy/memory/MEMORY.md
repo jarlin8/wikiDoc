@@ -119,3 +119,28 @@ MCP 工具（如 IMA）**不在直接工具列表里**，直接调用会报 "Too
 - 战略方向：**经纪商对比数据库**（专有资产 + 完成任务 + 品牌三特征）
 - 详见 `汇鉴-SEO建设规划.md`
 - 度量切换：盯 AI 引用次数 / 品牌搜索 / 外链域名，不再只看点击
+
+## 9. Frontmatter 规范（2026-09-16 定）
+
+**必填**：`title`（≤25 汉字，主关键词前置，**不要写「汇鉴」**——模板会自动加 `\| 汇鉴`，手写会重复）、`description`（60–80 汉字，写成"点了能得到什么"的承诺句，**不要堆小标题**）
+
+**可选**：`slug`（仅需自定义 URL 时）、`image`（每页独立 1200×630 分享图）、`sidebar_label`（只影响侧栏，长 SEO 标题靠它保侧栏可读性）、`sidebar_position`、`hide_table_of_contents`（列表型索引页设 true）、`last_update`（写了会**覆盖** git，慎用）
+
+**必须写**：`date` —— ⚠️ **不是遗留字段**！本站 swizzle 的 `src/theme/DocItem/Layout/index.js:58` 用它生成 JSON-LD 的 **`datePublished`**。删掉会丢结构化数据的发布日期。
+取值必须是**本站真实收录日期**，不要沿用源站日期。批量获取方式：
+```bash
+git -c core.quotepath=false log --diff-filter=A --format=%as -- <file> | tail -1
+```
+
+**不要用**：`keywords`（Google 已忽略）、`tags`（本站 `/tags/` 已被 robots 屏蔽）
+
+**⚠️ 已知坑：git `core.quotepath`**
+未设置（默认 `true`）时，git 对含中文的路径输出带引号 + 八进制转义（`"docs/xxx/\351\232\224..."`），而 Docusaurus 的 `getGitRepositoryFilesInfo()` 不做反转义 → **418/432 篇文档匹配不到 git 信息** → sitemap 无 `lastmod`、页面不显示「最后更新」、JSON-LD 无 `dateModified`。
+**修复**：`git config core.quotepath false`（已于 2026-09-16 设置）
+**⚠️ 这是仓库级配置，换机器或 CI 重 clone 后需重新设置，否则问题复发。**
+**排查手法**：`require('@docusaurus/utils/lib/vcs/gitUtils.js').getGitRepositoryFilesInfo(root)` 打印 map key，看前缀是否带 `"`。
+
+**⚠️ 已知坑：`lastUpdatedAt` 是毫秒**
+`metadata.lastUpdatedAt` 已是**毫秒**时间戳，`new Date(x)` 直接用，**不要 `* 1000`**（会得到 `+058677-09-20` 这类垃圾年份）。该错误曾因 git 问题导致该值恒为 null 而被掩盖。
+
+详见 `汇鉴-Frontmatter审查报告.md`（含完整执行记录）

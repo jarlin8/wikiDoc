@@ -99,9 +99,18 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         sitemap: {
-          // 已移除 changefreq / priority：Google 已明确声明不参考这两个字段，
-          // 且 425 篇帮助文档全标 changefreq: daily 是错误信号。
-          // lastmod: 'date' 依赖 git 历史，需配合 CI 的 fetch-depth: 0 才准确。
+          // changefreq / priority：Google 已明确声明不参考这两个字段。
+          // ⚠️ 此前只在注释里写"已移除"，并未真正生效 —— Docusaurus 仍按默认值
+          //    输出，实测 320/320 个 URL 全部是 weekly / 0.5，零信息量。
+          //    必须显式置 null 才能从 XML 中移除。
+          changefreq: null,
+          priority: null,
+          // lastmod 的取值来自 **git 最后提交时间**（'date' 只控制输出格式，
+          // 不决定数据来源）。
+          // ⚠️ 依赖仓库配置 core.quotepath=false：否则 git 会把含中文的路径
+          //    转义成 "docs/xxx/\351\232\224..."，而 Docusaurus 的
+          //    getGitRepositoryFilesInfo() 不做反转义 → 418/432 篇文档匹配不上，
+          //    sitemap 里绝大多数 URL 没有 lastmod。已于 2026-09-16 设置。
           lastmod: "date",
           ignorePatterns: ["/tags/**", "/search"],
           filename: "sitemap.xml",
