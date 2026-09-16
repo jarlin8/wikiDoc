@@ -249,9 +249,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        // 站点 i18n 只配置了 zh-Hans 一种语言，不存在 en 索引；
-        // 保留 en 只会让 Lunr 额外加载英文分词/词干规则，干扰中文检索质量
-        language: ["zh"],
+        language: ["zh,en"],
         indexDocs: true,
         indexBlog: false,
         docsRouteBasePath: "/",
