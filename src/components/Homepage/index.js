@@ -39,7 +39,7 @@ export default function Homepage() {
   return (
     <div className={styles.home}>
       <section className={styles.hero}>
-        <h1 className={styles.heroTitle}>WikiDoc</h1>
+        <h1 className={styles.heroTitle}>汇鉴</h1>
         <p className={styles.heroTagline}>
           全职交易员关注的吃喝 / 交易，帮助文档与代理佣金说明
         </p>

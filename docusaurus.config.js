@@ -32,9 +32,9 @@ const config = {
   ],
   // const math = (await import('remark-math')).default;
   // const katex = (await import('rehype-katex')).default;
-  // 原先为 "wikiDoc"（小写 w），与 navbar 显示的 "WikiDoc" 不一致；
-  // 页面 <title> 会输出「标准账户 | wikiDoc」，统一为 WikiDoc。
-  title: "WikiDoc",
+  // 站点名：2026-09-16 由 "WikiDoc" 更名为「汇鉴 / Huijian」。
+  // 该值联动：<title> 后缀、og:site_name、footer、JSON-LD Organization。
+  title: "汇鉴",
   tagline: "全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!",
   url: SITE_URL,
   baseUrl: "/",
@@ -52,7 +52,7 @@ const config = {
     },
     {
       tagName: "meta",
-      attributes: { property: "og:site_name", content: "WikiDoc" },
+      attributes: { property: "og:site_name", content: "汇鉴" },
     },
     {
       tagName: "meta",
@@ -139,9 +139,9 @@ const config = {
         // 使用原生 title：渲染为 <b class="navbar__title"> 而非 <h1>，
         // 语义正确，且自带跳转首页的链接。
         // 原先是 type:"html" 注入 <h1 class="font-extrabold">，与每页正文标题形成双 h1。
-        title: "WikiDoc",
+        title: "汇鉴",
         logo: {
-          alt: "WikiDoc Logo",
+          alt: "汇鉴 Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -176,7 +176,7 @@ const config = {
       footer: {
         style: "dark",
         logo: {
-          alt: "WikiDoc Logo",
+          alt: "汇鉴 Logo",
           src: "img/logo.svg",
           href: "/",
           // 显式给出宽高：Logo 是正方形 SVG，此前未声明尺寸，
@@ -222,7 +222,7 @@ const config = {
             ],
           },
         ],
-        copyright: `CC-BY-SA 4.0 © ${new Date().getFullYear()} WikiDoc · wiki.ssgg.net`,
+        copyright: `CC-BY-SA 4.0 © ${new Date().getFullYear()} 汇鉴 Huijian · wiki.ssgg.net`,
       },
       prism: {
         theme: lightCodeTheme,

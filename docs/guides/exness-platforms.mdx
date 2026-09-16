@@ -20,6 +20,8 @@ Exness 的平台体系大致分四层〔官方〕：
 | **自有移动应用** | Exness Trade App | 交易 + 账户管理一体化 |
 | **辅助服务** | Exness VPS、社交交易（Copy Trading） | 无人值守运行 EA / 跟单 |
 
+平台功能逐项对照见站内 [交易平台功能比较](/exness-trader/交易平台功能比较)；代理侧的平台说明见 [Exness 提供的交易平台](/exness-agent/Exness提供的交易平台)〔站内〕。
+
 ## 二、MT4 还是 MT5
 
 这是最常见的选择题。核心差异：
@@ -41,7 +43,19 @@ Exness 的平台体系大致分四层〔官方〕：
 - **需要多品种回测、更快策略测试、更多时间框架** → 用 MT5
 - **两者都能用 Exness 账户**，不需要二选一——可以同时安装
 
-本站既有文档《[MetaTrader：详解对比 MT4 和 MT5](/exness-trader/metatrader-详解-对比-mt4-和-mt5)》有更详细的逐项对比〔站内〕。
+本站既有文档 [MetaTrader：详解对比 MT4 和 MT5](/exness-trader/metatrader-详解-对比-mt4-和-mt5) 有更详细的逐项对比〔站内〕。
+
+**两端可交易的品种范围差异**，见 [MT4/MT5 提供哪些交易品种](/exness-trader/mt4-mt5-提供哪些交易品种)。
+
+### 安装与配置常见问题
+
+| 问题 | 站内解答 |
+|---|---|
+| 安装 MT4 时为什么要求填代理服务器地址 | [在安装 MT4 时，为什么需要提供代理服务器地址](/exness-trader/在安装mt4时，为什么需要提供代理服务器地址) |
+| 能否修改平台时区 | [能否更改 MetaTrader 4/5 平台上的时区](/exness-trader/能否更改-metatrader-4-5-平台上的时区) |
+| Linux 系统怎么装 | [如何在 Linux 系统中安装 MT4/MT5](/exness-trader/如何在-linux-系统中安装-mt4-mt5) |
+| 手机端怎么用 | [如何使用安卓版 MetaTrader 5](/exness-trader/如何使用安卓版-metatrader-5) |
+| 推送通知怎么设 | [为 MetaTrader 4/5 设置推送通知](/exness-trader/为-metatrader-4-5-设置推送通知) |
 
 ## 三、网页终端与桌面端的取舍
 
@@ -54,6 +68,15 @@ Exness 的平台体系大致分四层〔官方〕：
 | 适合场景 | 日常主力、跑 EA | 临时查看、换电脑、受限设备 |
 
 **建议**：以桌面端为主力，网页终端作为应急或轻量查看的补充。
+
+站内详解：[使用 MT4/MT5 网页终端进行交易](/exness-trader/使用-mt4-mt5-网页终端进行交易)、[探索 Exness 网页交易终端](/exness-trader/探索-exness-网页交易终端)、[Exness 交易应用：内置交易终端详解](/exness-trader/exness交易应用-内置交易终端详解)。
+
+### 多账户与性能优化
+
+- 同时运行多个终端：[我可以在我的电脑上同时运行多个交易终端软件吗](/exness-trader/我可以在我的电脑上同时运行多个交易终端软件吗)
+- 多账户统一管理：[如何使用 MT4 Multiterminal 多账户管理终端](/exness-trader/如何使用-mt4-multiterminal多账户管理终端)
+- 平台卡顿提速：[如何提升 MetaTrader 4/5 的速度](/exness-trader/如何提升metatrader4-5的速度)
+- 界面语言有乱码：[Exness 交易应用：如何更改语言设置](/exness-trader/exness-交易应用-如何更改-exness-交易应用的语言设置)
 
 ## 四、移动端
 
@@ -75,11 +98,13 @@ Exness 提供两类移动端选择：
 
 **如果只是手动交易，VPS 基本用不上。**
 
-Exness 对达到一定交易量的客户提供 VPS 服务，具体资格条件以官方为准〔官方〕。本站既有文档见《[Exness VPS 使用须知](/exness-trader/exness-vps-使用须知)》〔站内〕。
+Exness 对达到一定交易量的客户提供 VPS 服务，具体资格条件以官方为准〔官方〕。
 
-## 六、社交交易（跟单）
+站内详解：[什么是 VPS](/exness-trader/什么是vps-)、[Exness VPS 使用须知](/exness-trader/exness-vps-使用须知)、[如何获得 Exness VPS 服务](/exness-trader/如何获得-exness-vps-服务)、[VPS 虚拟专用服务器](/exness-agent/VPS虚拟专用服务器)。
 
-Exness 提供 Copy Trading：可以关注其他策略提供者并按比例复制其交易。
+## 六、社交交易与 EA
+
+**Copy Trading（跟单）**：可以关注其他策略提供者并按比例复制其交易。
 
 **使用前必须明确的几件事：**
 - 跟单**不降低风险**，只是把决策权交给别人
@@ -87,22 +112,35 @@ Exness 提供 Copy Trading：可以关注其他策略提供者并按比例复制
 - 你有权随时停止跟单，但**已开仓位未必自动平掉**
 - 跟单产生的盈亏与费用由你自己承担
 
+站内延伸：[管理智能交易（EA）](/exness-trader/管理智能交易-ea)、[MetaTrader 交易信号](/exness-trader/metatrader交易信号)、[MT4/MT5 中信用资金的显示方式介绍](/exness-trader/mt4-mt5-中信用资金的显示方式介绍)。
+
 ## 七、选择建议（按人群）
 
 | 你的情况 | 建议组合 |
 |---|---|
-| 纯新手，先熟悉界面 | Exness Trade App（或 MT5 手机版）+ 模拟账户 |
-| 手动日内交易 | MT5 桌面版为主，网页终端应急 |
-| 已有 MQL4 EA | MT4 桌面版 + VPS |
+| 纯新手，先熟悉界面 | Exness Trade App（或 MT5 手机版）+ [模拟账户](/exness-trader/如何开立模拟账户) |
+| 手动日内交易 | MT5 桌面版为主，[网页终端](/exness-trader/使用-mt4-mt5-网页终端进行交易) 应急 |
+| 已有 MQL4 EA | MT4 桌面版 + [VPS](/exness-trader/exness-vps-使用须知) |
 | 做多品种策略回测 | MT5 桌面版 |
 | 想跟单、没时间盯盘 | Social Trading + Exness Trade App |
+| 不确定用哪个平台 | 先看 [交易平台功能比较](/exness-trader/交易平台功能比较) |
+
+## 相关阅读
+
+- [MetaTrader：详解对比 MT4 和 MT5](/exness-trader/metatrader-详解-对比-mt4-和-mt5)
+- [MT4/MT5 提供哪些交易品种](/exness-trader/mt4-mt5-提供哪些交易品种)
+- [Exness VPS 使用须知](/exness-trader/exness-vps-使用须知)
+- [交易平台功能比较](/exness-trader/交易平台功能比较)
+- [Exness 账户类型怎么选](/guides/exness-account-types)
+- [Exness 出入金完整指南](/guides/exness-deposit-withdrawal)
+- [Exness 监管与合规全景](/guides/exness-regulation)
 
 ## 数据来源
 
-- Exness 官方平台介绍页〔官方〕：`https://www.exness.com/`
-- 第三方平台与功能对照〔第三方〕：`https://brokerchecker.org/reviews/exness-review`
-- 第三方平台清单〔第三方〕：`http://brokeranalysis.com/broker-review/exness/withdrawal-methods`
-- 本站既有文档〔站内〕：`/exness-trader/metatrader-详解-对比-mt4-和-mt5`、`/exness-trader/exness-vps-使用须知`
+- Exness 官方平台介绍页〔官方〕：https://www.exness.com/
+- 第三方平台与功能对照〔第三方〕：https://brokerchecker.org/reviews/exness-review
+- 第三方平台清单〔第三方〕：http://brokeranalysis.com/broker-review/exness/withdrawal-methods
+- 本站既有文档〔站内〕：[MetaTrader：详解对比 MT4 和 MT5](/exness-trader/metatrader-详解-对比-mt4-和-mt5)、[Exness VPS 使用须知](/exness-trader/exness-vps-使用须知)、[交易平台功能比较](/exness-trader/交易平台功能比较)
 
 :::note 免责声明
 本文仅供信息参考，不构成投资建议。平台功能与可用性随版本更新变化，请以官方当前说明为准。差价合约交易存在高风险。

@@ -26,6 +26,7 @@ def load_font(names, size):
 
 
 f_title = load_font(["msyhbd.ttc", "segoeuib.ttf", "arialbd.ttf"], 108)
+f_en = load_font(["seguisb.ttf", "segoeuib.ttf", "arialbd.ttf"], 46)
 f_sub = load_font(["msyh.ttc", "segoeui.ttf", "arial.ttf"], 40)
 f_url = load_font(["msyh.ttc", "segoeui.ttf", "arial.ttf"], 30)
 
@@ -63,8 +64,12 @@ d = ImageDraw.Draw(img)
 # 左侧强调竖条
 d.rounded_rectangle([72, 150, 82, 470], radius=5, fill=ACCENT)
 
-# 标题
-d.text((116, 158), "WikiDoc", font=f_title, fill=TEXT)
+# 站点名：中文「汇鉴」+ 英文副标「Huijian」
+NAME_CN = "汇鉴"
+NAME_EN = "Huijian"
+d.text((116, 152), NAME_CN, font=f_title, fill=TEXT)
+cn_w = d.textlength(NAME_CN, font=f_title)
+d.text((116 + cn_w + 30, 214), NAME_EN, font=f_en, fill=ACCENT)
 
 # 副标题（logo 圆点 + 站点主张）
 d.ellipse([120, 322, 134, 336], fill=ACCENT)
