@@ -249,7 +249,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["zh,en"],
+        language: ["en", "zh"],
         indexDocs: true,
         indexBlog: false,
         docsRouteBasePath: "/",
