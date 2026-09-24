@@ -3,7 +3,7 @@ name: Python script wencai
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 10 * * 1,2,3,4,5"
+    - cron: "36 10 * * 1-5"
 
 jobs:
   collect_data:
