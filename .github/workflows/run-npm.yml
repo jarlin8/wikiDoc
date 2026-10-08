@@ -38,7 +38,7 @@ jobs:
 
       # Rspack（Docusaurus Faster）的持久化缓存写在 node_modules/.cache。
       # CI 每次全新安装拿不到，这里按 lockfile + commit 做缓存以加速构建。
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: node_modules/.cache
           key: docusaurus-${{ hashFiles('yarn.lock') }}-${{ github.sha }}
