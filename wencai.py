@@ -3,16 +3,16 @@
 每日龙虎榜数据采集 —— 问财 stream-query 直连方案（2026-10-09 重写）
 
 背景：问财老接口 get-robot-data 对非浏览器客户端一律 403（WAF），pywencai 主链路失效。
-新版前端改走 /gateway/aime/stream-query（SSE 流式接口），实测可程序化直连，
-验证过程见 .workbuddy/memory/2026-10-09.md（四步逐一验证，均有磁盘证据）：
-  1) 浏览器抓包 cURL 原样重放 -> 200，与浏览器同一份数据
-  2) hexin-v 令牌用 node 本地生成（60字符），替代浏览器令牌 -> 200，数据一致
+新版前端改走 /gateway/aime/stream-query（SSE 流式接口），实测可程序化直连：
+  1) 浏览器抓包 cURL 原样重放 -> 200，同一份数据
+  2) hexin-v 令牌用 node 本地生成（60 字符），替代浏览器令牌 -> 200，数据一致
   3) 换问句返回对应新结果（实时计算，非缓存回放）
   4) 纯 python requests + 最简请求头 -> 200（无需 curl_cffi）
 
 依赖：requests、pandas、pywencai（仅用其自带的 hexin-v.bundle.js 生成令牌，需 Node.js 在 PATH）
 cookie：环境变量 WENCAI_COOKIE（浏览器登录 iwencai.com 后 F12 复制整段 Cookie 请求头）；
         脚本会自动剥离其中的旧 v= 对，统一换成程序新生成的令牌。
+输出：./docs/data_<日期>.csv（与当日已有数据合并后整体重写）
 """
 import datetime
 import json
@@ -157,9 +157,10 @@ columns_to_drop = ['股票市场类型', '经营范围', '上市板块', '注册
 df.drop(columns=columns_to_drop, inplace=True, errors='ignore')
 df.columns = [re.sub(r'\[\d+\]|\{|\}|\(|\)', '', col) for col in df.columns]
 
-os.makedirs('./data', exist_ok=True)
+# 文件路径
+os.makedirs('./docs', exist_ok=True)
 mtime = datetime.datetime.now().strftime('%Y%m%d')
-file_path = './data/wencai_' + mtime + '.csv'
+file_path = './docs/data_' + mtime + '.csv'
 
 try:
     original_data = pd.read_csv(file_path)
