@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# 站内搜索结果页无独立收录价值，避免重复内容
+Disallow: /search
+
+# 标签聚合页
+Disallow: /tags/
+
+Sitemap: https://wiki.ssgg.net/sitemap.xml

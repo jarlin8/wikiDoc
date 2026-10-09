@@ -25,7 +25,10 @@ df.drop(columns=columns_to_drop,inplace=True,errors='ignore')
 df.columns = [re.sub(r'\[\d+\]|\{|\}|\(|\)','',col) for col in df.columns]
 
 # 文件路径
-file_path = './docs/dragon_' + mtime + '.csv'
+# 原先输出到 ./docs/ —— 那是 Docusaurus 的内容目录，且文件名带日期戳会无限累积，
+# 每次提交都会触发 425 页站点的全量重建。改到 ./data/ 并与站点解耦。
+os.makedirs('./data', exist_ok=True)
+file_path = './data/dragon_' + mtime + '.csv'
 
 # 尝试读取现有数据，如果文件不存在则创建一个空 DataFrame
 try:

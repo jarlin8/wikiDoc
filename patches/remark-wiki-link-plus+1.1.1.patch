@@ -1,0 +1,13 @@
+diff --git a/node_modules/remark-wiki-link-plus/dist/index.cjs.js b/node_modules/remark-wiki-link-plus/dist/index.cjs.js
+index d492141..4f85a3f 100644
+--- a/node_modules/remark-wiki-link-plus/dist/index.cjs.js
++++ b/node_modules/remark-wiki-link-plus/dist/index.cjs.js
+@@ -70,7 +70,7 @@ function fromMarkdown() {
+   }
+ 
+   function exitWikiLink(token) {
+-    var wikiLink = this.exit(token); // if (opts.markdownFolder && wikiLink.value.includes(`${opts.markdownFolder}/`)) {
++    var wikiLink = this.stack[this.stack.length - 1]; this.exit(token); // if (opts.markdownFolder && wikiLink.value.includes(`${opts.markdownFolder}/`)) {
+     //   const [, ...value] = wikiLink.value.split(`${opts.markdownFolder}/`)
+     //   wikiLink.value = value
+     // }

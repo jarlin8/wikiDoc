@@ -1,0 +1,83 @@
+/* Ads 组件样式。
+   迁移自 ads.js 内的 <style jsx>（Next.js 语法，Docusaurus 不支持，
+   其中的移动端媒体查询此前从未生效）。 */
+
+.container {
+  /* 原为硬编码 white，在暗色模式下是刺眼的白块 */
+  background-color: var(--ifm-background-surface-color, #ffffff);
+  border: 1px solid var(--ifm-color-emphasis-300, #dddddd);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  margin: 0.6em;
+  border-radius: 8px;
+  font-family: sans-serif;
+  display: flex;
+  transition: box-shadow 0.3s ease;
+}
+
+.imgContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.link {
+  background-color: #057b5b;
+  color: #ffffff;
+  padding: 0.5px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: #ffffff;
+  text-decoration: none;
+  filter: brightness(1.1);
+}
+
+.text {
+  width: 80%;
+  padding-left: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: deeppink;
+}
+
+.text p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .imgContainer {
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  .img {
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .link {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  .text {
+    width: 100%;
+  }
+}
