@@ -27,6 +27,8 @@ jobs:
         pip install pywencai
 
     - name: Run Python script
+      env:
+        WENCAI_COOKIE: ${{ secrets.WENCAI_COOKIE }}
       run: |
         python wencai.py
 
