@@ -58,6 +58,37 @@ const config = {
       tagName: "meta",
       attributes: { name: "theme-color", content: "#0bb45b" },
     },
+    {
+      tagName: "script",
+      attributes: { type: "application/ld+json" },
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": ,
+            url: SITE_URL,
+            name: "汇鉴",
+            alternateName: "Huijian",
+            description: "全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!",
+            publisher: {
+              "@id": ,
+            },
+            inLanguage: "zh-Hans",
+          },
+          {
+            "@type": "Organization",
+            "@id": ,
+            name: "汇鉴",
+            url: SITE_URL,
+            logo: {
+              "@type": "ImageObject",
+              url: ,
+            },
+          },
+        ],
+      }),
+    },
   ],
 
   // 根级 onBrokenMarkdownLinks 在 3.9 已弃用、v4 将移除，迁到 markdown.hooks
