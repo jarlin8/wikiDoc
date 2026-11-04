@@ -66,24 +66,24 @@ const config = {
         "@graph": [
           {
             "@type": "WebSite",
-            "@id": ,
+            "@id": `${SITE_URL}/#website`,
             url: SITE_URL,
             name: "汇鉴",
             alternateName: "Huijian",
             description: "全职交易员关注的吃喝/交易,帮助文档和代理佣金说明!",
             publisher: {
-              "@id": ,
+              "@id": `${SITE_URL}/#organization`,
             },
             inLanguage: "zh-Hans",
           },
           {
             "@type": "Organization",
-            "@id": ,
+            "@id": `${SITE_URL}/#organization`,
             name: "汇鉴",
             url: SITE_URL,
             logo: {
               "@type": "ImageObject",
-              url: ,
+              url: `${SITE_URL}/img/favicon.svg`,
             },
           },
         ],
